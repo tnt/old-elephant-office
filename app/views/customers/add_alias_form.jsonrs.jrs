@@ -1,0 +1,13 @@
+output = [] 
+form_for(@customer) do |f| 
+  f.fields_for("aliases_attributes][#{SecureRandom.random_number(10**10)}",@alias) do |subform| 
+  #f.fields_for(:aliases) do |subform| 
+    output << {
+          job: 'insert_bottom', 
+          content: render("customers/alias_form", :f => subform), 
+          element: 'aliases_subforms'
+     } 
+  end 
+end && '' 
+output 
+

@@ -1,0 +1,23 @@
+arr = [
+  {
+    job: 'replace_content',
+    elements: "#add_linked",
+    content: rs_link_to( 'Verknüpfung hinzufügen', { :controller => 'documents', 
+                          :action => 'ajax_choice_linked', :id => @document })
+  }
+]
+
+arr << {
+  job: 'replace_element',
+  elements:"#linkeds",
+  content: render("documents/linkeds", :document => @document)
+}
+
+arr << {
+  job: 'effect',
+  elements: "#linkeds",
+  content: 'Highlight'
+}
+
+arr 
+

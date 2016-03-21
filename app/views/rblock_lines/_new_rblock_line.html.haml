@@ -1,0 +1,14 @@
+%tr#rblock_line_new.rblock_line_new
+  / partial app/views/rblock_lines/_new_rblock_line.haml
+  %td{:colspan => "3", :style => "white-space:nowrap;"}
+    = rs_form_tag( { :controller => :rblock_lines,        |
+        :action => :create_ajax_rblock_line,              |
+        :insert_after_rbl => params[:insert_after_rbl],}, |
+        :disable_with => 'lade...',                       |
+        :id => :new_rblock_line_form )  do                |
+      = text_area :rblock_line, :text, :rows => 2, :style => 'width:70%;'
+      = hidden_field :rblock_line, :content_id, :value => content_id
+      = text_field :rblock_line, :price, :size => 9
+      €
+      = submit_tag 'Speichern', :class => 'rblock_line_button_save', :id => 'rblock_line_button_save'
+    = submit_tag 'Abbrechen', :class => 'rblock_line_button_cancel', :id => 'rblock_line_button_cancel', :onclick => '$("#rblock_line_new").remove();return false;'

@@ -1,0 +1,18 @@
+%h1 Listing searches
+
+%table
+  %tr
+    %th Search
+    %th Model
+    %th
+    %th
+
+    %tr
+      %td search.search
+      %td search.model
+      %td link_to 'Show', search
+      %td link_to 'Edit', edit_search_path(search)
+
+%br
+
+= link_to 'New Search', new_search_path

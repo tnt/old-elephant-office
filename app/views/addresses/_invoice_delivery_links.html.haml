@@ -1,0 +1,11 @@
+%span.as_invoice_address_link
+  = rs_link_to 'Als Rechnungsanschrift',                                                        |
+    { :controller => :addresses, :action => 'set_delivery_invoice', :id => address ,            |
+    :attribute => :invoice_address }, 'data-loading-element' => 'customers_preview',            |
+    :class => "icon_link contactable_as_invoice_address", :title => "Als Rechnungsanschrift"    |
+%span.as_delivery_address_link
+  = rs_link_to 'Als Lieferanschrift',                                                           |
+    { :controller => :addresses, :action => 'set_delivery_invoice', :id => address,             |
+    :attribute => :delivery_address }, 'data-loading-element'  =>'customers_preview',           |
+    :class => "icon_link contactable_as_delivery_address", :title => "Als Lieferanschrift"      |
+

@@ -1,0 +1,11 @@
+- class_string = %w(invoice_address delivery_address outdated).map {|str| str if contactable.send(str)}.join(' ')  if contactable.type.to_s == 'Address'
+#address{:class => class_string}
+  .outdated_address_icon Veraltet
+  .delivery_address_icon Lieferanschrift
+  .invoice_address_icon Rechnungsanschrift
+  = render "#{contactable.type.to_s.underscore.pluralize}/contactable_line", :document => document, :contactable => contactable
+  #contactable_chooser
+    %small
+      = rs_link_to( "Andere #{Elph[:contactable_names][contactable.type.to_s]} auswählen", { :controller => :documents,   
+        :action => 'address_choice', :id => document }, 'data-loading-element' => 'contactable_chooser') if show_contactable_chooser
+

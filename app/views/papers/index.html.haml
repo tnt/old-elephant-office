@@ -1,0 +1,18 @@
+%h1 Dokumente
+%table
+  %tr
+    %th Id
+    %th Kind
+    %th Name
+    %th Date
+    %th Value
+  - for document in @papers
+    %tr{:title => document.remark}
+      %td= document.id
+      %td= document.kind.titlecase + ' ' + ( document.invoice_number_formatted || '' )
+      %td= document.address.name
+      %td= german_date document.date
+      %td= number_to_currency(document.value)
+      %td= link_to 'Show', document
+      %td= link_to 'Edit', edit_paper_path(document)
+      / <td><haml:loud> link_to 'Destroy', document, :confirm =&amp;gt; 'Sicher? Das soll man ja eigentlich nicht, ne?', :method =&amp;gt; :delete </haml:loud></td>

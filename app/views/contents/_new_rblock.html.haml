@@ -1,0 +1,10 @@
+%tr#content_new.content_new
+  / partial app/views/contents/_new_rblock.html.erb
+  %td#new_rb_cell{:colspan => "2"}
+    Neuen Rechnungblock anlegen
+    = rs_form_tag( { :controller => :contents, :action => :create_ajax_content,  :id => @content,  |
+        :insert_after => params[:insert_after] }, 'data-loading-element' => 'contents_list') do      |
+      = hidden_field :content, :kind
+      = hidden_field :content, :paper_id
+      = submit_tag 'Save'
+    = submit_tag 'Cancel', :onclick => 'new Effect.Fade("new_rb_cell");setTimeout(function(){$("content_new").remove()},1000);return false;'

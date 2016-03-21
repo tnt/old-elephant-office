@@ -1,0 +1,27 @@
+#cash_book_new
+  #cash_book_background
+    = rs_form_for(new_cash_book, :url => { :controller => :cash_books, :action => :create_ajax,}, :html => { :autocomplete => :off }) do |f|
+      = f.label :purpose, 'Zweck'
+      = f.text_field :purpose, :size => 47
+      %br
+      = f.label :direction_in, 'Einnahme'
+      = f.radio_button :direction, :in
+      \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      \#{f.label :direction_out, 'Ausgabe'}
+      \#{f.radio_button :direction, :out}
+      \&nbsp;&nbsp;&nbsp;&nbsp;
+      %span.workshop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      = f.hidden_field :workshop
+      %br
+      = f.label :date, 'Datum'
+      = f.datetime_select :date, :use_month_names => Elph[:month_names], :discard_year => false, :order => Elph[:date_time_order]
+      %br
+      = f.label :amount, 'Betrag'
+      = f.text_field :amount, :size => 10
+      = f.label :tax_rate, :Steuer
+      = f.select :tax_rate, [0,7,19], :selected => 19
+      \%
+      \&nbsp;&nbsp;&nbsp;&nbsp;#{f.submit 'Anlegen'}
+      %br
+  / cash_book_background
+/ cash_book_new

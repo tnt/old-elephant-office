@@ -1,0 +1,28 @@
+/*col.tax_rate {text-align: right; background-color: #0e0; padding: 0 0.3em;}*/
+#cash_books td:nth-child(2) {text-align: right; padding: 0 1ex; }
+
+#cash_books div { text-align: right; width: 7em; padding: 0 0.5em; }
+#cash_books div.out { color: red; }
+#cash_books div.err { background-color: #fed; }
+#cash_books.show .sale { margin-right: 8em; }
+#cash_books.show #cb_total { text-align: center; width: 15em; text-decoration: underline; }
+#cash_books.show .workshop { margin-left: 8em; }
+#cash_books .cb_hidden { display: none; }
+#cash_books.show tr.cb_hidden { display: table-row; }
+#cash_books.show div.cb_hidden { display: block; }
+#cash_books div[id^=cb_total_], #cash_books div[id$=_in] {  margin: 0; border-top: 1px solid black;}
+#cash_books div[id*=_sale] { float: left; }
+#cash_books div[id*=_workshop] { float: right; }
+
+#cash_book_new {
+	border: 1px solid #ccc;
+	background-color: #eee;
+	max-width: 40em;
+	border-radius: 4px;
+}
+#cash_book_background { padding: 1.2ex;}
+#cash_book_background.workshop { background-color: #999; color: GhostWhite; }
+/*#cash_book_background.workshop #cash_book_tax_rate { background-color: #000; }*/
+span.workshop { cursor: default;}
+
+

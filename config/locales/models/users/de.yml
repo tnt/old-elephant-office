@@ -1,0 +1,13 @@
+de:
+  activerecord:
+    attributes:
+      user:
+        username: Login Name
+        gname: Vorname
+        name: Name
+        password: Paßwort
+        password_confirmation: Paßwort Bestätigung
+        our_sign: Unsere Zeichen
+        our_contact: Tel.-Durchwahl, Email
+        signing_line: Unterschriftstext
+        signature: Signatur

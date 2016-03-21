@@ -1,0 +1,15 @@
+el = @document.type == 'DocumentAlias' ? @document.document.main_type.underscore : @document.main_type.underscore 
+id = @document.type == 'DocumentAlias' ? @document.document.id : params[:id] 
+el_id = "##{el}_#{id}" 
+[
+  { 
+    job: 'replace_content', 
+    content: render('common/deleted_div', :model => @document.main_type.underscore), 
+    elements: el_id
+  },
+  {
+    job: 'set_attributes',
+    content: {'data-cleanup-in' => 3},
+    elements: el_id
+  }
+] 

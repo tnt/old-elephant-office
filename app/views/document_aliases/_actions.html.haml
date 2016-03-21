@@ -1,0 +1,11 @@
+&nbsp;&nbsp;
+= rs_link_to 'Kunde', |
+  { :controller => 'customers', :action => 'show', :id => document.customer.id},    |
+  :data => {'loading-element' => :customers_preview, 'customer-id' => document.customer.id},       |
+  :title => document.customer.name, :class => 'customer icon_link'                                         |
+-#
+= rs_link_to 'Alias Löschen',                                                                                                  |
+  { :controller => 'documents', :action => 'destroy_ajax_document', :id => doc_alias },                 |
+  'data-loading-element' => :customers_preview,                         |
+  :confirm => "Wirklich Alias für #{document.doc_name} löschen?", |
+  :class => 'unlink icon_link', :title => 'Alias Löschen'                                                                   |

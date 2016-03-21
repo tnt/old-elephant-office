@@ -1,0 +1,19 @@
+[
+  {
+    job: 'add_classname',
+    elements: '#body',
+    content: 'show_safety'
+  }, {
+    job: 'replace_content',
+    elements: '#above_safety_screen',
+    content: '<div id="common_selector"><div id="common_selector_inner"></div></div>'
+  }, {
+    job: 'replace_content',
+    elements: '#common_selector_inner',
+    content: render('document_aliases/new')
+  }, {
+    job: 'set_focus',
+    elements: 'input[name=document_id]',
+    content: ''
+  }
+] 

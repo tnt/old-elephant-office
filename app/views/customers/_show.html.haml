@@ -1,0 +1,29 @@
+- unless customer.remark.blank?
+  %a.icon_link_16.info_16.float_right{"data-toggle-sometimes-hidden" => "customer_properties", :href => "#"} info ein-/ausblenden
+- unless customer.url.blank?
+  %a.float_right.url{:target => 'new', :href => customer.sane_url}= customer.url
+%h4{:class => "#{'asshole' if customer.asshole}"}= h customer.name
+#customer_properties.hide_sometimes_hidden
+  .sometimes_hidden= h customer.remark
+- for contactable in customer.current_contactables
+  .contactable.hide_sometimes_hidden{:id => "contactable_#{contactable.id}"}
+    = render 'contactables/organize', :organize => contactable
+/ <haml:loud> link_to 'Anzeigen', customer </haml:loud>
+%a#lightbulbs_off.icon_link_16.lightbulbs_off{:title => 'Alle Lampen aus', :style => 'display: none;'}Licht aus
+%ul#customers_actions
+  %li= link_to t('.edit'), {:action => 'edit', :id => customer}, :title =>  t('.edit_title'), |
+         :class => 'icon_link_16 edit_customer_16'                                                          |
+  -#
+  %li= rs_link_to t('.reassign_contactable'),                                                             |
+      { :controller => 'customers', :action => 'choice_reassign_address', :id => customer},           |
+      :title =>  t('.reassign_contactable_title'), |
+      :class => 'icon_link_16 reassign_address_16', 'data-loading-element' => 'body'        |
+  -#
+  %li= rs_link_to t('.doc_alias_new'), {:controller => :document_aliases, :action => :new,          |
+    :address_id => customer.docalias_contactable}, 'data-loading-element' => 'body',     |
+    :class => 'icon_link link', :title =>  t('.doc_alias_new_title')    |
+  -#
+= render 'document_aliases/doc_aliased_customers', :customer => @customer
+%ul#documents_list{'data-selected-contactables' => '', 'data-lightbulb-filters-count' => 0}
+  - for document in customer.documents
+    = render "#{document.main_type.underscore.pluralize}/document_line", :document => document, :doc_alias => nil

@@ -1,0 +1,10 @@
+de:
+  activerecord:
+    models:
+      external_paper: "Fremddokument"
+    attributes:
+      external_paper:
+        subject: "Betreff"
+        file: Datei
+        remark: Bemerkung
+

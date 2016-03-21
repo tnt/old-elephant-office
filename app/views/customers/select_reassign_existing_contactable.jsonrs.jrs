@@ -1,0 +1,22 @@
+[
+  { 
+    job: 'insert_bottom', 
+    content: render(:partial => 'select_reassign_existing_contactable'), 
+    elements: "#safety_screen" 
+  },
+  { 
+    job: 'add_classname',
+    elements: '#body',
+    content: 'show_safety'
+  },
+  {  # this doesn't work for subsequent updates...
+    job: 'set_attributes',
+    content: {'data-loading-element' => 'customers_list_container'}, 
+    elements: ".customer_line a" 
+  },
+  { 
+    job: 'set_focus', 
+    content: '', 
+    elements: "#search" 
+  }
+] 

@@ -1,0 +1,56 @@
+--- 
+users_001: 
+  gname: T.
+  name: Kort
+  updated_at: 2009-11-21 19:29:07
+  signature: "\r\n\
+    \r\n\
+    Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    Thelonius Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  system: "0"
+  admin: "0"
+  username: tt
+  id: "1"
+  password: 32d4c9b68d94230761f61da9012e6348
+  created_at: 2009-03-29 19:19:11
+users_002: 
+  gname: Naomi
+  name: Kort
+  updated_at: 2009-11-11 11:05:16
+  signature: "\n\n\
+    Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\n\n\n\
+    Naomi Kort\n\n\
+    ____________________________________\n\
+    Bernhard Kort & Thelonius Kort\n\
+    Geigenbauer\n\
+    Paul-Lincke-Ufer 33\n\
+    10999 Berlin\n\
+    +4930 61 28 49 41\n\
+    http://kort-basses.com/"
+  system: "0"
+  admin: "0"
+  username: na
+  id: "2"
+  password: 0473dbe315867b5843d8590608e5e28f
+  created_at: 2009-03-29 20:14:39
+users_003: 
+  gname: ""
+  name: Mail Recording Daemon
+  updated_at: 2009-12-06 12:00:26
+  signature: 
+  system: "1"
+  admin: "0"
+  username: mdaemon
+  id: "4"
+  password: d990e83e0b408605afe0e3883a7c6818
+  created_at: 2009-11-28 19:43:34

@@ -1,0 +1,22 @@
+
+ul.document_aliases_list { 
+  padding: 4px 6px;
+
+  li {
+    font-size: 85%;
+    list-style: none;
+    display: inline-block;
+  }
+}
+
+a.doc_alias {
+    
+    padding-left: 18px;
+    background-position: 0 2px;
+    background: url(/images/famfam_silk/link.png) no-repeat center left;
+
+  &:hover {
+    text-decoration: none;  
+    background: url(/images/famfam_silk/link_go.png) no-repeat center left;
+  }
+}

@@ -1,0 +1,10 @@
+= rs_link_to 'Neue Zeile', |
+  { :controller => 'rblock_lines', :action => :new_ajax_rblock_line,                            |
+    :insert_after_rbl => rblock_line.id, 'rblock_line[content_id]' => rblock_line.content_id }, |
+    :class => 'icon_link insert_rblock_line', :title => 'Neue Zeile' , :method => :post         |
+-#
+= rs_link_to 'Seitenumbruch', |
+  { :controller => 'rblock_lines', :action => :create_ajax_pagebreak,                           |
+        :insert_after_rbl => rblock_line.id, 'rblock_line[content_id]' => rblock_line.content_id },   |
+  :class => 'icon_link insert_pagebreak', :method => :post, :title => 'Seitenumbruch'                                                                                    |
+

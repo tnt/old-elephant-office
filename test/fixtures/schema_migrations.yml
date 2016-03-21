@@ -1,0 +1,99 @@
+--- 
+schema_migrations_042: 
+  version: "20091123190132"
+schema_migrations_031: 
+  version: "20091011094645"
+schema_migrations_020: 
+  version: "20090607145450"
+schema_migrations_009: 
+  version: "20090512165307"
+schema_migrations_043: 
+  version: "20091128193657"
+schema_migrations_032: 
+  version: "20091016212057"
+schema_migrations_021: 
+  version: "20090728124122"
+schema_migrations_010: 
+  version: "20090517163320"
+schema_migrations_044: 
+  version: "20091202143739"
+schema_migrations_033: 
+  version: "20091025131628"
+schema_migrations_022: 
+  version: "20090805192739"
+schema_migrations_011: 
+  version: "20090518173707"
+schema_migrations_045: 
+  version: "20091202150021"
+schema_migrations_034: 
+  version: "20091025213921"
+schema_migrations_023: 
+  version: "20090806161127"
+schema_migrations_012: 
+  version: "20090518200106"
+schema_migrations_001: 
+  version: "20090329190538"
+schema_migrations_046: 
+  version: "20091204202716"
+schema_migrations_035: 
+  version: "20091031142342"
+schema_migrations_024: 
+  version: "20090806163633"
+schema_migrations_013: 
+  version: "20090519073014"
+schema_migrations_002: 
+  version: "20090404153437"
+schema_migrations_047: 
+  version: "20091206115017"
+schema_migrations_036: 
+  version: "20091106130724"
+schema_migrations_025: 
+  version: "20090810194554"
+schema_migrations_014: 
+  version: "20090519190222"
+schema_migrations_003: 
+  version: "20090404153440"
+schema_migrations_048: 
+  version: "20091229160803"
+schema_migrations_037: 
+  version: "20091109205012"
+schema_migrations_026: 
+  version: "20090812105322"
+schema_migrations_015: 
+  version: "20090526160631"
+schema_migrations_004: 
+  version: "20090404153443"
+schema_migrations_049: 
+  version: "20100124201234"
+schema_migrations_038: 
+  version: "20091111111014"
+schema_migrations_027: 
+  version: "20090815103659"
+schema_migrations_016: 
+  version: "20090526182214"
+schema_migrations_005: 
+  version: "20090404153446"
+schema_migrations_039: 
+  version: "20091112205058"
+schema_migrations_028: 
+  version: "20090815105836"
+schema_migrations_017: 
+  version: "20090602170508"
+schema_migrations_006: 
+  version: "20090410104517"
+schema_migrations_040: 
+  version: "20091113205122"
+schema_migrations_029: 
+  version: "20090815121708"
+schema_migrations_018: 
+  version: "20090602171215"
+schema_migrations_007: 
+  version: "20090426150946"
+schema_migrations_041: 
+  version: "20091121152617"
+schema_migrations_030: 
+  version: "20090815131740"
+schema_migrations_019: 
+  version: "20090607143338"
+schema_migrations_008: 
+  version: "20090428142234"

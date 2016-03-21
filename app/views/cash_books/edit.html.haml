@@ -1,0 +1,34 @@
+%h1 Kassenbuch Eintrag bearbeiten
+#cash_book_background{:class => @cash_book.workshop && 'workshop'}
+  = form_for(@cash_book) do |f|
+    %p
+      = f.label :amount, 'Betrag'
+      %br
+      = f.text_field :amount, :value => number_with_delimiter(@cash_book.amount, :separator => ',', :delimiter => '.'), :size => 9
+    %p
+      = f.label :Steuer
+      = f.select :tax_rate, [0,7,19]
+      \%
+    %p
+      = f.label :direction_in, :Einnahme
+      = f.radio_button :direction, :in
+      \&nbsp;&nbsp;&nbsp;&nbsp;
+      = f.label :direction_out, :Ausgabe
+      = f.radio_button :direction, :out
+      \&nbsp;&nbsp;&nbsp;&nbsp;
+      %span.workshop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      = f.hidden_field :workshop
+    %p
+      = f.label :purpose, 'Zweck'
+      %br/
+      = f.text_field :purpose
+    %p
+      = f.label :date, 'Datum'
+      %br
+      = f.datetime_select :date, :order => Elph[:date_time_order]
+    %p
+      = f.submit 'Speichern'
+/ cash_book_background
+= link_to 'Show', @cash_book
+|
+\#{link_to 'Back', cash_books_path}

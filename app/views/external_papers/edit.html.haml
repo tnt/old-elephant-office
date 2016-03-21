@@ -1,0 +1,45 @@
+%h1= @document.doc_name
+/ views/external_papers/edit.html.haml
+%p
+  = render :partial => 'addresses/address', :object => @document.address
+= render 'documents/linkeds', :document =>  @document
+#add_linked
+  = rs_link_to 'Verknüpfung hinzufügen',                                                |
+    { :controller => 'documents', :action => 'ajax_choice_linked', :id => @document },     |
+    :class => 'icon_link_16 add_linked_16', :title => 'Verknüpfung zu anderem Dokument hinzufügen', |
+    'data-loading-element' => 'body'                                                        |
+-#
+= form_for( @document, :as => :external_paper, :url => { :controller => 'external_papers',  |
+        :action => "update", :type => 'ExternalPaper' }, :html => {:id => 'edit_paper_form', |
+        :has_already_been_submitted => 'false'}) do |f|
+  = f.error_messages
+  %p
+    = f.radio_button :is_foreign, true
+    = f.label :is_foreign_true,  'eingehend'
+    \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    = f.radio_button :is_foreign, false
+    = f.label :is_foreign_false, 'ausgehend'
+  %p
+    = f.label :date, 'Datum'
+    %br
+    -# = f.datetime_select :date, {:use_month_names => Elph[:month_names], :discard_year => false, :order => Elph[:date_time_order]}, :autocomplete => "off"
+    -# = f.datetime_select :date
+    = f.text_field :date, :class => 'datetimepicker'
+  %p
+    = f.label :subject, 'Betreff'
+    %br
+    = f.text_area :subject, :rows => 3
+  %p
+    = f.label :remark, 'Bemerkungen'
+    %br
+    = f.text_area :remark, :rows => 3
+  %p
+    = @document.file_url
+    = link_to @document.file_url, @document.file_url, |
+      :target => '_pdf_', :title => 'Pdf', :class => 'pdf icon_link'                                         |
+  %p
+    = f.submit "Speichern"
+  = f.hidden_field :user_id
+  = f.hidden_field :last_modified_by
+  = f.hidden_field :address_id
+= link_to 'Kunde', @document.address.customer

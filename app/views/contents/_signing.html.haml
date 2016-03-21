@@ -1,0 +1,20 @@
+%tr.signing{:id => "content_#{content.id}"}
+  / partial app/views/contents/_text.html.erb
+  %td
+    %div.cl_handle &nbsp;
+  %td
+    .paper_content_main_column.content_editable{:id => "editable_#{content.id}"}= content.text_with_breaks
+  %td.action_column{:nowrap => "nowrap"}
+    .content_actions_wrapper
+      .content_actions
+        = rs_link_to 'Bearbeiten',                                                                  |
+          { :controller => 'contents', :action => 'edit_ajax_content', :id => content },           |
+          'data-loading-element' => 'contents_list', :class => 'icon_link edit',                    |
+          :title => 'Bearbeiten'                                                                    |
+        -#
+        = rs_link_to 'zurücksetzen', |
+          { :controller => 'contents', :action => 'reset_signer', :id => content },  |
+          'data-loading-element' => "content_#{content.id}",  :title => 'Zurücksetzen',           |
+          :confirm => 'Wirklich zurücksetzten?', :class => 'icon_link reset_signer'                  |
+        = render :partial => "contents/insert_links", :locals => { :content => content }
+      / div class="content_actions"

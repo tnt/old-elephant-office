@@ -1,0 +1,26 @@
+[ {
+    job: 'replace_content',
+    elements: "#state_label_#{@paper.id}",
+    content: Elph[:inv_state_labels][@paper.state.to_sym]
+  }, 
+  {
+    job: 'set_attributes',
+    elements: "#open_invoices_#{@paper.id}",
+    content: {:class => 'invoice_state_paid'}
+  },
+  {
+    job: 'replace_content',
+    elements: "#open_invoices_total",
+    content: number_to_currency(@new_total)
+  },
+  {
+    job: 'effect',
+    elements: "#open_invoices_#{@paper.id}",
+    content: 'Highlight'
+  },
+  {
+    job: 'effect',
+    elements: "#open_invoices_total",
+    content: 'Highlight'
+  }
+] 

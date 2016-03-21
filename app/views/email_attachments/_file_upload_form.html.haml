@@ -1,0 +1,16 @@
+%ul
+  - for doc in choice_linkeds
+    %li
+      = link_to_remote "#{doc.kind.titlecase} #{doc.invoice_number_formatted || doc.id} - #{doc.address.name}", |
+        :url => { :controller => 'documents', :action => 'ajax_create_linked', :id => document_id },            |
+        :with => "'linkee_id=#{doc.id}'"                                                                        |
+%div
+  = form_remote_tag( :url => { :controller => :documents, :action => :ajax_create_linked, :id => document_id } )
+  %input{:length => "5", :name => "linkee_id", :type => "text"}/
+  = submit_tag 'Save'
+  / <haml:loud> submit_to_remote 'cancel_btn', 'Cancel', :url =&amp;gt; { :controller =&amp;gt; :documents, :action =&amp;gt; 'ajax_cancel_choice_linkeds', :id =&amp;gt; document_id  }, :update =&amp;gt; 'add_linked' </haml:loud>
+  - c_butt = "<input type=\"button\" value=\"Cancel\", onclick=\"$('add_linked').innerHTML = &quot;#{link_to_remote( 'Add Related',
+  - :url => { :controller => 'documents', :action => 'ajax_choice_linked', :id => document_id },
+  - :update => { :failure => 'messages' }).gsub(/'/, "&amp;quot;" ).gsub('"', "'" )}&quot;; return false;\">"
+  = c_butt
+  - fire_log c_butt

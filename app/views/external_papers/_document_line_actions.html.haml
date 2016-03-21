@@ -1,0 +1,15 @@
+= get_link document
+-#
+= link_to 'Metadaten bearbeiten', {:controller => 'external_papers', :action => 'edit',|
+  :id => document}, :class => 'edit icon_link', :title => 'Metadaten bearbeiten'       |
+-#
+= rs_link_to 'Löschen',                                              |
+  { :controller => 'documents', :action => 'destroy_ajax_document',  |
+  :id => document },'data-loading-element' => :customers_preview,    |
+  :confirm => "Wirklich #{document.doc_name} löschen?",              |
+  :class => 'delete icon_link', :title => 'Löschen'                  |
+-#
+= link_to( 'Versenden', {:controller => 'external_papers', :action => |
+    'send_by_email', :id => document, :type => 'Email'},              |
+    {:class => 'send icon_link', :title => 'Per Email versenden'}) if |
+     document.customer.current_email_addresses.count > 0              |

@@ -1,0 +1,17 @@
+arr = [
+  {
+    job: 'replace_element',
+    elements: "#rblock_line_#{@rblock_line.id}",
+    content: render("rblock_lines/show_rblock_line", :rblock_line => @rblock_line ) 
+  },
+  {
+    job: 'effect',
+    elements: "#rblock_line_#{@rblock_line.id}",
+    content: 'Highlight'
+  },
+  {
+    job: 'refresh_sortable',
+    elements: "#rblock_#{@rblock_line.content.id}",
+    content:  {tag: 'tr', url: "/rblock_lines/order_rblock_lines?content_id=#{@rblock_line.content.id}"}
+  }
+] 

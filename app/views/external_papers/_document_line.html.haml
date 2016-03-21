@@ -1,0 +1,34 @@
+%li[document]{:class => doc_alias && :document_alias, :data => {'contactable-id' => document.address_id, 'shown-by-lightbulbs-count' => 0, :loaded =>  'true'}}
+  .document_line_first{:id => "document_head_#{document.id}"}
+    .document_line_icon{:title => document.doc_name}
+      %div{:class => "type_icon type_#{document.ff_type}"}= document.ff_type
+      %div{:class => "type_icon type_#{document.is_foreign ? 'in' : 'out'}"}= document.is_foreign ? 'eingehend' : 'ausgehend'
+    - if defined?(customer) && customer
+      .document_line_customer
+        = link_to customer.name, customer
+    .document_line_title
+      -# %span.paper_title{:title => document.doc_name}
+      -#   = document.foile_name
+      %span.paper_subject{:title => document.subject + ' - ' + document.foile_name}= document.subject_abbr 50
+    .document_line_date{:title => document.date.strftime('%H:%M')}= document.date.strftime '%d.%m.%y'
+    / <div align="right"><haml:loud> number_to_currency(document.value) </haml:loud></div>
+    .document_line_actions
+      = get_link document
+      -#
+      = link_to 'Metadaten bearbeiten', {:controller => 'external_papers', :action => 'edit',   |
+        :id => document}, :class => 'edit icon_link', :title => 'Metadaten bearbeiten' |
+      -#
+      = rs_link_to 'Löschen',                                                                                                  |
+        { :controller => 'documents', :action => 'destroy_ajax_document', :id => document },                 |
+        'data-loading-element' => :customers_preview,                         |
+        :confirm => "Wirklich #{document.kind.titlecase} Nr. #{document.invoice_number_formatted || document.id} löschen?", |
+        :class => 'delete icon_link', :title => 'Löschen'                                                                   |
+      -#
+      = link_to( 'Versenden', {:controller => 'external_papers', :action => 'send_by_email', :id => document,                                             |
+        :type => 'Email'}, {:class => 'send icon_link', :title => 'Per Email versenden'}) if document.customer.current_email_addresses.count > 0 |
+      /- logger.info "____$§$§$_____ #{document.file.public_methods.sort} "
+      -#
+      = render "document_aliases/actions", :document => document, :doc_alias => doc_alias if doc_alias
+  .document_line_second{:id => "document_body_#{document.id}"}
+    .document_line_body{:style => "display:none;"}
+      = render 'documents/document_line_common', :document => document, :doc_alias => doc_alias

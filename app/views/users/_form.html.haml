@@ -1,0 +1,43 @@
+= form_for(@user) do |f|
+  = f.error_messages
+  %p
+    = f.label :username
+    %br/
+    = f.text_field :username
+  %p
+    = f.label :password
+    %br/
+    = f.password_field :password, :value => '', :autocomplete => 'off'
+  %p
+    = f.label :password_confirmation
+    %br/
+    = f.password_field :password_confirmation, :value => '', :autocomplete => 'off'
+  %p
+    = f.label :gname
+    %br/
+    = f.text_field :gname
+  %p
+    = f.label :name
+    %br/
+    = f.text_field :name
+  %p
+    = f.label :our_sign
+    %br/
+    = f.text_field :our_sign
+  %p
+    = f.label :our_contact
+    %br/
+    = f.text_area :our_contact
+  %p
+    = f.label :signing_line
+    %br/
+    = f.text_area :signing_line
+  %p
+    = f.label :signature
+    %br/
+    = f.text_area :signature
+  %p
+    = f.submit "Speichern"
+= link_to 'Show', @user
+|
+\#{link_to 'Back', users_path}

@@ -1,0 +1,5683 @@
+--- 
+documents_178: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-12 19:25:48
+  realization_to: "2009-12-12"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: brief
+  scale: "0.5"
+  date: 2009-12-12 19:25:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "309"
+  value: 
+  address_id: "2077"
+  realization_from: "2009-12-12"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-12-12 19:25:48
+documents_008: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-04-26"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-04-26 00:00:00
+  type: Paper
+  remark: neuerlicher Test
+  based_on: 
+  subject: 
+  invoice_number: "8"
+  id: "10"
+  value: "0.000000000000"
+  address_id: "1928"
+  realization_from: "2009-04-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-04-26 12:58:20
+documents_092: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-16"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-16 21:32:52
+  type: Paper
+  remark: 
+  based_on: "102"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "53"
+  id: "108"
+  value: 
+  address_id: "1048"
+  realization_from: "2009-08-16"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-16 21:32:52
+documents_064: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-08"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-08 15:30:49
+  type: Paper
+  remark: 
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "38"
+  id: "71"
+  value: "2500.000000000000"
+  address_id: "1044"
+  realization_from: "2009-08-08"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-08 15:30:49
+documents_036: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: 
+  invoice_number: 
+  id: "43"
+  value: 
+  address_id: "1988"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 12:14:26
+documents_179: 
+  message: |-
+    HI
+    
+    ____________________________________
+    Bernhard Kort & Thelonius Kort
+    Geigenbauer
+    Paul-Lincke-Ufer 33
+    10999 Berlin
+    +4930 61 28 49 41
+    http://kort-basses.com/
+  message_id: <4b23f1f17091a_3ef6..fdb397cbc423@vs242146.vserver.de.tmail>
+  updated_at: 2010-01-23 15:38:13
+  realization_to: 
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-12-12 19:41:37
+  type: Email
+  remark: "\xC3\x84hhh, wat wolltick sahgn..."
+  based_on: 
+  subject: Rechnung 2009-40 un so
+  invoice_number: 
+  id: "310"
+  value: 
+  address_id: "2849"
+  realization_from: 
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-12-12 19:41:36
+documents_120: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-12"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: "wertbest\xC3\xA4tigung"
+  scale: "0.716535"
+  date: 2009-10-12 15:16:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "159"
+  value: 
+  address_id: "1035"
+  realization_from: "2009-10-12"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-12 15:16:35
+documents_009: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-04-26"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-04-26 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: "9"
+  id: "11"
+  value: "0.000000000000"
+  address_id: "1928"
+  realization_from: "2009-04-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-04-26 15:22:15
+documents_093: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-16"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-16 21:33:38
+  type: Paper
+  remark: 
+  based_on: "102"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "54"
+  id: "109"
+  value: 
+  address_id: "1048"
+  realization_from: "2009-08-16"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-16 21:33:38
+documents_065: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-08"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-08 15:50:46
+  type: Paper
+  remark: 
+  based_on: "66"
+  subject: Rechnung 090807-8 vom 7.8.09
+  invoice_number: 
+  id: "72"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-08"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-08 15:50:46
+documents_037: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: 
+  invoice_number: 
+  id: "44"
+  value: 
+  address_id: "1988"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 12:16:40
+documents_121: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-18"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-10-18 21:05:26
+  type: Paper
+  remark: Tara! un so weitera
+  based_on: "76"
+  subject: Blarrrr
+  invoice_number: "76"
+  id: "160"
+  value: 
+  address_id: "2077"
+  realization_from: "2009-10-18"
+  signed_by: "2"
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-18 21:05:26
+documents_094: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-17"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-17 10:44:42
+  type: Paper
+  remark: 
+  based_on: "75"
+  subject: Rechnung 090808-4 vom 8.8.09
+  invoice_number: 
+  id: "110"
+  value: 
+  address_id: "2077"
+  realization_from: "2009-08-17"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-17 10:44:42
+documents_066: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-08"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: angebot
+  scale: "0.5"
+  date: 2009-08-08 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: Ihre Anfrage vom ..2009
+  invoice_number: 
+  id: "73"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-08"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-08 16:03:51
+documents_038: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: 
+  invoice_number: 
+  id: "45"
+  value: 
+  address_id: "1988"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 12:24:18
+documents_150: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-20"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: brief
+  scale: "0.5"
+  date: 2009-11-20 21:11:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: Tetsung komplett
+  invoice_number: 
+  id: "268"
+  value: 
+  address_id: "3531"
+  realization_from: "2009-11-20"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-20 21:11:42
+documents_122: 
+  message: Qzassel, quassel
+  message_id: 
+  updated_at: 2009-12-29 16:31:55
+  realization_to: "2009-10-19"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-19 11:06:00
+  type: PhoneCall
+  remark: Oh, Mann!
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "161"
+  value: 
+  address_id: "2081"
+  realization_from: "2009-10-19"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-19 11:06:54
+documents_095: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-17"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-17 10:45:33
+  type: Paper
+  remark: 
+  based_on: "75"
+  subject: Rechnung 090808-4 vom 8.8.09
+  invoice_number: 
+  id: "111"
+  value: "24.999999999999"
+  address_id: "2077"
+  realization_from: "2009-08-17"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-17 10:45:33
+documents_067: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-08"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: angebot
+  scale: "0.5"
+  date: 2009-08-08 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "74"
+  value: 
+  address_id: "2077"
+  realization_from: "2009-08-08"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-08 16:07:51
+documents_039: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: Rechnung 090801-1 vom 1.8.09
+  invoice_number: 
+  id: "46"
+  value: 
+  address_id: "1988"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 12:27:05
+documents_151: 
+  message: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    T. Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b086ad7194d6_566b..fdb8d3cda11d1@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-21"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-21 22:33:59
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Brief 268
+  invoice_number: 
+  id: "269"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-11-21"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-21 12:23:24
+documents_123: 
+  message: Kagggggggge
+  message_id: 
+  updated_at: 2009-12-29 16:31:55
+  realization_to: "2009-10-19"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-19 11:14:00
+  type: PhoneCall
+  remark: Oh, jeeeH!
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "162"
+  value: 
+  address_id: "1035"
+  realization_from: "2009-10-19"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-19 11:14:54
+documents_096: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-26"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-08-26 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: 
+  invoice_number: "55"
+  id: "113"
+  value: "5.799999999999"
+  address_id: "2077"
+  realization_from: "2009-08-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-27 11:30:22
+documents_068: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-08"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-08 16:10:00
+  type: Paper
+  remark: testetkbsd-kjbfskj
+  based_on: 
+  subject: ""
+  invoice_number: "39"
+  id: "75"
+  value: "189.210000000000"
+  address_id: "2077"
+  realization_from: "2009-08-08"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-08 16:11:00
+documents_152: 
+  message: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    T. Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b086b66ea15d_566b..fdb8c2bec148f@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-21"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-21 22:36:23
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Brief 268 2
+  invoice_number: 
+  id: "270"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-11-21"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-21 12:48:21
+documents_124: 
+  message: "Er laberte, n\xC3\xB6rgelte, \xC3\xA4zte..."
+  message_id: 
+  updated_at: 2009-12-29 16:31:55
+  realization_to: "2009-10-19"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-19 21:05:00
+  type: Visit
+  remark: "Er hatte Mundgeruch und stank wie immer ekelerregendst nach k\xC3\xA4sigem Schwei\xC3\x9F, der Arsch."
+  based_on: 
+  subject: 
+  invoice_number: 
+  id: "163"
+  value: 
+  address_id: "2056"
+  realization_from: "2009-10-19"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-19 21:06:36
+documents_010: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-04-26"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-04-26 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: "10"
+  id: "12"
+  value: "0.000000000000"
+  address_id: "1928"
+  realization_from: "2009-04-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-04-26 15:29:53
+documents_069: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-08"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: angebot
+  scale: "0.5"
+  date: 2009-08-08 16:10:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: Ihre Anfrage vom ..2009
+  invoice_number: 
+  id: "76"
+  value: 
+  address_id: "2077"
+  realization_from: "2009-08-08"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-08 16:11:28
+documents_097: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-18"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-09-18 19:18:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "56"
+  id: "114"
+  value: "50.000000000000"
+  address_id: "1042"
+  realization_from: "2009-09-18"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-09-18 19:19:24
+documents_153: 
+  message: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    T. Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b07ee945a0fc_7755..fdb811be4260@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-21"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-21 13:43:48
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Rechnung 2009-79 teswt
+  invoice_number: 
+  id: "271"
+  value: 
+  address_id: "2083"
+  realization_from: "2009-11-21"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-21 13:05:46
+documents_125: 
+  message: ""
+  message_id: 
+  updated_at: 2009-12-29 16:31:55
+  realization_to: "2009-10-19"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-19 21:27:00
+  type: PhoneCall
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: 
+  id: "164"
+  value: 
+  address_id: "1035"
+  realization_from: "2009-10-19"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-19 21:27:44
+documents_011: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-05-01"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-05-01 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: "11"
+  id: "13"
+  value: "50.000000000000"
+  address_id: "1711"
+  realization_from: "2009-05-01"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-05-01 17:56:11
+documents_098: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-21"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-21 09:33:36
+  type: Paper
+  remark: 
+  based_on: "115"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "57"
+  id: "116"
+  value: "648.550000000000"
+  address_id: "1042"
+  realization_from: "2009-09-21"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-09-21 09:33:36
+documents_154: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-22"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-11-22 15:31:15
+  type: Paper
+  remark: 
+  based_on: "73"
+  subject: Ihre Anfrage vom ..2009
+  invoice_number: "81"
+  id: "272"
+  value: "6756.820000000000"
+  address_id: "2077"
+  realization_from: "2009-11-22"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-22 15:31:15
+documents_126: 
+  message: yfsdghfjdgnfbdvsffgh
+  message_id: <4ae59c47675ec_e37..fdb84f886132b@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-26"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-26 13:55:35
+  type: Email
+  remark: testung
+  based_on: 
+  subject: sedrsjkh
+  invoice_number: 
+  id: "210"
+  value: 
+  address_id: "2083"
+  realization_from: "2009-10-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-26 12:55:35
+documents_012: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-05-22"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-05-22 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: "12"
+  id: "14"
+  value: 
+  address_id: "1928"
+  realization_from: "2009-05-22"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-05-22 13:06:20
+documents_040: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: Rechnung 090801-1 vom 1.8.09
+  invoice_number: 
+  id: "47"
+  value: 
+  address_id: "1988"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 12:30:42
+documents_099: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-21"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-21 13:54:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "58"
+  id: "117"
+  value: "8.008700000000"
+  address_id: "1042"
+  realization_from: "2009-09-21"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-09-21 13:54:20
+documents_155: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-19 23:41:54
+  realization_to: "2012-07-17"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-11-22 21:14:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "82"
+  id: "275"
+  value: "20.000000000000"
+  address_id: "3539"
+  realization_from: "2012-07-16"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-22 21:19:41
+documents_127: 
+  message: tz
+  message_id: <4ae5a818aeed1_e37..fdb9377081414@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-26"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-26 13:46:00
+  type: Email
+  remark: ""
+  based_on: 
+  subject: test TZ
+  invoice_number: 
+  id: "211"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-10-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-26 13:46:00
+documents_041: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: Rechnung 090801-1 vom 1.8.09
+  invoice_number: 
+  id: "48"
+  value: 
+  address_id: "1988"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 12:31:26
+documents_013: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-05-26"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-05-26 00:00:00
+  type: Paper
+  remark: "test f\xC3\xBCr nummer"
+  based_on: 
+  subject: 
+  invoice_number: "13"
+  id: "16"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-05-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-05-26 19:12:10
+documents_156: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-22"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-11-22 21:35:35
+  type: Paper
+  remark: 
+  based_on: "71"
+  subject: Rechnung 2009-38 vom 8.8.09
+  invoice_number: 
+  id: "276"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-11-22"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-22 21:35:35
+documents_128: 
+  message: "FGHHJ hf tf f ztfFFZT fI ftU fU fiufz "
+  message_id: <4ae5b7ddafb26_e37..fdb8527841565@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-26"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-26 14:53:17
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Testerei
+  invoice_number: 
+  id: "215"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-10-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-26 14:53:17
+documents_070: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-08"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: angebot
+  scale: "0.5"
+  date: 2009-08-08 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: Ihre Anfrage vom 8.8.09 bezgl. Dings un so...
+  invoice_number: 
+  id: "77"
+  value: "375.000000000000"
+  address_id: "2077"
+  realization_from: "2009-08-08"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-08 16:14:12
+documents_042: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: Rechnung 090801-1 vom 1.8.09
+  invoice_number: 
+  id: "49"
+  value: 
+  address_id: "1988"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 16:02:07
+documents_014: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-05-26"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: brief
+  scale: "0.5"
+  date: 2009-05-26 00:00:00
+  type: Paper
+  remark: test DOC_KINDS am arsche
+  based_on: 
+  subject: Diversige Differenzen hinsichtlich des Lebens, des Universums und des ganzen Rests
+  invoice_number: 
+  id: "17"
+  value: "3.949999999999"
+  address_id: "2073"
+  realization_from: "2009-05-26"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-05-26 19:30:33
+documents_157: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-22"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-11-22 21:37:26
+  type: Paper
+  remark: 
+  based_on: "71"
+  subject: Rechnung 2009-38 vom 8.8.09
+  invoice_number: 
+  id: "278"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-11-22"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-22 21:37:26
+documents_129: 
+  message: dsftjhkhgfghjkhgdhfjkghfhg
+  message_id: <4ae5bacdf3996_e37..fdb91be3616b3@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-26"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-26 15:05:50
+  type: Email
+  remark: ""
+  based_on: 
+  subject: TESTUNG X-MAILER un so
+  invoice_number: 
+  id: "216"
+  value: 
+  address_id: "2083"
+  realization_from: "2009-10-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-26 15:05:49
+documents_071: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-08"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.456693"
+  date: 2009-08-08 16:17:30
+  type: Paper
+  remark: ""
+  based_on: "77"
+  subject: Ihre Anfrage vom 8.8.09 bezgl. Dings un so...
+  invoice_number: "40"
+  id: "78"
+  value: "900.000000000001"
+  address_id: "2077"
+  realization_from: "2009-08-08"
+  signed_by: "2"
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-08 16:17:30
+documents_043: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: Rechnung 090801-1 vom 1.8.09
+  invoice_number: 
+  id: "50"
+  value: 
+  address_id: "1988"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 16:59:49
+documents_015: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-05-26"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-05-26 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: "14"
+  id: "18"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-05-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-05-26 19:39:18
+documents_158: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-22"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-11-22 21:38:01
+  type: Paper
+  remark: 
+  based_on: "71"
+  subject: Rechnung 2009-38 vom 8.8.09
+  invoice_number: 
+  id: "279"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-11-22"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-22 21:38:01
+documents_072: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-10"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-10 10:46:54
+  type: Paper
+  remark: 
+  based_on: "59"
+  subject: Rechnung 090807-1 vom 7.8.09
+  invoice_number: 
+  id: "82"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-10"
+  signed_by: 
+  last_modified_by: "2"
+  user_id: "2"
+  state: open
+  created_at: 2009-08-10 10:46:54
+documents_044: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: Rechnung 090801-1 vom 1.8.09
+  invoice_number: 
+  id: "51"
+  value: 
+  address_id: "1988"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 17:15:56
+documents_016: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-05-26"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-05-26 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: "15"
+  id: "19"
+  value: "19.999999999999"
+  address_id: "2073"
+  realization_from: "2009-05-26"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-05-26 20:02:17
+documents_159: 
+  message: "\r\n\
+    Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    Thelonius Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b09b02ae4fd8_566b..fdb7ed230170@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-22"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-22 21:42:03
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Barrechnung 2009-82
+  invoice_number: 
+  id: "280"
+  value: 
+  address_id: "3534"
+  realization_from: "2009-11-22"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-22 21:42:02
+documents_073: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-10"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-10 10:47:17
+  type: Paper
+  remark: 
+  based_on: "59"
+  subject: Rechnung 090807-1 vom 7.8.09
+  invoice_number: 
+  id: "83"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-10"
+  signed_by: 
+  last_modified_by: "2"
+  user_id: "2"
+  state: open
+  created_at: 2009-08-10 10:47:17
+documents_045: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: Rechnung 090801-1 vom 1.8.09 (2. Erinnerung)
+  invoice_number: 
+  id: "52"
+  value: 
+  address_id: "1988"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 17:53:04
+documents_100: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-22"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-22 17:41:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "59"
+  id: "118"
+  value: "41.650000000000"
+  address_id: "1042"
+  realization_from: "2009-09-22"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-09-22 17:41:56
+documents_017: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-06-06 00:00:00
+  type: Paper
+  remark: "DIE Vorlage f\xC3\xBCr Barrechnungen"
+  based_on: 
+  subject: ""
+  invoice_number: "16"
+  id: "20"
+  value: "0.000000000000"
+  address_id: "2075"
+  realization_from: "2009-06-06"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-06 17:30:01
+documents_074: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-10"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-10 10:48:02
+  type: Paper
+  remark: 
+  based_on: "73"
+  subject: Ihre Anfrage vom ..2009
+  invoice_number: "41"
+  id: "84"
+  value: "29.750000000000"
+  address_id: "2077"
+  realization_from: "2009-08-10"
+  signed_by: 
+  last_modified_by: "2"
+  user_id: "2"
+  state: paid
+  created_at: 2009-08-10 10:48:02
+documents_046: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: Rechnung 090801-1 vom 1.8.09
+  invoice_number: 
+  id: "53"
+  value: 
+  address_id: "1988"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 17:57:11
+documents_101: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-22"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-09-22 19:48:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "60"
+  id: "119"
+  value: "9.999999999999"
+  address_id: "1042"
+  realization_from: "2009-09-22"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-09-22 19:49:17
+documents_018: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-06-06 00:00:00
+  type: Paper
+  remark: "Die Vorlage f\xC3\xBCr Rechnungen"
+  based_on: 
+  subject: ""
+  invoice_number: "17"
+  id: "21"
+  value: "0.000000000000"
+  address_id: "2075"
+  realization_from: "2009-06-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-06-06 17:51:03
+documents_130: 
+  message: fgnhgmnm
+  message_id: <4ae5c8b855921_e37..fdb99b17c1784@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-26"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-26 16:05:12
+  type: Email
+  remark: "sp\xC3\xA4ter vverschickt"
+  based_on: 
+  subject: speichern test
+  invoice_number: 
+  id: "217"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-10-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-26 15:47:42
+documents_075: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-13"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-13 11:37:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "42"
+  id: "85"
+  value: "166.600000000000"
+  address_id: "1993"
+  realization_from: "2009-08-13"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-13 11:37:58
+documents_047: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: Rechnung 090501- vom 1.5.09
+  invoice_number: 
+  id: "54"
+  value: 
+  address_id: "1711"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 17:59:59
+documents_102: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-24"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-24 18:03:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: test 1
+  invoice_number: "61"
+  id: "120"
+  value: 
+  address_id: "1042"
+  realization_from: "2009-09-24"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-09-24 19:28:01
+documents_019: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: kostenvoranschlag
+  scale: "0.5"
+  date: 2009-06-06 00:00:00
+  type: Paper
+  remark: "Die Vorlage f\xC3\xBCr Kostenvoranschl\xC3\xA4ge"
+  based_on: 
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: 
+  id: "22"
+  value: "0.000000000000"
+  address_id: "2075"
+  realization_from: "2009-06-06"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-06 17:56:01
+documents_131: 
+  message: " uzuzguzg "
+  message_id: <4ae5cf87157fc_e37..fdb908b8818ba@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-26"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-26 16:34:15
+  type: Email
+  remark: u zguzg
+  based_on: 
+  subject: "kuzfjhv  uzg "
+  invoice_number: 
+  id: "218"
+  value: 
+  address_id: "2083"
+  realization_from: "2009-10-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-26 16:25:04
+documents_048: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: Rechnung 090408- vom 8.4.09
+  invoice_number: 
+  id: "55"
+  value: 
+  address_id: "2077"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 18:00:30
+documents_103: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-24"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-24 18:03:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: test 1
+  invoice_number: "62"
+  id: "121"
+  value: 
+  address_id: "1042"
+  realization_from: "2009-09-24"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-09-24 19:28:39
+documents_076: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-13"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-13 16:28:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "43"
+  id: "86"
+  value: 
+  address_id: "1051"
+  realization_from: "2009-08-13"
+  signed_by: 
+  last_modified_by: "2"
+  user_id: "2"
+  state: paid
+  created_at: 2009-08-13 16:28:54
+documents_160: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-25"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: angebot
+  scale: "0.5"
+  date: 2009-11-25 18:32:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: Ihre Anfrage vom 25.11.2009
+  invoice_number: 
+  id: "281"
+  value: "1000.000000000000"
+  address_id: "3540"
+  realization_from: "2009-11-25"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-25 18:32:53
+documents_132: 
+  message: "Ruft's aus dem Wald. "
+  message_id: <4ae6243abccb5_e37..fdb8061cc1987@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-26"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-26 22:35:38
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Kuckuck
+  invoice_number: 
+  id: "219"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-10-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-26 22:35:38
+documents_049: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: Rechnung 090408- vom 8.4.09
+  invoice_number: 
+  id: "56"
+  value: 
+  address_id: "2077"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 18:13:46
+documents_104: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-24"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-24 18:03:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: test 1
+  invoice_number: "63"
+  id: "122"
+  value: 
+  address_id: "1042"
+  realization_from: "2009-09-24"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-09-24 19:28:54
+documents_077: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-13"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-13 17:11:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "44"
+  id: "87"
+  value: 
+  address_id: "1051"
+  realization_from: "2009-08-13"
+  signed_by: 
+  last_modified_by: "2"
+  user_id: "2"
+  state: open
+  created_at: 2009-08-13 17:11:21
+documents_161: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-25"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-11-25 18:35:57
+  type: Paper
+  remark: 
+  based_on: "282"
+  subject: Rechnung 2009-83 vom 25.11.09
+  invoice_number: 
+  id: "283"
+  value: 
+  address_id: "3540"
+  realization_from: "2009-11-25"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-25 18:35:57
+documents_133: 
+  message: Funzt no? - Geillll!
+  message_id: <4ae6c5a3ebf1b_e37..fdb92bf522010@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-27"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-27 10:04:20
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Ob immer noch funzt
+  invoice_number: 
+  id: "220"
+  value: 
+  address_id: "2083"
+  realization_from: "2009-10-27"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-27 10:04:19
+documents_105: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-24"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-24 18:03:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: test 1
+  invoice_number: "64"
+  id: "123"
+  value: 
+  address_id: "1042"
+  realization_from: "2009-09-24"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-09-24 19:32:40
+documents_078: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-15"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-08-15 14:20:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "45"
+  id: "88"
+  value: "19.999999999999"
+  address_id: "1044"
+  realization_from: "2009-08-15"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-15 14:20:40
+documents_162: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-25"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: "wertbest\xC3\xA4tigung"
+  scale: "0.5"
+  date: 2009-11-25 20:58:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "284"
+  value: 
+  address_id: "3540"
+  realization_from: "2009-11-25"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-25 21:00:16
+documents_134: 
+  message: "fgfehjgbg hh  h "
+  message_id: <4ae8233ef1ddd_e37..fdb88ed6021bb@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-28"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-28 10:55:59
+  type: Email
+  remark: ""
+  based_on: 
+  subject: test speichern
+  invoice_number: 
+  id: "221"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-10-28"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-28 10:51:49
+documents_106: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-24"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-24 18:03:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: test 1
+  invoice_number: "65"
+  id: "124"
+  value: 
+  address_id: "1042"
+  realization_from: "2009-09-24"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-09-24 19:32:47
+documents_020: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: brief
+  scale: "0.5"
+  date: 2009-06-06 00:00:00
+  type: Paper
+  remark: "Die Vorlage f\xC3\xBCr Briefe"
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "23"
+  value: 
+  address_id: "2075"
+  realization_from: "2009-06-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-06 18:25:31
+documents_079: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-15"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-15 15:16:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "46"
+  id: "90"
+  value: 
+  address_id: "2077"
+  realization_from: "2009-08-15"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-15 15:51:14
+documents_163: 
+  message: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    Thelonius Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b0eb0e5a5c04_566b..fdb8b247c2099@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-26"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-26 16:46:29
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Rechnung 2009-81
+  invoice_number: 
+  id: "285"
+  value: 
+  address_id: "2846"
+  realization_from: "2009-11-26"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-26 16:46:19
+documents_135: 
+  message: "gdfg fh fz fzr zt izf irf o7rpi liu tliu rklu67rul7 tk6u k "
+  message_id: <4ae9f32565058_e37..fdb9b79762271@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-29"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-29 19:55:17
+  type: Email
+  remark: ""
+  based_on: 
+  subject: test 45
+  invoice_number: 
+  id: "222"
+  value: 
+  address_id: "2083"
+  realization_from: "2009-10-29"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-29 09:07:29
+documents_107: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-25"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-25 10:29:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "66"
+  id: "132"
+  value: 
+  address_id: "1042"
+  realization_from: "2009-09-25"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-09-25 10:29:24
+documents_021: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: angebot
+  scale: "0.5"
+  date: 2009-06-06 00:00:00
+  type: Paper
+  remark: "Die Vorlage f\xC3\xBCr Angebote"
+  based_on: 
+  subject: "Ihre Anfrage vom #{german_date Date.today}"
+  invoice_number: 
+  id: "24"
+  value: "0.000000000000"
+  address_id: "2075"
+  realization_from: "2009-06-06"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-06 18:29:07
+documents_164: 
+  message: |+
+    Those of you not running MIME-compliant mail readers won't get a lot out
+    of this, but for the lucky few....
+    
+    Here are the infamous Telephone Chords, the world's premier (=only)
+    all-Bellcore barbershop quartet, singing about MIME.
+    
+    [An Andrew ToolKit view (mailobjv) was included here, but could not be
+    displayed.][An Andrew ToolKit view (mailobjv) was included here, but
+    could not be displayed.]  Left to right:
+                                John Lamb, bass
+                             David Braun, baritone
+                             Michael Littman, lead
+                          Nathaniel Borenstein, tenor
+    
+    
+    ________________________________________
+    
+    
+    
+  message_id: <Edjbh9O0M2YtQL5uct@thumper.bellcore.com>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "1992-03-11"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 1992-03-11 21:27:37
+  type: Email
+  remark: 
+  based_on: 
+  subject: Barbershop MIME
+  invoice_number: 
+  id: "294"
+  value: 
+  address_id: "2849"
+  realization_from: "1992-03-11"
+  signed_by: 
+  last_modified_by: "4"
+  user_id: "4"
+  state: open
+  created_at: 2009-11-29 22:27:09
+documents_136: 
+  message: "goarn\xC3\xBCscht"
+  message_id: <4ae9f41f93bcc_e37..fdb7f63f8231f@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-10-29"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-29 19:59:27
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Test document_line
+  invoice_number: 
+  id: "223"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-10-29"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-29 19:54:12
+documents_108: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-25"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-25 10:33:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "67"
+  id: "135"
+  value: 
+  address_id: "1042"
+  realization_from: "2009-09-25"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-09-25 10:33:08
+documents_050: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: Rechnung 090405- vom 5.4.09
+  invoice_number: 
+  id: "57"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 18:14:14
+documents_022: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: "wertbest\xC3\xA4tigung"
+  scale: "0.5"
+  date: 2009-06-06 00:00:00
+  type: Paper
+  remark: "Die Vorlage f\xC3\xBCr Wertbest\xC3\xA4tigugen"
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "25"
+  value: 
+  address_id: "2075"
+  realization_from: "2009-06-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-06 18:33:12
+documents_165: 
+  message: |-
+    This is a demonstration of multi-part mail with encapsulated messages.  This
+    is a very complex message whose purpose it is to exercise software using the
+    new multi-part message standard.
+    
+    Received: from dimacs.rutgers.edu by akbar.cac.washington.edu
+    	(5.65/UW-NDC Revision: 2.23 ) id AA21889; Tue, 24 Dec 91 05:52:04 -0800
+    Received: by dimacs.rutgers.edu (5.59/SMI4.0/RU1.4/3.08) 
+    	id AA09350; Tue, 24 Dec 91 08:14:38 EST
+    Received: from thumper.bellcore.com by dimacs.rutgers.edu (5.59/SMI4.0/RU1.4/3.08) 
+    	id AA09346; Tue, 24 Dec 91 08:14:33 EST
+    Received: from greenbush.bellcore.com by thumper.bellcore.com (4.1/4.7)
+    	id <AA28328> for ietf-822@dimacs.rutgers.edu; Tue, 24 Dec 91 08:14:30 EST
+    Received: by greenbush.bellcore.com (4.1/4.7)
+    	id <AA22222> for ietf-822@dimacs.rutgers.edu; Tue, 24 Dec 91 08:14:29 EST
+    Received: from Messages.8.0.N.CUILIB.3.45.SNAP.NOT.LINKED.greenbush.galaxy.sun4.41
+              via MS.5.6.greenbush.galaxy.sun4_41;
+              Tue, 24 Dec 1991 08:14:27 -0500 (EST)
+    Message-Id: <sdJn_nq0M2YtNKaFtO@thumper.bellcore.com>
+    Date: Tue, 24 Dec 1991 08:14:27 -0500 (EST)
+    From: Nathaniel Borenstein <nsb@thumper.bellcore.com>
+    X-Andrew-Message-Size: 747+0
+    Mime-Version: 1.0
+    Content-Type: multipart/alternative; 
+    	boundary="Interpart_Boundary_AdJn:mu0M2YtJKaFh9AdJn:mu0M2YtJKaFk="
+    To: ietf-822@dimacs.rutgers.edu
+    Subject: Re: a MIME-Version misfeature
+    
+    This message has been composed in the 'multipart' format for extended
+    mail bodies.  If you are reading this prefix, your mail reader probably has
+    not yet been modified to understand the new format, and some of what follows
+    may look strange.  You may wish to look into upgrading your mail reader.
+    
+    However, the first part of this message (immediately after the funny-looking
+    boundary line) is the text-only version of the message.  If you read that part
+    and skip the rest, you will probably understand the gist of the message.
+    --Interpart_Boundary_AdJn:mu0M2YtJKaFh9AdJn:mu0M2YtJKaFk=
+    
+    I have no problem with changing the BNF to permit the period, as Mark
+    suggests.   However, I disagree violently with the following comment:
+    
+    Excerpts from internet.ietf-822: 23-Dec-91 a MIME-Version misfeature
+    Mark Crispin@cac.washing (429*)
+    
+    > All in all, it's starting to look like MIME-Version is not really all that
+    > well thought out and is in danger of being superfluous baggage.
+    
+    Some kind of version number is, in my opinion, totally vital -- getting
+    rid of MIME-Version without some similar versioning mechanism to replace
+    it would be, for me, a real show-stopper.
+    
+    By the way, this message is being sent by an experimental version of
+    Andrew I'm playing with.  I'd be interested in any comments you have on
+    its formatting, etc.  -- Nathaniel
+    
+    --Interpart_Boundary_AdJn:mu0M2YtJKaFh9AdJn:mu0M2YtJKaFk=
+    Content-Type: multipart/mixed; 
+    	boundary="Alternative_Boundary_8dJn:mu0M2Yt5KaFZ8AdJn:mu0M2Yt1KaFdA"
+    
+    --Alternative_Boundary_8dJn:mu0M2Yt5KaFZ8AdJn:mu0M2Yt1KaFdA
+    Content-type: text/richtext
+    Content-Transfer-Encoding: quoted-printable
+    
+    I have no problem with changing the BNF to permit the period, as Mark 
+    suggests.   However, I disagree violently with the following 
+    comment:<nl><nl><excerptedcaption>Excerpts from internet.ietf-822: 23-Dec-91 a 
+    MIME-Version misfeature Mark Crispin@cac.washing 
+    (429*)</excerptedcaption><nl><nl><quotation>All in all, it's starting to look 
+    like MIME-Version is not really all that<nl></quotation><quotation>well 
+    thought out and is in danger of being superfluous 
+    baggage.<nl></quotation><nl>Some kind of version number is, in my opinion, 
+    totally vital -- getting rid of MIME-Version without some similar versioning 
+    mechanism to replace it would be, for me, a real show-stopper.<nl><nl>By the 
+    way, this message is being sent by an experimental version of Andrew I'm 
+    playing with.  I'd be interested in any comments you have on its formatting, 
+    etc.  -- Nathaniel<nl>\
+    
+    --Alternative_Boundary_8dJn:mu0M2Yt5KaFZ8AdJn:mu0M2Yt1KaFdA--
+    
+    --Interpart_Boundary_AdJn:mu0M2YtJKaFh9AdJn:mu0M2YtJKaFk=
+    Content-type: application/andrew-inset
+    
+    \begindata{text,1672608}
+    \textdsversion{12}
+    \template{messages}
+    I have no problem with changing the BNF to permit the period, as Mark 
+    suggests.   However, I disagree violently with the following comment:
+    
+    
+    \excerptedcaption{Excerpts from internet.ietf-822: 23-Dec-91 a MIME-Version 
+    misfeature Mark Crispin@cac.washing (429*)}
+    
+    
+    \quotation{All in all, it's starting to look like MIME-Version is not really 
+    all that
+    
+    }\quotation{well thought out and is in danger of being superfluous baggage.
+    
+    }
+    Some kind of version number is, in my opinion, totally vital -- getting rid of 
+    MIME-Version without some similar versioning mechanism to replace it would be, 
+    for me, a real show-stopper.
+    
+    
+    By the way, this message is being sent by an experimental version of Andrew 
+    I'm playing with.  I'd be interested in any comments you have on its 
+    formatting, etc.  -- Nathaniel
+    
+    \enddata{text,1672608}
+    
+    --Interpart_Boundary_AdJn:mu0M2YtJKaFh9AdJn:mu0M2YtJKaFk=--
+    
+    Received: from Tomobiki-Cho.CAC.Washington. (Tomobiki-Cho.CAC.Washington.EDU) by Ikkoku-Kan.Panda.COM
+    	(NeXT-1.0 (From Sendmail 5.52)/UW-NDC Revision: 2.22 ) id AA12299; Tue, 8 Oct 91 07:29:39 PDT
+    Return-Path: <nsb@thumper.bellcore.com>
+    Received: from thumper.bellcore.com by Tomobiki-Cho.CAC.Washington.EDU
+    	(NeXT-1.0 (From Sendmail 5.52)/UW-NDC Revision: 1.60.MRC ) id AA27545; Tue, 8 Oct 91 07:28:25 PDT
+    Received: from greenbush.bellcore.com by thumper.bellcore.com (4.1/4.7)
+    	id <AA08355> for mrc@panda.com; Tue, 8 Oct 91 10:25:41 EDT
+    Received: by greenbush.bellcore.com (4.1/4.7)
+    	id <AA00616> for mrc@panda.com; Tue, 8 Oct 91 10:25:36 EDT
+    Date: Tue, 8 Oct 91 10:25:36 EDT
+    From: nsb@thumper.bellcore.com (Nathaniel Borenstein)
+    Message-Id: <9110081425.AA00616@greenbush.bellcore.com>
+    To: mrc@panda.com
+    Subject:  Re: multipart mail
+    MIME-Version: 1.0
+    Content-Type: audio/basic
+    Content-Transfer-Encoding: base64
+    Content-Description: Hi Mark
+    
+    +Pv/d3RydWlnbGtnYWJiaWxqaWxucHrx7erk7X709Pfx6eXo5uXe3Ojw+Px1cXZra2dsbGdr
+    Z2t5bG1wbWxtf+/v8vPq7O3ue3B19efk8vz3fXl1c3RqcHFsb3x6dnZ5anf4+vb+8nt2+vL4
+    8ej5+vN7/vH2dPzweG3++23y6vn6eGlneP37fHB+dm1yevt7ev39d2518evs+Pzw/Hr67np1
+    fn7+evp8fP3ycmxucXxtaW58/m94/HNtfOji6e/y8vD67+Xm7P/x+G5naXBwcnl4dHx/c3Bx
+    eXt3bmJfY2/29v3v6+rj4e3t5eno6/b+8vBxc3JubnNzeWxpaGRnZGZz9vbt6e/8+fr4+vfr
+    6/bw7PXw+fj3/Pl3a2x5cXFwfnhra3r5em98/Pv0/Xt4fHn/7env7+vt9/748Ozq7ntpZmln
+    ZWl9fvn7enVu+fH4/3R2fHZv9+v5dnB8//76/fr+fn/4+n3u6u59fHlxem5t/vl3dvl89+/q
+    5u7n7Ph1aGFjZ25wam13/nt++374e35/+/Lt73lsZnB+/fP38OHj8PL0+nX17vr4b2tnX2dx
+    dW5x9PB7c/z9fPTvf/9+dP39ePXn9nN6fHV4e3hydv799f9veXtxdOrk8O/i6/vr6u/49nvx
+    92l1925lZWdoaW5sb3FtcXX9/XF1fXd3eHh47+Xt7ejp9fHu7uvx8vH2+vjv63l98/D4/HRl
+    YWFhX29+/Xhvb3Bu/+7s8Pn3+Xhs9+bl6vJ+7Ob++Ozv9PDk7G5veWNla2lxcmtqd25ueXx8
+    8/J79O7s5u38enN8/HpsbXz87fDr4+jr7u/6+Hj27Hl6fv52cG5ueGxrfff+cf/3eHFvffZ6
+    e/Tv8/v7/Pnx+3X/8ft+9ejs7uvx8+/z/Hl3dW14/HVzffv5/v56/PH8b3Fxa2prcXl5/fx2
+    8+zs7uzt8fPt93BtcXlwd/708n7q4vLx7Phwcn/y6/Z5efh9efj8+nVzam10dP7+/vjv7fhv
+    a2xxfPL9eHJ58vlucO7p8vz9+v379/T5/fn3d2hw/fTz7fP6/fr6enny7O3s+P3/dnXu9n50
+    cndtb3l8fP/09PHu8X1sbGpvdnx6/fHv7uzyfPz2d29++X5vaWJv8Ojn4+92/O3yfPr7eHx9
+    dm1vefn4ePPu7O3x/Gxtffr+a3H++XFq//X6/n54eff3dW94/vv9/Xb66+599/T57Or6eHv2
+    7PR2df9ubG5wd/f+cX31+np5evh9dXRvbnB6ffr39O7s7/Xr5N7h7/5ue/n9c29w++97bWtn
+    Z2tqbmxoZmduaWr76eTn5uXx/ffy+nZ29vP57/119u7v7/r15+nr8Hd4e3p7cGlta2tycG95
+    fHb4+3hxa2dlbP72fv15anN9bm/68fXt7/Xs5Onx7+jr7eTw+/X+ffz+b25ua290dW5qZWJn
+    cHz3/fv++O3u+//0/Pv6fW5oaXX78u7r5+/s6uv8b3ZufH95dXX++O3ufG5ubGty/nh2bW1v
+    bWpqZ2187uPo7/Lq4OLq7v10eH57fvt+fnx79O3wd3h4a3H5/XlyamNibXVvcm50+Pf5fH/6
+    +vz//PTq6+/6d/3u6/Lw6e/48+r1cn16aGx4b29rbX74/H31/2xueHRucnl1cnt4df198uzq
+    6ufk6O3u7vp6d/98bGZxefrz7X1oZW37dm1oZ2t5fvz3f/vt6uXn5eno8fd+d/r3/HFzdm9x
+    +3ptanN2bm97fnZ+efjz+n5zb29vePPs/33r5uXe3uj09/l9cXFzb3Bxc3Z0a3F1cHV2en15
+    dnZtbG91+nx5fX7v6+ji4ent7/bs73x0fXl4e3lsb/90cvfyfHt+bGZv93tpbHv18nz9fH/0
+    8/P48u328/b07+73fHVzdXv+bmZqe/x+8vL0+HtmZG5we/z8dnv08XZ4+/v99/Dv7vDv7u/4
+    9fP6+/r6cG7+/W9namlyfHJ+fnduevP+c335fvn6+u/x8vj5/vn1+P57++3t93lyamtsam52
+    9fj6fHzy9Hd5eXpubnpxePx/c3j37evo8/7x7fP2+fPy7+/8cHN//3h3d2tmYWZrbPd9f3r5
+    8Pv5fPvv7fz87vDr5+78dnx9cmlmam1jZnV67+vr9Pz37u37/v91fPr4+/Xw7vv49+7q+3Fw
+    /nxwb2hsbHX3d29z/nh1/Xx8//f+b3r19X396e7v9nhvcX72/fh7e3d1bmhr9Pb38vx9/vf+
+    +/fu7X13fvfxdm968uzx9X93/37+cm1ufPl3cm9xa3R6fn58+vj29P379Pj79PH5eG1tb3h+
+    bn/9/efs7OvyeH79em9ycmpx9/H29P//+O3z9/Jzb317dX78d3Vxd/rt+2/68u3v8O/6+/f7
+    e3d5eXFvcX56cnJrZGt9//b47urydG92+unr7O718fT3fG5+8vPw+Pz9dXVxcmZlcGtiaHZ+
+    +vLk5urp5uPr6uzv9Pl2dHt0eXhybG5rZ21wfXx9eHx8eW9yfPv68er0dHf2+fPl5ers+fX0
+    fHvu7Pj2/HRsb/v9cnBtaWpqdfXt7HZrdX3u7X56fvT5dGr77vD5eG5tanTz8Pbx7fbyfv3y
+    /nh3+fvz7vl3eOru/Xl6+3x7amRqb3l0cnZ5/+/1+fr89P14e/h9eOzo9v/49XF5fP9xbHx3
+    cHT89+zx6vdy/vH0fX768+/u7PZ+/nlwbWpve/R+bnZ5+PX2eX7z+npxeX12cXB/9e339u33
+    +fru7Ozo6/D+bW1sbm9tcnZwdWtt9/Hw8/L7/O/w7+35/v7u9/j6c3J5b254fP/+8vH6+vZ2
+    cvTq6/1ta2VpbWx1/fvt6vb47/P6+PL3eHd4bH7p6efn6vh/dWtz+/10c3L48P91bHT5//x0
+    cvfu+m1tbG1wdfj+8Ojyemp29PLx8/vy7+3xf/fu7XtveHV4bm55+uzs6/xpc3P+7Pvv6Ov2
+    +v1ybm30831+e2xjbnhzXmRrZ3F49vh19Obl6+vk6OHk4uzx8e/vev55d3Nwa2hsb21zdv/7
+    e/1wdn54eW92bGZpdPT39Pj39PLv7Pdx8ufq+f18f3r58fjv+Hl1b/rq/nd5+/r6+3J29/n/
+    /HVlZnFua2pwbG1ra3L88eru+evg3eTt7Onq8nlsbHv67vj6/37+cnFncH3+fHR6b3JpbX56
+    evz2/fLq7Pv0/HZ8dWlseXv0ff3v5u339PN2evL+c3J+dG5sdHT/8fj07ejr6+7z7/v5fvnv
+    /XJzbmt+eG1tZWpvc2pjd/vy7+3r+vr2fPn78urx8e/t73Fvffx1b3lw+uhva3V0bu7s+XN5
+    /Pn0ant8//bu7nr79Pn3635oZF9ZbvTm6vXr7ez/3djy73pyWFZeaWZbafj07Ovn8evc8Hll
+    bv54fert397k7+ro+3xxeW36c/VxZWds72Jia2tgZG/7/fvv3+Dh5+br7/L37+7vc3d4YWZn
+    eXprdndjZXz//nl1+ur2ffvl7vXk7eXx3t3h83ptbPnxce/yXWJma2Zq9P//a/98aHdt6vJ6
+    ++jndOvtav/q6vv48ulvae/67/NybXb7ev5oc3Xt6/l0c/R5dmBj+e91+vR0eu/s8n5q7+97
+    dOnc6e7t/Xbq7W5obHL4f/Z4efLq82JkYWBlaHr8fX177Xp98e3u7+v55exz5fLtbGd0d/fy
+    5/12+f9yamJlZmtfe/b9+291b3V67fHh2Nz529/k4G9oYWFqbe/xX29qYmRiaGhsau3ffeXh
+    8Xdx7//6aPfv7+Pk39/vfHp0Y11tZF9le/pt+nT3eXfi+G5sd+Xt7t/h3+p2bn5wbe7xZXFt
+    c2pcd3xuevz56+v06vRqcvDpaWFl/f/02OL/dvFsWVxoeP9sfurx8+zw4+/5/mVia3rucm3v
+    3+f+cnno7H3ofGtja/f4dXPv9HFzY3F2Z3b2/mp57vRveX3w/3h0bGRedN7g9Xfo5/jt8Pp7
+    9PX4+Xd+7uz+aGru83Fob2xgb/7zeG58aWRjbfdxb3Ti4e755+Pq9u3n+Xl2cWRhdfjn83l7
+    cvbu9e90d2l4b2Np/elpcOrofWv+fvxubvDy39/x7+59fHVraGz46vly9PNzbvX/b3Z3/nr4
+    c2tva2757v396+d4bX7v9W98ev9ya+/q7/Lm5vp6fHZzfWxrenByc/h2bG956fP59H77bPvu
+    c2JfeHV33+bn6ezn6PX86vl8f3l1bnNvbmdld3Zw7vtveP53fPx/c2l+8vj6bGps+37v3uTt
+    c/Po6+/x+vl+a/J5Y3P2eHP+7e1wX2zzdnbk+Gpm/fRod+/v7fTxf/btfHX08mn6emto/Ob5
+    ZvXm7/P17fnwfPPueG1u6PBu+nRxanp5bWtp7uxgavPue3Dr9/By/+5/emjv73Pw3ulv7t3g
+    7vh/83Jf9+P8anT4dm9zfft1aXJrbmhfa/59eu/p73j25e3n6PHqemlq8HZu+Org+X7tdnBq
+    be77bnXs6XJv5/dr5+X5ZmzraF198Oz4/eLw8e92/Wxp9X1sbH3mcl1sd3RyZ3bsfO7n+Hrw
+    6vfu6/Zn/fdq8PHr4+n6cnn7c/j0fXZ+/Hb99fRzc2Zj/vZmau3md2h5dGb2/OTl/ff482v+
+    7ejx/+Htb294emt5c2pudPt5cm9t7O5zbvzq9Xh85u537ufh7ufa7GZ39/dvau7x/n1pZ15o
+    +f1x+fdqbHdyZ29la+/n/Gvy5/p829h89/zu8H3z9uX5efD69G1p/m9pa+v1cPj+8Xvw6ft5
+    bfTnd2lo+vhleHN1/nHs5Pr+7+17dvtpZnb+a3Hs7PHq/Or5fOtz/nTu82NxY2vucHxxe35p
+    b3ns4ujv5+Dz+fJ+fvv1+2tr8vxvdOrufXFxb2r7dWzwb29wdHhnb/Rz/u7w6uzu+ez9Z3z1
+    7vrw4OX5aGv8a2n75WtreGhseHzv9W7m2979f+7zfnzr9GljeX1dYnL5aWnu8nB8+nNtff3o
+    +F7+4fJv6OPl8Pfd82x3/e90a3ri4nVvc/lsX196fFps8f5tbezl+3bi3PD44O/1835sam/6
+    9G5rfG9ob3H6dWv99ert6+bj/Gt9fmxoeft46/Ts53tw7OloaftuZ3H59f3q/G364uL6++J4
+    /e70/2t8fnd58H5tanN2Z3JtbHp+7P1v8u7ke/3l6vx4e/t5aXZ9bW939e/17uvm5/X3/fj7
+    eXt+bHR5a/59Z/Tq9m1w731y9/X+8fP49n929+b/a/Dv93p8e2d67Xl4f/x2fvB2+/bz9Px5
+    fWtxe/b2dnnu9WJpfG14fHx+cujh5vZ18Xl58fH37Ozt+n1+a2dq+/n77vdq/fDr/Wd7+XBq
+    amVnbWt39/r0dmt4d2n36PDr6d7q9+bs8uvuePjxfWNmam12bGhxdG9xbWdqcGx+dP3s6/T8
+    4uLp4N7j7357b29oendjafz6+HhuZWFrbWxyfm7293v1+eHl/+rj6/lv+3p2aGv6+/xucO7w
+    eeXx9exybHv+cvHrfvH2bnJ8fm52cXF9fez6b2/t73FrYnl4ZnTt9Xp7/HNq7+Tu//n+391v
+    dOTq+Xju7m149XpoZnz29WNn8npnZujrbXb/9nZndOpzXmn983555+p2++fqffD27OL2/+n7
+    dvdx8vpsY2j4b2f67XpobnV0am/q/m76fXL8fW9ye/jvff3h6nz15fb37Onpfnzm6Plnc/dn
+    YW1uZGvl6GlrbflyXGz0bGl+7W/v3Pnx5+zd4+vx5u1rc/T8fG52729ycnr1X1txbXd6eHJ0
+    9e/s3+t0fe78c3r35Xpp8+jxZml8b3Fw+nhrcfji6fbn4eZ69O52+nV2/XN4fWps/m5sc3T4
+    +mZs/W5pZ25mff326O/q2Nbn7Onq++/3cm9mZ3n7eGBt5/drbeXoYWT0eWBifntqZ+7m83T7
+    6W9obW70fvzr7PHq6errcW7p6n129u7/+vHz7ebyb2hgbvz7al5xdHJtb31uc/59/3lvenBo
+    d/Dydv7r6/p7/ebffX7h5np14eB7aWvj6mdnY29zanT5dWpqaGzu5Ot99+ry/HTz8XN5bWr7
+    93B6/nL8f3L15vBy7+V4am/3+XB3fPft//fzZX3q9O16/nttd2lmb2lt++/1ZG/3b3D/5uLp
+    7erh8vn+7Onq6X5oYmVnbP95eP92b35oa3xtfPZ7cu/m/n/d2/N1++vr+W3+7HtiY3l6aHt9
+    Y2Nx+nVrdG599u/e5e37efDv5u978ez8enNudW9uaHh1d3n77n5vd+z1ZG/v8Ht07v18b3ng
+    7W5rfP5ubvXn7/TpfGtv9O1lXWdy+3x97vXi5fLu7O35dWxvdWtvc27t7n3w4t/rd2/z/HBt
+    e+9tZnrveXLr6ezvbmhqZGJoenZs/Or3/u3x9Ojv/PL8/f3y8+ni7H579X54eW9x/mxl/en7
+    cnL88W17+3l1a3jufGNo9ez58PHq7Orq7OXt6vlwdG9peP14fX/y93pu+Xtobm1udvbybGty
+    b3hzbnB17Or//O/u6u3t4ebp7e3q9/rt/Xd1fHFrZmN3/m9tbPv3Zmf+93Vu/uv5bPbo92t1
+    5uPp/u/r6Of4+PlyY2Bscmtvb/bybPXld2lz/fV8/3vt6Xp3/fD08u3q+P745+t5a3Xq+29r
+    /vF6cW91ePf3cWxy9uztd3Hw925kaXp5b2x57PR++Ovz9vTu+vz+dHn96e/39O3o/m779P9z
+    cnBr9Hpuc255dXN8fXxxbHN4//7t6nX87vf1+/ry7+7t9PZ0bm1scfj2e33u6e76eHv4fnB3
+    bmZw9PLx7+7ucmRnb3FycGdv7e/v7uvl93fxfHBzef3x+fjy8PRz+PP0eGdpaWdqeO74cHrv
+    eHZ2c3327nx5e3Tx6Ozs5d/n8353bXP6fnl1bm59+fr47vb4+XRwbHJuZGdfXmZrdHrx9H7z
+    83x7/PDp5/L46/D68+3s8vb48e33fvPp7n389f14fv12d21pbXFqXl9qbndtcPft8/5+fHx6
+    fvj28P/z63pmdfr9dXjq6vf27ufr9fXt6/H4fv/5fXvw9Hl6fPR7aW5+9nh5fX5waWtrZmlv
+    cXRvbvPl6e/07vZ9/v707nb/93d7fP38+XZ19+98bvro5er0+Pr8dGv473J3+vt99flvdH//
+    /3h99vr4e3h2cnV2bGp0fXV6+nx1+ers8/T07eXo+nV8fnd3e3hucXhta294ff338O/q5Ot4
+    aGlucGt59e/s+Pby9+7u6Ofq6fV3c/zz//r0dmpqa2tsam52dGZpeHB2efjr7Pf++Ozy8/Dz
+    6ur0eff+cmVkem1qcu3o/v7u8f9tZG/v9H76+HP06vPw9u3qfXFycXFrdP7+/3trZW357+x+
+    evv9dnP79/r78PB9dn7y7fPs9O7yenN5/X13bG51+HpscHd7cmxxcWtr/PL07Ovv+Pf//Pv4
+    +/339/t///jp7PT9fnt6eW568/v49Xt6/vTw+H/19nxvaWhua25zcvnu8Hz37fD07e92enn+
+    7uno73p6d/rz/nZsaGZscmZt//18fHtveu72fenq9/jz9n/v4+bm6vZ5dGhjbnF7+3Fqb31x
+    anBvd/Lt73t0fu/y+vX3e3v48vPt6e16d/x/cHp5df707PTx8fp+dGtsfflubnxzbm91+Pt4
+    d/798+3q5/xvc/x+cHVta3X87+3s6Or8/vDzcGRqcXfy9Hxx+/P++/jv7/T5//Tz/X/9fHX5
+    /Hx9bXj9fHb7fm9saWtucfj8amtxffR/+/Pt9e3k5efi5vn+9fhzam1ycXJ6fXx//P17a2d0
+    cnH//vb58fp9+vX6dHFpaXzu+frs/fr1+nxvdPXv/nvy7/r67+rv9+17bHJ5b2Zrd/19eHJs
+    Z2Nren95+u74+unl6/T++fP28ezy+vDv9e7v9u/+dnf/eG9tdnpxe3JsYl9kaW5rcHdrb/19
+    ++rm6O3r5+3w6+z7eGxqd/r16+js7e9+/f90evv/a2hraWpsbGlteXx4cnF88Pf88e3t6+v5
+    /e/v8ff17fDxemtucXt6en359vf3d3JzcGxoa3D7fHP+/Hjw6evq6+739/Lz7/D08+rwfXFr
+    bW92e21pamt0++33+e7r5ejs+Pj3+v5wamlsd/v6cG93d21udWhs/O/x7e72+/729Ors7eft
+    9fb07/75+f10c3t9cmlrb3NpbHV4amz5+v59+X577/T7cnN6d313efrq6+nm7/Do6vD27+n8
+    c3Jydm9teHZvdnJoYWlvbGlpdnt1//57/e/p7PZ97Of+bm92+uji6Ovm5Oz39vLw8nt5ffR5
+    amdfanFsc3FxdGxrbnZ6cG//dmhtfXv+8Obk5Onr7/3+/vf7+Ovn8Pf2/O/weGVueXp2cG5v
+    aWx4+Ovr7vh9bWhqb3dvcP59eHh7ff92b/nu9Ojo7/L59PR+fnr/8+/2eX1w+u19/vv38u56
+    cXBvamFrcGtmZW1t+/h89uvu9PJ5fe/w8Ors9Ht4+fPu8/X9ffr+8vtvcfR8bW1ndPt+dHP+
+    ++/t+vn8+/f+/Hh5enttbHf79HtobXh5+/Hu7+bq9Xlscmx58vh/8Hx16ufr9Ozq6OLqfmt0
+    +m5eXGRtc2VZX3L253xmcPrk2edZVF753Ojt3NDM0N7g29zo7l9Yd/H8XFRdbVxVRUFV+eDu
+    aGDe1t57VV/l2dnb2MrCxMjR9Wtq/u5kSUlobuNNOD5R5tfvVHfb3t1mUVf51tpz98/CvsDL
+    1t7g5GNe+PxOS01MRDk+T+DP0t/u3+vq82ZRSVD22MnJy8jBvL7WaGpw1tLdaENAQTowN0jV
+    wMvj9eXd3GNYTklU793FwsjHycO8xXlnaNrEyutMPjYyLDFUx7vA2evX4vxUS05LWtx8z8PD
+    w8zOwMDo8urMvcfnVTkxLSgz/ry3vt3jzuZfRj5ER0/e18e/wcfNzL/B6djHu7XCVz00Ligk
+    Ns61s8Dw3MzpWz04P0BK1sy6t7/Gz9DEyfXHvLW12D8+NigeJFG0q7nXb8vI7kIzOUlDSuHO
+    sbS+zuvavsPnv7Wrr9dDMioeHCvYrq6618rB2lI5Mz5URj9cwq+vv+pf+MjIyruuqKvEPS4o
+    HBcp26umtc/OxeZYNS4/b1hOTuayr7bIVE3bysKzraipvT4xKB0UHVGrn6u+z7rNZDQpL1Nm
+    bWNMurOyv1Y+XtHDr6ukpK9QOCofExU1tJ+ntcq1vmw2JStH2t/VVb20uMFXQVHWz7Kqo6Op
+    0TosIRcQI9Cjn6q+vLhfOyUjMmrmzNG8sLK9YEFCcN+8qqGhpbVDLSEXDxxbqJ2nr7Ouy0Am
+    ICpI8d7fwq+uuf5DP1FgyK2in6GrbS8kGQ8UMrOeoaqvrr9KKh8mOVXf0sWurLLNSjtKWNmv
+    o56fpsoyJxwQECbAn5+qr663cC8fIS9L5PXHsK2wylQ8P0Z8tqWdnJ+2OSweEg4bYqOdpaqu
+    sM0zIB4qStlu2ruxq6/TPy81VLmooJ+iqso2IhQNFTiqnaOqq6m4PyIdJT394N3Bsq60wGQ5
+    NTzPq5+fo6qzzS8bDQweuJ2dp6+pqWAtHh0uS+zOwLavrbbXOi85a6+in6OvtqmyIxALDkOn
+    oaiusaKpPCMaHz7C6Eu7q6Ssczo4OETBrKGhqayqp7wbCQkYuJyfsrmtqLMtGiIwSkc5wqSf
+    rMs8OjwzUq+fnqrLvaqjpDoKAA7Ik5S6Rr2pr/0gGyQxT9bHqp+tw0A1SFLZr6Wor7+3pJ6o
+    WQ8CDCyglqfoxLTH1S0jKy04UsinprK+0nFNOkG5pqWzy7ypoKW6NBAEDz6ima5sy8RERy0s
+    NTFBuLu4sb6srus6OU6wp7C0tK6oq8JSOi4PCia6m6M/L3BYOzwmL23FveBXtayst1lHVOG3
+    pqertsu6tstJQ+7cGg4ix6ewLipCNy47OsyqwlZMVLKsusHW9sO7r6WotdtN6tt04c28uE4a
+    FCh5sUYfHzNhP1nApKZlKy/OrLDDuq2tt7ivrLxGOUpazLi/tbtbZDgbHSEmPDEvTu9P2r2s
+    rVsuL0+xp6ikpa7aSlHLw+tZYcq9xd/Jw8tMMyUZHixS3U1Abtc5U83IwU1Ku6yjpbTFa0dK
+    z7+ys8vYaFnVx8DcOi4uNEE4Kyw7XeZONjQvObenqLHFxcjP5cfAyNLPta+0yU5ubVdRPjdM
+    anPc8+BOLiowOUU8PkTxv6+wvdZFQ1rWvLu+uLi5wcvebk9JSkVf2NPfVf7Szko1NTI5R09e
+    Xc3IxF87U8rLf3rHtrzOeMvBy19JZu7O39bjb05GTEzMwt5JXVNVRkbZ4zUsP9K82O3Du8pH
+    P2zEzOrb1dHZ5s65vlw8QGjO2N3X2/LX0dJdPTo7Pzk8ZtLN0+PYbU5IX8zK3W/8yMnP1si/
+    wmBS09912cnL01Bc/Eg6PU9qQDRF+9TZVEdWV2vVxrzA4HHxZ9LUyL3Dz+LJy8/5bnnf7FY6
+    R0k/STgwPWRnz+Rj7X7uz93l282+vutuybi3w9vVy9p659HrX1w3LDk/QT4vL0lZ4sDEyNpx
+    z9Tr0b65uNTbuLjCz+PazF/v0svLNCs1Ojk1MDtIQE7OwLzPWt/jzr++ub3Uybe6zfvVwcXR
+    wsY9KSsyPTgvPPlFPGHawMdVUdPLxb64r7vbzL26vcTQ1NG/wDYiJzjkVCsnR/7y3d++s+I7
+    SdCxr7fG1eXLv8G8ub7Q39MvHCA5xMYzKUZsT+u7ub1SOGa6r6yrt89Zb7uyvcvlarxGHBwo
+    UsNGKjno2M7hu7jsPD3frqmtrbnU7dC/t7m7v8A2FBYwusw1LT5oOzzNqqvXPEnGr6utrLTG
+    Xt64sbCwsj4NDC61sFMkPas6Jl2ypLUpK7yppKmsqrZSTb6vp6q5HQYRs6PLKyTIqSwiSqug
+    ySArrp6graulr0RFt6WdpiEEDN+isjMp260qHTS2pcAnK7ukoqmnoarvS7qpn6IlBQ2+o7g2
+    LrCiJRotUbK2LC65qaesrKSpVkC9p5yeHQMSsKjEOEqfqRwbOmLRVTHqra2trKShsT1Ot6yf
+    xAsIVaDHLC6mlU8UJr3uOTFEraq6r6KgqtRGvayqtxMHIaC1OTezmbsXHcdrKS5jq6nOv56c
+    p7rbvq2tsiEIEqerMzmwmqYdF0rBIRteoKfoXKaZqV7FrLHJuEwPDFefzzTeoJw7GzLNKRkr
+    pZ687queqXHerKvAvu0VCiijyTTNoJxZHTPAJxUlp53CdqGYqUZorKzHycweDR6vyDbPoZ7O
+    JjzDJREfrZ+37KaZpFltra/GwGsdDh+x2zDRop/wJ96vKREbvabEu5yZp9zhr79LuL0eDh2y
+    0i7Lnp59J+urLRMc3KvI152XpL7Fsr5BXGEfECG9PTGvnaRUL8WuJhUk5L/ouZmXqravr9o/
+    5NcfDh+0PCa+nKBMLL6oKBIjz8dNvJqXpbCqq+I85XcdDiOyLyOymaNDMbmsJRUn4nM7t5ia
+    qKmjq+w8WVgcDiW2LCKymaRFNrawIBYs0VA2vJmZqamepdVC7esjDhyzPB7hm6FSMMOpLRQj
+    02wvXp2Zp62fn7lU2MwpEBbH6B84npzGNGip5RkaPck7M6+ana+uoajNesxJGxAovzImxJ+o
+    00DJrzkbIUbyTu2unp2psKyttLppKhgaOj4oMbqrsL1vz8o1JiYwWbu1va2hoqy8ua2tXSAY
+    IEFALiw/vauqv1pOVUc1MDzNtba0sbCxsa6vttc5JyUzPzQpKjVqtrbCyf5Z4s/O0u9r6t7u
+    6MvCwr60rrfIytlINy0oJiguP1FIVcq7trW6wMvdfNXIxsm/sa2wus9TPjgvKiYlLUdVTmPh
+    0sW/v835aOjRz9DHua6ppqq+VktPQTIqJiYrNU1uWV9r28jJzt3qbV3ty7u1rqqssLe/b1F4
+    VDwuKSouNjs9P0hRZNPIz9vaz8vHvrS3x8C0sLS5wtv0YU8/LyooLDE0Nj1NTlTcv7m8vbm8
+    0eHMx8q9sa2vu8PL129URzIpJCYsLy8zQvTNvrSxu8rL0u75ybi6wL2zrrK8xs/Y/U00JyIh
+    Ji45P13NysrCvb/Ix7/A0drIyczGurKvs7rDaElHPzApKSkrMDtCTGTgzL22tbW5w9jq5tfR
+    08i9u7q3u8fiW19lSDUtKScnLjpFWN/Lwbu5uLa4v87mY1/95OPZxrextLzG3/7jVDcsKScp
+    Lzk/T+/Qxbu3t7q/ze5eXXnj9OfMwbq0tbq/zODhfEMxLSsqLTY+QE7jzMO+u7q8y/tdVE1W
+    aGzfx7u0r6+2vMji6+JLMy0rKSw2P0dn2dXMvby/wMruUlNeX2Jv4MW6tbK0uL3L3NvfTzcu
+    KygrND4/TeLT08K4t77L5FxfcF9SWc3Cva+qq7/2z3E8PEQ+MywnKz3dura/4VrnyMHPTj06
+    RWzU1OzJr6ehn6OxWycYFh4sOUVPXr6knJ6tTysnLz5FQztDy6+suNpOdraopqipr9I1Gw8U
+    Ij3fvLS0qZ2dq0wnHyM1U1RSe8Kuq7dUPlDEraWjpam6PRsODx5Gv7Ctrqqem6o8HxsgN9PM
+    YX6/r62+Py46yquioJ+ksGYgDgsWO7mtqquso5ugTx0ZHzbGuutFfretukEtNcyqoqCfn6rD
+    LxIJDCmtp6moqaqgnbkfFRsvzrjHRUDGqqx5Ly5OsaKen6CjsVQeDAgR55+hqaioqqOlRRgS
+    H+u0vl9Iabamr0ApMcuso5+enqKsYBkIBhW7naCop6mqpa8sExAlu63FVVzNrqWyNyU0uqah
+    npydoq5MFwYEFa2Zn6mko6qtuioRDyeqpts2Tr2uqrU8JC63oZ+fnZuiujoWBwQTqpSdq6Sf
+    qbrRKxMPJqSezC5BvbOxuksoLbygn6WhnJ2tPBoKBQ3Uk5arr6Kkt1IuGhAbtpmmNy3SrrbX
+    WDwzTqyeoaafnKY/HA4IDCuak6W/qp2pTCkeGBg5n53ILEWsqc8+Q0dIyKWeoqagocMjEAoL
+    HKmWnrq1oJ+8LR8aGiiynao+McGotj8zQlfUq52do6elsTEVCwsW35ycq7GknqpKIhkWHt6f
+    oX0vbKmqXjA878OvoJ2gqamtWBsLCBFHnp2tsKGbo34mGRQaP6KexjBTp6XqLTJlw6+fm5+q
+    rKvHHgsHDz6fnayuoZuhyCsZEhYypZ68NVyno88sLU/Er6KcnaSqrfMaCQcUxJ2ktqmbmaZl
+    JhcQF0Oio9s6vqGnSycuW8Oun5qbo6mtVBUGBhmtna24oJaZqPwmFA4XbqGsSFSnna45LDx8
+    ya+fmpygpbEoCwMLOJ+m0rWakpq0NxwQDx+6qdo9s5ue1Ss02cvRsp6Zm56iyhQDBRqrpWJc
+    n4+Pn2AiFhEZOL9fOLqambcsM8G9TUytnJucm58uCAENYas5Ka6Oi5a5Lh8XFh8zNS7Jmpas
+    MTuwrFUzyKOgo5yXrxEDCSXBMR5PkomOplczJhoYHiMmVZ6Xp0t+qKlKMMGirMWkkpgkBwcb
+    TigVIp2KjJ27vccrGRYYHTOonKrVuKCoQC+6n7Yz2paNpBYIDiMvGxUvmIuSq7mlpy4UEx83
+    TOnBr6ensltXtqe3OTysmJquKw8MGF/jHBe9jI3BJLuYuxQQP5+/Hyijlq4oLKycsTEztJ+k
+    sLlHGRAcTDsaHa+SnT06pJ1HGyawqzglXKKnUC/dqq30PWi2rrK1vEkgHC3aOx0ivJ6zNUym
+    pEMkN7CxPy7/rro+N+O5ykVIx7K0vr7DXzg5X+Q/M0u/vmpWxbteLixB4FtCUsnB313ev9lE
+    SdzCxMG5tsdSSHLXVz1F387m9Me3wT8tMk9pQTpRyMtZTte/zko+ar66wsrEwc94Ym1ZTU5l
+    fl19w7nNPjM+W1FAQWrQ23Tdxcb5SErpw8DGysnM3XNcUkxNUlxSTu6/utFJQEhMREBKavn4
+    08G+zmBPVvXazcO/wszV5XRYSkdGTFJh4MzHzu1USklKSEdMWuPLxcveXlBacu3ezL++x9LV
+    1vJOQkNOV1Zd68vG2FVMUFZOR0tY7c7Kzd9dVGJ//nfbxr/H0dLO31JESV90WlN5zMvuUFZu
+    Yk1IU2/k2dHS5F1XeexvWGbYyczW2tPgVUZKX21dW37X1/JiaHplWFRf7t3V09Xle+3d8FpV
+    Z9/T0Nje2uBnUFBeb2ZaXnjtdltZX2xlXmPw4uPpfW/44t/pe2Vu5dPO1ePj3e9cU2Hn6FtU
+    bN7mXU9Zev5fXvvp8G9qd+fsc33k3+fi19HW6fro4WlWYfLwXlRn5eZkVVtoZVxm69/+YWN8
+    8m5pc+vj4t/a2N7q7eXh7nBz6up1Y2h3eWpeX2Rma/vp7/9wbv9+Z2Fpc3/06+7y7Ovs5eTy
+    bnDv4upvZW93al5cYfTf6Pv06+v3d33+e/v5fH9+8+zz9fry73tqeOTa4G1ievRmV1dj/vNr
+    XnXk5HtnbnPv5+zyf/bj3+3+6tbZ9mBfeuftbWv7fmtcVWH54u93+O3zfW9v8v/37v71bm1+
+    fm9sbltoeuje7vLt7+Xs9vL+6+bua2vk1tr6bHz8/ltPVGX7b3R07O1/Z196eHRqYmlrbnfw
+    7e3c2t/j7eLd6PJibOzh6OLven76Y1taXmZy+Pd3Yl5uc2Ry//ntfW3y6e/e3evraV/56uf0
+    5eLv62peZvbr+PbvcXJ7efpmUklW0MTWY2Pn2e1sZ1tOR0/e0N778tjS2uHh/ndsWmB06+/1
+    9e/v8PDp92jo09X4WlBd5P5MR1/Rze9XZN/sb2hfbGpsdPp2bPLs6+nm7fni2tnk6vtxb2Vk
+    YV9t9d7W2t/d5ndpdft+f+Xk7ntzbmBXUVJVVFRVVlRYWltdY33r2c/KxMjKw7/BytDg1NDr
+    6N3halJAPUU9MzQ/QUFKXN/IwMXIvrzH3drX9ldLVO3pY3nIvcHFurG1xMzPSDI0NConLC8u
+    OlfYwbSusK+vtMLP6UU5OTk3PE1wxbSvsKuoq7a8wUIoJy0gGh8sLjZnvKyko6iloK3dXk4u
+    JCYpKzJE5rWop6iinqOstr9uLhwaIh8WGSxEQtWqnZucoqajrkYrLCgeHiYuPc62qp+doKCe
+    pK+70zooHhgbHxkXJ/7ox6idmpufqquyPyMhIB8iJjDdrqupnpudpamrscFbNywnGxYdIxsd
+    P8PAraOem5ypt7TRLh8dISorLFyrpaupn52ksbq2vlpDRjclGR0wIBckzN92vaudnai7q6jQ
+    LCcrLS0oNMKssbWooKSytbKy1URN3H41JxweLCQaIFXZ3sesnpyotqyt1C4pND8yLkq6sb24
+    qqSsvLy3vlY/SONuRjEeHzQsGyBF287Uv6efrfq+qbc8NE3PXjpIua69ybWpr9xkysloPThY
+    1mj4Mxww0SYbNO7gzzhVqajg7biutGpA5rnPXeq5sLvXyLjITD9s3G0/RcfB604vK1RAJytD
+    SFw+L2W0w1/JuK204Oi1s8vNwrq83Ejz201ATmN97l7f0cz451A8QkQ6MTY1NjU2SO3Kv7u4
+    sLK6v7y/wcr36+NtSEpJ+PhWa9XPzu1y29nY6GxPVUY5MjU8PD5BaMm/08y6vs7OxMTG2Wro
+    7VNSWFb/6Vluz9Luy8jb0NbpcFReTjw8UktNWFL51Ob+3ex95eNb6ODr39luY9njamtp+Njn
+    8dnPz+Tez191dUxVUlBMYGjw8d3c2c/fWnHeXnN2+WpxZlpbak5S6ubsd+XT0uPW2PLw9lBT
+    VmlUTWHW2t7M2szDd1zP205R+3JYUlVaXFNNXupiWerW2dLP1czI3G30X0xYXlNmW2Tl32bb
+    1NvX++vxYufqalpeXfxPSWZ7VVtq7cnM29zCzf9l7l9OUFVgc2Rp7e3xaPnf4ebp6ezf1Ofx
+    3XJeWlpMVGxfY3fyb+fT1u7f1G1dclxa+/hb/Nfxct1veOjde9rT3N3ffmBmWV9dV1tdZ1pv
+    7Gxk/tPm/+Pj8OrcamzU22By9G5v6nNhb+RsYunW9O/p9F9dflxdbmVxbG1q9u5r7dHPc2rX
+    3XfiatfqcHLz+WZXXm5x62tjYNnwX2v94PRUaPxubFzp7Xty+efs5+Xr53zl9X3W8drcdfXe
+    al9o63NmempvbF9k+etZX25+aGx+cvp7eWjz9X1eb+7x53nZz+h41tnb5e1fdt37ZO3weOx8
+    Z1x6YF1ga1xm7mTd+uxv7ltd5uheXOzi2Httc9Xu5lnk0Ol+6dzY3WBn/XprUktn2FdSYt3k
+    9+Pi7NZyUOnVXE3ubuzY4mnh5d53at7p5G3o8u5oZfFqVfFjWmRS2GjecuDP7HxKz93mU+rl
+    7mVNeXvtWlrm0Vx8dMzZbm/a0nxgbd3pV15t72pV3eD3Xfbx33Ve5O3ucV9reHBjWVnX0WRX
+    5MzbbnHa0dNtX+nka2RbXWn+W1NcaPpST17gXV5v/n7p2eLd3s3LzsvIzNbT7c/J39zN0Eo8
+    OTs7NzEyP0xYYt7LvLzCx8a9vcr+49XW7+3ezsbCxMe9v9hEMzI5MSopLTpKXu/GuK+vusfK
+    ztP/T1Nm79bt0r+9t7m8vbe8ejstLS8sJyUrPHDnz72wqquvvMruWE0+PENKWerdxriysrK1
+    tLjLUzUrLC4pJiguP/nTxLeuqau1wct2U0Q7PEBJWmvVvbWzr7GztLrHUzgsKysqKCgrOm7P
+    wLyzrKy0vctcTkU+Pj9FW9vOvbaxrq+ztLjE7j8uKiwqKSkqMEjuz8G7sayutsHcY19NPz4/
+    S3zazLy1sa6ytrm/y2s/LystLCspKy9BbN/JvbKusLnBzu90VkhCQ07nzMbBuLKxtry/wMv4
+    QjIvMTIuLS0zQVVe5Mq8s7W+w8fN0mpLSE5f6dzWxb65ucDBw8TL505AOjo6NC8uMDdDRlHs
+    y765u768vcPO52/7dG1+e9jGwsbOys3GzdPreE8+Ojk5NTMzNz5GW//dy7++u7u9wMnPzNz+
+    eWFr+Ojr1OjV2u/Y1srf3VFGRUhAOTg3PEJNVWf1zsG+vr/AwsfT0upwb11UXl30ZN/44c/W
+    yM3K3uxcTU5IQD08PUBGSVPrzb+7vcDLytLyWEtPTk9GT13j0s3KzcTHxcvKyc3WcVRNTEM9
+    Ojs+Rk5bbt/MxsbO3fF2X01KTlJgZ2nczMfCwsjCxMPJysrO3XBXTEpDPTg6PUZNVmj31M3O
+    3fVhaGRWUFRZb+rf183GxMbJxMXDxsjKy9p1T01NRj88PUBITU5SX+vZ3XpmX2pdWVVaaunj
+    4dXLwb69vr7AwMTGy9psVE5JPzo5Oj1ARUhOXevd5vZ1ZWdiX1hf/eLWz8nCvbu6u7y7vb3B
+    yu5MQ0FAODExNjxCREdOb9bP1ON7bmhrY1tb+dTNyse9ube4uLu7vb7E4kw7ODg1Li0wOEBM
+    UVzpysPFzNn4eWZZT09d38/Kxr+6trW2uLu5vMHXTjgzNjMuLC41QU1ZaN/Hvr/I2mlbV1ZR
+    SlXyy8TBvre1s7K4ubm6v9FNMy4uLywqKzFDY9/Yz7+4ucDdUU1MSkVGT9/Evr28s66ysLO6
+    usDCfT4sKi0uLCksNU7Xzc7HubO3xG1HR0VHPz9P2MC9vLmvrKywubu6vcxzMyYkLC8rJys+
+    3cXFyb+yr7jbRD1GRT05P3XBvL69tKmorbS0s7jK2lIuISAoLCkmLUnIvb6+t6+xwk44OkNE
+    P0Fqwbu+wrmtqKqxt7e4wONtZTEfHSQrKycsUr23u726sbXMPTJAVlJES8y2tr7Etquqr7y6
+    tLnPYGLVaSYbHysxKSMyxbO8z8eyrr4/Mkvd3kVA0La3wsu5rKuywcG5u9FqcM/GzjAcIy4w
+    KB8txLjeW9+vr89DTce76z9My7e/xsC1rrK/y8C7xfR12tLjbNk7HyUsLi0mL9vC0NLSvL/N
+    eHjQyudgfc+6v7+/ubS6v8HGz9p06Pbo7lz94TckJy46Miw407/Lc1HMvsdaTNe7xO1oxLO0
+    vsq/ur7kbvLU111b82VkU0xf8UQxNjtGPTc+T11MQEPWyuD+0L25wsvFuLW+y9nIxNxXY+bi
+    a1Nx3tvqYF/k2/5NSEdAOjY0NDxGSU1d4s3O0crCv8PEv72+yuHU0ehrVmr929Lc5s/M3u7/
+    /3taS0I/S0o+PEhZYFJKUmZkVGDt0s7LzczKydDq3dbQ2dTNzNTg283jYXvl62RNTl9vXFRS
+    XF9QR0hOT11o9Obt9tz1Z29rduT+atzT1NHU1tXW3OHl3N/3WGP7ZlhZ9Ovu+Ozc7V9eW19e
+    Z19dbF1UVlpZWW/Y2eDh29rZ19rZ2eZtb2JWZ2Vabul4cvzo5+Plenzv3+z07nF2aFhYXVlb
+    YV1i/9zj4t/b5vbwb1da+HJ0697i4uju7P1vfevd5vDs3u1qX11ZWV1mYGBpbvf07eju+N/u
+    Zv7zZ2Lf32lp3uT67/J9+ub/bXPr7e3t6XViYl1bX21gb+3j7f7z6u7xeWt1a2lv+fTq393o
+    6OZpXml3aXB+bXzi3/x97OZyaHzx++z3e/nzY2RpZGRtb2xzcP30ce3n937v6Ots89jtZfn7
+    /OPf9/js529ifm1ka2pm/HJdb3L9bWJsd+fm7+vg7Wj63Ol39+d+b+3rfvf7TlzSXVDaz/R+
+    eXvxflln9+NsXHvib2/f5fJz+3nsbmJobuz6ae/db3bd5u/rbXjmbGZ1dPD8dP3ud29qbnts
+    Z3dveff/3+dvZ+nv9fD36d/r7+ba2XBj5t1fW2JuWk5PYv1dV17u6Wpg8el/aXTl5+976dne
+    49PKxs7dz8rN1OPUydJkT1xrPi0vOTYxNkXr1+TOv8HL0szDzOTWycjJyL65vcO+u7u9v7q9
+    KhozOBwcLmq4RD+moc1GYL3MKy7Dv1BNx6uwWcipsMnJta65yrixOxgfPB8YKGu3y0iqnbJP
+    9OJCLS1H91Hmu7a7ycCws8O8r7K9xLWuyiUYKDkaGj+5vO/ToJ7ORsLJNR4ozEwtda2uvd6u
+    pr3Kra21x8msrk8lGiYzGhpduNDqyaSi4Ei81i8nKTxNOlOvrLa8tKy1xLKtt7m9ta/EMBwd
+    MSQYLL3CXWmtnrc817s+KCkyUz46u6axvbCqrs2/q7LSv7OzvT8fHS0lGCbTxWLrsKCvS+XB
+    PyouMztFR8OqsrusrrrFvq2y07+utsJyJxwlKBwiScbM17qkqOZnzlIvLTI/P0TOtLa6s7K5
+    xr6vr7+3rbi+yiscHycfHi/Hve/Dp6TFTOviNSsxSV1Lf7iyuru1tr2/tK65v7Cvu78+Hhwj
+    Ix0mfLjM1q+ntlJP7EAuNktRS+C+t7m7tbfHxrewtbuyr7q85SYbHicfHjy0uuW5p6riPnP4
+    NC9AX1BWz727vru7xse7s7K4ta6yubw5HRojKR4nw67O1K2mtkJEz00vN1VZSFXMt7zLu7zM
+    x7evs7qyrbe81yQYHywfH1Kvu/+/pqleOt3ZNjBFXExW7r2ywMS6xcy9trG0uLCyuMYtGhso
+    KB4wtbDh2a2mwDlPzUMvOlBYXmrDsbvGu7/Hvbiusbuzr7a+Rx0XISsfItKsvFW+pa1FOtLZ
+    NS5Cb1tdzrOxyMm9w8u9rq65t6+1udoiFh0tJB9IrK785amm/TFlwkQuMVO/VkW3rMD1yL26
+    zrmosb62r7PHKhUaLSYePayr0EuxosUvSMRfMS9AwctDy6yy/f/Dt7zBrKu2ubOuvy8WFiks
+    Hiyvpr5Hw6OxMTjM3TcqMLq6QMerr89R3rK5x6qqtbi2r7kxFhQoKxwrsaS9Q8qjrjE5zdM4
+    KTS5ukrLrLDOUdOyvL+rq7O3uLO1NxQULCwcKrCkujjhoa8vNM/TNSU7rL9Eu6qy4UrGr83D
+    p6u0ubSuvC4UFS0pGy2rpsQ9y6C3LjzJ5y0kTKnLP7WouFNJua7pv6aptbyuq8YjExsuHxtI
+    p6v4Sa+i9y5fyD8oKeWsWVCrrNRY2rW4XbOkrriyq61tHRUhLhwezqayUW+pqzs3z9EzIy24
+    tj++p6/fVcex1neqp7C7saizORoYKSgZJLSrwU3BpbozTb9UKyc9udNOr6i8/NW7uN6/qay3
+    t66tvjQbGikjGSm7r8pWtaS/OuzERiooRrRbWaqpwvDHs7xTuamyvLmtr9QvHR0qHxovw7/b
+    7q6n1EfFzDssLWPCSNaqrcnYubDD26+rtry4rrnxMx4eKR8aL9jK7OKtqdJevtI+Li983T7J
+    rrjIw7Oxx8Csrru9tbC+ZD0kHykiHSxW7Fdes6vI17zMSzU29Vg22rXC3sexsci6qq68vLG0
+    zeluLB8pKB4lPFxLP8Wuwt+7u9ZMQ+t0OErK3W/Qt7G8uKuruLyzuM737j8pJSwpIyw/RDlC
+    x7rOyrq5xd3TyVw7TGFOV823tr2xq7O8urzPYFnwSi8sNTQsLz09MzZUzebou7G1u7u90kVA
+    U05IdczJxr23uL7AvsTO0dPoTz9DQzYxMzEtLTZKXeDGuLK2vL/OTUJKTUxO98nGwrm4ur6+
+    vL7Ky8jWe1RDOi8sLSwrMD9k6s+6try+wNFoTU1RSklt083Fvru7v725vMDBxMbL5k47MS0t
+    LC0xOkZkz8fFwMHI093lXE5OU13s2tXMyMS+vb2+v7+9vL7Kf089NC8uMzY2O05lbO3Y0dnW
+    ycn1UlNXWFdo393fz8jFwL67uLi5u77E1ltFPjw2Mjg4NzpBTlRa89XT19TW4nRWV11UXvDc
+    zcbCvbu8u7i8vL/ExMjTcEM7Ny8tLi8xOEFb7t/LwsXEyNbjT0hRR0pYatDEvba4ubW6u7zB
+    vsLL1l5NPTMzLiwxMjQ8RV/Z0cW/yMjL3eRVUVlJUnx+2cjCvLy6sbe5tb2/ws3SU0E6MC4s
+    KS0wLzlJa87GurS6vLzS3lVFVkNAWVh5zcG3s7Susbq4vsTCzeFPPzUsKyolKC8vOE7Ru7ey
+    rrC4vtLqSTRBRThNedvExLavubavubq7xMDE51hMMyopJyUlLDY9VMGxr6+usLfNVU9GLzRO
+    QEfdxbm+uq2vurW1u73LxLvUSE06JiYkIyQmME1vxK2pq660t8o/NT05LTxsX8vCt622ua+1
+    vb/FvLvLw7TPPDwpIyMeHyguP9C4q6aoq7LB7T4uLjIyOGzIvba0r7G6vr7FzMvCuri5tr1Z
+    Ri8eHh8gISg+vrCtpqKmsOxGPzIqKDFN0MzAr6yyv8/JxNRv076zsbKvrrxMMiIbHB0fJjfO
+    rqakpKesxTsxLSwtMD/eu66vt7m7z1ZBRN/GxLyuqKipr79KLiEYFxohLELEq56eoau8bzUt
+    JycuQN66tbaus81hQzxJUPTBs62oqKipr75KKSAbFhshLli7rKOfpKzAQTIrLC80TNe4rq++
+    z3dFRTw6U9O6rquqqayvssJkPiomIBseJTPiua+qqa2wxEs2LC02Q/jNx766vcnrRD5GTtjC
+    urCtrKyvub7HdU86LSUdHiMvUs+7s66rrrj1PC8sMjxcy8S+vLq9y+9NSkxe08m7sq+tr7a8
+    xtLrUDwyJR4fIi9Jzrm1s7GyuN1ALSsvOubFu7e6vcDF2mdNQkxvxbKura61uL3M2edLPC4j
+    Hh4iLUvJtq6vr7G82EMvLC4737qxsrfB0OhOSEJBTuG+r6qqrLO/0Op16FE7LCAcHSU17byz
+    sLGxs7vURjItMkLVubO0vtRuTk1MSlVwy7eurK2yu83lfdrQekQrHhscJDXhtq2tr6+yu89H
+    MiwtOX3BtLO8ye9VWF792s7BubSwsbi9xM3S2l9KMCAbGh0pSrqrqKussLvKVDkuKi0967mv
+    sLjE2/5kZP7cyr+4tbO1ub7Fztb7SDUkHBocJDnJraanq6+8z1c6Mi0uOV2+r62xutBlWFJd
+    9tnHu7Swsrm+yM/Q1mo9Kh4bGx8ubLSpqKywusnsSzszLjRJz7eusLjFe1tVUWH40L61sK+2
+    v83e6NvaaD4rIB0dIjBuuKyrrrW9yNdbRTo2O0zcvre2usbfZlhaaOLLvbe0uMDP7HR739HN
+    +zYlHRseKUq6rKqtsrvAyM/ySz03OEfiwLq8xtl7bvbfzsjBvLu8wczmfnLt0svNVzAkHh0i
+    Lm61rq6zvsnJyszmTUI9RfrNv73DzN7649XMx8rIxcnLz9vs9X3q3u5dRDktKCgpM0nZvbq8
+    wcbHxs7e7F9eafze3NXU2dHNysjN1drg5ODc1tDU3nJcU0tEPzw6PT9ETFNeZvzh3dLKyc7Z
+    /WZkcurc1NHT2tfUz8vT3XtgZffYy8bJ1m1ORUJCREhMTldw/3F3enFlYml85ujxbFtefdvO
+    zM7V293Wz87Zb1VNUXjSyMbN7lNJR0ZLVFpgbn3i2d/g9W90ee/u/3h4aWv559/c2+Dr8PDw
+    9WxnZV1cZP3f29/lfWhZUlVVYH3g29nb4Op4ev768f12a23z7Ovp5eDe3N3j7m9hYWBhZmlv
+    cW1ufP1rZV9XU1hfb/Tn3Nja4u97a3bs39zf4OPt/u3f39zd4fVdVVFSV1hbZHvw5d/vaWdv
+    //Z+fHl88+fi39/h7GxgZXD+8e/1b3L27d/d2drneWddWlVPVl1u7d7c6XpnX2Bn/ertb3Lu
+    6uXi5vL27eno73pwen51f+Xb4+fi5+7r6f1nWE5OUFdq7N/g7HJfWFtleO7y9O7v6+nm5/rv
+    4t3d2+Dv/P39+vLl3t/sfXdua2VdV1RSVlxod+rk8HdtdvP48ejl5uno9nx7+v5ubXnr6+vt
+    7vd99uri4+Dn8XFobGllZGZsbnJ++3Ftd/13/Ofn7v52amhpZmt2fvf37+nk3d/o7u/z7urt
+    739vbWhoYF9rcHFueXZ3fn9+eXN68erk3t/q6ur0+n17d3ZyZ2hyd3Z0d/7w6uv+/npram5t
+    bvLxeH3x/v3q5PL7+G9ybWpreP11c21uaGh4fHv2++/w7N3b3d/b3uzx6+51dW9tYV9lYG1s
+    aW/9e3t1amdlbHBkZXn2dW386+jn5uPpfu/s8Ovk5Ozt+HpwaGVmbP15fvX6efr9cmx37vP1
+    6vVqbntudWpocXD3/O/ve2ttcnp6efLzfe/u+P159+x4bH9+fW9rb3xtaGlzd/fl5u7t6Ofj
+    5n78+np1dXFnau/+ePzz83t3f/xsX2V1b21scnR79e7u7vttbXlqdHV18+7r+m/25enx8On0
+    8OTudm5tbmp0eX3yenP36ur+//726/j1e29veXtmaXFybWtvb21+fW9sdfv2d+3t+e3s5ev0
+    fHb0fXFwcfn8cO/v7evs8fn0fHh1evl7aG98bGtqbnn6/P7q7fnu6W9oanRsbHhubfn+bX5+
+    /O/r5X799e/t7vDx8/d47vxtfXZt//H1+npwdHdyenZ8bv1rYmx/7+3u9vDv7+339/nw7O71
+    e2/+8XFvcHBtZWz1bWlrc2948+7s+uzp6/Lu8O/s8vPz7nV8fHFvbft8dG1ydu7y/ejueXJ3
+    cWVqbWBif/7n6uzn+P7o6ursbPl4b3tufW9zb/71b2px+fv67+/+bv76e3J+7fr/5e5+9/Lt
+    e/f79/x2++77aW9tbW5sb2hebXd1d359/vPz7uDm3+v+9u3z7uz09210+f387vxtb2t2enBy
+    bmpuanB2Zmr4ffzz7/B/eH33+OHk7/L9+vTp+3Z3dnhvb3zxdP/79nb35/H+9eb8bfP6ZmBp
+    Z19x+Xz8fvHm4uTw+Pn2/nF6+29r7/d08/N0cnZvcW9vcmxkevz28Xv+8/H+8fbw6+339Pru
+    4u/s5O3y+Hlxb2tibHFyf3VvbXZ0b3F6fvvt/3h88fr46vd77vl+6/h88nf6eP7n8Xzyf/7z
+    fnRpanZqcHZ5dvb5f+3n/Hb58m/76vb+dHXv+np5bXjz5eXq7/T1eXZucPV9f3n4/f3+/Gxi
+    bG9oe/P7+Or+8eLx9err83d8+XdmaX12cXb3d3p6cW92+e7wbvb07Oju6/fy/Xvv7vx27npm
+    b/VvZnR5bmtvfvZxbnf08Oz27Px37fnr7fnvevlvZ21rYGvw8/7n5vXw7vHr7e75d2dkb292
+    bfR+ZnZz8O/tdmt/cnl5/nz/4ubp5+Xj7fRua3prd/1wbnj6+vl+/Wz7/XF2+3Fr9fxsaXdv
+    a3rw/vn36e93fHb4fPz16evw6+z1cG56c3b78vp8e/70c2129nJlb3NveHfv7Hn85+nq6en7
+    eHZ+9nxwcmlgbXJsdnD7eX3s7e7y8vr4+3p6/W16+vbt5u/s7fl4eX19ff9tbfv2/HB+fPx0
+    c3lybGlucPH57/Dv/fjt8Pt58+n5fvf99/N0bm1zcHJ9/vT9en729O/o8/f76/N2b3lnb/v2
+    92xkZXb+dHX28/r48Hx+9vJ+efzw+HH39Pf2+u/ufPjpemz2fXtxamlx/vj+a2pndv54bfjr
+    9vzz9fbr+33q9/bm6fv+9e7u6+77dWhrbGpuaXR6aGNrdm1zfv10dfvt6+/p6e/s5ubsfPzv
+    /fH++PHw82p6enRqa2ppfvz0dHj47e3ky8hYTmtmSlRu5tzhaezQ8VFRXVXl/1Ba2tbv3sTH
+    38nUeHH7SU1bVGne7WPl1ujp4nZuZWhpYl1qaWpmanvf51lT7+rs99HO82h97W5MVNbO1m/U
+    xtVJVm5dU1tUadTacvvZ3W9ya3pcZmth4O9h89t0dN7o7txg8OdZS1zt9mB46ttpbeLzbGvt
+    19h+29HYY2J852FXVGbtYmbh6337bm1kW3N7YGfi9Hp97eXm6ubjanba5Gtw7edja+HfZ2p7
+    +H1zZWp2a2/s3HJleWZgaGd6/Gx46vT24uv2d/l7ZGt+b+/g4+7m5/3u5Xxob+zjdGz95H5f
+    de5qYWFoXWF24+L/bPn9aGRu5Xn+59zi9efte19de3JeZ+Lrd3fp5Pth7t3ubHbj73h09/5s
+    Y2/d1vNt7uhyalxed296bO5sYXrwbm/1ceje5u3s+Ojq6nlnbH9hX2tw9Of9Zv7u7n1q8vL+
+    /+fr9WtueHFoaW9ndGvr+3T17er27N7k//jv8e77dvj2+v5ianJlX2Rv8Xdt9+r4Zmn9/mb9
+    7uNwduji+mJ7+Xpeaufrbmjp8u3s7ePkeWxy8Ol0euryfGRf+/NcaOjwaWb0fG1lc+z9a/fu
+    8XX/8u18bvPv7n3j3eVnYG79Zl76+mhf9OTu+PHm919k+/J0bnfv6vh66uvz9/HsdGn4fml+
+    +PDrb2J76nlbWWx2Yl9z/HH78Obn+Xrh4WRb79x8Y/be6HF83+pnb/f5cmrv6Ph7e+xybV9q
+    aGhucn75/350cer09/xrdvPy+X117eRtcnpkYmdv7e5+/vb06+/9+uj4aXL0cnv47+fm5uXv
+    bWx/7v1saWxvZWR16vthbvjtd3f9dm1sbebrZXn9/X1sZvH4a2r53e396uP3++/zbHvj8/p/
+    cPLd7WZ69e58Z2hpbV9fbfj7bXXo9mPv3vF2ffNyannve2997Ov0++ft7vF26fh0e3Lv62li
+    a2V8/nH8dGt08/x2b/zlevXr7PTs7Pzr+nP25up3b3Ztce72cG9xdvfw9vp6aGt1b2tt/nny
+    7e3vdf75fHJv9/T+bnJ+bXNs/unw7OXr93t66ep27ePwe/Ll/m598+3wem1zbmdeZ3pya295
+    amx36/R3bWzu5vX98eXp7+Xl5ntv+3VocfrveGtvcXf4dm/u73V3fH349PP5en7k4vZ2/fP7
+    cm10dXV4dG99+Ht7b3X29/jwfv7v+Pnr5/z27e3zdnp9/W1kcfb5bWhsfe3xfHFpaf7q+Pfr
+    4uN1cunvffX56+Tz8+bsfmtoeH5sbG93bWFp+HZsdmh47+7vcHP8fG917+Tl7Oro6eLl5e15
+    e3x9bWhw9f1ra3H/dmVjb3B3fXXr4fp5fnj67unh4+r29/hvb/f0fWls/XttcP/8dmtraG12
+    +ubj7/787+v9b+/s9m/8/Gr99+/jf+7o9353/P9xbn5waG9vbHv8ePvu/Pnv8/Lt8/jo4OPv
+    8Pp/9nFqbG5vbXV0c3zxemtxcmhobH7v8/54fX7u6+ns+e7n6/Tr5u70+3v2fXb57e32/HJp
+    YGJubGtzfvX+evf05uvufHb17O39e3VzaGppcu9+6uP3fvn0+Wts/fr79fn+8uzu+Pfs8ndu
+    aGhrcW9v9/D7e35+fO/l6PBv++v7efz1+/Lq7fh7eXh9/3J1cW5vb/ns7urzd/HvfGlncf/9
+    cWtt+3Nzcnb6+/Ds8vLu+Pv4fPDm7/zu6fX/8+ro+3h2cG1pb3dwZnn1eHx7e3d2bWxzeHB0
+    fPN4cury6+nx9fPzc3p5d/pwdPDn5evr7vh8/vl6dX75bG10e/V6dHf99Pb6eXR7dnhxanj9
+    fnj76ens6+f2fnX6+XF0dXhtamptem50/fn9ffp0bvrt5+jw6N/t8vX38fx0aWxvd/x1dHv/
+    enZubXz+dnB3+PXy6fL17+3t8fHu7ftvZmBfam9paWt57u36e3359/d3bm939vDv9PTw+v7y
+    5+bxe3j1+vnt+ndy+vtvaWhta2pxcG1oZm5ub3v/dXjz5ujs8enh6/Lz7fv//vx0cPrufHP+
+    dnF1cWt99vv/cXZ7ff15bnbt8nt2+PR0dO3t9O3vfm9393ttb/338fB9bXr99+3vbmZxfnVm
+    anN9+Pb6fXr28Pj+/vV8cf/s7O/s8v728/Pw8fT//3Rsev10aWZlam58/29udvz6dGp07O/1
+    7Ovr5t3j+f51cG1ranl8bG9+9/Px9vf3+v52cW9vcf19fffv9fbs8npzfXFxeXZyfPTv8/1+
+    8ez2/X9+bmlub3Jsbv/19Hh/7vF8/Hdy9vZ5d3R78vZ+fPf7/Xt6/fv39vt9c37r8fvq4ep9
+    b2tvb2x1a2JocnBv+u/w9Pby9HtpZmp0/fv4dXN67ePm6Ovm6vhvcXB19vB6cn17b3NxbG9t
+    ZWd77+/u929u9Ozx+Pjs6On/cnpvenhtc3z9c2hnZ2hpa3F0ff/57e338u3r5+rq4eHt6+3z
+    8vj48HpucWxkZmhhYmhpa3JuaXzx7uru7u/89/d/9+/y/nx3+3ht//Lt6+fp+HT3fmZnaWx3
+    /3x4dPz6e3Fz/evw/nz76+/8/PXy+P5/e252/G9mb3/9dn12bHJ57Obl7fZ8bG568+fm5un+
+    a2ZsbW/77XpeW1xdY333eX58/uzm6ent7fTx3uHs7eTf2t3m7nRoamFdaHP5d11WUlBWX3/g
+    2trg821pbXv9/uvo8nJmbHv77d3p+PTq4+v4e3bz6uDY7Gb382nq4378aWhyXkxHS1jl2Nvi
+    eHFtbG9rbeff721fVl3jz87T3d7f5uHk7Orb0dHrWU1SamdXTURCTGXi2tjU1NvzW1FXbN3X
+    3epsYFha8+HUzNXZ33zo1s3L097kfGVeVEpHRUBDTWzTyMvV5mJbYG78+/Ps9v9sVFjy4ODl
+    fnzh1Mi/vb3F2mlPTE5LSEI/PkBLYuLRyMvQ3XFqb3vf19z4ZmBkXWjt39Tb6dzWyL2+xdJx
+    ZWRPTEg7NjM2SuLFvcXS9lVTY33bz87P4V9RT1N0zsrM12Vp2sK6vcXO6PlpTEQ/NjEvNlDQ
+    vbrC1GtMSlJn1MrM0O1YU1tWds3Ky+xTbNC9tLa+0GljaExEPzYxLjNM0b68w89oR0VPYdfO
+    xsbsc1JKX9nBv811W2vNuLK0u9ViZVFEPTkyLCozUsS3ub/OZkxKS13by8bH6ldOR1fdycPP
+    bFhk2byyr7G+2npYRD06MisoLkfGtra8zGVMSUxi3MvAw21IQz5R3s3H0HJiatu8tK+uus50
+    Wk8/PTkrKC09yra2u8dfR0A+THHPwL7UUD44S9nBustaTlHuv7SsqrC+6E5EPTw3LScrON63
+    t7vE7FBIRUlV7r+8zWE+OUbgv7nFeVJMaMe2rKquu9VVRDo1MysmKjfkt7O5w/5NSUdW9dG8
+    vMhpPTY/5r63xmNHQVnHtKyqrbvaWD42MS8tKSs55rq1usLcU0pKW+HNwr/OYkU5P+rCuL9a
+    QkFWwK+qqK2821NCNzEvKSUrPM20tr3KbE9KRE79yrq6yWU/N0PcvrfFWUI/V7+vp6auvt5N
+    Oi4uLiknL0fHtbm/z2RTTUZS5Mi7vcxmPzlPzb64z1dKRXi7rqmqtMHaTzouKygmKDVqvra8
+    y91rUlFOYM7Cu77mTj07asi9u9pVTErdt62oqrbKWEY2LS0oJCo37ba3vcL0a2xLT2PmwLvC
+    1Us9Ql/IvMPkUkdN57usp6u2y39INispJiMtSMu3uMHI3WdiTVbgzb28y/5KPkvjx73NXEpE
+    Uc+4q6est9FXRDErKyUkLknBs73EzXVtXlBh6su8v8l8RT9Szry93k0/P1vEsKmnrbzUej4v
+    KygmJjBOxrq/x8/hcVtWfNXIwcbPZEVBWcu9v99MP0L7va6oqrC+4F49LionIyYzYrq2vsXX
+    83dZT2bcxb3Bz2dFRu3Fu8JiQjs/57itqKu1wNZfOSspKCYrOfu7ub7G3nRnW2h9483Mz9pX
+    Q03fw7vHYkU8SNG3q6ittsbfazwvLSgmKjJYwr67wtvjZUxUV3vNysfPX0dL3b+7yGBAO0jT
+    tauorLTC51Y4LS0sKystQc+8t7vM315SZFxs6N3Lzl5DSuK/usdlPztG07asqauyw9fgQzMv
+    KykoKTZqxbW3vstgT1pRW97Sw8hwS0vfvbjGXT03Q9y3rKmssL3dVkE3MC4qJiYvU7+ysrfE
+    81hRSk1o28TE3k1P3MC5w2lAOD70u66qq664zPJOOzMtKSYlKTzdurG1vdJWT1JNcNrOws5f
+    XtnGvMVzSTo9Y7+vq6yutcfeX0U4LywmIiQwWr2wsbjJa05OTFXr1sjJ3l94z8S/0FE9PE7O
+    tq6srrC5x+RMPTErJiEhKULBrq2xvdthU1NUX3/WzM/eYuLLx8xgRT1E9byxrq2vsrzQe0My
+    LSgjIiQy4LiurrfG4FZiY1hgXvLSz9rd2M3I31JEQVfLurOvr6+zvMtYOy8qJB8gKkfEs6+y
+    ucPN1vhWS0dKVvHm/dzMxcfcXkxP7cW7uLSxsLW+0U86LykjISUvTsu8t7i5uru/y+VSRkVI
+    TlFVaNzLys7o+dvNw8HCvry8v8ncVkE8Ni4sLzlEUl5qcODIvru7vcXO3fBrU0tMU1pWTk1Y
+    99fPzcnDvbu9xc7a4/BiTEJCS0tEPzw7P0pZfOrc0c3Kyc/d7fHq8WtZU1vu2dfZ1MrGw8PG
+    ysvN1udaSkpKQj07OjtAS1JWZ+LOyMbHzNXe29nqYVNYaO/e3N3b0s3Nz9LOy8rO23VfXlZH
+    PTo5PEVNUVl83M3HxszkcvTzeHRdVWri083P0dDR0tPY2dLT0tr0aGhmWktBPz4+REpMU2Xc
+    zMvQ2unu3dzl/GVf8dfUz8/Pzs7P0dne2tvlcl5ZXWJVS0Q/QkdIR0tX7tHNzdrz8uXd4/lx
+    c3Ds2NXPzMvJx8vP1dve7HleUk9XVUlEQkFDRklMU23YzcvP2tzZ293sbF9jeOTY29bOy8nG
+    xMnO0dnuX1BNUExGQ0A/QERGTFdo4dTT09TW0dHS2ex2d/7v5N3b1tXPyMbIyszT4m1OSkxJ
+    RUVCP0NGR0xYbOHU19LS1NLP1t3e7P9uafvm3tjRzcbCyMvP2+VnT0tKQ0FDREdJSk1ZbOjW
+    1dHP1t7g5+rk82xsbHLz5t3e287GxMXHzNXqYVRNQT5AQkVKSUlSbunc2dLOz9bk/W/07fJ7
+    e/nj2dXOzs3Jys3Oz+FnWE9JQ0NDQkZMTk9aanjk2NfRztTd4uHc3uj79O307N/U0M/S0dLZ
+    3e54Xk9KRkRDR0tNUl1oce3i3drV09PX2tzi8Hhv/+7o5N3U0dfb2N7n9HRlXFdOSUdJTU5O
+    WWh+6eXi2tjY193f4uDe5P555+js6+Hd3Nzg3t3o9m5dWFdSTUpJTVFWXGvv5eDd3t7d2tjd
+    5+bn3+Xu9PDy9+jm6ODZ2+f5bGReWFhVUk5PUVVYYXf+9uPd3t7j59/Z3d7b2t7m6vpyduzs
+    /fDm5ubuf21mZF5cWVZTUFFWWmBsbXXx4d7e4N/c2tnd6u7l5uz19ejm6eTt8enn8XRpY15b
+    XlxaVlZaWl9sbGl6fnjq39/l39rb4eTtevvw8ujh4+Lj7/v1fnBqY15dXFhcZWlna2xpa3rn
+    4ufp4+Ho7PD7+376/Pf0+PPy8erk7Ovr/25rb2pkZGRlaF9ebPr/dvvu9vru5+jt5ubveXZx
+    bHFyfv727fTz7Orn5Ov9e3ZsY2RrbGBjb21rc/r5+unp7u3y7evw+3d0cG9zc3J2eezp6efk
+    3+Xu7vJ9d/5xZGdqYV1iZmltbWt3+fXy7/n+9Ovp7/Py6Ojs5t/f5ejs9Pb5eW1dW11cWlpc
+    ZGNka3d9/uri5Ofl5+fj6Onq8P797vH77ufl3t/n8XBqdX58Zl9dWVlaWlpdX2RlaHfw5ODe
+    3t/j6+Xk6evm4ufs6ubo7vLu8XRqY2JoYF9dWFlcX11fa+/y6uPe29ze4+j5+PP+e+3k6+Pg
+    4d3d4/dqYmNfXFhVVlhZXmhx+nZtbf748Ojr8vLk4ubq5OXn5ubf3N3h5O3v6e12ZF1hXl9e
+    XWBoaGVmYV5lfHhy+e3v+/v88ens7Onk3uPf3d7Z2+X6eG9tZV1aW11dXF5gaHH39Prz7ezz
+    +nV+ff3s6eTj3drX09PY4uv9aVxYU1RaWlhZW1tedfH08uTl8f5+cHN59Orl4d/b3NvX1tje
+    6393aF5bWVlYWl9gXmB2fW5xfX797fF0eunf397e3NnY2Nrc4ux7amdjX1tYUVFXW15eZG55
+    /e3r9O/n7u7o39jZ3Nzb2dfa3Onu73liWlJPUU9PVFxganf97u3w8X10+Ozo6ebi3NjX1dHQ
+    09PW4vLzbVpXVE1NTkxRWl1eZG54eH3v+Xh78uzr3NbV0s/O0dLP0Nbc7n5tWlRXTkhNT1NW
+    XGVmYWxta3n0/e7a4uri2tnU0M7R0tDT3Nzg++xjV1hYTExLS05QVmNcXGxo+e3o4tjn5d7c
+    2tnZ09XRysrOz9Pf23pYT09LSEtISklTUVRXbF1v6/B3393f2tnT0s3Ly83Fys3Ozd7f9FlN
+    SklBR0BFP01JUk5nZ2jv5OTez9TRz8rMy8jGycPDycvL3u1uZU1DSD0+PEA9QUpLVFP9Wvjs
+    29zOzMvLx8bHx8HGwcHBzsXO+NlYTD5FOT03Ojs9RkNMT3JX1erW0cPJxMjAyMLCwcS+wL/F
+    xNR490s/O0cwPTM9NEA/REdYc27P1srGv8DCw7+/wLy/vr3Dv8jMYOVJRDk8MTQyNDQ5RD5Y
+    T9dnxs2/w7y8v8G/wsXAv8G7vcLB2mxSQjo4Ni4zLzYwPT5HU+LN1L2/uL21ur2+v8nGwcHE
+    vcXKaG9OOjk1Nyo3LTcwSUBO9czAx7S6t7azvMG8ytnfxtXRx8zlRdw/OzU/LC41MDU38z/z
+    y7jcs6+4uK+3wry96/fN2mjK2Fc//0EvND0sKUIvODzLP867tMirqriwrbnMvspXXNteSO5n
+    PztZMi4yPikzOzs37NP+v664uamsta+uvsbG0kp46VhN10EyPzkqLjMtLDg6QUnF276wrrep
+    qq+vsrnBytBgT2pWV+1DM04xKC0vJSo1MzxmvNa4qa6ypKexqq26xcPjR1BsSUzaPC9QLiUo
+    MSIpLjc2b77ItKerrqOprqyut77FzVtP8FlcXzA6PSUkLiQgLCwxPs7Luamlq6OjrKustr3G
+    zdxo5uR35zgwSyggLCkdKisvNfPYvq6lqqWhq62vuMHL5c7s3MnJzEE0UiggKyocKy0uOebc
+    vK6mqaahqq+vvtXX62ni2MXIzTc8RCUgLyceLy8xQMjOuaukq6SjrLW1y+j/6PNyzbzE7TJO
+    NB4fMh4iNTY4a8C2sqqiqqmmsL+8zOxZ28/cyLLAPTRnIxsnLRopPDk/urWuraKkrKqsytHT
+    b1llzL7Iua3FLz1JGxkrIhkuRUFnsKmqqp6lsKyyXmrva1vMu7i4rK88K2gfFCArGiZH3FS1
+    qKeuo6S3vLlYPlFgY86yrq2rqLYsKTsXEiMmHDPIt8Kpn6ezpKvQ4tk8N0nRzbmqpqeqrE0d
+    LB8PFiwhLd+oqa+knbO9rss/PkM6POy0sKijn6aswB8ZJREOIC8txamcpKifp17M3T41N0BV
+    ZbSop6KhpbHPRBcTHhIOK2FqsZ6YormosDE4VT82Psi1xKqepKekq8w8KRITHBMXUMGvqJ6b
+    qPbG0i8sRNZTWrGpt6uhpq+xuFg1LBQTJhkXfrG1q6WeqTtRwjIsUr/F+a+muK6jqrG7zl8/
+    ORsPJSQVLa+6rq+hoVk1vdUvOL67X7uqsK6qqqq8cmBlSSoRGTUZGNq1tbCrnKo9PtJuLjC6
+    uNa3q6epsaiq6kVn604mEB43FRrDsK6vqJurMDXNOyYwrqvJs5+muburrkY198ZDHw8iOxUd
+    r6elsamYryMmVEYjM5+ivq6kqcBer64/NH3DviwPG1EYF9Kjn7Sul6koIi9bMCqrnqyvr6yy
+    a76u2T0616q9GA0zLg8hrJ2esaWaxyQdIMtAJaSYqLPSs6lHU67JPzrEo7UdDic2FBq3mZe1
+    t5quHxUguEQlppWhvFOvqjk2uL1ANr+cph0NIjYUGLyVlLW8nKsjFBrLvyyzlZy9SMquTTLW
+    wdJexJyZRwwNLR0QL5qOmcisoTMYEx+11U6fmqC3QMG0PTlg1ru7p5mbPAkKJRgVVZeKkc7X
+    ryoQDx+1rbqdlp7FNDtPNjRdvKahpZ2fzRMDDCIhXJyNiZ8pMycXFRrpm5yen6m+KRwt6s28
+    rJ6aqczFvk4SAg/Dz8+llIykGRwvKiIksJScvt9tNyEhyKCjrKmmsT4rXrO+NxkRITssX6Oa
+    m7MyLywsPWK0q7VbMi442q2moqS6OyctWcuwn5meLgkHHDI7q5SLkzwcJCEfJmafo+ZKPFXO
+    b7CkukgxLD/BqJqZnaU/FAYFIqmelZGSnh4MEiBDt6SVlvIeGRs12LidmaVnJSy9qqWkqqy3
+    OhsLDG2gp6atrbEjFiherKu/srIvGRYivp2Xl5usLhkcP6ufnp+eoas8EQYJKK2kpKOcoS8U
+    FybLtL2soK8tGhvmnJiYnrouGBYss5uRkpipSywXBQMTqpSZqKSe5RcOG+umpqefosEkGB/B
+    nJyhqtMtHiA/rJqUmKpBJi4sDwgTsZWcvcuosSoVGDulnKOrq7A7GhYmppSbsUQ0LCIm052S
+    lapZOTYyGQwPK56YpLi2vDMZFC+lmZqhqr4tGRUd3JuXna1EJyEkNrKcl526SljLRxoNDiui
+    qbu8q6OyJxwvu56hts9kLx4bI76alpyxPCQdHCfDm5OYo7XgPSARDg8kn5mbnKKvWRgPHEqf
+    mqGsr1olHBxDpJufuz4rIB0rupmSm6z6ODU0IxsZHq+bpK7DYUMlGi67n5ulv2szHhwhe52X
+    nro4IR0dJtWelJSfx0YyLi4sLCMhxKissVAzTTstXsmuprVQNSorOk+yn5+tQyEbHSnlp5mT
+    l6ZMJSIv7ra5SB4dPkhGSV2un7w5MS1N90VbvrisuGBPSE9LMzBgvLK1vrOstuBOarSoqr8u
+    Gw8TLm6voqSnrDkkJSY/vbKsqbW78zo5P1DR4FL63trN18exsbi4wr2+XDYmHRYcZLClo7C7
+    vTInLDLEqq+vscfXPSw2U2rK02tuVlRo+82zr66uuM5WOzEyLx4f4LSqrXVkumo9OTHYr7nF
+    2lfdUDg+WF/Yztzd1fhVS2C8sLC2wc3P7VU+MSAfRMqyrsLFs+I7NS9fucfMdFLT9UBET2XL
+    0crKdEpGRdS7x8jIzcDCwK68NiEbJ9S9uLGvqrI8Kio06txf1r+8v1U4Q2XSyebyydBROTRO
+    zMnBtq6w0js73LC7LB8t07jYP+6urMk2KzZSSjxNuqeryj47bs9MNjzMs8BJO1e8t95LTGfg
+    ZFDqv7Wvt8HNRCIfKzrFtLqytPZAODRTz8m9u7vITjk5PE3u58/Au79nOz1MWWVbzLGxvdpI
+    Pz41O/m4q67HXEMrJzRIxLS6tLDHTzoyQEpCXM69t8haT0pXUkBI3by0vOtZX1JIRlLVxNF8
+    Wk9hcFz0zca/zWZeUkZIS1F+dmB65tTO5WFVSkxl383HycfI2G1OTFpeUE5m0cTHz+xrTTw+
+    Sm7QzM3Fx9llS0JDTGnQxcHG2WRPSUhV79bQy8rO511PSUpKSFfez9Pf+PjqZlxd9s7PfVxd
+    89fb187O22FJQklbdNzIvsHVTj4+RFJj39DKx9LxXk9QWVtq6djMzuJoWVRYY2nez83M3Wh0
+    +G1ZVG7c4mRST1lkX2fh0MzUb1pVVllXcNzb29PS0dtdVFldeevv2c/Y3npcXFJScez35ePp
+    3ex9cGBdW2Dq2uH+am71dlpRXeLT3vd9+vZrWVly5N3Z19jqWE5TYe3X0dPW3OdrV1hjcuTa
+    4d/ldV1PTVRh8OXh3N7ofWBYXF9w4dba3/F0dG1pX1xp9uHc3uDi4/NoaGhucvPf4/BoYmBm
+    bX3+9+Xd3vBtY2Fka3j46/xnYGVu/uvv8Ofe3uvz6+71937+9/z+6ebxf2tdYXL3/Hh+/nFs
+    aWV2dmhv/nX87fp+/v7u7evj4NfX5/p2aW1xaXHs5uZ9aXBtYmVpZW/+/vF2cO7q8/j27+js
+    9nprfXlvamv85t7sdm11fG518/Ht4u5sa29wbWZk+t/c4/p/+fz+b2Fea3f+fX7p53lv+vj9
+    /v39//Xv9+73/uvn6ujzamp1fHpwa2praGVkann17e95ePt2dXZ67+7p4N/o8nx2dnx+cGlr
+    //b0cWt8/H5ybHjr7Pp89/Z7+/d5fPl7+uje3eDrb2JcV1dcZnzq6fl89vj8/XNy+e7y+PHv
+    7urg4+7z9P59enH+9fxxbW1vef14b3RuZ21ud/n7ff17/f317vDp5eDrc21qbnFvZWp8ePnp
+    6Onr7npu/vb1fW9sfvH27e/5/Ozt/n14a2ludXt6dXd+eXR4enV4/u3t+Xr97vDv73739/Xv
+    f3V9/X54bnD97/Du6u75enNxbG58dW1x+v/9enNyfvXz8vLz7Or2dXBzb2p0/H7+/3j9eGz5
+    6Ojt6+5vb/vz9O7t9fN9dHZ0cW91fnBu8/J3bXF6a2ZnZ258+u77cfXq8/Tr5uXm6u73em19
+    /n389+r5b3b8fX73fXZvb2plbGx4e/z0+fL2+vT/dW9se3Rwfn13a2f++fLj4eXp6ejt9+/v
+    9fLv5efufm1pZmFhYmdkX2lxanf7eX1ubX739vfv+H3u5+rt4N7g4Oft8PL9eHx2bWxvbGxi
+    XmVnbnn2dmdpb3Bv++rm6uvq6+vn6e35/X56cXB7//T59Hxzdv30+Pt+/fn6e3v8fHpwampy
+    fXt9eXv07fJ7f/d3dnl3eXX9d2Rld/z4+Ovj4OPp6fD37Obs+v5zam5udfT2/Xh5fHVtbWZk
+    aWRkZGFu9/Xz7uvt9ube6+3d3vxub3r+eXF8fn12fm508/bo7f14bWls+uvo7fX6fW9sb21r
+    b35ua2397Pj37/Pu8vN+cX3s7Xxwevl87/N1fHx6cnt+d371f337fHhtbfz5//n0+3739Hxr
+    bHj39vPu7ubq+ff/e31+8vfx8X1sb/ru9nv8eW5rdW9naWhtdnHw7Pl0dPnt7n77/P757+ns
+    8fPv8Hl4fv///HZlZnD9d2xv++/16On1/Pbu9PX/cXr7eHn7f318+e36eP3+dG9qZ2Vne35z
+    cHR9/P/48PHy5+bt6uXk4+bs5en5bWFfYGBfZWpxb2xsa33y7u75efbp9Hn8+PLq6uzt9u/u
+    eW789nx3cnFyfu3wd/v09fd0anB6cWpvfHl1dHRu+unh4/Lz/Xd6d/p+cHZ5d37x7fdub/75
+    //18+PH+ffTw/X59+Xt1+/R+dPvn5+zs+XdvcH92a298fHJ98u57b3V4cf3n5/V/+XdnaXf+
+    dG5ueXZ1f/Tu9fHt8P569PHz/vbi5vX78ff1/fb+amlsaWdodndrbXP6+3J+8/h79+v4cXvt
+    7e3r7Ofr8f14f3R8/29tbmZpbXjq6fN2fu7v7/b1c2729Hl1+/Z7dXD+dG16e25p8ujs8PX7
+    8uLt+/j7cWtzaF9teP58/O/6e3n49/jz7u78+e3u8Ovj6Pdvb3t6eHl1Z2Nkb3Z0d/Ls+Hh3
+    f3t+/HVz9+7v9P777vj69v51bW59/vl4/fp6++vj7vb39/1vfP1rbG9wcPrueW5zfe7p7fp6
+    cGxue/x8++/2+np48/F7fu7q8/328nlsbmllav3s9n51+vt3cmluf/Du6u749/v18/Lo5+32
+    89/n8Ovr+Xp5cGlfXV1gX1xicGtoefX06d/ue/fy8fHx8evl6ufe3N7e4fd6d3NtZV1lbWJe
+    XWZsaXN+/vXj3u17+/D1d/zzeG1v/+3u7ujv/vfv7vn9d3hvaWVpb299+vb9fPX6eG/85d7n
+    9P12b/7k5unl6O94b3J7d29nZ2RhamZgbfp6dnl2+vHz8+7q6/L3f/jr6uXj8u7h6ffv5uvu
+    /3ZsaGlpZGJpbnVpanD2/Hr1dHR2bGtna3bv6evt6N/i4+Hc2d3kf2doa2hjX15nb3327+zv
+    fP90Zmhsdv397+h9d+vl6+Pe5/5tcWpqbW78fnRv7+vr9vr19vV2cGhgY2x3bmx68u7o393c
+    2dvd6PT9bGFeX11bWVxmb/79/PXw9/x0a21z9+/s6+Hb2trc3NnZ3/luX15bWVtaXF1bXmlx
+    fvV4bW58/3Fzce3k6OXg3NbRz9PR1PD+cGZdXGBeW1pcXFdqeHD8fmV+Y19vYV1jfOze2dDO
+    zcvMztTlfGtaT0xNTk9TWF5q/ezp7ff98f1rc3x97uTa1dPRzs7Pz9Pa6P1vXE9LSkxOT1JX
+    Xm77+3JkZWpramhv9+Db2tfUz87Nzs3Nz9Tc6vxgUUxNTExOUVFRVl5eXmBoaml0d+jZ2Nva
+    0c/OzcvLycbIztbm/mJVTkhGRkZHSk5TVllaWlpbXV5k/N3b39fU1c/My8rHxMTGyc/Y4O5v
+    XFRQTEtJRkdKSkxNTlVVUFFZWlTW3dzN4F3Kxce+vL2+vsLKxdPp9FRVSD8+Oj48PD8/RUxO
+    V2T969/f2c/JysrFx8bEw8LJxMbJx8/a5PR4XEhLQzs8PDo7Pj9BSFZdYt/a5tTN0NDLyMzL
+    xsfMxb/Hw8LKxdPY7FppUD5JQDY8PTc7PkNITGTsaNvM4M3Czs3HzsvJxcfKx8C/w8K/08/X
+    WH5POEE/MTY5MTU8PENUXtnc3cTG0cG+zcS/zM3Kx8PGvL7Gv7/NyFZL4D0uRTopMzosMUE9
+    QejY18vCubnEvLXEzrzI38i/yci+wr7A1dBlQFU6LDU3KSo4LzBDSlbLx7+2trezu767xNXW
+    3+rSy8u/u729ucFtRlc/KSswKCQpLjI7QGS6ur+0q62ztrW4xf7y3OV10sG7v762uMlPPVg1
+    JCYqJiQnLDxXReiurLGyqaetvca/yEY6S87Y4se0rq61tbdROj0rIyIeHyUkKT/90rOqqqim
+    qaywv95fRTc5QV/Ovbetqaeprto6PC4gHh0bICEjN+y/raWlpKKjqa/RS0U3Li81SMe5saqk
+    oqKnujoxKSAdGBYaISc3aLynnZ2fn6Korso8MCspKzA817Onop+enqGuRywiGxoXExUbIzrQ
+    sKScmpucn6m3bTMrJCElLUHGrKGdnJmanKhNKR4YFxQSExcfOr+qn5uZmpqeqLpHKiQgICQs
+    PsaqnpqZmZqcp1UoGhUVExMUGB86u6OcmJmanJ+pukInHxweJzRPvaqemZaWmZ6yPCQZFRQS
+    ExUZJE2yn5qZmZudoazCPScfHB4nOd+2qJ+bmJmbosM0IBgXFRYYGhwnSbKgm5ucn6Opr8NG
+    LSIfIitDv62no6CdnJ6oyzcjHBwcHB0eHyg7w6mhn6OorbK4w2w5KygqNVzCtK2qp6Wkp6y+
+    WzYqJyUkJSYmKjNHzriwr7K6v8bQ+Ew9Ojk+UN7FubGtqqqrrK+3x2FANjEtLSwtLzM5QFHz
+    0svU9V9VTUtLS09j48+/t6+tq6ytrrO5wt5XRDo1MjM1ODk5PUJNWVxUTUxLS0hHS1jw1ce9
+    t7Ovr7CxtLm+y+RkT0pFQkBBQUFGS1BOS0U+PT0/QUNKTlhv1sS8trS1tri5u8DP9F9TTkpL
+    TVZfb+fd1NbhaE9EPTs4Nzk7P0hb3se8urm5ubu9ws/4WE5KSk1SYPHZzcrIx8fL22tPRD48
+    PDw8PkZPbtrLxMPDxMbL1u1jVE5MTlZeaubWz8rFwb/BxMvfa1ZNSURDQ0VKUFtu8OTc4fR1
+    bmdaU05NUldi7NvWzsbBwcPHys/V2+X4b2ldYGRv6vptZ2JYUUtJSUdGSU1OT1dp+9/W0c3O
+    09ja3NfQ0tTPzc7KxsrMz9rzaFtMRkNAPj89P0lMSlb+cvXV1tPO3e/g7//T023JsbnKvrCv
+    v1Vw0Uo2Ly4yMSwtQFRMX9jLycPDxr/D1dLM6HzLw7+4s6+vr7XNRlVHKCcqJSMmKC1BP0m5
+    r8e1oq64qrK/wHdLwdQ9vavDyaqvTErGPiIpKh8eISUtNDTqu8Cxp6eqpaetsbzK2vNi28O+
+    vb2wyDLdyR4jSx0XLiocNlw05664raCmoqCvrKvfaL5FPbvKX7u06DnYyiEpVh0ZLykbM1Yu
+    SbOys6SgoKSloLPEuNQ7Ut5J5cPPvvkusDkYwywTOzMXNNAmQbG2vqqcpqyeosi4tTo8Tjg5
+    XV7bvrKsVFGhNh2sMBJHLxQvOh479ma0r6GeqZ6durOrWk7UPj5NR+PZvatFO54uG6csFXQr
+    FjIzIjdTv8Kxm6avmqPWqLVA3l03QEZFZeC6tbCtS8CuIzHNGx41GxwtKCk+vLzDnp2wnp27
+    rKlf4ds9RkM98XC/tL+pr3K+4DEvLh8gIB0fIyszPr+1r6GjqKCnsa242tVUTExJ7ufJsre8
+    rLXG0n87Ky4kHiAfISAsOzbdrryuoaqspqqzu7W/T97RTtzFwcC8ucDDwW1jQCwzKh0qJR4t
+    LS1Xac23u6+rsayts6+5xMLO287SwsLPvsDk0V9SWzk/PSwvLysuLzE5N0NiYMi8wLezuLay
+    tLu3tr++zd7HePDY6/ZuaVdGSD02PzQvPz45Qj5aWz/f1GjNwMzNwsK8wLS0vbi928nbYP1Q
+    SlJFPkxKUFFydFrbdkxNQDgxOks1SM1rY763w7art7+0u19nz0Q6YUg97ujSz8e90W7I7URf
+    SzE0PTc1Mn5KQr2+67q4x8nMzd3gz93/yGJQ7cvR4sW84c/mWPXYX+xxSDg8UC8yQ0c/PGzL
+    2Mq/xsPd1b9VeMRTWMrm3tTIu8q8tsrOz3XvY05cQTZBOy8wNEdMPVy/cWzFy8Xe2MTtWsHP
+    3cfVvcDIuL7CyuvJ5kvwaVtFMU9EKkJnMC9LWD4+xsZHwbflzsTKysPMy8m+xMO7zdK+u9nT
+    xNxeSEw/LTI9Lys+RDZES05PxcVyvr3k0L7Jvbi+xLS5/c2509fEysbP4MpWLy8vLC0sQUAz
+    R2ZH/PhOy8rDwMa3u8S/uLm7wba/RM+4dvm92dDHPzM7NCMrMik0RT9I+tfNzbnG3Lu7zryw
+    usC1sLbPVsG7dkh2yEpNukIvQi0nKSY3OTRORta73sC1vOPVu7TBxK+ts8fFvMtozszRTmLM
+    SkU/MSwlJC88PW3mUU9nVePEvLy7xsm5tLK6rKzFQNi2SD7R2szTQVw7KykqKig4Rj++5Te9
+    uF2/t8+/6NGwv7ymqrbK9r7ZSNDhVG1HNC87NycjLj1HSN7T29hOaLS6c7q/0MPBuK6qrMJN
+    vcc6W7/Czt1CLyQcKTpFOS7fxjo8vrW+y/TS+eu4r66tt7Wu2D9fxM7OvdrOxS4lKSYsLjZP
+    elY+Vb68R1G4y1vetq2zvK6vx9F83tZe0bbOZsZGJSoqJEBEMspGLtLL6r/N2vlD2bO6tayr
+    q8M96LrLW82vttM3JSc/Oh8qRjhb0mO82FFnQXXG37uzzLirsLbD4c1sS8a3vskyLzw1OC0t
+    QmhDPFTGw2FP3tFx6MiwwGC1qrfk08ffQ9mtsUIkKUE+Nzk1SdA7Sbe+3lw/dsTZybGzx8u7
+    s8710GBE97+56yUoYTwlJD+sszVCv7nISuK/3Vfot6y7wLK8911HfbS7Ty4mLTg4LC1Rxbvi
+    SNe8ws/i2MTDxbmttcK7wtrea/2/vzobHjQuTjsp+8dI2si9tMpYz7a4urWvsL7UtKzGYsK+
+    1jIZFyg9Tkg3Oj0yT8G8tstHYb6zrKmpsb7Dv62sz82/vbsgDBParMwsKUk6KDuro8IsMs2w
+    rqqlprtQ0a+jq9+3pLQfBw26obkyJUc0HjmintwfJsutraukpMM+1qigruO+pKApBAq3lqAm
+    GUlVHiqplq4aHGynpa+qoLczNaybqW1JqZksAAenkJ4nGHP1Giqhla8ZGsmjpbGtnrYuOa6c
+    otPZoqAPABOVkJ8fGF8qGcaVljkQIKyeoLSsoGMnR6OYplW/nEEAAqWOk00RMckXJJ2RqhYU
+    ZJyaq8mprTcuvpudxbyd0QAAzo6OthMhyBscopCgHA8tm5SjwLO2TTzFoJ6usp1XAAC7j421
+    DyDLGx+nk50bDSqckZ7Lt7dDPMCenKqpnhEADZyKjSYNLTkeX5+XuBEQSJWPplfB1DhCrJmf
+    rqAwAAPLkYekDhcuJMCen6ofDyKokJS0TmdeUMGln6KceAAAN5eJlxUXKRpVm5ukJxAhr5eV
+    p77RSUfAoZujoEIAADuVipsTFiwcSp2dpSYPIaiUla7xyGdLvKObnKIaAAe7jomsERgdHqua
+    ob4ZEzakkpOuST881Kabm5/WBgAbnImNLBIZFzmbm6MuDxnKmo+Zx003M8CimZWqDAAMrYuK
+    txobFR6nl5nXExMxo4+Uqb0xKFasmZGhDQAKyouJrR8cFR63nperGxIeto+Qo7Y9Kka6nI+m
+    CQANvIuLtScdEx60nJq9HRkltpORm7QuKTq7l5AzAgMbnoyZTzsjGSbPm5jCHRYnppSUma81
+    KDCyl5wQAAxYj4+8LCslKDe+oaK/Ixo0ppaRmrdKKjGqmcwHAhSrjJPlJx8dOL22rKy/MiUt
+    tJiQlqVOLT6woCIGCRqpjpi7Lx0eM1/MuKmwbjgt7p+VlJ3EN0G4sh0NDhZYoZ6gtjYsLi03
+    WLaqrcxBWLSfnKW/T1HEuD8gGxkfTa6otUszNUBZxLi+0U5B77uvrb1IODtXvre6y0Y1QMiu
+    rc8vKDRYyNNDNDNAzbCvu+VCRV9q3b26xl8+SNDBzFQ2OU3nvMFUNTFNva+yyVNDVe/1V+/T
+    42pf3s7VW0E8RFDpwMNqPTdYuq632ExF+8/yWldXb/l1083qXFBb3dXW0edNOzlF0Li830c+
+    UNnhYFZW8crK0NpfTlT2zMXL1OhfTUZEX8rC0VRKXfbxbmBVUenLz2hLSVTmzcrJz+lnXF5m
+    79nT4mtrenZVTlJPTmPdz95WTE50z8nK0d9mWWbu3+Dj8NzOz+1WTlhdX/vq6XdeUlFs1srQ
+    fmNbWV1ia2ZbXdzIyexMSVVp6ODn7fb6fOnV0NHZ6nVeX3vva1BNYNjGxtxbS0hX5t9wXV52
+    +vnr3+xsd/bo3eDh5GRVaNnJyudRSU5bYmhmZGpqfNrV42tdbPXl3t/d3OxmZ+zV1+5lVFhn
+    amhfXVpn59zb4nRkZW/q6Ht839Xa8Xbu3u5lZXzm5W5dYmdveX71cFtVW/XhdVdb+9/b3d/f
+    3eJ8aXvf2exOa9BW8+the1tF58xw3etp7+ju1d7wflxNUk1pv25V2PBXWWTdz2ZfVUlq1evc
+    4tfI32Dv2dvh7vrd4PZZYG9ZX3T7b2NQZPz2ffR5fV9WaGl+6eTv3ejj2Ovv6vtp5+x8dGFm
+    YF9u5t3xZnbu8Ojl2tf4au3s9GxfaVlVau3y8m5w2t3i2u3+5fpu+m5+719ZX11cYl5cWlZc
+    7t3b1NTOw725ucjMvr/mS0Q+Ni4sKywtLjhMY9u8tLCtrKuop6mrq66wrLgxGygpEBYgHyMk
+    NKu64qGepqSknqC5rKe8vK+yyh4ZTxsOHyYfJibXrD65n6uqpaOdrbWgs8Wrr7G0KRs9Ig4d
+    JB0kJj60Ucmiq6umpZ+ruqOu0q+vtq/aIyJCGhMlIyAmKvHJPrOmr6qmo6O2rKC5wKyvsLPt
+    LCMzHBUgHx8nK07ZSLGosamnp6e0rKW7tau1sLPQMCE7JRQgJyQmKlnOO8OptK+sqai2taWv
+    vK+vsrTBQCctMBkdLCMlLTLcTz20r7ivrqaosqims7Wyuru+5TolKzQeIDIpKi8vfVY2wLvH
+    r6+tqLW0rr67wPjA7WrMQkh4RVlPOkY/Ojw5Ozs5R1dj29vQwMXEwsW/xdDOycvIw8bEx87V
+    3HFPQjo6NjA2OTdGX2Z8X/LPdtrCysO8u7i7vrjAyLzE8XxYRz07Pjs5OD0+OTxMTVXta9TD
+    3sy7zb2817e0v729vMHe8Gp4Rzg5NTQzLS89PztE1s3OxLyvuNa0sci+18S62srN185ORmpD
+    MzEuNzktOltMTEzTtsrIsrW2wta4wFnS6MvFaNPA1lRLReNFMjs1NzwxQO5VU1XEtczDt7i2
+    z2+4v0baeNfHS8fJ6V8/flo7ODY4ODc8XPlYTHu4xd+4t7S3a8i2UuTLT8TY28Pe10tNbD43
+    NzMyNC89al5lXMKz3sixvLvG2brGYtLD6MPCy7ptZ0tRRS0xNzIyMj3sblpi4LrIVbq1wb3h
+    wbdf3MTMxcHBvMvqRlBbMy4vNDMwM0blaGHezLjIc7e2xsPfyrxx88rLvLvJu79bT1I9My0t
+    LS8yOFX+8tLfzLbK4bi8wL/mxb33zNO9tMO4vsrsSj84LisqLTAyOk/m2szY2L/G3se+vr/a
+    zb/VzcG9srK7xMFqREEwLC4qKjI3P/fhzb/MzsPDxs7Nv8hyduPSzta/tLO4wMfOTEI3LC0u
+    LS80PnLt0L/Czsa8ydDJxMbzU+fjetPBuLGyuMTJckQ4LS0sLDAzOlBp3MbFzs28vM/OxMnb
+    WF3Z+ObIvbexs7vA1nFINS4uLS8xNj5MdtTOysfKxsbS2tbmYlZZ+9nPwrmyr7G3v9lmTzwy
+    MTIzNDY9SVhw3tDU1svM5uvee25bWvbayb64sq+xtr/eaU06MjExMzU4PkdPf8/MztDLyuBn
+    entwaVzy08q9trKvsLW7z3JPPTQxLy80Nzo9Rlrj1dbZzcbb/u3/4/Fk79TIvLaxra6yusx/
+    TjwyMS8uMjQ5P0de3trX2d/O1F1dXGPzYXrQybyzrqursLjJ7l49MjEvLjE0OkFGWuXa1dbp
+    0MxuXlpe/Vdc1cq+sq6rq6+4zVhOPy8tLjAyMzlIVP7Pz8/Q8OvL1GpOT+5rUeTGurGvq6iv
+    u91CPjctLC0wPD1DY93GvcPK2UY8TVdLRUnPymHfvq+npqOkr79KKCYpJSMmMVf1zLm1srC7
+    0Fc0Ky4+SUxM2LrGxLSpn56foq/2NR8bHyAiJzDqvLisrK2tue43JSErPEx737uwvr6xpp2c
+    nqe6UCoZFx0fJSs5yrWtp6uvr8BVLx8eL1/Qxt22rry6tKacm56s9jghFhkdHikxWLm0qqar
+    r73mQCcdITTaur/Hubu+u6+inJqermcsGxYcHyQsN86wrqyqrrTGTjAjHSNBwrC6xLu+v7qt
+    oZyan7JKJhcVHB8oMD/Crq2qq7K6zUouHxwoXbStvci/vri0qqGbmqK6OR4UFh0hKy9Lt6yq
+    qa23vdk/KR4dK+WwrLrIyb+3r6egm5ulujEaEhcfJzEwT7Spp6iyx8v5PiccHS7Bqaq609W/
+    squln5ydpsQrFhEZIS43NFu0qKOnuuHoWjomHB40uKamuuTwyK+nop+doavaJRQQGCM6QTz3
+    tqegpLppSUE2Ix0gPLCipbjnVc2vpZ+en6awTSASEhknRUlL2baln6W7Vjw5LyUfJEqwo6e7
+    cE3RrqKenaCrvDkdExQbKkZT3cWwpqGovk43LighIC3jq6OtvmhmvauhnZ2irtosGBMWHS9C
+    VMu6q6Ghq8xAOC0lISE2wqmksMta67Wmn5yeqLdDIRUSGCI1S37Dr6Sfoq9nOzIqIx8nTLSl
+    qLfaXsetpJ+epK3IMxwSExkpPFDVu6qfnqW8PzUtJyMgLd2spKm53d64p6Cen6m2XScYEhQd
+    LUBvxrKlnp6p1zsvJyMfJTjDqqetwdvKrqSfnqOsvj8fFRIWIDFI5b6toJyerHc5LSciHyc+
+    uaqpr8PXvaqinp6nstsyHBQTGCIwQ+C5qp6cn65jOS0nICEqT7errLfHwrGmoJ6fp6/iLxsV
+    FBkjLDZOv6udnJ+u2Ek1KiMhKEHFsLC8ysKvo5+eoqqxzjgeGBcaIyouOGK1oZ6fqrzWTzsu
+    Ky08X9PO9WLRuq2oqa61u8XcTDQvMTc4My8wOU3ZzMnQzsnGyNDU0t1cSD06P1jNvbm6urm5
+    vMDFwsDF1VI9Nzk5OjY1Nz1DSlBTf9TK0HdJTF3lzcnKz8i+u7q5trGusbvRWk1NST0yLi8y
+    Nzk8Pklk3ORlT01e3c/V6m3y2MrEv7qxraywub/Fy9J0TkA5NjIwMjU6Pj9BQkhUc9ve92Ne
+    buzb1M3BuLGxtbq8vLu9xtH6Y15aT0M9Ozg2NTQyNjxHVmVjXmHq2NTOycO+vb/Bw7+9vcLI
+    zszLy87Y6n5pVEY7NjU3Ozw4Nzc8R1f42M/Evb3Ax8vNzczO2d3XzcS/vr6/wcfTd1dTUUtB
+    OjQxMTQ3Oj1MetXIx8nJv8DH0+lpXWT31s3JxMC/vsHCw8PI1GNJQT8/PDg1Nzk8PUJKXdjE
+    v8PLz8jP3uryavng29DQzcrHx8nP2ODe4OVtW1NWUEY/PT4+RkxPUF/ay8/Y2Nza4N/rZEnG
+    w/PV3mhpYOO8ydPGyMfI7HFVTk9IPjk4O0ZNUWDr0cjFz87Yz8ruX11XWGFQSD3rwdBiya+3
+    wLezt7tSOjs7My4nKTNH3cvHua6xtLzaX1NGOzkzPlJMZdTKvrq5srG1s7nAvtBIMSssLS0q
+    LDvywbq4tq+vuMxuUUE4MS4yOkJT6su5sLCvrquqr7O7v8FKJx8kJigoKDnFsa6sraytv1s5
+    MDItKSs5TvfFvbGtrrCxtq+qsbu8xe1EJR0jJSUrMEK2qqyqqrG1zzcwMi8tLjBHzMG8t7Gu
+    r7q+ubOvusTA02w9JR8pKSYtMUy2r7Osqq+21DYxODAtMjRLvsbAsK+urrvKwL+8usbKy9tJ
+    KyUsKyksL0S/tLWyr7G0xUc7Ozc0MzZF2sfIvbi3s7nDxb++uLvP8+lQMi0yLi00NTrsxsa6
+    trq4uM9fYks9Pj47RF1r5sq/wMC+v8TCwcW/wOJVbVo+Oz02MzpBSFVq68zGzc/P2N/zaWBt
+    6djX6+HY4V5QVF9lX23dyMC/wcC9v9JsVUpGRD46PUNHSEhOaPPt39fPyMXM1dje6mJNTVda
+    Vl7608K+wMC+vcHVbFxRR0I9PD9CQURLWfXh3tDIx8XK2+fpa1FKS09VVFBi49LKw7+9vL7C
+    ztzibktBQj89PT0/Slde7drUycjO09be62dWXGVaU1RWbdrUzMK9u7u+wcbS911JPz89OTk8
+    PkdPWfjYz8zM09LO0/BkWldYVlNXet3Uy8G9ubi6vcHK31hIPzs5ODc5P0VNW2ru1s3Ozs3N
+    ztduW1tQTk9PYdrQy8K/vLi5ur3CzG5JRUE7OTc1NztASVFd7NHLyMfKy9Dmb2NYVVdZXnXe
+    ycC/vLm6vLy9xNhVSkc9ODUyMjU6QkhPaOnXycLAv8PM2/ddV1pgZWp839LJw7+9vby8vsbU
+    91JLRDw2MjI0NztFT2Hp1MrEwcHFy9Xrb2JgY2xqa2ry0srHxL66ury9wMx5TUY+ODUyMTI1
+    PkpRb9bMysjIyMnMz+JtZmJmaGBpbubMxcC9u7m5urzF1GVEPjw4MzIyMzQ6R1Bs18/LxsDC
+    yMjK1u1vY11qfmNg5dDKw7y4uLi6vMLO/kc7Ozk1MjAwMDU/R0z5z8rFv77Ew8DK2upnVFNc
+    Y1/11s7EvLm2tba5ur7LXD07OjUwLi4tLzc+QVXazMbCvsHCwcrV3P5ZWGFha+LPy8S7uLe0
+    tLi8v8f8QTo7OjIuLiwsMDk9SO7Lxb+8v8TCxsvP3GxVWFpm3dHOx7+7trO0t7q8xe1EOTo4
+    Mi8uLCsuNz1H8s3Iv7y+w8TDxcrdZFlbXnjdzsjCu7aysLG2u7/RTDg2ODYwLiwqKzA3PlbZ
+    ysC8vMHEv8DK1v9kXGPf0s7Hwby4tbKzubzA1kc3OTo3MzAsKSoxOURu08jAvsDHycPDxs9v
+    WF1y3NHNv7iysK6srbG30jUkICEkKTA4OD9vx7qwrq+5y1E1LSw3SvfKxL22sq+vrq2tqqms
+    tNE/JRURFR03u6inr7i5t7W9fjYjICUvS72tra2vuL/Gzsm9sqyqqKuywEwiEQ4SHlKnn6a3
+    z8WxrLpEJhwdKD7Er6ytrqustL3KxbWrqKquueBIJxENER1Qpp6ov9zFsKeyQCUcHixMyr62
+    r6uprLvc2LipoqKor8D6PR0ODRMkwaGgr+54vKmoxS4fHitI0MrXxLCoqLPaV8uqnpygq8Fb
+    SSkRDBAdTqafrlJNvqqjsjAdGypdv7nQ07aopK3SQku1oJ2eqLtqSCsSDBEh1qSfsD49vqej
+    ti4bGytZz9d9za2fn69jPlawnpyjr77LZiIOCxQurZ2hzy4+rp6j5SAXHTnZ3WFTxqecn7xK
+    TsGnnqCtwcnLMxMMESW9oKG8LzK7oqPALB0eMEtEQE2/qJ+iuezCrKGgqbre0r45EgsULbGg
+    ossrMbWjqmcpIio9QDMvRrSjoa3XzKqcmp+t3jxEOhoNECa8o6CsSzF8sLk+KSw/ZU84LjnA
+    qae19OSunJaapLdcQCoTDBEpvaqorL/MsKv0IBonT+1USVDPsamyTzrVp5uZnKOyvPMeDQwa
+    Rbq0tLm7qp+oNhobLT4yLj+8qKOr2Dc+t6CdoKWrr7gyEw4aP8VoV8a0qZ+jXh8gPEMmHy/M
+    rKSnvkBVrqGkqauuvFMjFBUpvLVfQdiupqe6MCApVV4tKEG7r7W+0lzRq5+fpaqyaiUUEh4/
+    xs3WuamhpLU/Jyk2MyUmXqqjrcpuY9i9ta6nn6G2LhQNFzzBTDLRoJicrEkmJ0n6Kx0ovKCh
+    r8lo7bisr7mvoqRqGg0PIU9YMjyumZaeySojNNxEJyrDoqW41sjDv7awr66npLkmDw0cODQh
+    J7KZl565OSs87j8tOrKgqMlQ1Le6vr+4rKakqkwWCxIsTCoaLKWWmrk9UcG8Sy48v6emuH5u
+    vrnVW82ro6myxysTEh4uMyQmX6+su8q4tbvMWVjuvayuxfbMvcjdxLWtqamuyy8XEB00MR4c
+    RKeq7UG7qK/IZ+K4rq2+RlC4rsdF56ymr8R2RTUqHx4pMC4qLmS9x9vLtK++zsa3rbLLV1jf
+    yc9p4r+5t8FbODVKWUI3LzVNWj4uM+23u29Yx7Ozzz9qtbh2WF1NzLfJaElAx75AM/K1w1JD
+    SU9LT1FDRem7zUbnv/5H7VtGxMRLYMPpSeZZPcXBPdutwT9usb06Ms26Uzk7xbw/Pk9XVk/u
+    WtDKxVhPv2s7R/ba09LP67W/P1S5vV8+NL6xPzRLfMdJP1p2uMs3TMfoRDvg0OdPT8Wzzzjs
+    t97n2tbazdJcQ/69OkjyUtdJPsD9RXpN8kPe20rY3c3J/VTf1MO5Sk+0XEm/TUfcfd88aN1a
+    eHJETsBBP+5c69E+17fFaVjYxORs1tjNzHdPvkh52D9R0OpPQmDUXDpNwlZE/3PS2G7TY7xx
+    PPHPzPre2Ly/PcTXVt8+789LWEJN2klM73d90FVOwM/MQFq6X1pO0udbwOZfytbHZGDAXF74
+    Tcw+Q09lZz/M+kTL89lpTr9vS9jPTkzN4XPK6WDPvehd491w+19jUm3VSGF1WnpKyeI/w8xB
+    ys9CVMnhR+3LSODHddJj9XvO60Lt5VDM+0DOaVPbW/3QRN3EaO1L+8tjXOTaWXvJ6091zFLf
+    a2tWP7u8QUG1X1jOSOph3M1XeGlRV/vMVT1sv3NJXM9o3MxU3Flhydxa39Hk//TdalfTW9zb
+    TWRpeWnVSFTha2lg7EzX8XXxR83gd8DcYd/J2tpTbMjRWWRpdfBDalVO2VJLZ+JmSt7OR1zc
+    V8vPa+/C69i+X0XUuF5Wannv5Fhf+ERrzUlg/Evv90rR/D7R1VbZXdzCUvLF6f3f7c/oRNTN
+    Vm5iUXnu3edGWOJtY2NmSdTVTMxqUMnUy89HXfPfwE1V2vvo2tBbTGvt1+9OUVlibF1s0llN
+    2sfsXGvY11x22nZVfs3abGPi7mPcde73TGnN5WlbTujvc9llXGR42tbvYl5e595kZWrt0NVs
+    Yul+3dR/dFZm7n14an5fc/D2bVlrWlvt7vLtbe/a8PHsbuxset9+f+b2annu2utp8e7b8mrn
+    7u7mfW1kUGt9XnJ9eW5dfedkZnDrcG3u5t3z/XV36/n62fVk4uv8dm7l39vd1/pz6XN1/Hdt
+    YldYUE5dXl1kZ299fu7hfOro/e3v5dra1MvMycjMzszZ28vV2vFfSjMsKysvOUrn0t/Lvrq2
+    uL3Dy8nFy9Tt7tjSzMXFyMO+v/UzJyMhJCw5TvLZw7m2s7O6xcvO1tHU52RNX9fIvru7u769
+    ub71MyMfHh4mNUrWvrewrq6vtMV7XlJPau1qWFV4y7qwrq+1ur7D2kYtIB0dHiY1Usa1sa2r
+    rKyvvfg+MjI5Q1j85NLEt6ypq663xc3WfkUtIB0dHiU3Zr+zrqurrKyvve4/LyorM0btwbez
+    sa6rq66zusPQ+UcxJR0dHiErQOq/ta+rqqussL9dOy8rKzBC3byxr66urq2usba8yf9EMCYe
+    HR4hKDJG3ruwqqeoq6+5zUo0KygqMkrHs62rq6ysrK6wucXnRzkuJx8dHR4kLkvFsqqmp6ms
+    r7fIVDgtKSw0SNG5sK2tra2tr7O7yelWQTYrIR0cHyUuRc66s66sq6usrrfNSjYvLzZCZtDE
+    vbiyrqytsLe/ydZtRjMnHhwdICk1TM+/ubKtqqmqrK+73kk4MC8xOkzqxbq0r66vs7m+xNBl
+    PzEoIh8hJiw2RP3LvbOtqaamp6y30kUzLS0wNz9Mdc2+t7Gvsbi/yM7fWkQ1KyYkJis0QV3Y
+    w7myraqpqq22ylU7MS4wNz5LcNTJvrm3uLq8wcjS6VVBNi4rKiwyOkNQ+8q9t7Gvr7K6xuZW
+    SERFSU9VWlxu3szDw8TFxcfHydd+UUE6NDEzNjo/RlJv59PKw727uru+xc7pXlJKSEVFSlnp
+    zsbCv7+/v8LGytNrRDgyLy80OT5FTFZx2ci9uLa2ub/O7llMRkE/QUlZ5cm/vby8vL2+wsTJ
+    4FI9NC8uLzQ5Oz0/Q1Dgxru1srS5v8znXlZTUFBOTld+1cjBvry6uru7v8rtSTcuLCwuMTU3
+    Oj1Ha8u7s7Cvs7nAy99rXlNMRUBBTHHMv7u6ubi6vb/H3VY9MSwqKy40ODo8QlTZvbGura6w
+    uMTS9VtMQTw6OkFX07+4tra4uLvAwM5bPjErKSotMDU6PkZezbuxrausr7fAz3RMPzs5Nzc+
+    Utu/t7S1tbW2u8LI5Ec0KiYnKi80NjpAW8u5r6upq660vM5pSTw0MDE2PlPVvraysLCxs7a6
+    xPdGMygjIiUqLzM4QWjDsquop6eqr7vPVz40LiwtMj1b0L22r6urrbC2vMPUVDcqIx8gJCov
+    Nz9nwa+npKOlqrC93Uw5LiknKjFCfs7At66ppqersbrDz2k/LSEdHB8pMTpDY8OupaGhpKmx
+    wmlANCwmIiUtQ9S/ubOspqOlqrC7xNBgPy4iHBodJjI+R1XGrKKen6Oqs8tLNy4pJCAkM+K2
+    sLa2raajqK+6w83Xb0YxIhsZHSk6REVbvqmfnZ+nsMNiQDcuJR8fK1S2rbC4tKulpau1x9rU
+    ztxJKx0YGyMyPTw++7KinJyhrsteTUEzJx4eJ0K2qaqwuLGppaq64l3dvrzcMx8YGB8xQjs1
+    SLagm5qfrvA/QEY1Jh0dKuiqoqevubSrp6zAT0L9vbnVMB0WGCQ5TD86WrKfmZmivzkxOT0v
+    Ix4gNrOenaW2v7OpqbHfOzhZvrlcJRgWHS9PWkxYxaqcmJ2yPSstMzApISAtwp+anqu6u7Ct
+    sMZALzj5v9otGxUaKlbP1tK9qp2Ym61DKSUoKykhHyy+nZebpbO6ta6vyz0vNk72TSoZFBor
+    bcO/vLGkmpedtjgmISImJiIiM7acl5mgrrq1rbDQPjQ4PkY3HxUUHS5zurCuqp6XmKHELyAd
+    HyIhHyj7ppuYm6SvsKqpteM/Nzk+OiIVEhgjOcewramfmJidrUklHh8iHx4lQ66dmp2mr7Cr
+    qKy8Xj48PjklFxIVHjPJsKynnpmYnaxPKB8gISIiJDe2n5uep7K5raaptdZJQD80IBYTFh0y
+    w7Cqo52am56vOyQfHyAjKDDtq5+eoau3ua6qrbjWSj06KxwWFxkhPcKupp6bm52n2i4iHRwf
+    Ji93raCen6e1vLWvr7bGZEI5LB4aGhsgMnW4qJ+dnJ2mwzonHhwdISparKGdnaOts7KztrvT
+    S0E4KR4bGxwkOWG/q6OenJykvEMqHx0dHidNsqGbnKKqrrCwsL1bOTItJB0bGx0oP9Cxp6Kf
+    nZ6nuUsoHhwcHy3drqCcnJ+kqq6zutVFMywkHRscHSMyTcatpJ+enaKuyDskHRoaITu+pp2b
+    nZ+jp6qvxE8zKiQeGxsdIS1B2LaqpaGfoKew1DAfGhcbKFGxop2cm5ydn6a08ToqIRsXGBwf
+    K0Pfu6ukoJ+hqbLARyoeGBcdLs6qn52dnJqZm6O6QSkeGRUUFxslPs+wpqKgn5+nr71KLCAb
+    Gh4pSbemn52cm5qanafEMh4WERAUGCAwVLajnJubnqm0wk4wJRwaHShFuamloZ6cmZiaobc+
+    IhYQDxAVHitIt6ScmJebpLPpOS0iHBsdJT66qKCenp2amJmer0IfFA8PERYdKD+4opqVlZqi
+    tk0vJR4bGh0nQrilnZybm5uam6K4MhsRDw8UGyEtWbCelpOUmqfIOikfHBsbHyxcr5+bmpqa
+    m5yhsD0eFA8PFBogLUa+pZqVlJifs1ovJB4cGx4nPrymnZqZmpueqL80HxgTExYaIzRzsaKc
+    mZmco7HtMyYgHh4iLES+qJ+cm5yfqL4/KB4aGRkcISxIvKifnJyfp6/CWjgqIh8hKj/Jr6ei
+    n5+hqsQ9KiEeHx8hJi5PuKihn6GnrrzXTjkvKykqMUTRs6mmpKevykkzKiYlIyQpL0fGr6ag
+    oKWsuNJOPjYwLi82RuK8rqmnqK7JPy0lISIkJy03ScqxqaSho6ivv2Q9MS0sLjVH1LmtqKem
+    qrpQMCUeHR4fJS5Bxqyjn56fpauyyU81KSUmKzlzv7CppqSlrck9Kh8dHR0eIys+u6aem5yf
+    pau2zE4zKSQmKzzjuKyopaSot1o0JR8fHh4fJC1QtqaenJ2hpau5z0YvKSgqNEfnu62oo6Wv
+    2DssJSMhHh4iKDzBrKShoaOkp66+ZjctLS84RV7Lt62npKzMPS0nJiYiHyEnNs2vqqakpqam
+    rLxvOi8vNDlCUt25q6alrMRCMy0oJiEeHyc37LevrKikoqOqvGxBOjk2MzQ/6reqpqeruWU9
+    MyojHx0eJzNTv7SuqaOhpKq31U49ODIvMTxmwa+pqKmtvkw4LiciHx0gKjratq6ppaKjp6/B
+    bEM5MS4uNUzMt62qqqqx0kEzKyUhHh4kL0vDtK2noqGkq7jOXD41LSwvPfrAs6ypqay5WTov
+    KSQfHR8qNmDBtqujn6Gnr7zLZj0wLCwzRt6/sqqoqa7HSToxKSIfHiYvPF/JuKqjo6issrrJ
+    VjozMDI5SPHBsayrrrXIVj8yKSMhJCsyOljIt6ynqKuss7vHVj47ODc8SujEt7GxtrrIVj82
+    LSknJyw2PFHVwLStrrCwtbzD4lFNSERHTvzIvb27vsHFb0E9NzAvLi43PUNh28q7t7u4uL2+
+    xNrua05PXmDcz9XGxL/HzWxTUEU8Nzc0PD09Q0xk0srOxL29u73HzdHjf1JVZGz36tvIw8vL
+    18/k309GPTw5Ojo4P0pUXufSwLy+wMbExtd/U1dZXVrkdsPDvri/v8jR9WVGPDczNDQ1OT9L
+    YunPwby8w8zI6thPWlhZaejRxb+9u7y5w7/tYUdIOjg1NTo7PT9LVerV1dnLz8rL+Odn2u/V
+    18+9w7zKv8rD1tvtXllESEBDQ0FAQ0NERklLVWZjb+nPy8rJysDGv8bCysve29543/Ltaext
+    22FmV1NKQz06PTw+RElPZOLbzsK8u7u/wcjc6+1y7Ofl5Nnn1NXa9edm+FZHQD9APz88QEhc
+    Xmfq3MjIz8/Nzc/O4dXTy9TQ2dPO09r2aFlfSlVNV2ZvXFpgZfxdTk1TUlJPTlB5393Xysa/
+    xc7SzNn5WmBeZVhZXVzf38/gy97J73FJUktMQ0FDSl5e/G7RzMbR39XW1O1sa2V47/5y2czG
+    1M/i2fbzWlpmbmRMSVBaYVZWT3z8dlxeaufv/Gty293b9tjWztbo6eXX3+9me/dp5v3l2c/n
+    cVJtW1tIRkhTWldYXObX2N7n1s7T7GZ9fG9mVHrs2t/k4dnP2M7Xy87NZ1tRV0xHPT5JWGBW
+    XO3Uz9d3bG/X6O5Z5+3nX+jmzc3Tx9jEysDKycnJ9EdAPkM4NzM8Sl9OXHTSw8bUeG/i3d9j
+    ftrP237U2rrHv86+v8DKyMXUVj83OTYwLS01RGvr28/CvL3I3FZfV2BWY/zb183Jxb26uLy4
+    urq+vsr7PS8sKyooKS05WNPGvbi1s7zT7ks/P0RO7tfMv728ubu6tbm/vb2/w9dHMSoqKyom
+    KC9I0r+6t7CwtMTvSz44OjxO6c7Dvbu4tLe1tri5t7q7xV40JyQmKCcmLUHLuLKzsrG0vGNH
+    OjkvLjh9wry+vLKvsbm8vLa4uby+zkwuIyImKCcpMFS9srG0trW2xlE8ODc1OT/evbi6urmz
+    srm/wLy5t7u+zU0vJSMlKCcqL0zDtbG2uLe3v/VEOTk6PUVezL26uri3tLe9w8G+vr7DyvFB
+    LScnKSwsLjhev7e1u726usFtQzs+QEJFVNjAu7u6urq8ws7Sz87R1c3X9UM0MC8yMjM3QvvK
+    w8nIwLu7yHBLSUpLS01f383Gx8TFytPd1c7P2tPLxb/G3Eg8PT49Nzc6QU1acOXYzcnHzNvu
+    dGVdX2NoX2v6+vzt3tPLxL/Aw7+8u73D205ERUU8NC4vMzxKWmnlyr+9xNDs6u9rUkpKUFdg
+    d+HOyMK/vLu5vLu4trrKbUI4NTMvLCwwO0ho0cvFwL/Byt9bTElJTE1KSlvPw8HCv7y6u7y8
+    vr23uMDfRzQsLC0uLzM6UM68ur3FzM3O3k89OT9OY3ZgYN7Lwr/CwL28u7u6vMC9usJnOisl
+    JiswNjxM1LqvsLzPdlxVSDw1OE3PwcTN39vIw8bO1cm+uru9vbq2t8VHLCEfJC05QlfQt62t
+    ts5XTEtIPTY4Scy3t8bmbuXU2d/r28S6ury9vbi2vG4xJB8iKz9Y+Ni/s6+zw2lJSUdFPjtE
+    5r61u+9GQ0965unhz8C6ury6trO1vlUvJB8lM1nb09LGuLO4ylhBP0A+OTlF27u1v2A/P1DZ
+    ycfNz8S7tba4tre5wlQzKCAjLlnPy+Tlwrm2xlo6Nz1HRkVcyrexvGM+OkrYys7b3c29tbO2
+    ubvAy3o+LychJz7XydR4z7m0vO06MDhJVlli2b20t9BANjxmx8PM29O/tbC0vMLGx9JROi4l
+    Ii1Wy8Xdbc+8uslOMzI+ZOXg7dO9uL9eOzhI18XK3+rNvLS0ur7Aw8XOVTosISU8zb7KUE7V
+    vr3QQDM6TufyZ2fLurrQRDY7XsrAyNjRw7mztbq+wsPF4kYwIx8rXMPEW0FSyb2/Zzg1RP/j
+    4fbavbS8eDw1RNfDw9L/1ryysbS5vr6/0kwwIR0oYLq6XDxKyri7cTQvPF1yZlfpu6+21jwy
+    PVHOvcre07+xq6yyur/Izlw0IRwjUbS28zU5eru51zUtOGvb8V1tv7Gyzj0wOtu4uMtcbryt
+    qq23vsTH3z8sHRon4bKzWTVJyLS2WS8vRdXVbE//tay0/y0qPcu3vHxQ1LOqq7C4vr/A3UAq
+    Gxsuw666QDROwbO9Qy0yT9nnVEnbsauyTikrWLavwFFUxrGtsru/v7/F3EAkGR08tK3JODrZ
+    s7DLNy074M9hPj/IrKrFNikx1rS4005fva+usbm8vL3JeTQdGCBWrrDiOkrCsbhVLzFQ1elG
+    Ply1qq3lLykv6La2xG3/vK+trrO5vsvk8zweFx5NrrFdMkO8rbRNLC9dyO09O/GxqrlGLzBS
+    w77BzdbIv7eurK++yttoWysZGizBrMQ+QMiurtsyLEPQ9T84S7ers+A8NztP28a4t8bQybOq
+    q7jO3OneSyMXGzazr2c6YbGqu0AvO9LPQzQ8y66wxU4/Pzw+Xr2utOVOy6ulrMpvyL3cOh8X
+    H025xkRAvaiueTc3Td5MNDt6vLbH29vnRDQ71K+uzU/hsqmuwMvAub5NLyQdIjnsbk/quKy2
+    Zz0/SFRGPEnQyMvGwMJ6Ni9HwbbC79m4rbC8v7q2u8xMOjMkHiY+1XBlx66tzDo5SH1hQD9Y
+    z8HFw8hhQTtF18fe+M63rq+5vrazvvNKQkEwIiAsTfxM1bGruUw4SfNWOzlMzb7Iysn0S0xi
+    5uxRTM24t7q7ubCwv+ZfV1VFMyklKjxWT8izscFbR27xPjM5Y7671XJu3MzNak5PS1rNvrm1
+    s7OussdaSufjRjInIiw9PkTHtrO/dfnUSC4xT8a+1lnhxcLO3GdNSUdazby2r66trbvpXfnW
+    +DwvJyMqNjU4zbKvuMnY2D8sNfLOaWTcw7W+2s/oSkdGS868ubGsrbTG3dbOc0xUOCghJS4u
+    LlyurLe/vslHLTJPTzdptbe7vb283DxG5Vtov7Svsri3tcpSUHxdac85JCkpIik3cbSzxLSz
+    bDs3NFXLP0yvseDJvcDNQT3KxFPetK+1uru4ykRKVzZxrNFZvC0WKjseKOa9rb43vaw9LtO+
+    wchOy7JaP7m2UlTQw7/W4re06G2+v9PTybu+SD3DzjEYG9o3Gy+stts/3qp7K86saUDAscJU
+    W7ixTEC5tevvvbjBY8mww1HJt+Q4N1r9OzdBIiBaNCM9vtrMTFeuzTfPrsHSxL29+0/BsM7+
+    u7jT89HBvuLfv8XdbkxHVDgzTl1DKidBPicvy8rrTc2zyUbXuszdzrzLUnu7utTKtrnqatPH
+    yNfCvNH/11VDTT85SlpbPC0wNDEvPVzLXX7By2tTzMfE2sW/x+ryv7/EvbjAyNHUw8va09pp
+    12I/UutRRmhbMy0vKis7QUVbcc7MeNC/ydbGvcTe7cnDw8W9ucPXxsbY1tbQyuBd09xJPnXi
+    RkNFOi4qLTI4QUlpxs1iz8nQzsa9u8PPysXN18rBxMjKzMfS/dTE5Utt50xP9Xb1+Us4Lysu
+    Liw749xwys/N0vfXusbZvr7J2tLKwdjjw7/P3cfD0W7qyuBMWNt9VWdrXj8sKzAsKzdP+uzf
+    xMjU2srExMu/usnWy8bQ3NfN09jIy8/Oz874V+XuSVzuceTbTzYsLCwrLzznzXbSusxmz7/A
+    xs7JvdZezr7L2tbOzubny8PK1d7My1hY0NROTNjwMSMsOiwpOc+/Yku/teJSzLi96ti4u/71
+    vrzaZdjEz1p6wMHW28/ObUZQ5HZc0/QvJy8vKio37b/8Xriz3lbJuLrGzLy78lvMvtV05MjG
+    9lzLv8zl1L/UREjg3G/pOSIuPSMhOGXLyli5q8pMyrzEz+PEuc5bxbjLdPbQyuJX38PF0NPI
+    xORj2+xb+zkeKUAlIDlsyLj5v6e9PtzI7c7v/7a3b8e2y9zXX+nKYFnRz8/Gy8rH+XLc+Ghe
+    Jh02NB4lQ9O0vOSspMU/8cjO2VHlsrphz8HP1W5M08hTVdjMxsrh0czvaXTvz1UlITYxJSo6
+    6bS2ybKqt+VXWc3IUVLGv83fbNTB6U3jydXq5tjK1GBc/Pxda9LFxOA5LC81Li0xP9a8yti+
+    trvCydTGv99cdGty4lRI7M/Uz9fayMx7XltgdFxX787R8mb7dEY7Pk5cTkdDS2Dx/HDcyMPE
+    yc/U3PP1ZlVVXfDe39XJzNxzX23o4ejc1eFqYlpPVGN79H1jY21dTUhFS2vi9Hfy69/f4+Xv
+    9G5t6N/o7H/y3N/6/dvNys/S1eF1XlVUXWNk7+De4XJeZnVubWBbV09LTFFPTFRr+Ozr3s/N
+    2urp+vbf3d7c19PX63J8e2tt8Obg39ze3tva2uLwdmtoWk5KTUxKS0tOVVZWZevp69/u8+bk
+    4NfU1tXW2Nrj8evg4+/w6NnX3+7s4OHq9nd4alxbXlxYVlFSWlVQUVNVUVVo6+n58+zq5OHc
+    19XS1dfY2tjU1t7j5OLk6u18YF1iZGlkX2Bmam50YlpecXNiXl5fXVhUV2JsZ2dw8eXh39rb
+    3dXZ3trV1dfV2Nbb7Pt5aG7x8XFjbX1kX1tXWmBubWJeXF1dWVlZWl5n//Lw7evf3+Dh6enf
+    2NbV2Nvc3uDi5uzv/25ycl9gYF5eX2JobWtxff19bmJdZW5oZHZ+fvb9/f/9+v717evn6Pfx
+    7+vn4t/e5eri5/BtanBoX2VoYmZscn306ejg6u/sfGllZWdmZF9mcHl79ezv6+/7a234+378
+    /v3y9XJ0fHr67PJ9+PDw8u7o5uvq4url5Ont/nh2fnhra19bXV5cWmJgXWhvcXv0+//78+nl
+    5Ofl3t/g4+zv6unu/ndueff07e71dm1ua2xscnx0dGtrY19ta2x0e/f3/XVvb3Tv7Ovu8e/u
+    6e/q4N3f7/v7fPF1aG/7fW5tZmd+8HttbXl+8X1taG1sV1d65P9n7tzW6Wnk1uD2cXZsc2Bc
+    bmz65uLu69zq7+vm8+zsd/zvdnPxdmv783Jtb2pjYlxQTFBWUE9TXH7o597QzMvLzc3P2N3e
+    3dPP1dnPycnN093zVTsvLi4uLjA6V8u/ubGtrrG6yd5YQDYzNz5HTvzIvbi4uru8ws/f6t/i
+    9+jOz2tRRDIsLS0sLzdIzb26sayutL3WXEo7NDY5Qlj21MG4tba6vL3B0Obe3eLd0M3Q5VdB
+    MisqKystN0zPvLexra20wutYSD43NjtFW/TVwrq3ub2/v8TM1Nba2NTS0dPdZEYzKyosLS0y
+    RNG8uLOvrrG81mJVQzg1OUFPXHXUv7m5u76+v8bQ09bZ1trW0dbuVT8xLCwtLS43TtXCu7aw
+    r7W/0ehdSDw5PEJITl/bxLu5urq6ur/L1eZyam5w9e71Z08/ODc4NzU4Pk5t5dPMxcLBwsXI
+    0eRlUkxKR0pX/drMycbDwcLHys/P0Nfg3t3o+2ddTUM+PT49PT5ARlBhe9zPycTFytDa6m9a
+    UE1TXWrk1NDMycnJx8jJyMvMztbe4XtbVVFLRkRFREE/Q0ZLT1JcYvnb1tXa3eDb3/P37uDg
+    3Nre3NjPzcvIxcbKzdHW3Oj5YVpUT0xHRUJBPj5AR0tPXW7i0M7P09TPz9bj9vh0bG5scuvY
+    09LRzsnIy9HU1trb3+Di7m5aTUVDQD09PkFFS1Ff7tnT0M/OztHZ8V5ZXmZpYmvn2M/Kx8jF
+    wsPGy8vMz9fe63ZhVUxCPjw6OTk9Q0ZMWPfWzMnLzM7Y3eV8ZmN
+  message_id: <CMM.0.88.687168092.mrc@akbar.cac.washington.edu>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "1993-02-06"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 1993-02-06 10:53:47
+  type: Email
+  remark: 
+  based_on: 
+  subject: "Multi-media mail demonstration "
+  invoice_number: 
+  id: "295"
+  value: 
+  address_id: "2849"
+  realization_from: "1993-02-06"
+  signed_by: 
+  last_modified_by: "4"
+  user_id: "4"
+  state: open
+  created_at: 2009-11-29 22:27:09
+documents_137: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-11-02"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: brief
+  scale: "0.5"
+  date: 2009-11-02 10:35:00
+  type: Paper
+  remark: keine
+  based_on: 
+  subject: test
+  invoice_number: 
+  id: "227"
+  value: 
+  address_id: "2081"
+  realization_from: "2009-11-02"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-02 10:35:23
+documents_109: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-25"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-25 12:26:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "68"
+  id: "136"
+  value: 
+  address_id: "1042"
+  realization_from: "2009-09-25"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-09-25 12:26:36
+documents_051: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-08"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: kostenvoranschlag
+  scale: "0.5"
+  date: 2009-08-08 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: 
+  id: "58"
+  value: "595.000000000000"
+  address_id: "1044"
+  realization_from: "2009-08-08"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-08 12:38:04
+documents_023: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-06-06 00:00:00
+  type: Paper
+  remark: "Die Vorlage f\xC3\xBCr Mahnungen"
+  based_on: 
+  subject: "Rechnung #{@odoc.invoice_number_formatted} vom #{german_date @odoc.date}"
+  invoice_number: 
+  id: "26"
+  value: 
+  address_id: "2075"
+  realization_from: "2009-06-06"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-06 18:46:26
+documents_166: 
+  message: |
+    
+
+  message_id: <4B128B70.8000207@banza.net>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-29"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-29 14:55:44
+  type: Email
+  remark: 
+  based_on: 
+  subject: attachemtn
+  invoice_number: 
+  id: "296"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-11-29"
+  signed_by: 
+  last_modified_by: "4"
+  user_id: "4"
+  state: open
+  created_at: 2009-11-29 22:27:10
+documents_138: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-11-06 12:57:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "77"
+  id: "232"
+  value: "23.850000000000"
+  address_id: "1035"
+  realization_from: "2009-11-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-06 13:11:37
+documents_052: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-07 22:00:00
+  type: Paper
+  remark: 
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "26"
+  id: "59"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-07"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: dun2
+  created_at: 2009-08-08 13:30:50
+documents_024: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-06-06 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "18"
+  id: "27"
+  value: 
+  address_id: "1056"
+  realization_from: "2009-06-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-06 19:39:31
+documents_080: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-15"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-15 16:04:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "47"
+  id: "91"
+  value: 
+  address_id: "2077"
+  realization_from: "2009-08-15"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-15 16:13:31
+documents_167: 
+  message: |
+    Eml
+    
+    Return-Path: <gems@gemcutter.org>
+    Delivered-To: thelonius@banza.net
+    Received: from m3.goneo.de (m3.goneo.de [82.100.220.82])
+    	by mailbox2-final.goneo.de (Postfix) with ESMTP id BB8C43A2869C
+    	for <thelonius@banza.net>; Fri, 27 Nov 2009 10:41:54 +0100 (CET)
+    Received: from localhost (localhost [127.0.0.1])
+    	by scan.goneo.de (Postfix) with ESMTP id B7F3D4A0A5D
+    	for <thelonius@banza.net>; Fri, 27 Nov 2009 10:41:54 +0100 (CET)
+    X-Virus-Scanned: by goneo
+    X-Spam-Flag: NO
+    X-Spam-Score: -2.599
+    X-Spam-Level: 
+    X-Spam-Status: No, score=-2.599 tagged_above=-9999 required=5
+    	tests=[BAYES_00=-2.599] autolearn=ham
+    Received: from m3.goneo.de ([127.0.0.1])
+    	by localhost (m3.goneo.de [127.0.0.1]) (amavisd-new, port 10024)
+    	with LMTP id 9pHcry1iOeUH for <thelonius@banza.net>;
+    	Fri, 27 Nov 2009 10:41:40 +0100 (CET)
+    X-policyd-weight:  NOT_IN_SPAMCOP=-1.5 NOT_IN_BL_NJABL=-1.5 CL_IP_EQ_HELO_IP=-2 (check from: .gemcutter. - helo: .mail-qy0-f173.google. - helo-domain: .google.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=1; rate: -4
+    Received: from mail-qy0-f173.google.com (mail-qy0-f173.google.com [209.85.221.173])
+    	by m3.goneo.de (Postfix) with ESMTP id B12014A0A1C
+    	for <tnt@banza.net>; Fri, 27 Nov 2009 10:41:36 +0100 (CET)
+    Received: by qyk3 with SMTP id 3so591650qyk.1
+            for <tnt@banza.net>; Fri, 27 Nov 2009 01:41:36 -0800 (PST)
+    Received: by 10.224.42.75 with SMTP id r11mr368605qae.321.1259314895931;
+            Fri, 27 Nov 2009 01:41:35 -0800 (PST)
+    Received: from gemcutter.org ([72.4.120.124])
+            by mx.google.com with ESMTPS id 22sm1203678qyk.14.2009.11.27.01.41.35
+            (version=TLSv1/SSLv3 cipher=RC4-MD5);
+            Fri, 27 Nov 2009 01:41:35 -0800 (PST)
+    Date: Fri, 27 Nov 2009 04:41:34 -0500
+    From: gems@gemcutter.org
+    To: tnt@banza.net
+    Message-Id: <4b0f9ece9a7fc_39c5159b337d77041d1@255155-db1.rubygems.org.tmail>
+    Subject: Account confirmation
+    Mime-Version: 1.0
+    Content-Type: text/plain; charset=utf-8
+    
+    Your Gemcutter account has been created! Please visit this url to activate it:
+    
+    http://gemcutter.org/users/3184/confirmation/new?token=fb40f63d9e6867df02f8e370771d1eb48aada264
+    
+
+  message_id: <4B12DA18.6020700@banza.net>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-29"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-29 20:31:20
+  type: Email
+  remark: 
+  based_on: 
+  subject: .eml-Test
+  invoice_number: 
+  id: "297"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-11-29"
+  signed_by: 
+  last_modified_by: "4"
+  user_id: "4"
+  state: open
+  created_at: 2009-11-29 22:27:10
+documents_139: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-11-06 13:40:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "78"
+  id: "235"
+  value: 
+  address_id: "1035"
+  realization_from: "2009-11-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-06 13:41:00
+documents_053: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-07 22:00:00
+  type: Paper
+  remark: 
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "27"
+  id: "60"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-07"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-08 13:33:39
+documents_025: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-06-06 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "19"
+  id: "28"
+  value: 
+  address_id: "1054"
+  realization_from: "2009-06-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-06 19:40:52
+documents_081: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-15"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-15 16:23:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "48"
+  id: "93"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-15"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-15 16:23:54
+documents_168: 
+  message: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    Thelonius Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b19206911e3d_3ef6..fdb7c2cec10ac@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-12-04"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-12-04 14:44:57
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Barrechnung 2009-82
+  invoice_number: 
+  id: "298"
+  value: 
+  address_id: "3534"
+  realization_from: "2009-12-04"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-12-04 14:27:19
+documents_054: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-07 22:00:00
+  type: Paper
+  remark: 
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "28"
+  id: "61"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-07"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-08 13:38:48
+documents_026: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-06-06 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "20"
+  id: "29"
+  value: 
+  address_id: "1990"
+  realization_from: "2009-06-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-06 19:45:52
+documents_082: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-15"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-15 16:26:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "49"
+  id: "94"
+  value: "64.999999999999"
+  address_id: "2077"
+  realization_from: "2009-08-15"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-15 16:26:37
+documents_169: 
+  message: "Hi\r\n\
+    \r\n\
+    Anbei un so...\r\n\
+    \r\n\
+    Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    Thelonius Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b1920fd9ca09_3ef6..fdb766df21449@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-12-04"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-12-04 14:47:25
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Brief 268
+  invoice_number: 
+  id: "299"
+  value: 
+  address_id: "3534"
+  realization_from: "2009-12-04"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-12-04 14:47:25
+documents_110: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-25"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-25 12:26:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "69"
+  id: "137"
+  value: 
+  address_id: "1042"
+  realization_from: "2009-09-25"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-09-25 12:33:06
+documents_027: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-06-06 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "21"
+  id: "30"
+  value: 
+  address_id: "1990"
+  realization_from: "2009-06-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-06 19:47:17
+documents_083: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-15"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "0"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-15 16:28:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "50"
+  id: "96"
+  value: "35.000000000000"
+  address_id: "2077"
+  realization_from: "2009-08-15"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-15 16:36:01
+documents_055: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-07 22:00:00
+  type: Paper
+  remark: 
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "29"
+  id: "62"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-07"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-08 13:48:40
+documents_111: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-25"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-25 12:26:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "70"
+  id: "138"
+  value: 
+  address_id: "1042"
+  realization_from: "2009-09-25"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-09-25 12:38:16
+documents_028: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-06-06 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "22"
+  id: "31"
+  value: "14.999999999999"
+  address_id: "1990"
+  realization_from: "2009-06-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-06 19:48:31
+documents_084: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-15"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: angebot
+  scale: "0.5"
+  date: 2009-08-15 18:04:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: Ihre Anfrage vom 15.8.09
+  invoice_number: 
+  id: "97"
+  value: "1800.000000000000"
+  address_id: "1044"
+  realization_from: "2009-08-15"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-15 18:04:27
+documents_056: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-07 22:00:00
+  type: Paper
+  remark: 
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "30"
+  id: "63"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-07"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-08 13:50:34
+documents_140: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-11-06 15:59:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "79"
+  id: "236"
+  value: 
+  address_id: "1035"
+  realization_from: "2009-11-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-06 15:59:44
+documents_029: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: brief
+  scale: "0.5"
+  date: 2009-06-07 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "32"
+  value: 
+  address_id: "1041"
+  realization_from: "2009-06-07"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-07 20:15:53
+documents_085: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-15"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-15 18:34:57
+  type: Paper
+  remark: 
+  based_on: "97"
+  subject: Ihre Anfrage vom 15.8.09
+  invoice_number: "51"
+  id: "99"
+  value: "1800.000000000000"
+  address_id: "1044"
+  realization_from: "2009-08-15"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-15 18:34:57
+documents_057: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-07 22:00:00
+  type: Paper
+  remark: 
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "31"
+  id: "64"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-07"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-08 13:51:18
+documents_112: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-25"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-25 12:26:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "71"
+  id: "139"
+  value: "8999.999999999990"
+  address_id: "1042"
+  realization_from: "2009-09-25"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-09-25 12:38:25
+documents_141: 
+  message: Kaute mir schonwieder dserartig ein Ohr ab...
+  message_id: 
+  updated_at: 2009-12-29 16:31:55
+  realization_to: "2009-11-08"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-08 21:51:00
+  type: PhoneCall
+  remark: Wahnsinn!
+  based_on: 
+  subject: 
+  invoice_number: 
+  id: "256"
+  value: 
+  address_id: "1035"
+  realization_from: "2009-11-08"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-08 21:51:43
+documents_086: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-16"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: brief
+  scale: "0.5"
+  date: 2009-08-16 14:19:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "100"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-16"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-16 14:19:39
+documents_058: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-07 22:00:00
+  type: Paper
+  remark: 
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "32"
+  id: "65"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-07"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-08 13:54:38
+documents_113: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-28"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-09-28 20:22:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "72"
+  id: "150"
+  value: "19.999999999999"
+  address_id: "1044"
+  realization_from: "2009-09-28"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-09-28 20:22:47
+documents_170: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-19 23:00:16
+  realization_to: "2009-12-05"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-12-06 21:38:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "83"
+  id: "300"
+  value: "100.000000000000"
+  address_id: "3531"
+  realization_from: "2009-05-05"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-12-06 21:40:17
+documents_142: 
+  message: ""
+  message_id: <4af7e40f24a4e_6eea..fdb8387c642cb@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-09"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-09 09:42:39
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Als email versenden Test
+  invoice_number: 
+  id: "257"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-11-09"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-09 09:42:38
+documents_087: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-16"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: brief
+  scale: "0.511811"
+  date: 2009-08-16 14:37:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "101"
+  value: 
+  address_id: "1048"
+  realization_from: "2009-08-16"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-16 14:37:54
+documents_059: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.57874"
+  date: 2009-08-07 22:00:00
+  type: Paper
+  remark: ""
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "33"
+  id: "66"
+  value: "1100.000000000000"
+  address_id: "1044"
+  realization_from: "2009-08-07"
+  signed_by: "2"
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-08 13:58:14
+documents_114: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-29"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-09-29 14:19:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "73"
+  id: "151"
+  value: "50.000000000000"
+  address_id: "1041"
+  realization_from: "2009-09-29"
+  signed_by: 
+  last_modified_by: "2"
+  user_id: "2"
+  state: open
+  created_at: 2009-09-29 14:19:59
+documents_171: 
+  message: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    Thelonius Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b1d295b4d80f_3ef6..fdb777f76181@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-07 16:12:10
+  realization_to: 
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-12-07 16:12:11
+  type: Email
+  remark: ""
+  based_on: 
+  subject: "[:Seen]"
+  invoice_number: 
+  id: "301"
+  value: 
+  address_id: "2849"
+  realization_from: 
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-12-07 16:08:43
+documents_143: 
+  message: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    Thelonius Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b043fbe88ffc_6eea..fdb7268e245e1@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-18"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-18 18:41:03
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Kagge an Ahsch
+  invoice_number: 
+  id: "259"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-11-18"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-09 22:23:39
+documents_115: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-29"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-09-29 19:15:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "74"
+  id: "152"
+  value: "5.950000000000"
+  address_id: "1035"
+  realization_from: "2009-09-29"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-09-29 19:15:47
+documents_088: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-16"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: kostenvoranschlag
+  scale: "0.5"
+  date: 2009-08-16 15:16:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: 
+  id: "102"
+  value: 
+  address_id: "1048"
+  realization_from: "2009-08-16"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-16 15:16:58
+documents_001: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-04-04"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-04-04 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: "3"
+  id: "1"
+  value: "0.000000000000"
+  address_id: "1041"
+  realization_from: "2009-04-04"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-04-04 22:13:10
+documents_172: 
+  message: "\r\n\
+    Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    Thelonius Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b1d2d106a2fe_3ef6..fdb7a236622a1@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-07 16:28:00
+  realization_to: 
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-12-07 16:28:00
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Barrechnung 2009-83
+  invoice_number: 
+  id: "302"
+  value: 
+  address_id: "2849"
+  realization_from: 
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-12-07 16:28:00
+documents_144: 
+  message: laber, laber, lyber, laber,...
+  message_id: 
+  updated_at: 2009-12-29 16:31:55
+  realization_to: "2009-11-16"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-16 19:54:00
+  type: PhoneCall
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: 
+  id: "261"
+  value: 
+  address_id: "3526"
+  realization_from: "2009-11-16"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-16 20:12:50
+documents_116: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-09-29"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-09-29 19:15:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "75"
+  id: "153"
+  value: "9.999999999999"
+  address_id: "1035"
+  realization_from: "2009-09-29"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-09-29 19:20:42
+documents_030: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-21 20:35:10
+  realization_to: "2009-06-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: brief
+  scale: "0.5"
+  date: 2009-06-06 23:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "33"
+  value: 
+  address_id: "1045"
+  realization_from: "2009-06-07"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-07 20:48:34
+documents_089: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-16"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: kostenvoranschlag
+  scale: "0.5"
+  date: 2009-08-16 15:18:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: 
+  id: "103"
+  value: "2618.000000000000"
+  address_id: "1048"
+  realization_from: "2009-08-16"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-16 15:18:32
+documents_002: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-04-05"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.476378"
+  date: 2009-04-05 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: "5"
+  id: "2"
+  value: "250.000000000000"
+  address_id: "1044"
+  realization_from: "2009-04-05"
+  signed_by: 
+  last_modified_by: "2"
+  user_id: "1"
+  state: dun1
+  created_at: 2009-04-05 10:01:11
+documents_173: 
+  message: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    Thelonius Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b1d2d5ac5c1f_3ef6..fdb7a83a626c7@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-07 16:29:14
+  realization_to: 
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-12-07 16:29:15
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Barrechnung 2009-83
+  invoice_number: 
+  id: "303"
+  value: 
+  address_id: "3534"
+  realization_from: 
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-12-07 16:29:06
+documents_145: 
+  message: bulbber, glubber, wubber, schubber...
+  message_id: 
+  updated_at: 2009-12-29 16:31:55
+  realization_to: "2009-11-16"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-16 20:16:00
+  type: Visit
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: 
+  id: "262"
+  value: 
+  address_id: "2081"
+  realization_from: "2009-11-16"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-16 20:17:06
+documents_117: 
+  message: "Rief, an, erz\xC3\xA4hlte, erz\xC3\xA4hlte, un ohne Tresen nischt jewesen."
+  message_id: 
+  updated_at: 2009-12-29 16:31:54
+  realization_to: "2009-10-03"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-03 20:01:00
+  type: PhoneCall
+  remark: 
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "155"
+  value: 
+  address_id: "1035"
+  realization_from: "2009-10-03"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-03 20:02:02
+documents_031: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: brief
+  scale: "0.5"
+  date: 2009-06-07 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: 
+  id: "34"
+  value: 
+  address_id: "1045"
+  realization_from: "2009-06-07"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-07 20:50:34
+documents_003: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-04-08"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.61811"
+  date: 2009-04-08 00:00:00
+  type: Paper
+  remark: dinks
+  based_on: 
+  subject: "Ma k\xC3\xBChkn"
+  invoice_number: "6"
+  id: "3"
+  value: "439.999999999999"
+  address_id: "2077"
+  realization_from: "2009-04-08"
+  signed_by: "2"
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-04-05 10:04:15
+documents_174: 
+  message: "\r\n\
+    Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    Thelonius Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b1d2dd6debc3_3ef6..fdb878f2e30ae@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-07 16:31:18
+  realization_to: 
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-12-07 16:31:19
+  type: Email
+  remark: ""
+  based_on: 
+  subject: -Barrechnung 2009-83
+  invoice_number: 
+  id: "304"
+  value: 
+  address_id: "3534"
+  realization_from: 
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-12-07 16:31:18
+documents_146: 
+  message: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    T. Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: 
+  updated_at: 2009-12-07 21:57:14
+  realization_to: "2009-11-18"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-18 19:02:00
+  type: Email
+  remark: ""
+  based_on: 
+  subject: "teswt @document.type = params[:type] "
+  invoice_number: 
+  id: "263"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-11-18"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-18 19:04:38
+documents_118: 
+  message: "oizjvjlbni\xC3\xB6k zgliuzb "
+  message_id: 
+  updated_at: 2009-12-29 16:31:54
+  realization_to: "2009-11-05"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-05 21:44:00
+  type: PhoneCall
+  remark: ""
+  based_on: 
+  subject: "Un er laberte schon wieder, kaute mir das andere Ohr auch noch ab, un Moral der Erz\xC3\xA4hlstunde: zero."
+  invoice_number: 
+  id: "157"
+  value: 
+  address_id: "1035"
+  realization_from: "2009-11-05"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-10 20:49:27
+documents_032: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-15"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: barrechnung
+  scale: "0.5"
+  date: 2009-06-15 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "23"
+  id: "35"
+  value: "18.000000000000"
+  address_id: "2074"
+  realization_from: "2009-06-15"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-06-15 09:41:28
+documents_004: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-04-02"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "16"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-04-02 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: "1"
+  id: "4"
+  value: "476.000000000000"
+  address_id: "2072"
+  realization_from: "2009-04-02"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-04-05 10:05:54
+documents_060: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-07 22:00:00
+  type: Paper
+  remark: 
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "34"
+  id: "67"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-07"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-08 15:01:28
+documents_175: 
+  message: "\r\n\
+    Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    Thelonius Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b1d2e7d7334d_3ef6..fdb753324349a@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-07 16:34:05
+  realization_to: 
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-12-07 16:34:05
+  type: Email
+  remark: ""
+  based_on: 
+  subject: --Barrechnung 2009-83
+  invoice_number: 
+  id: "305"
+  value: 
+  address_id: "3534"
+  realization_from: 
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-12-07 16:34:05
+documents_147: 
+  message: Kau, kau, nag, mampf, malm, knusper, knabber, ...
+  message_id: 
+  updated_at: 2009-12-29 16:31:55
+  realization_to: "2009-11-18"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-18 19:34:00
+  type: PhoneCall
+  remark: Wat man mit nem Ohr allet machen kann!
+  based_on: 
+  subject: 
+  invoice_number: 
+  id: "264"
+  value: 
+  address_id: "3526"
+  realization_from: "2009-11-18"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-18 19:34:43
+documents_119: 
+  message: ""
+  message_id: 
+  updated_at: 2009-12-29 16:31:54
+  realization_to: "2009-10-10"
+  is_foreign: "1"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-10-10 20:44:00
+  type: PhoneCall
+  remark: 
+  based_on: 
+  subject: "Un er laberte schon wieder, kaute mir das andere Ohr auch noch ab, un Moral der Erz\xC3\xA4hlstunde: zero."
+  invoice_number: 
+  id: "158"
+  value: 
+  address_id: "1035"
+  realization_from: "2009-10-10"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-10-10 21:03:47
+documents_033: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-06-15"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-06-15 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "24"
+  id: "36"
+  value: 
+  address_id: "2077"
+  realization_from: "2009-06-15"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-06-15 10:01:42
+documents_005: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-04-03"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.854331"
+  date: 2009-04-03 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: "2"
+  id: "5"
+  value: "5000.000000000000"
+  address_id: "2072"
+  realization_from: "2009-04-03"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-04-05 10:10:12
+documents_061: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-07 22:00:00
+  type: Paper
+  remark: 
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "35"
+  id: "68"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-07"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-08 15:13:31
+documents_176: 
+  message: "\r\n\
+    Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    Thelonius Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b1d2f80a3f8c_3ef6..fdb7087d43874@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-07 16:38:24
+  realization_to: 
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-12-07 16:38:24
+  type: Email
+  remark: ""
+  based_on: 
+  subject: asdfghjklBarrechnung 2009-83
+  invoice_number: 
+  id: "306"
+  value: 
+  address_id: "3534"
+  realization_from: 
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-12-07 16:38:24
+documents_148: 
+  message: "\r\n\
+    Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    T. Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: 
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-18"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-18 19:43:00
+  type: Email
+  remark: ""
+  based_on: 
+  subject: wieterer Test
+  invoice_number: 
+  id: "265"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-11-18"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-18 19:43:20
+documents_006: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-04-04"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-04-04 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: "4"
+  id: "6"
+  value: "12.000000000000"
+  address_id: "2073"
+  realization_from: "2009-04-04"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: 
+  created_at: 2009-04-05 10:16:49
+documents_090: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-16"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.543307"
+  date: 2009-08-16 15:29:07
+  type: Paper
+  remark: 
+  based_on: "103"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "52"
+  id: "106"
+  value: "2618.000000000000"
+  address_id: "1048"
+  realization_from: "2009-08-16"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-16 15:29:07
+documents_062: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-08"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-08 15:15:59
+  type: Paper
+  remark: 
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "36"
+  id: "69"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-08"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-08 15:15:59
+documents_034: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-01"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-01 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "25"
+  id: "38"
+  value: "1.499999999999"
+  address_id: "1988"
+  realization_from: "2009-08-01"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: dun3
+  created_at: 2009-08-01 19:49:08
+documents_177: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-23 17:47:54
+  realization_to: "2009-12-07"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.46063"
+  date: 2009-12-07 17:52:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: ""
+  invoice_number: "84"
+  id: "307"
+  value: "2000.000000000000"
+  address_id: "3539"
+  realization_from: "2009-12-01"
+  signed_by: "1"
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-12-07 20:08:50
+documents_149: 
+  message: "\r\n\
+    Mit freundlichen Gr\xC3\xBC\xC3\x9Fen\r\n\
+    \r\n\
+    \r\n\
+    T. Kort\r\n\
+    \r\n\
+    ____________________________________\r\n\
+    Bernhard Kort & Thelonius Kort\r\n\
+    Geigenbauer\r\n\
+    Paul-Lincke-Ufer 33\r\n\
+    10999 Berlin\r\n\
+    +4930 61 28 49 41\r\n\
+    http://kort-basses.com/"
+  message_id: <4b0579ecbe7d5_6eea..fdb90a21248b7@vs242146.vserver.de.tmail>
+  updated_at: 2009-12-06 11:58:02
+  realization_to: "2009-11-19"
+  is_foreign: "0"
+  sent: "1"
+  tax_rate: "19"
+  kind: 
+  scale: "0.5"
+  date: 2009-11-19 17:01:33
+  type: Email
+  remark: ""
+  based_on: 
+  subject: Brief 227
+  invoice_number: 
+  id: "267"
+  value: 
+  address_id: "2849"
+  realization_from: "2009-11-19"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-11-19 17:01:31
+documents_007: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-04-26"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-04-26 00:00:00
+  type: Paper
+  remark: ""
+  based_on: 
+  subject: 
+  invoice_number: "7"
+  id: "9"
+  value: "0.000000000000"
+  address_id: "1928"
+  realization_from: "2009-04-26"
+  signed_by: "2"
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-04-26 12:41:07
+documents_091: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-16"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-16 15:29:37
+  type: Paper
+  remark: 
+  based_on: "106"
+  subject: Rechnung 090816-3 vom 16.8.09
+  invoice_number: 
+  id: "107"
+  value: 
+  address_id: "1048"
+  realization_from: "2009-08-16"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-16 15:29:37
+documents_063: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:01
+  realization_to: "2009-08-08"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: rechnung
+  scale: "0.5"
+  date: 2009-08-08 15:28:21
+  type: Paper
+  remark: 
+  based_on: "58"
+  subject: Reparatur Ihres Kontrabasses
+  invoice_number: "37"
+  id: "70"
+  value: 
+  address_id: "1044"
+  realization_from: "2009-08-08"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: paid
+  created_at: 2009-08-08 15:28:21
+documents_035: 
+  message: 
+  message_id: 
+  updated_at: 2009-12-06 11:58:00
+  realization_to: "2009-08-06"
+  is_foreign: "0"
+  sent: "0"
+  tax_rate: "19"
+  kind: mahnung
+  scale: "0.5"
+  date: 2009-08-06 22:00:00
+  type: Paper
+  remark: 
+  based_on: 
+  subject: 
+  invoice_number: 
+  id: "42"
+  value: 
+  address_id: "1988"
+  realization_from: "2009-08-06"
+  signed_by: 
+  last_modified_by: "1"
+  user_id: "1"
+  state: open
+  created_at: 2009-08-07 12:12:42

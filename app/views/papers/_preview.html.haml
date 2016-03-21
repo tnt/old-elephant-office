@@ -1,0 +1,34 @@
+.date=l @document.date, :format => :date
+%p
+  = render 'addresses/address', :address => @document.address
+%p
+  %b= @document.subject
+- for content in @document.contents
+  - case content.kind
+  - when 'text'
+    %p= content.text_with_breaks
+  - when 'signing'
+    %p= content.text_with_breaks
+  - when 'rblock'
+    %table
+      %tfoot
+        %tr
+          %td{:colspan => "2"}
+            %hr/
+        %tr
+          %td.paper_preview_rblock_line_left Summe
+          %td.paper_preview_rblock_line_right= number_to_currency(content.sum)
+        %tr
+          %td.paper_preview_rblock_line_left
+            = @document.tax_rate
+            \% MwSt.
+          %td.paper_preview_rblock_line_right= number_to_currency(content.tax)
+        %tr
+          %td.paper_preview_rblock_line_left Gesamt
+          %td.paper_preview_rblock_line_right= number_to_currency(content.total)
+      %tbody
+        - for rblock_line in content.rblock_lines
+          - if rblock_line.kind == 'line'
+            %tr
+              %td.paper_preview_rblock_line_left= rblock_line.text
+              %td.paper_preview_rblock_line_right= number_to_currency(rblock_line.price)

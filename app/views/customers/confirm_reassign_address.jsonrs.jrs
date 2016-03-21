@@ -1,0 +1,20 @@
+arr = @message ? [
+    { 
+      job: 'alert', 
+      content: @message, 
+      elements: "body" 
+    }
+  ] : []
+  
+  ([
+    { 
+      job: 'replace_content', 
+      content: render('customers/confirm_reassign_address', :customer_id => @customer_id), 
+      elements: '#common_selector_inner'
+    },
+    { 
+      job: 'effect', 
+      content: 'Highlight', 
+      elements: '#common_selector_inner'
+    }
+  ] + arr ) 

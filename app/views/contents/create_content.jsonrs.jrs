@@ -1,0 +1,32 @@
+arr = [
+  {
+    job: 'replace_element',
+    elements: "#content_#{html_id}",
+    content: render("contents/#{@content.kind}", :content => @content ) 
+  },
+  {
+    job: 'effect',
+    elements: "#content_#{@content.id}",
+    content: 'Highlight'
+  },
+  {
+    job: 'refresh_sortable', # seems obsolete with jquery
+    elements: "#contents_list",
+    content:  {tag: 'tr', :handle => 'cl_handle', url: "/contents/order_contents"}
+  } 
+] 
+
+
+arr <<   {
+    job: 'call',
+    elements: "#rblock_#{@content.id}",
+    content:  'init_sortable'
+  } if @content.kind == 'rblock'
+
+arr <<   {
+    job: 'call',
+    elements: "#content_#{@content.id}_scale_slider",
+    content:  'init_scale_slider'
+  } if @content.kind == 'pagebreak'
+
+arr

@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  email_id: 1
+  headers: MyText
+  full_message: MyText
+
+two:
+  email_id: 1
+  headers: MyText
+  full_message: MyText

@@ -1,0 +1,73 @@
+arr = [
+  {
+    job: (@cash_books.length > 0 ? 'insert_before' : 'insert_bottom' ),
+    elements: (@cash_books.length > 0 ? "#cash_book_#{@cash_books[0].id}" : "#cash_books_main" ),
+    content: render("cash_books/cash_book", :cash_book => @cash_book)
+  }
+]
+
+@cash_books.each do |cb|
+  arr << {
+    job: 'set_attributes',
+    elements: "tr#cash_book_#{cb.id} td div",
+    content: {title: number_to_currency(cb.balance)}
+  }
+end
+
+arr << {
+  job: 'effect',
+  elements: "#cash_book_#{@cash_book.id}",
+  content: 'Highlight'
+}
+
+['','_sale','_workshop'].each do |s|
+  value = @results["total#{s}".to_sym]
+  id = "#cb_total#{s}"
+  arr << {
+    job: 'replace_content',
+    elements: id,
+    content: number_to_currency(value)
+  }
+  arr << {
+    job: (value < 0 ? 'add_classname' : 'remove_classname'),
+    elements: id,
+    content: 'out'
+  }
+end
+%w(sale workshop).each do |m|
+  %w(in out).each do |n|
+    arr << {
+      job: 'replace_content',
+      elements: "#cb_#{m}_#{n}",
+      content: number_to_currency(@results["#{m}_#{n}".to_sym])
+    }
+  end
+end
+
+arr << {
+  job: 'reset_form',
+  elements: "#new_cash_book",
+  content: ''
+}
+arr << {
+  job: 'set_form_value',
+  elements: "#cash_book_workshop",
+  content: 'false'
+} # should get resetted by previous job but doesn't
+
+arr << {
+  job: 'remove_classname',
+  elements: '#cash_book_background',
+  content: 'workshop'
+}
+
+now = Time.now
+%w(year month day hour min).each_with_index do |i,ind| 
+  arr << {
+    job: 'set_form_value',
+    elements: "#cash_book_date_#{ind+1}i",
+    content: now.send(i).to_s
+  }
+end
+
+arr 

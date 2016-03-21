@@ -1,0 +1,20 @@
+arr = [ {
+  job: 'effect',
+  elements: "#contactable_#{@contactable.id}",
+  content: 'Highlight'
+} ]
+
+arr << {
+  job: 'add_classname',
+  elements: "#contactable_#{@contactable.id}>div",
+  content: "sex_#{@contactable.sex}"
+}
+
+(Elph[:sex_kinds] - [ @contactable.sex ]).each do |sex| 
+  arr << {
+    job: 'remove_classname',
+    elements: "#contactable_#{@contactable.id}>div",
+    content: "sex_#{sex}"
+  }
+end 
+arr 

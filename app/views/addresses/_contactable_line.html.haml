@@ -1,0 +1,17 @@
+.contactable_content
+  = h contactable.title
+  = h contactable.firstname
+  = h contactable.name
+  %br/
+  = cond_line contactable.cust_ref1
+  = cond_line contactable.cust_ref2
+  = cond_line contactable.line2
+  = cond_line contactable.line3
+  = h contactable.street
+  = h contactable.number
+  %br/
+  = h contactable.zip
+  = h contactable.city
+  %br/
+  = cond_line contactable.state
+  = cond_line contactable.country

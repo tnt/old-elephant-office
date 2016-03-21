@@ -1,0 +1,7 @@
+[
+  {
+    job: 'replace_element',
+    elements: "#paper_#{@paper.id}",
+    content: render('document_line', :document => @paper, :doc_alias => nil)
+  }
+]

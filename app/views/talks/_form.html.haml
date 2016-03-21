@@ -1,0 +1,27 @@
+= f.error_messages
+%p
+  = f.label :date, 'Datum/Uhrzeit'
+  %br/
+  = f.text_field :date, :class => 'datetimepicker'
+%p
+  = f.radio_button :is_foreign, true
+  = f.label :is_foreign_true, (@document.type == 'PhoneCall' ? 'eingehend' : 'bei uns')
+  \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  = f.radio_button :is_foreign, false
+  = f.label :is_foreign_false, (@document.type == 'PhoneCall' ? 'ausgehend' : 'beim Kunden')
+.md_area_container
+  = f.label :message, 'Inhalt'
+  %br/
+  = f.text_area :message, :class => 'md_area'
+- if f.object.markup == 'markdown'
+  .md_preview_container
+    &nbsp;
+    %br/
+    .md_preview
+%p.clear
+  = f.label :remark, 'Bemerkungen'
+  %br
+  = f.text_area :remark
+%p
+  = f.hidden_field :markup
+  = f.submit "Speichern"

@@ -1,0 +1,31 @@
+= f.error_messages
+- disabled =  @document.editable? ? {} : {:disabled => 'disabled'}
+%p
+  = @document.editable? ? contactable_selector(f) : h(@document.email_address_complete)
+%p
+  /= german_date_time @document.date if @document.date
+  = @document.date if @document.date
+%p
+  = f.label :subject, 'Betreff'
+  %br
+  = f.text_field :subject, disabled
+%p
+  = f.label :message, 'Inhalt'
+  %br
+  /- sig = @document.persisted? ? {} : {:value => User.find(session[:user]).signature}
+  = f.text_area :message, {:rows => 10}.merge(disabled)
+%p
+  = f.label :remark, 'Bemerkungen'
+  %br
+  = f.text_area :remark, :rows => 3
+- if @document.persisted?
+  = render 'documents/document_info', :document => @document
+%p
+  = f.submit "Abschicken", :name => 'send_now' if @document.editable?
+  \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  \#{f.submit "#{@document.editable? ? 'Entwurf ' : ''}Speichern"}
+  #attachments
+  = f.fields_for :attachments do |att_form|
+    = render("email_attachments/#{att_form.object.kind}_form", :f => att_form, :email => @document) if att_form.object.kind == 'file' ||  att_form.object.document
+    = render("email_attachments/document_line", :att => att_form.object) unless att_form.object.kind == 'file' || att_form.object.document
+

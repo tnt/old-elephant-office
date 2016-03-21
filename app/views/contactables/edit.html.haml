@@ -1,0 +1,34 @@
+%h1
+  = h @contactable.type.to_s
+  bearbeiten
+= form_for(@contactable, :as => :contactable, :url => { :action => "update"}) do |f|
+  = f.error_messages
+  %p
+    = f.label :sex
+    %br/
+    = f.select :sex, Elph[:sex_kinds]
+  %p
+    = f.label :title
+    %br/
+    = f.text_field :title
+  %p
+    = f.label :firstname, 'Vorname'
+    %br/
+    = f.text_field :firstname
+  %p
+    = f.label :name
+    %br/
+    = f.text_field :name
+  = f.fields_for :specific do |specific_form|
+    = render "#{@contactable.type.underscore.pluralize}/specific_form", :f => specific_form
+  %p
+    = f.label :remark, 'Bemerkungen'
+    %br/
+    = f.text_area :remark
+  %p
+    %input{:name => "old_address_id", :type => "hidden", :value => @old_address_id}/
+    = f.hidden_field :customer_id
+    = hidden_field '', :_method, :value => 'put'
+    = f.hidden_field :type
+    = f.submit "Speichern"
+= link_to 'Kunde', @contactable.customer

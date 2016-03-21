@@ -1,0 +1,29 @@
+- w_id = "alias_subform_wrapper_#{SecureRandom.hex(6)}"
+%div.hide_sometimes_hidden{:class => [( f.object.persisted? and (!f.object.changed? and !f.object.marked_for_destruction?)) && 'not_to_be_saved',
+  f.object.marked_for_destruction? && 'to_be_deleted'], :id => w_id}
+  .alias_subform
+    .form_actions
+      /= link_to('info ein-/ausblenden', "#", 'data-toggle-sometimes-hidden' => w_id, :class => "icon_link_16 info_16", :titl      - if f.object.persisted?
+      - if f.object.persisted?
+        = link_to('verwerfen', "#", :class => "not_to_be_saved_link cancel_16 icon_link_16", 'data-toggle-element' => w_id,
+          :title => "Formular ausblenden und Änderungen nicht speichern" )
+        = link_to('löschen', "#", :class => "to_be_deleted_link delete_16 icon_link_16", 
+          'data-mark-delete-nested' => w_id,
+          :title => "Alias löschen")
+      - else
+        = link_to('entfernen', "#", :class => "cancel_16 icon_link_16", 'data-remove-element' => w_id,
+          :title => "Neuen Alias wieder entfernen" )
+    %h4
+      = 'Alias'
+      = f.object.persisted? ? 'bearbeiten' : 'neu'
+    .alias_properties
+      = f.label :name
+      = f.text_field :name
+      %br
+      /.sometimes_hidden
+      = f.label :remark
+      = f.text_area :remark
+      = f.hidden_field :_destroy, :autocomplete => 'off'
+      = f.hidden_field :id
+  .alias_content
+    %a.not_to_be_saved_link{"data-toggle-element" => w_id, :href => "#"}= f.object.name

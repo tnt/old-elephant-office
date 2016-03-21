@@ -1,0 +1,16 @@
+%tr{:id => "content_#{content.id}"}
+  / partial app/views/contents/_pagebreak.html.erb
+  %td.cl_handle
+    %div
+  %td
+    /= ajax_slider content, :field_name => 'text', :controller => 'contents', :action => 'ajax_change_scale'
+    .scale_slider{:id => "content_#{content.id}_scale_slider", 'data-value' => content.text}
+  %td.action_column
+    .content_actions_wrapper
+      .content_actions
+        = rs_link_to 'Löschen', |
+          { :controller => 'contents', :action => 'destroy_ajax_content', :id => content },  |
+          'data-loading-element' => "content_#{content.id}",  :title => 'Löschen',           |
+          :confirm => 'Wirklich?', :class => 'icon_link delete'                              |
+        -#
+        = render :partial => "contents/insert_links", :locals => { :content => content }

@@ -1,0 +1,31 @@
+Es existieren bereits folgende auf #{@paper.kind.titlecase} #{@paper.id} basierende Dokumente:
+%table
+  %thead
+    %tr
+      %th Id
+      %th Nummer
+      %th Name
+      %th Datum
+      %th Summe
+  %tfoot
+    %tr
+      %td
+      %td
+      %td
+      %td Insges.
+      %td= number_to_currency(@total)
+  %tbody
+    - for document in @paper.based_ons
+      %tr{:class => "invoice_state_#{h document.state}", :id => "open_invoices_#{document.id}", :title => document.remark}
+        %td{:style => "text-align:right;"}= document.id
+        %td= document.invoice_number_formatted || ''
+        %td= h document.address.name
+        %td{:style => "text-align:center;"}= h german_date(document.date)
+        %td{:style => "text-align:right;"}= h number_to_currency(document.value)
+        %td{:id => "state_label_#{document.id}"}= Elph[:inv_state_labels][document.state.to_sym]
+        %td= link_to 'Show', document
+        %td= link_to 'Edit', edit_paper_path(document)
+%p
+  = link_to 'Trotzdem eine neue Rechnung erstellen',                                          |
+    { :controller => 'papers', :action => 'invoice_from_offer', :id => @paper, :force => 1 }, |
+    :title => "Rechnung auf Basis dieses #{@paper.kind.titlecase}es erstellen"                |

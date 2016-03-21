@@ -1,0 +1,17 @@
+[
+  {
+    job: 'replace_content',
+    elements: "#content_#{@content.id}",
+    content: render('common/deleted', :model => 'content', :cols => 3)
+  },
+  {
+    job: 'effect',
+    elements: "#content_#{@content.id}",
+    content: 'Highlight'
+  },
+  {
+    job: 'set_attributes',
+    elements: "#content_#{@content.id}",
+    content: {'data-cleanup-in' => 2}
+  }
+] 

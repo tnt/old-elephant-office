@@ -1,0 +1,10 @@
+[
+  { 
+    job: 'reload_page', 
+    content: '', 
+    elements: "body" 
+    #job: 'trigger_event', 
+    #content: 'click', 
+    #elements: "#customer_#{customer_id} a" 
+  }
+] 

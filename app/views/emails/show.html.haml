@@ -1,0 +1,25 @@
+%h1= "#{@document.kind.titlecase} #{@document.id}"
+= render 'documents/linkeds', :document =>  @document
+#add_linked
+  = rs_link_to 'Add Related',                                                          |
+    { :controller => 'documents', :action => 'ajax_choice_linked', :id => @document }  |
+%p
+  = h @document.contactable.email_address_complete
+%p
+  = german_date_time @document.date if @document.date
+%p
+  Betreff: #{@document.subject}
+.box
+  = @document.message_with_breaks
+%p
+  Bemerkungen:
+  %br
+  = @document.remark
+= render 'documents/document_info', :document => @document
+#attachments
+  Anhänge:
+  %br
+  - @document.attachments.each do |att|
+    = render "email_attachments/#{att.kind}_line", :att => att
+= link_to 'Bearbeiten', edit_email_path(@document)
+= link_to 'Zurück zum Kunden', @document.customer

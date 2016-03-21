@@ -1,0 +1,16 @@
+= form_tag :action => 'sign_on' do
+  %table
+    %tr
+      %td{:align => "right"}
+        Benutzer:
+      %td
+        = text_field_tag :username, nil, :autofocus => :autofocus
+    %tr
+      %td{:align => "right"}
+        Paßwort:
+      %td
+        = password_field_tag :password
+    %tr
+      %td
+      %td{:align => "right"}
+        = submit_tag 'Login', :id => :submit_button

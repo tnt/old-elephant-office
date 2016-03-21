@@ -1,0 +1,7 @@
+[
+  { 
+    job: 'set_location', 
+    content: 'customers', 
+    elements: "body" 
+  }
+] 

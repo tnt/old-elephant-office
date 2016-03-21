@@ -1,0 +1,15 @@
+%tr{:id => "rblock_line_#{@rblock_line.id}"}
+  =  "<!-- #{strip_rr __FILE__ } -->".html_safe
+  %td.edit_form{:colspan => "3"}
+    = rs_form_tag( { :controller => :rblock_lines, :action => :update_ajax_rblock_line, |
+      :id => @rblock_line },'data-loading-element' => "rblock_line_#{@rblock_line.id}_text", |
+      :disable_with => 'lade...', :id => "rblock_line_form_#{@rblock_line.id}",  )  do  |
+      = text_area(:rblock_line, :text, :rows => 2, :style => 'width:70%;', :id => "rblock_line_#{@rblock_line.id}_text")
+      = hidden_field :rblock_line, :content_id
+      = text_field :rblock_line, :price,                                                           |
+        :value => number_with_delimiter(@rblock_line.price, :separator => ',', :delimiter => '.'), |
+        :size => 9, :id => "rblock_line_#{@rblock_line.id}_price"                                  |
+      = image_submit_tag '/images/micons/save.png', :id => "rblock_line_#{@rblock_line.id}_save" #, :class => 'rblock_line_button_save'
+      = rs_link_to( 'Cancel',	{:controller => :rblock_lines, :action => 'cancel_ajax_rblock_line',  |
+        :id => @rblock_line },  :disable_with => 'lade...', 'data-loading-element' => "rblock_line_#{@rblock_line.id}_text",     |
+        :id => "rblock_line_#{@rblock_line.id}_cancel", :class => 'icon_link_16 cancel_16')      |

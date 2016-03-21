@@ -1,0 +1,14 @@
+= rs_link_to 'Text einfügen',    |
+  { :controller => 'contents', :action => :new_ajax_content, :insert_after => content.id,           |
+   'content[paper_id]' => content.paper_id, 'content[kind]' => :text}, :title => 'Text einfügen',   |
+   :class => 'icon_link insert_line' |
+-#
+= rs_link_to 'RBlock einfügen',    |
+  { :controller => 'contents', :action => :new_ajax_content, :insert_after => content.id,             |
+   'content[paper_id]' => content.paper_id, 'content[kind]' => :rblock}, :title => 'Rblock einfügen',   |
+   :class => 'icon_link insert_rblock' |
+-#
+= rs_link_to 'Seitenwechsel einfügen',                                                                     |
+    { :controller => 'contents', :action => :create_pagebreak, :insert_after => content.id,        |
+    :paper_id => content.paper_id }, :title => 'Seitenwechsel einfügen',                      |
+    :class => 'icon_link insert_pagebreak'  |

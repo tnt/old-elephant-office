@@ -1,0 +1,20 @@
+%tr{:id => "content_#{content.id}"}
+  / partial app/views/contents/_text.html.erb
+  %td
+    %div.cl_handle &nbsp;
+  %td
+    .paper_content_main_column.content_editable{:id => "editable_#{content.id}"}= content.text_with_spacing
+  %td.action_column{:nowrap => "nowrap"}
+    .content_actions_wrapper
+      .content_actions
+        = rs_link_to 'Bearbeiten',                                                                  |
+          { :controller => 'contents', :action => 'edit_ajax_content', :id => content },           |
+          'data-loading-element' => 'contents_list', :class => 'icon_link edit',                    |
+          :title => 'Bearbeiten'                                                                    |
+        -#
+        = rs_link_to 'Löschen', |
+          { :controller => 'contents', :action => 'destroy_ajax_content', :id => content },  |
+          'data-loading-element' => "content_#{content.id}",  :title => 'Löschen',           |
+          :confirm => 'Wirklich?', :class => 'icon_link delete'                              |
+        = render :partial => "contents/insert_links", :locals => { :content => content }
+      / div class="content_actions"

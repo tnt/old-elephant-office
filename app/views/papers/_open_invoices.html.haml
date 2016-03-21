@@ -1,0 +1,35 @@
+%table
+  %thead
+    %tr
+      %th Id
+      %th Nummer
+      %th Name
+      %th Datum
+      %th Summe
+  %tfoot
+    %tr
+      %td
+      %td
+      %td
+      %td Insges.
+      %td#open_invoices_total= number_to_currency(@total)
+  %tbody
+    - for document in @papers
+      %tr{:class => "invoice_state_#{document.state}", :id => "open_invoices_#{document.id}", :title => document.remark}
+        %td{:style => "text-align:right;"}= document.id
+        %td= document.invoice_number_formatted || ''
+        %td= link_to h(document.address.name), document.customer
+        %td{:style => "text-align:center;"}= h german_date(document.date)
+        %td{:style => "text-align:right;"}= h number_to_currency(document.value)
+        %td{:id => "state_label_#{document.id}"}= Elph[:inv_state_labels][document.state.to_sym]
+        %td= link_to 'Show', document, :class => 'edit icon_link', :title => 'anzeigen'
+        %td= link_to 'Edit', edit_paper_path(document), :class => 'edit icon_link', :title => 'bearbeiten'
+        %td.change_state_link
+          = rs_link_to 'Bezahlt',                                                                               |
+            { :action => 'ajax_set_state_paid', :id => document, :state => 'paid'},                             |
+            :confirm => "Wirklich Rechnung Nr. #{document.invoice_number_formatted} als bezahlt kennzeichnen?", |
+            :class => 'set_paid icon_link', :title => 'als bezahlt kennzeichnen'                                |
+        %td.change_state_link
+          = link_to 'Mahnen', {:action => 'dun_from_invoice', :id => document},                             |
+            :class => 'make_dun icon_link', :title => 'Mahnung erstellen',                                  |
+            :confirm => "Wirklich Mahnung für Rechnung Nr. #{document.invoice_number_formatted} erstellen?" |

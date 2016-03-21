@@ -1,0 +1,23 @@
+[
+  {
+    job: 'remove_classname',
+    elements: '#body',
+    content: 'show_safety'
+  }, {
+    job: 'replace_content',
+    elements: '#above_safety_screen',
+    content: ''
+  }, {
+    job: 'insert_top',
+    elements: '#documents_list',
+    content: render('document_aliases/document_line', :document => @document_alias, :doc_alias => nil)
+  }, {
+    job: 'replace_element',
+    elements: 'ul#doc_aliased_customers',
+    content: render('document_aliases/doc_aliased_customers', :customer => @document_alias.customer)
+  }, {
+    job: 'highlight_elements',
+    elements: "##{@document_alias.document.main_type.underscore}_#{@document_alias.document.id}",
+     ontent: {}
+  }
+]

@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Search:
+  = @search.search
+%p
+  %b Model:
+  = @search.model
+
+= link_to 'Edit', edit_search_path(@search)
+\|
+= link_to 'Back', searches_path

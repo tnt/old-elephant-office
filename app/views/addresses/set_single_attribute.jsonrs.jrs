@@ -1,0 +1,7 @@
+arr = []
+attributes.each do |id,hasch|
+  hasch.each do |k,v| 
+    arr << {job: v ? 'add_classname' : 'remove_classname', elements: "#contactable_#{id}", content: k  } 
+  end
+end
+arr 

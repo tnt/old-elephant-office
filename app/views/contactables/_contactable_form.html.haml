@@ -1,0 +1,31 @@
+= f.error_messages
+%div
+  %span.label_sticker
+    = f.label :sex, 'Geschlecht'
+    = f.select :sex, sexes_with_labels(), :autocomplete => 'off'
+  %span.label_sticker
+    = f.label :title, 'Titel'
+    = f.text_field :title
+  %br/
+  %span.label_sticker
+    = f.label :firstname, 'Vorname'
+    = f.text_field :firstname
+  %span.label_sticker
+    = f.label :name
+    = f.text_field :name
+  %br/
+  %span.label_sticker.sometimes_hidden
+    = f.label :cust_ref1
+    = f.text_field :cust_ref1
+  %span.label_sticker.sometimes_hidden
+    = f.label :cust_ref2
+    = f.text_field :cust_ref2
+  %br.sometimes_hidden/
+= f.fields_for :specific do |specific_form|
+  = render "#{f.object.type.underscore.pluralize}/specific_form", :f => specific_form
+.sometimes_hidden
+  %span.label_sticker
+    = f.label :remark, 'Bemerkungen'
+    = f.text_area :remark, :rows => 5
+  = f.hidden_field :_destroy, :autocomplete => 'off'
+  = f.hidden_field :id

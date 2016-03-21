@@ -1,0 +1,116 @@
+common: &common
+  :default_stylesheet: :default
+  :features:
+    :paper:
+      :show_ref_fields: false
+  :img_dir: 'http://catalogue.4finger.de/images/micons'
+  :resdir: 'public/pdf_resources'
+  :contactable_types: [Address EmailAddress PhoneNumber Person]
+  :contactable_names:  {Address: Adresse, PhoneNumber: Telefonnummer, EmailAddress: Emailadresse, Person: Person}
+  :currency_format: {precision: 2, separator: ',', delimiter: '.', unit: '€', format: "%n %u" }
+  :document_types: [Paper, Email, PhoneCall, Visit, ExternalPaper]
+  :document_names:  {Paper: Dokument, Email: Email, PhoneCall: Anruf, Visit: Besuch, ExternalPaper: Fremddokument}
+  :inv_kinds: [rechnung, barrechnung]
+  :inv_states: [open, dun1, dun2, dun3, paid]
+  :inv_state_labels: {open: 'offen', dun1: 'einmal gemahnt', dun2: 'zweimal gemahnt', dun3: 'dreimal gemahnt', paid: 'bezahlt'}
+  :sex_kinds: [male, female, neutral]
+  :tax_percent: 19
+  :customers_per_page: 20
+  :month_names: [Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember]
+  :date_time_order: [day, month, year]
+  :items_per_page: 20
+  :doc_kinds: [brief, angebot, rechnung, barrechnung, kostenvoranschlag, wertbestätigung, mahnung]
+  :paper_kinds: DOC_KINDS
+  :doc_templates: {barrechnung: 4, rechnung: 3, kostenvoranschlag: 8, brief: 2, angebot: 6, mahnung: 7, wertbestätigung: 5 }
+  :pdf_defaults: {page_size: 'A4', left_margin: 56.69, right_margin: 56.69, top_margin: 31, bottom_margin: 50 }
+  :pdf_renderers_dir: app/pdf_renderers
+  :mail_papers_with_chop: true
+  :pdf_renderers:
+    :paper:
+      :barrechnung: default_paper_default
+      :rechnung: default_paper_default
+      :wertbestätigung: default_paper_default
+      :brief: default_paper_default
+      :mahnung: default_paper_default
+      :kostenvoranschlag: default_paper_default
+      :mahnung: default_paper_default
+      :angebot: default_paper_default
+  :report_mail_settings:
+    :host: localhost
+    :port: 25
+    :from: notify@somewhere.com
+    :to: elephant@somewhere.com
+    :auth: ~
+    :username: ""
+    :password: ""
+    :starttls: false
+production:
+  :attachments_dir: public/mail_attachments
+  :imap_settings:
+    user_name: "somebody@somewhere.com"
+    password: "secret"
+    host: "mail.somewhere.com"
+    port: 993
+    imap_server: 3
+    un_assigned_customer_id: 1043
+    folders:
+      inbox: 'INBOX'
+      recorded: 'recorded'
+      unprocessable: 'unprocessable'
+      sent: 'Sent'
+  :mail:
+    perform_deliveries: true
+    raise_delivery_errors: true
+  <<: *common
+productiontest:
+  :attachments_dir: public/mail_attachments
+  :imap_settings:
+    user_name: 'itest'
+    password: 'test'
+    host: 'localhost'
+    imap_server: 3
+    un_assigned_customer_id: 2070
+    folders:
+      inbox: 'INBOX'
+      recorded: 'recorded'
+      unprocessable: 'unprocessable'
+      sent: 'Sent'
+  :mail:
+    perform_deliveries: true
+    raise_delivery_errors: true
+  <<: *common
+development:
+  :attachments_dir: public/mail_attachments
+  :imap_settings:
+    user_name: "test@somewhere.com"
+    password: ""
+    host: "mail.somewhere.com"
+    imap_server: 3
+    port: 993
+    un_assigned_customer_id: 2070
+    folders:
+      inbox: 'INBOX'
+      recorded: 'recorded'
+      unprocessable: 'unprocessable'
+      sent: 'Sent'
+  :mail:
+    perform_deliveries: true
+    raise_delivery_errors: true
+  <<: *common
+test:
+  :attachments_dir: public/mail_attachments
+  :imap_settings:
+    user_name: 'test'
+    password: 'test'
+    host: 'localhost'
+    imap_server: 3
+    un_assigned_customer_id: 2070
+    folders:
+      inbox: 'INBOX'
+      recorded: 'recorded'
+      unprocessable: 'unprocessable'
+      sent: 'Sent'
+  :mail:
+    perform_deliveries: false
+    raise_delivery_errors: true
+  <<: *common

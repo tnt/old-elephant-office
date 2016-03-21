@@ -1,0 +1,19 @@
+%p#notice= notice
+
+%p
+  = @old_doc.customer
+%p
+  = @old_doc.date
+%p
+  = @old_doc.filename
+%p
+  = @old_doc.amount
+%p
+  = @old_doc.author
+%p
+  %b Comment:
+  = @old_doc.comment
+
+= link_to 'Edit', edit_old_doc_path(@old_doc)
+\|
+= link_to 'Back', old_docs_path

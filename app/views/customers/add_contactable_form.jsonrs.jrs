@@ -1,0 +1,12 @@
+output = [] 
+# form_for(@customer) {|f| f.fields_for(params[:type].underscore.pluralize.to_sym) do |da_fields_for| 
+form_for(@customer) do |f| 
+  f.fields_for("#{params[:type].underscore.pluralize}_attributes][#{Time.now.to_i}",@contactable) do |da_fields_for| 
+    output << {
+          job: 'insert_bottom', 
+          content: render("customers/contactable_form_wrapper", :f => da_fields_for), 
+          element: 'contactables_subforms'
+     } 
+  end 
+end && '' 
+output 

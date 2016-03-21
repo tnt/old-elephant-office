@@ -1,0 +1,19 @@
+[
+      {
+        job: 'replace_content', 
+        ncontent: '', 
+        content: 'Kuckuck, et funsihioniert!', 
+        element: 'messages2'
+      },
+      {
+        job: 'replace_content', 
+        ncontent: '',
+        content: 'Wau, wau wau!', 
+        element: 'messages3'
+      },
+      {
+        job: 'set_attributes', 
+        attributes: {style: 'font-size:200%;', 'data-cleanup-in'=> 5 }, 
+        element: 'messages3'
+      }
+    ] 

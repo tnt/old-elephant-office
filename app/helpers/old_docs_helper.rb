@@ -1,0 +1,2 @@
+module OldDocsHelper
+end

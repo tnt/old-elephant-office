@@ -1,0 +1,7 @@
+%tr{:id => "content_#{@content.id}"}
+  / partial app/views/contents/_edit_rblock.haml
+  %td{:colspan => "2"}
+    = form_tag( { :controller => :contents, :action => :create_ajax_content, :id => @content }, |
+        :remote => true )  do                                                                     |
+      = hidden_field :content, :kind, :value => 'text'
+      = submit_tag 'Create'

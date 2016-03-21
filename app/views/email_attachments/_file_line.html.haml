@@ -1,0 +1,4 @@
+= link_to (att.image ?                                                                           |
+  image_tag(att.icon_path, :title => "#{att.file_name} (#{att.dimensions}, #{att.filesize})")  : |
+  att.file_name),                                                                                |
+  att.web_path, (att.image ? nil : {:title => att.filesize, :class => :email_attachment})        |

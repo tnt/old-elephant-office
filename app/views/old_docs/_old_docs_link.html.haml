@@ -1,0 +1,3 @@
+- if @open_invoices_count > 0
+  = navi_item "#{@open_invoices_count} offene Rechnungen", :controller => :papers, |
+    :action => :open_invoices                                                      |

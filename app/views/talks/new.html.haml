@@ -1,0 +1,10 @@
+%h1 Neues Gespräch
+%p
+  = render "#{@document.contactable.type.to_s.underscore.pluralize}/contactable_line", :contactable => @document.contactable
+= form_for( @document, :as => @document.type.underscore, :url => { :controller => 'talks', :action => "create", :type => params[:type] }, :html => {:autocomplete => :off}) do |f|
+  = render 'talks/form', :document => @document, :f => f
+  = f.hidden_field :type
+  = f.hidden_field :user_id
+  = f.hidden_field :last_modified_by
+  = f.hidden_field :address_id
+= link_to 'Kunde', @document.customer, :title => 'Zurück zum Kunden'

@@ -1,0 +1,3034 @@
+--- 
+contents_020: 
+  updated_at: 2009-08-11 23:09:14
+  template_item: "0"
+  text: "Jutn Tach ooch ta ta, \xC3\x84\xC3\x96\xC3\x9C\xC3\xA4\xC3\xB6\xC3\xBC\xC3\x9F <em>\xC3\x84\xC3\x96\xC3\x9C\xC3\xA4\xC3\xB6\xC3\xBC\xC3\x9F</em> fgerg vr z "
+  kind: text
+  id: "92"
+  paper_id: "3"
+  position: "0"
+  created_at: 2009-04-30 19:37:54
+contents_101: 
+  updated_at: 2009-08-07 15:58:25
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht automatisch weiter mahnen."
+  kind: text
+  id: "201"
+  paper_id: "52"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_021: 
+  updated_at: 2009-05-01 10:26:41
+  template_item: "0"
+  text: Ihr Versuch, uns mit Geld zum arbeiten zu zwingen
+  kind: text
+  id: "93"
+  paper_id: "6"
+  position: "0"
+  created_at: 2009-05-01 08:51:42
+contents_102: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "202"
+  paper_id: "52"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_210: 
+  updated_at: 2009-06-06 17:59:12
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "327"
+  paper_id: "106"
+  position: "2"
+  created_at: 2009-06-06 17:59:12
+contents_022: 
+  updated_at: 2009-05-01 10:26:41
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "94"
+  paper_id: "6"
+  position: "1"
+  created_at: 2009-05-01 08:51:50
+contents_103: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "203"
+  paper_id: "52"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_211: 
+  updated_at: 2009-08-16 15:29:38
+  template_item: "0"
+  text: "Sehr geehrter Herr Altena "
+  kind: text
+  id: "328"
+  paper_id: "107"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_023: 
+  updated_at: 2009-05-29 14:10:55
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "95"
+  paper_id: "3"
+  position: "2"
+  created_at: 2009-05-01 14:14:28
+contents_104: 
+  updated_at: 2009-08-07 17:57:11
+  template_item: "0"
+  text: "Sehr geehrter Herr Valero "
+  kind: text
+  id: "204"
+  paper_id: "53"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_130: 
+  updated_at: 2009-06-06 18:03:21
+  template_item: "1"
+  text: "Es ist m\xC3\xB6glich, da\xC3\x9F nach dem \xC3\x96ffnen des Instrumentes weitere Sch\xC3\xA4den zutage treten. Wir werden uns in diesem Falle mit Ihnen in Verbindung setzen."
+  kind: text
+  id: "230"
+  paper_id: "58"
+  position: "2"
+  created_at: 2009-06-06 17:58:54
+contents_212: 
+  updated_at: 2009-08-16 15:29:38
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 2.618,00 \xE2\x82\xAC aus der oben genannten Rechnung offen. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "329"
+  paper_id: "107"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_024: 
+  updated_at: 2009-05-01 17:56:33
+  template_item: "0"
+  text: vla bla
+  kind: text
+  id: "96"
+  paper_id: "13"
+  position: "1"
+  created_at: 2009-05-01 17:56:33
+contents_050: 
+  updated_at: 2009-06-06 17:39:56
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "145"
+  paper_id: "31"
+  position: "1"
+  created_at: 2009-06-06 17:39:56
+contents_105: 
+  updated_at: 2009-08-07 17:57:11
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 1,50 \xE2\x82\xAC aus der oben genannten Rechnung offen dies ist bereits die (3. Erinnerung). Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben als gegenstandslos."
+  kind: text
+  id: "205"
+  paper_id: "53"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_131: 
+  updated_at: 2009-06-06 17:59:12
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "231"
+  paper_id: "58"
+  position: "3"
+  created_at: 2009-06-06 17:59:12
+contents_320: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "529"
+  paper_id: "279"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_213: 
+  updated_at: 2009-08-07 18:10:06
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht l\xC3\xA4nger automatisch weiter mahnen."
+  kind: text
+  id: "330"
+  paper_id: "107"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_025: 
+  updated_at: 2009-05-01 17:57:07
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "97"
+  paper_id: "13"
+  position: "2"
+  created_at: 2009-05-01 17:57:07
+contents_051: 
+  updated_at: 2009-06-06 20:14:41
+  template_item: "0"
+  text: Betrag in bar dankend erhalten
+  kind: text
+  id: "146"
+  paper_id: "31"
+  position: "2"
+  created_at: 2009-06-06 17:41:07
+contents_106: 
+  updated_at: 2009-08-07 15:58:25
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht automatisch weiter mahnen."
+  kind: text
+  id: "206"
+  paper_id: "53"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_132: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "232"
+  paper_id: "59"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_321: 
+  updated_at: 2009-06-06 18:30:13
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "530"
+  paper_id: "281"
+  position: "1"
+  created_at: 2009-06-06 18:30:13
+contents_240: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "384"
+  paper_id: "120"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_214: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "331"
+  paper_id: "107"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_026: 
+  updated_at: 2009-05-01 19:24:57
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "98"
+  paper_id: "5"
+  position: "1"
+  created_at: 2009-05-01 19:24:57
+contents_052: 
+  updated_at: 2009-06-07 20:15:53
+  template_item: "0"
+  text: Sehr geehrte Frau Ahrens
+  kind: text
+  id: "147"
+  paper_id: "32"
+  position: "1"
+  created_at: 2009-06-06 18:26:03
+contents_107: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "207"
+  paper_id: "53"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_133: 
+  updated_at: 2009-06-06 18:03:21
+  template_item: "0"
+  text: "Es ist m\xC3\xB6glich, da\xC3\x9F nach dem \xC3\x96ffnen des Instrumentes weitere Sch\xC3\xA4den zutage treten. Wir werden uns in diesem Falle mit Ihnen in Verbindung setzen."
+  kind: text
+  id: "233"
+  paper_id: "59"
+  position: "2"
+  created_at: 2009-06-06 17:58:54
+contents_322: 
+  updated_at: 2009-06-06 18:30:47
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "531"
+  paper_id: "281"
+  position: "2"
+  created_at: 2009-06-06 18:30:47
+contents_241: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "385"
+  paper_id: "120"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_027: 
+  updated_at: 2009-05-01 19:27:27
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "99"
+  paper_id: "4"
+  position: "1"
+  created_at: 2009-05-01 19:27:27
+contents_053: 
+  updated_at: 2009-06-06 18:26:12
+  template_item: "0"
+  text: ""
+  kind: text
+  id: "148"
+  paper_id: "32"
+  position: "2"
+  created_at: 2009-06-06 18:26:12
+contents_108: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "208"
+  paper_id: "53"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_134: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "234"
+  paper_id: "60"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_160: 
+  updated_at: 2009-06-06 18:30:47
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "260"
+  paper_id: "73"
+  position: "2"
+  created_at: 2009-06-06 18:30:47
+contents_215: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "332"
+  paper_id: "107"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_323: 
+  updated_at: 2009-11-25 18:35:57
+  template_item: "0"
+  text: "Sehr geehrter Herr Glatt "
+  kind: text
+  id: "534"
+  paper_id: "283"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_242: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "386"
+  paper_id: "120"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_028: 
+  updated_at: 2009-05-18 13:30:53
+  template_item: "0"
+  text: gnhfjnh
+  kind: text
+  id: "117"
+  paper_id: "4"
+  position: "2"
+  created_at: 2009-05-18 13:30:52
+contents_054: 
+  updated_at: 2009-06-06 18:26:45
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "149"
+  paper_id: "32"
+  position: "3"
+  created_at: 2009-06-06 18:26:45
+contents_080: 
+  updated_at: 2009-08-07 18:13:33
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch #{number_to_currency(@odoc.value, CURRENCY_FORMAT)} aus der oben genannten Rechnung offen#{%Q( (dies ist bereits die #{['zweite','dritte'][@nth_dun-2]} Erinnerung)) if @nth_dun > 1}. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "180"
+  paper_id: "26"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_109: 
+  updated_at: 2009-08-07 17:59:59
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "209"
+  paper_id: "54"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_135: 
+  updated_at: 2009-06-06 18:03:21
+  template_item: "0"
+  text: "Es ist m\xC3\xB6glich, da\xC3\x9F nach dem \xC3\x96ffnen des Instrumentes weitere Sch\xC3\xA4den zutage treten. Wir werden uns in diesem Falle mit Ihnen in Verbindung setzen."
+  kind: text
+  id: "235"
+  paper_id: "60"
+  position: "2"
+  created_at: 2009-06-06 17:58:54
+contents_161: 
+  updated_at: 2009-06-06 18:30:13
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "261"
+  paper_id: "74"
+  position: "1"
+  created_at: 2009-06-06 18:30:13
+contents_216: 
+  updated_at: 2009-08-17 10:44:42
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "333"
+  paper_id: "110"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_324: 
+  updated_at: 2009-11-25 18:35:57
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 1.000,00 \xE2\x82\xAC aus der oben genannten Rechnung offen. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "535"
+  paper_id: "283"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_243: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "387"
+  paper_id: "121"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_029: 
+  updated_at: 2009-05-27 13:40:49
+  template_item: "0"
+  text: Hi, wie jeht?
+  kind: text
+  id: "119"
+  paper_id: "17"
+  position: "0"
+  created_at: 2009-05-27 12:34:59
+contents_055: 
+  updated_at: 2009-06-07 20:48:34
+  template_item: "0"
+  text: Sehr geehrte Damen und Herren
+  kind: text
+  id: "150"
+  paper_id: "33"
+  position: "1"
+  created_at: 2009-06-06 18:26:03
+contents_081: 
+  updated_at: 2009-08-07 18:10:06
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht l\xC3\xA4nger automatisch weiter mahnen."
+  kind: text
+  id: "181"
+  paper_id: "26"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_136: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "236"
+  paper_id: "61"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_162: 
+  updated_at: 2009-06-06 18:30:47
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "262"
+  paper_id: "74"
+  position: "2"
+  created_at: 2009-06-06 18:30:47
+contents_217: 
+  updated_at: 2009-08-17 10:44:42
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch  aus der oben genannten Rechnung offen. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "334"
+  paper_id: "110"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_325: 
+  updated_at: 2009-08-07 18:10:06
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht l\xC3\xA4nger automatisch weiter mahnen."
+  kind: text
+  id: "536"
+  paper_id: "283"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_270: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "441"
+  paper_id: "139"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_244: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "388"
+  paper_id: "121"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_056: 
+  updated_at: 2009-06-06 18:26:12
+  template_item: "0"
+  text: ""
+  kind: text
+  id: "151"
+  paper_id: "33"
+  position: "2"
+  created_at: 2009-06-06 18:26:12
+contents_082: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "182"
+  paper_id: "26"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_137: 
+  updated_at: 2009-06-06 18:03:21
+  template_item: "0"
+  text: "Es ist m\xC3\xB6glich, da\xC3\x9F nach dem \xC3\x96ffnen des Instrumentes weitere Sch\xC3\xA4den zutage treten. Wir werden uns in diesem Falle mit Ihnen in Verbindung setzen."
+  kind: text
+  id: "237"
+  paper_id: "61"
+  position: "2"
+  created_at: 2009-06-06 17:58:54
+contents_163: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "263"
+  paper_id: "75"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_218: 
+  updated_at: 2009-08-07 18:10:06
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht l\xC3\xA4nger automatisch weiter mahnen."
+  kind: text
+  id: "335"
+  paper_id: "110"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_326: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "537"
+  paper_id: "283"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_271: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "442"
+  paper_id: "139"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_245: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "389"
+  paper_id: "121"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_057: 
+  updated_at: 2009-06-06 18:26:45
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "152"
+  paper_id: "33"
+  position: "3"
+  created_at: 2009-06-06 18:26:45
+contents_083: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "183"
+  paper_id: "26"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_138: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "238"
+  paper_id: "64"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_164: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "264"
+  paper_id: "75"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_190: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "305"
+  paper_id: "86"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_219: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "336"
+  paper_id: "110"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_327: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "538"
+  paper_id: "283"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_272: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "443"
+  paper_id: "139"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_246: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "390"
+  paper_id: "122"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_058: 
+  updated_at: 2009-06-07 20:50:35
+  template_item: "0"
+  text: Sehr geehrter Herr Akahoshi
+  kind: text
+  id: "153"
+  paper_id: "34"
+  position: "1"
+  created_at: 2009-06-06 18:26:03
+contents_084: 
+  updated_at: 2009-08-07 16:02:07
+  template_item: "0"
+  text: "Sehr geehrter Herr Valero "
+  kind: text
+  id: "184"
+  paper_id: "49"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_139: 
+  updated_at: 2009-06-06 18:03:21
+  template_item: "0"
+  text: "Es ist m\xC3\xB6glich, da\xC3\x9F nach dem \xC3\x96ffnen des Instrumentes weitere Sch\xC3\xA4den zutage treten. Wir werden uns in diesem Falle mit Ihnen in Verbindung setzen."
+  kind: text
+  id: "239"
+  paper_id: "64"
+  position: "2"
+  created_at: 2009-06-06 17:58:54
+contents_165: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "265"
+  paper_id: "75"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_191: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "306"
+  paper_id: "86"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_328: 
+  updated_at: 2009-06-06 18:35:52
+  template_item: "0"
+  text: "Ihr f\xC3\xBCnfsaitiger, Rubner Kontraba\xC3\x9F mit gew\xC3\xB6lbtem Boden von 1983 hat zur Zeit einen Wert von 500,- \xE2\x82\xAC."
+  kind: text
+  id: "539"
+  paper_id: "284"
+  position: "1"
+  created_at: 2009-06-06 18:35:00
+contents_273: 
+  updated_at: 2009-06-06 17:39:56
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "474"
+  paper_id: "150"
+  position: "1"
+  created_at: 2009-06-06 17:39:56
+contents_247: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "391"
+  paper_id: "122"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_059: 
+  updated_at: 2009-06-06 18:26:12
+  template_item: "0"
+  text: ""
+  kind: text
+  id: "154"
+  paper_id: "34"
+  position: "2"
+  created_at: 2009-06-06 18:26:12
+contents_085: 
+  updated_at: 2009-08-07 15:57:41
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch #{number_to_currency(@odoc.value, CURRENCY_FORMAT)} aus der oben genannten Rechnung offen. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben als gegenstandslos."
+  kind: text
+  id: "185"
+  paper_id: "49"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_166: 
+  updated_at: 2009-06-06 18:30:13
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "266"
+  paper_id: "76"
+  position: "1"
+  created_at: 2009-06-06 18:30:13
+contents_192: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "307"
+  paper_id: "87"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_329: 
+  updated_at: 2009-06-06 18:35:25
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "540"
+  paper_id: "284"
+  position: "2"
+  created_at: 2009-06-06 18:35:25
+contents_274: 
+  updated_at: 2009-06-06 17:41:07
+  template_item: "0"
+  text: Betrag dankend in bar erhalten
+  kind: text
+  id: "475"
+  paper_id: "150"
+  position: "2"
+  created_at: 2009-06-06 17:41:07
+contents_248: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "392"
+  paper_id: "122"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_086: 
+  updated_at: 2009-08-07 15:58:25
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht automatisch weiter mahnen."
+  kind: text
+  id: "186"
+  paper_id: "49"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_167: 
+  updated_at: 2009-06-06 18:30:47
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "267"
+  paper_id: "76"
+  position: "2"
+  created_at: 2009-06-06 18:30:47
+contents_193: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "308"
+  paper_id: "87"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_275: 
+  updated_at: 2009-06-06 17:39:56
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "476"
+  paper_id: "151"
+  position: "1"
+  created_at: 2009-06-06 17:39:56
+contents_249: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "393"
+  paper_id: "123"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_087: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "187"
+  paper_id: "49"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_168: 
+  updated_at: 2009-06-06 18:30:13
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "268"
+  paper_id: "77"
+  position: "1"
+  created_at: 2009-06-06 18:30:13
+contents_194: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "309"
+  paper_id: "87"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_276: 
+  updated_at: 2009-06-06 17:41:07
+  template_item: "0"
+  text: Betrag dankend in bar erhalten
+  kind: text
+  id: "477"
+  paper_id: "151"
+  position: "2"
+  created_at: 2009-06-06 17:41:07
+contents_088: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "188"
+  paper_id: "49"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_169: 
+  updated_at: 2009-06-06 18:30:47
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "269"
+  paper_id: "77"
+  position: "2"
+  created_at: 2009-06-06 18:30:47
+contents_195: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "310"
+  paper_id: "96"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_277: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "478"
+  paper_id: "152"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_089: 
+  updated_at: 2009-08-07 16:59:49
+  template_item: "0"
+  text: "Sehr geehrter Herr Valero "
+  kind: text
+  id: "189"
+  paper_id: "50"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_196: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "311"
+  paper_id: "96"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_278: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "479"
+  paper_id: "152"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_197: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "312"
+  paper_id: "96"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_279: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "480"
+  paper_id: "152"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_198: 
+  updated_at: 2009-06-06 18:30:13
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "313"
+  paper_id: "97"
+  position: "1"
+  created_at: 2009-06-06 18:30:13
+contents_199: 
+  updated_at: 2009-06-06 18:30:47
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "314"
+  paper_id: "97"
+  position: "2"
+  created_at: 2009-06-06 18:30:47
+contents_010: 
+  updated_at: 2009-08-01 13:46:04
+  template_item: "0"
+  text: "Zahlung dalli dalli, bitte (\xC3\xBChhberweisen!)"
+  kind: text
+  id: "62"
+  paper_id: "3"
+  position: "5"
+  created_at: 2009-04-25 14:46:43
+contents_011: 
+  updated_at: 2009-05-17 13:09:15
+  template_item: "0"
+  text: Und ohne Fisimatenten, un so ne Dinger
+  kind: text
+  id: "63"
+  paper_id: "3"
+  position: "6"
+  created_at: 2009-04-25 15:12:25
+contents_012: 
+  updated_at: 2009-04-25 15:54:05
+  template_item: "0"
+  text: testunkkkk
+  kind: text
+  id: "64"
+  paper_id: 
+  position: "1"
+  created_at: 2009-04-25 15:53:49
+contents_200: 
+  updated_at: 2009-06-07 20:47:44
+  template_item: "0"
+  text: "Sehr geehrte#{@document.address.sex=='male'?'r':''} #{@document.address.sex=='neutral'? 'Damen und Herren' : \"#{@document.address.sex=='male' ? 'Herr' : 'Frau'} #{@document.address.name}\"}"
+  kind: text
+  id: "315"
+  paper_id: "100"
+  position: "1"
+  created_at: 2009-06-06 18:26:03
+contents_013: 
+  updated_at: 2009-04-26 16:07:50
+  template_item: "0"
+  text: tatata
+  kind: text
+  id: "78"
+  paper_id: "9"
+  position: "1"
+  created_at: 2009-04-26 12:44:06
+contents_120: 
+  updated_at: 2009-08-07 18:13:46
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 440,00 \xE2\x82\xAC aus der oben genannten Rechnung offen (dies ist bereits die zweite Erinnerung). Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "220"
+  paper_id: "56"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_201: 
+  updated_at: 2009-09-08 14:32:23
+  template_item: "0"
+  text: Wie jeht#s n so?
+  kind: text
+  id: "316"
+  paper_id: "100"
+  position: "2"
+  created_at: 2009-06-06 18:26:12
+contents_014: 
+  updated_at: 2009-04-26 13:25:15
+  template_item: "0"
+  text: kjbakjdbds kjs bd
+  kind: text
+  id: "79"
+  paper_id: "10"
+  position: "1"
+  created_at: 2009-04-26 13:25:15
+contents_040: 
+  updated_at: 2009-06-06 18:03:21
+  template_item: "1"
+  text: "Es ist m\xC3\xB6glich, da\xC3\x9F nach dem \xC3\x96ffnen des Instrumentes weitere Sch\xC3\xA4den zutage treten. Wir werden uns in diesem Falle mit Ihnen in Verbindung setzen."
+  kind: text
+  id: "133"
+  paper_id: "22"
+  position: "2"
+  created_at: 2009-06-06 17:58:54
+contents_121: 
+  updated_at: 2009-08-07 18:10:06
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht l\xC3\xA4nger automatisch weiter mahnen."
+  kind: text
+  id: "221"
+  paper_id: "56"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_202: 
+  updated_at: 2009-06-06 18:26:45
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "317"
+  paper_id: "100"
+  position: "3"
+  created_at: 2009-06-06 18:26:45
+contents_310: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "514"
+  paper_id: "276"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_015: 
+  updated_at: 2009-04-26 15:22:57
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "84"
+  paper_id: "11"
+  position: "1"
+  created_at: 2009-04-26 15:22:57
+contents_041: 
+  updated_at: 2009-06-06 17:59:12
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "134"
+  paper_id: "22"
+  position: "3"
+  created_at: 2009-06-06 17:59:12
+contents_122: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "222"
+  paper_id: "56"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_203: 
+  updated_at: 2009-08-16 14:37:54
+  template_item: "0"
+  text: Sehr geehrter Herr Altena
+  kind: text
+  id: "318"
+  paper_id: "101"
+  position: "1"
+  created_at: 2009-06-06 18:26:03
+contents_311: 
+  updated_at: 2009-11-22 21:37:26
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "520"
+  paper_id: "278"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_230: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "374"
+  paper_id: "116"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_016: 
+  updated_at: 2009-04-26 18:28:21
+  template_item: "0"
+  text: blubbbbbb
+  kind: text
+  id: "86"
+  paper_id: "9"
+  position: "2"
+  created_at: 2009-04-26 18:28:21
+contents_042: 
+  updated_at: 2009-08-16 14:23:36
+  template_item: "0"
+  text: "Sehr geehrte#{@paper.address.sex=='male'?'r':''} #{@paper.address.sex=='neutral'? 'Damen und Herren' : \"#{@paper.address.sex=='male' ? 'Herr' : 'Frau'} #{@paper.address.name}\"}"
+  kind: text
+  id: "135"
+  paper_id: "23"
+  position: "1"
+  created_at: 2009-06-06 18:26:03
+contents_123: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "223"
+  paper_id: "56"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_204: 
+  updated_at: 2009-08-16 14:38:38
+  template_item: "0"
+  text: Bezgl. der nl. gr. MwSt.-Erh....
+  kind: text
+  id: "319"
+  paper_id: "101"
+  position: "2"
+  created_at: 2009-06-06 18:26:12
+contents_312: 
+  updated_at: 2009-11-22 21:37:26
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 2.500,00 \xE2\x82\xAC aus der oben genannten Rechnung offen (dies ist bereits die dritte Erinnerung). Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "521"
+  paper_id: "278"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_231: 
+  updated_at: 2009-06-06 17:59:12
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "375"
+  paper_id: "116"
+  position: "2"
+  created_at: 2009-06-06 17:59:12
+contents_017: 
+  updated_at: 2009-05-18 13:57:37
+  template_item: "0"
+  text: "Sch\xC3\xBC\xC3\xBC\xC3\xBCss, bis denne"
+  kind: text
+  id: "87"
+  paper_id: "2"
+  position: "8"
+  created_at: 2009-04-30 05:12:42
+contents_043: 
+  updated_at: 2009-06-06 18:26:12
+  template_item: "0"
+  text: ""
+  kind: text
+  id: "136"
+  paper_id: "23"
+  position: "2"
+  created_at: 2009-06-06 18:26:12
+contents_124: 
+  updated_at: 2009-08-07 18:14:15
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "224"
+  paper_id: "57"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_150: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "250"
+  paper_id: "70"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_205: 
+  updated_at: 2009-06-06 18:26:45
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "320"
+  paper_id: "101"
+  position: "3"
+  created_at: 2009-06-06 18:26:45
+contents_313: 
+  updated_at: 2009-08-07 18:10:06
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht l\xC3\xA4nger automatisch weiter mahnen."
+  kind: text
+  id: "522"
+  paper_id: "278"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_232: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "376"
+  paper_id: "117"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_044: 
+  updated_at: 2009-06-06 18:26:45
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "137"
+  paper_id: "23"
+  position: "3"
+  created_at: 2009-06-06 18:26:45
+contents_070: 
+  updated_at: 2009-06-07 16:14:10
+  template_item: "0"
+  text: "Sehr geehrte#{@odoc.address.sex=='male'?'r':''} #{@odoc.address.sex=='neutral'? 'Damen und Herren' : %Q(#{@odoc.address.sex=='male' ? 'Herr' : 'Frau'} #{@odoc.address.name})} "
+  kind: text
+  id: "170"
+  paper_id: "39"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_125: 
+  updated_at: 2009-08-07 18:14:15
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 250,00 \xE2\x82\xAC aus der oben genannten Rechnung offen. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "225"
+  paper_id: "57"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_151: 
+  updated_at: 2009-06-06 17:59:12
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "251"
+  paper_id: "70"
+  position: "2"
+  created_at: 2009-06-06 17:59:12
+contents_206: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "321"
+  paper_id: "103"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_018: 
+  updated_at: 2009-05-13 11:04:26
+  template_item: "0"
+  text: Und so fort, und so fort...
+  kind: text
+  id: "89"
+  paper_id: "2"
+  position: "3"
+  created_at: 2009-04-30 05:21:21
+contents_314: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "523"
+  paper_id: "278"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_233: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "377"
+  paper_id: "117"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_045: 
+  updated_at: 2009-06-06 18:30:13
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "138"
+  paper_id: "24"
+  position: "1"
+  created_at: 2009-06-06 18:30:13
+contents_071: 
+  updated_at: 2009-06-07 16:14:10
+  template_item: "0"
+  text: "Sehr geehrte#{@odoc.address.sex=='male'?'r':''} #{@odoc.address.sex=='neutral'? 'Damen und Herren' : %Q(#{@odoc.address.sex=='male' ? 'Herr' : 'Frau'} #{@odoc.address.name})} "
+  kind: text
+  id: "171"
+  paper_id: "40"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_126: 
+  updated_at: 2009-08-07 18:10:06
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht l\xC3\xA4nger automatisch weiter mahnen."
+  kind: text
+  id: "226"
+  paper_id: "57"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_152: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "252"
+  paper_id: "71"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_207: 
+  updated_at: 2009-06-06 18:03:21
+  template_item: "1"
+  text: "Es ist m\xC3\xB6glich, da\xC3\x9F nach dem \xC3\x96ffnen des Instrumentes weitere Sch\xC3\xA4den zutage treten. Wir werden uns in diesem Falle mit Ihnen in Verbindung setzen."
+  kind: text
+  id: "322"
+  paper_id: "103"
+  position: "2"
+  created_at: 2009-06-06 17:58:54
+contents_019: 
+  updated_at: 2009-05-29 14:11:25
+  template_item: "0"
+  text: "Oder folgende Variante:"
+  kind: text
+  id: "91"
+  paper_id: "3"
+  position: "3"
+  created_at: 2009-04-30 19:17:45
+contents_315: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "524"
+  paper_id: "278"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_260: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "431"
+  paper_id: "135"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_234: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "378"
+  paper_id: "117"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_072: 
+  updated_at: 2009-06-07 16:14:10
+  template_item: "0"
+  text: "Sehr geehrte#{@odoc.address.sex=='male'?'r':''} #{@odoc.address.sex=='neutral'? 'Damen und Herren' : %Q(#{@odoc.address.sex=='male' ? 'Herr' : 'Frau'} #{@odoc.address.name})} "
+  kind: text
+  id: "172"
+  paper_id: "41"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_127: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "227"
+  paper_id: "57"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_153: 
+  updated_at: 2009-06-06 17:59:12
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "253"
+  paper_id: "71"
+  position: "3"
+  created_at: 2009-06-06 17:59:12
+contents_208: 
+  updated_at: 2009-06-06 17:59:12
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "323"
+  paper_id: "103"
+  position: "3"
+  created_at: 2009-06-06 17:59:12
+contents_046: 
+  updated_at: 2009-06-06 18:30:47
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "139"
+  paper_id: "24"
+  position: "2"
+  created_at: 2009-06-06 18:30:47
+contents_316: 
+  updated_at: 2009-11-22 21:38:01
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "525"
+  paper_id: "279"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_261: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "432"
+  paper_id: "136"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_235: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "379"
+  paper_id: "118"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_073: 
+  updated_at: 2009-06-07 16:14:10
+  template_item: "0"
+  text: "Sehr geehrte#{@odoc.address.sex=='male'?'r':''} #{@odoc.address.sex=='neutral'? 'Damen und Herren' : %Q(#{@odoc.address.sex=='male' ? 'Herr' : 'Frau'} #{@odoc.address.name})} "
+  kind: text
+  id: "173"
+  paper_id: "42"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_128: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "228"
+  paper_id: "57"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_154: 
+  updated_at: 2009-08-08 15:50:46
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "254"
+  paper_id: "72"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_180: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "292"
+  paper_id: "83"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_209: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "326"
+  paper_id: "106"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_047: 
+  updated_at: 2009-06-06 18:35:52
+  template_item: "0"
+  text: "Ihr f\xC3\xBCnfsaitiger, Rubner Kontraba\xC3\x9F mit gew\xC3\xB6lbtem Boden von 1983 hat zur Zeit einen Wert von 500,- \xE2\x82\xAC."
+  kind: text
+  id: "140"
+  paper_id: "25"
+  position: "1"
+  created_at: 2009-06-06 18:35:00
+contents_317: 
+  updated_at: 2009-11-22 21:38:01
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 2.500,00 \xE2\x82\xAC aus der oben genannten Rechnung offen (dies ist bereits die  Erinnerung). Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "526"
+  paper_id: "279"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_262: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "433"
+  paper_id: "136"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_236: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "380"
+  paper_id: "118"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_129: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "229"
+  paper_id: "58"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_155: 
+  updated_at: 2009-08-08 15:50:46
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 595,00 \xE2\x82\xAC aus der oben genannten Rechnung offen. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "255"
+  paper_id: "72"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_181: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "293"
+  paper_id: "83"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_048: 
+  updated_at: 2009-06-06 18:35:25
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "141"
+  paper_id: "25"
+  position: "2"
+  created_at: 2009-06-06 18:35:25
+contents_074: 
+  updated_at: 2009-08-07 12:14:26
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "174"
+  paper_id: "43"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_318: 
+  updated_at: 2009-08-07 18:10:06
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht l\xC3\xA4nger automatisch weiter mahnen."
+  kind: text
+  id: "527"
+  paper_id: "279"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_263: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "434"
+  paper_id: "136"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_237: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "381"
+  paper_id: "118"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_156: 
+  updated_at: 2009-08-07 18:10:06
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht l\xC3\xA4nger automatisch weiter mahnen."
+  kind: text
+  id: "256"
+  paper_id: "72"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_182: 
+  updated_at: 2009-06-06 18:30:13
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "294"
+  paper_id: "84"
+  position: "1"
+  created_at: 2009-06-06 18:30:13
+contents_049: 
+  updated_at: 2009-06-07 16:14:10
+  template_item: "0"
+  text: "Sehr geehrte#{@odoc.address.sex=='male'?'r':''} #{@odoc.address.sex=='neutral'? 'Damen und Herren' : %Q(#{@odoc.address.sex=='male' ? 'Herr' : 'Frau'} #{@odoc.address.name})} "
+  kind: text
+  id: "142"
+  paper_id: "26"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_075: 
+  updated_at: 2009-08-07 12:16:40
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "175"
+  paper_id: "44"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_319: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "528"
+  paper_id: "279"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_290: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "491"
+  paper_id: "232"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_264: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "435"
+  paper_id: "137"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_238: 
+  updated_at: 2009-06-06 17:39:56
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "382"
+  paper_id: "119"
+  position: "1"
+  created_at: 2009-06-06 17:39:56
+contents_157: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "257"
+  paper_id: "72"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_183: 
+  updated_at: 2009-06-06 18:30:47
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "295"
+  paper_id: "84"
+  position: "2"
+  created_at: 2009-06-06 18:30:47
+contents_076: 
+  updated_at: 2009-08-07 12:24:18
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "176"
+  paper_id: "45"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_291: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "492"
+  paper_id: "232"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_265: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "436"
+  paper_id: "137"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_239: 
+  updated_at: 2009-06-06 17:41:07
+  template_item: "0"
+  text: Betrag dankend in bar erhalten
+  kind: text
+  id: "383"
+  paper_id: "119"
+  position: "2"
+  created_at: 2009-06-06 17:41:07
+contents_158: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "258"
+  paper_id: "72"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_184: 
+  updated_at: 2009-08-12 20:10:05
+  template_item: "0"
+  text: "bla blubber sabber. \xC2\xA0.. klaro, ey -Alter!!!!<br />"
+  kind: text
+  id: "296"
+  paper_id: "78"
+  position: "0"
+  created_at: 2009-08-12 18:54:24
+contents_077: 
+  updated_at: 2009-08-07 12:27:05
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "177"
+  paper_id: "46"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_292: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "493"
+  paper_id: "232"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_266: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "437"
+  paper_id: "137"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_159: 
+  updated_at: 2009-06-06 18:30:13
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "259"
+  paper_id: "73"
+  position: "1"
+  created_at: 2009-06-06 18:30:13
+contents_185: 
+  updated_at: 2009-08-18 18:17:58
+  template_item: "0"
+  text: "\xC3\x96\xC3\xA4\xC3\xA4\xC3\xA4\xC3\xA4\xC3\xA4\xC3\xA4H"
+  kind: text
+  id: "300"
+  paper_id: "78"
+  position: "1"
+  created_at: 2009-08-12 19:41:58
+contents_078: 
+  updated_at: 2009-08-07 12:30:42
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "178"
+  paper_id: "47"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_293: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "497"
+  paper_id: "235"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_267: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "438"
+  paper_id: "138"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_186: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "301"
+  paper_id: "85"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_079: 
+  updated_at: 2009-08-07 12:31:26
+  template_item: "0"
+  text: "Sehr geehrter Herr Valero "
+  kind: text
+  id: "179"
+  paper_id: "48"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_294: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "498"
+  paper_id: "235"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_268: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "439"
+  paper_id: "138"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_187: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "302"
+  paper_id: "85"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_295: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "499"
+  paper_id: "235"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_269: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "440"
+  paper_id: "138"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_188: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "303"
+  paper_id: "85"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_296: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "500"
+  paper_id: "236"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_189: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "304"
+  paper_id: "86"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_297: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "501"
+  paper_id: "236"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_298: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "502"
+  paper_id: "236"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_001: 
+  updated_at: 2009-08-12 09:25:52
+  template_item: "0"
+  text: "Sch\xC3\xB6ne Gr\xC3\xBC\xC3\x9Fe, un so... Na un allet halt, ne."
+  kind: text
+  id: "27"
+  paper_id: "2"
+  position: "0"
+  created_at: 2009-04-19 14:54:53
+contents_299: 
+  updated_at: 2009-11-20 21:11:43
+  template_item: "0"
+  text: Sehr geehrter Herr Mir
+  kind: text
+  id: "503"
+  paper_id: "268"
+  position: "1"
+  created_at: 2009-06-06 18:26:03
+contents_002: 
+  updated_at: 2009-05-14 15:25:00
+  template_item: "0"
+  text: Rhabarber, rhabarber, rhabarber, rhabarber, rhabarber, rhabarber, rhabarber, rhabarber, rhabarber! Un mit Streusel, versteht sich, un mit Streusel, versteht sich, un mit Streusel, versteht sich, un mit Streusel, versteht sich, un mit Streusel, versteht sich, un mit Streusel, versteht sich...
+  kind: text
+  id: "38"
+  paper_id: "2"
+  position: "4"
+  created_at: 2009-04-19 17:23:55
+contents_003: 
+  updated_at: 2009-12-19 19:05:25
+  template_item: "0"
+  text: So weit, so<strong> gut</strong>. So weit, so gut. So weit, so gut. So weit, so gut. So weit, so gut. Und besser. Abgesehen von so manchigem.
+  kind: text
+  id: "39"
+  paper_id: "2"
+  position: "2"
+  created_at: 2009-04-20 13:54:52
+contents_110: 
+  updated_at: 2009-08-07 17:59:59
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 50,00 \xE2\x82\xAC aus der oben genannten Rechnung offen (dies ist bereits die 2. Erinnerung). Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben als gegenstandslos."
+  kind: text
+  id: "210"
+  paper_id: "54"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_004: 
+  updated_at: 2009-08-12 08:54:30
+  template_item: "0"
+  text: "Un <em>weiteret </em>bis uff <strong>\xC3\xBC</strong> weiteret. <em>langa </em>Un jetz ma jaanz langa Satz. Un jetz ma jaanz langa Satz. Un jetz ma jaanz langa Satz. Un jetz ma jaanz langa Satz. Un jetz ma <strong>jaanz </strong><em>langa </em>Satz. Un jetz ma jaanz langa Satz. Un jetz ma jaanz langa Satz. Un jetz ma jaanz langa Satz. Un jetz ma jaanz langa Satz. Uuuoooaah, ey..."
+  kind: text
+  id: "49"
+  paper_id: "3"
+  position: "1"
+  created_at: 2009-04-20 14:57:38
+contents_030: 
+  updated_at: 2009-05-27 20:16:12
+  template_item: "0"
+  text: Juut?
+  kind: text
+  id: "120"
+  paper_id: "17"
+  position: "1"
+  created_at: 2009-05-27 12:35:10
+contents_111: 
+  updated_at: 2009-08-07 15:58:25
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht automatisch weiter mahnen."
+  kind: text
+  id: "211"
+  paper_id: "54"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_300: 
+  updated_at: 2009-06-06 18:26:12
+  template_item: "0"
+  text: ""
+  kind: text
+  id: "504"
+  paper_id: "268"
+  position: "2"
+  created_at: 2009-06-06 18:26:12
+contents_005: 
+  updated_at: 2009-12-19 19:05:25
+  template_item: "0"
+  text: Blarr, blah blabah, un so weiter...
+  kind: text
+  id: "51"
+  paper_id: "2"
+  position: "1"
+  created_at: 2009-04-20 19:48:41
+contents_031: 
+  updated_at: 2009-05-27 13:40:49
+  template_item: "0"
+  text: zwweete seite
+  kind: text
+  id: "122"
+  paper_id: "17"
+  position: "3"
+  created_at: 2009-05-27 12:35:25
+contents_112: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "212"
+  paper_id: "54"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_301: 
+  updated_at: 2009-06-06 18:26:45
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "505"
+  paper_id: "268"
+  position: "3"
+  created_at: 2009-06-06 18:26:45
+contents_006: 
+  updated_at: 2009-05-01 22:39:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "54"
+  paper_id: "2"
+  position: "6"
+  created_at: 2009-04-22 18:08:38
+contents_032: 
+  updated_at: 2009-05-27 20:16:12
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "123"
+  paper_id: "17"
+  position: "2"
+  created_at: 2009-05-27 13:36:45
+contents_113: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "213"
+  paper_id: "54"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_220: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "337"
+  paper_id: "110"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_302: 
+  updated_at: 2009-06-06 18:30:13
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "506"
+  paper_id: "272"
+  position: "1"
+  created_at: 2009-06-06 18:30:13
+contents_007: 
+  updated_at: 2009-05-01 22:39:02
+  template_item: "0"
+  text: "Blalllanlnalbl alh alh  hla -- \xC3\xA4h.. wie soll ick sahhhgn, ausdr\xC3\xBCckn, etc...."
+  kind: text
+  id: "58"
+  paper_id: "2"
+  position: "5"
+  created_at: 2009-04-23 18:27:02
+contents_033: 
+  updated_at: 2009-04-29 18:53:36
+  template_item: "0"
+  text: "Sch\xC3\xB6ne Gr\xC3\xBC\xC3\x9Fe, un so... Na un allet halt, ne."
+  kind: text
+  id: "126"
+  paper_id: "5"
+  position: "2"
+  created_at: 2009-04-19 14:54:53
+contents_114: 
+  updated_at: 2009-08-07 18:00:30
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "214"
+  paper_id: "55"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_140: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "240"
+  paper_id: "65"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_221: 
+  updated_at: 2009-08-17 10:45:34
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "338"
+  paper_id: "111"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_303: 
+  updated_at: 2009-06-06 18:30:47
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "507"
+  paper_id: "272"
+  position: "2"
+  created_at: 2009-06-06 18:30:47
+contents_008: 
+  updated_at: 2009-04-23 19:04:50
+  template_item: "0"
+  text: Blalllanlnalbl alh alh  hla bulubulubulubu- blla blaa
+  kind: text
+  id: "59"
+  paper_id: "2"
+  position: "7"
+  created_at: 2009-04-23 18:28:26
+contents_034: 
+  updated_at: 2009-06-06 17:39:56
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "127"
+  paper_id: "20"
+  position: "1"
+  created_at: 2009-06-06 17:39:56
+contents_060: 
+  updated_at: 2009-06-06 18:26:45
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "155"
+  paper_id: "34"
+  position: "3"
+  created_at: 2009-06-06 18:26:45
+contents_115: 
+  updated_at: 2009-08-07 18:00:30
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 440,00 \xE2\x82\xAC aus der oben genannten Rechnung offen. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben als gegenstandslos."
+  kind: text
+  id: "215"
+  paper_id: "55"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_141: 
+  updated_at: 2009-06-06 17:59:12
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "241"
+  paper_id: "65"
+  position: "2"
+  created_at: 2009-06-06 17:59:12
+contents_222: 
+  updated_at: 2009-08-17 10:45:34
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 189,21 \xE2\x82\xAC aus der oben genannten Rechnung offen (dies ist bereits die zweite Erinnerung). Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "339"
+  paper_id: "111"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_330: 
+  updated_at: 2009-06-06 17:39:56
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "541"
+  paper_id: "300"
+  position: "1"
+  created_at: 2009-06-06 17:39:56
+contents_304: 
+  updated_at: 2009-12-04 23:36:31
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "508"
+  paper_id: "275"
+  position: "0"
+  created_at: 2009-06-06 17:39:56
+contents_223: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "341"
+  paper_id: "111"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_009: 
+  updated_at: 2009-05-29 14:05:39
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "61"
+  paper_id: "3"
+  position: "4"
+  created_at: 2009-04-25 14:43:29
+contents_035: 
+  updated_at: 2009-06-06 17:41:07
+  template_item: "0"
+  text: Betrag dankend in bar erhalten
+  kind: text
+  id: "128"
+  paper_id: "20"
+  position: "2"
+  created_at: 2009-06-06 17:41:07
+contents_061: 
+  updated_at: 2009-06-14 16:18:57
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "156"
+  paper_id: "19"
+  position: "1"
+  created_at: 2009-06-14 16:18:57
+contents_116: 
+  updated_at: 2009-08-07 15:58:25
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht automatisch weiter mahnen."
+  kind: text
+  id: "216"
+  paper_id: "55"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_142: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "242"
+  paper_id: "66"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_331: 
+  updated_at: 2009-06-06 17:41:07
+  template_item: "0"
+  text: Betrag dankend in bar erhalten
+  kind: text
+  id: "542"
+  paper_id: "300"
+  position: "2"
+  created_at: 2009-06-06 17:41:07
+contents_305: 
+  updated_at: 2009-12-04 23:36:31
+  template_item: "0"
+  text: Betrag dankend in bar erhalten
+  kind: text
+  id: "509"
+  paper_id: "275"
+  position: "1"
+  created_at: 2009-06-06 17:41:07
+contents_250: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "394"
+  paper_id: "123"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_224: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "342"
+  paper_id: "111"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_036: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "129"
+  paper_id: "21"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_062: 
+  updated_at: 2009-06-06 17:39:56
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "157"
+  paper_id: "35"
+  position: "1"
+  created_at: 2009-06-06 17:39:56
+contents_117: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "217"
+  paper_id: "55"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_143: 
+  updated_at: 2009-08-08 14:23:39
+  template_item: "0"
+  text: "Mit unfreundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "243"
+  paper_id: "66"
+  position: "2"
+  created_at: 2009-06-06 17:59:12
+contents_332: 
+  updated_at: 2009-12-23 17:17:32
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "543"
+  paper_id: "307"
+  position: "0"
+  created_at: 2009-06-06 17:51:10
+contents_306: 
+  updated_at: 2009-11-22 21:35:35
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "510"
+  paper_id: "276"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_251: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "395"
+  paper_id: "123"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_225: 
+  updated_at: 2009-08-17 13:05:13
+  template_item: "0"
+  text: fgdhjj
+  kind: text
+  id: "343"
+  paper_id: "111"
+  position: "3"
+  created_at: 2009-08-17 13:05:13
+contents_037: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "130"
+  paper_id: "21"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_063: 
+  updated_at: 2009-06-06 17:41:07
+  template_item: "0"
+  text: Betrag dankend in bar erhalten
+  kind: text
+  id: "158"
+  paper_id: "35"
+  position: "2"
+  created_at: 2009-06-06 17:41:07
+contents_118: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "218"
+  paper_id: "55"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_144: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "244"
+  paper_id: "67"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_170: 
+  updated_at: 2009-06-06 18:30:13
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "270"
+  paper_id: "78"
+  position: "2"
+  created_at: 2009-06-06 18:30:13
+contents_333: 
+  updated_at: 2009-12-23 17:17:32
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "544"
+  paper_id: "307"
+  position: "1"
+  created_at: 2009-06-06 17:52:16
+contents_307: 
+  updated_at: 2009-11-22 21:35:35
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 2.500,00 \xE2\x82\xAC aus der oben genannten Rechnung offen. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "511"
+  paper_id: "276"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_252: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "396"
+  paper_id: "124"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_226: 
+  updated_at: 2009-08-27 12:10:32
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "347"
+  paper_id: "88"
+  position: "1"
+  created_at: 2009-08-27 12:10:32
+contents_038: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "131"
+  paper_id: "21"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_064: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "159"
+  paper_id: "36"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_090: 
+  updated_at: 2009-08-07 16:59:49
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 1,50 \xE2\x82\xAC aus der oben genannten Rechnung offen. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben als gegenstandslos."
+  kind: text
+  id: "190"
+  paper_id: "50"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_119: 
+  updated_at: 2009-08-07 18:13:46
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "219"
+  paper_id: "56"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_145: 
+  updated_at: 2009-06-06 17:59:12
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "245"
+  paper_id: "67"
+  position: "2"
+  created_at: 2009-06-06 17:59:12
+contents_171: 
+  updated_at: 2009-08-12 19:43:22
+  template_item: "0"
+  text: "Mit freundlichen <em>Gr\xC3\xBC\xC3\x9Fen</em>"
+  kind: text
+  id: "271"
+  paper_id: "78"
+  position: "3"
+  created_at: 2009-06-06 18:30:47
+contents_334: 
+  updated_at: 2009-12-23 17:21:29
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "545"
+  paper_id: "307"
+  position: "2"
+  created_at: 2009-06-06 17:52:46
+contents_308: 
+  updated_at: 2009-08-07 18:10:06
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht l\xC3\xA4nger automatisch weiter mahnen."
+  kind: text
+  id: "512"
+  paper_id: "276"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_253: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "397"
+  paper_id: "124"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_227: 
+  updated_at: 2009-08-27 15:09:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "364"
+  paper_id: "94"
+  position: "1"
+  created_at: 2009-08-27 15:09:02
+contents_039: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "132"
+  paper_id: "22"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_065: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "160"
+  paper_id: "36"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_091: 
+  updated_at: 2009-08-07 15:58:25
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht automatisch weiter mahnen."
+  kind: text
+  id: "191"
+  paper_id: "50"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_146: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "246"
+  paper_id: "68"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_172: 
+  updated_at: 2009-08-10 10:46:54
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "284"
+  paper_id: "82"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_335: 
+  updated_at: 2009-12-12 19:25:48
+  template_item: "0"
+  text: Sehr geehrte Damen und Herren
+  kind: text
+  id: "548"
+  paper_id: "309"
+  position: "1"
+  created_at: 2009-06-06 18:26:03
+contents_309: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "513"
+  paper_id: "276"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_280: 
+  updated_at: 2009-06-06 17:39:56
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "481"
+  paper_id: "153"
+  position: "1"
+  created_at: 2009-06-06 17:39:56
+contents_254: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "398"
+  paper_id: "124"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_228: 
+  updated_at: 2009-09-18 18:50:55
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "365"
+  paper_id: "113"
+  position: "1"
+  created_at: 2009-09-18 18:50:55
+contents_066: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "161"
+  paper_id: "36"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_092: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "192"
+  paper_id: "50"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_147: 
+  updated_at: 2009-06-06 17:59:12
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "247"
+  paper_id: "68"
+  position: "2"
+  created_at: 2009-06-06 17:59:12
+contents_173: 
+  updated_at: 2009-08-10 10:46:54
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch  aus der oben genannten Rechnung offen. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "285"
+  paper_id: "82"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_336: 
+  updated_at: 2009-12-12 19:27:00
+  template_item: "0"
+  text: Bis auf nix hab ich Ihnen nichts weiter mit zu teilen.
+  kind: text
+  id: "549"
+  paper_id: "309"
+  position: "2"
+  created_at: 2009-06-06 18:26:12
+contents_281: 
+  updated_at: 2009-06-06 17:41:07
+  template_item: "0"
+  text: Betrag dankend in bar erhalten
+  kind: text
+  id: "482"
+  paper_id: "153"
+  position: "2"
+  created_at: 2009-06-06 17:41:07
+contents_255: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "420"
+  paper_id: "132"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_229: 
+  updated_at: 2009-09-18 19:22:15
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "370"
+  paper_id: "114"
+  position: "1"
+  created_at: 2009-09-18 19:22:15
+contents_067: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "167"
+  paper_id: "38"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_093: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "193"
+  paper_id: "50"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_148: 
+  updated_at: 2009-06-06 17:57:02
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "248"
+  paper_id: "69"
+  position: "1"
+  created_at: 2009-06-06 17:57:02
+contents_174: 
+  updated_at: 2009-08-07 18:10:06
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht l\xC3\xA4nger automatisch weiter mahnen."
+  kind: text
+  id: "286"
+  paper_id: "82"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_337: 
+  updated_at: 2009-06-06 18:26:45
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "550"
+  paper_id: "309"
+  position: "3"
+  created_at: 2009-06-06 18:26:45
+contents_282: 
+  updated_at: 2009-06-06 18:35:52
+  template_item: "0"
+  text: "Ihr f\xC3\xBCnfsaitiger, Rubner Kontraba\xC3\x9F mit gew\xC3\xB6lbtem Boden von 1983 hat zur Zeit einen Wert von 500,- \xE2\x82\xAC."
+  kind: text
+  id: "483"
+  paper_id: "159"
+  position: "1"
+  created_at: 2009-06-06 18:35:00
+contents_256: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "421"
+  paper_id: "132"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_068: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "168"
+  paper_id: "38"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_094: 
+  updated_at: 2009-08-07 17:15:56
+  template_item: "0"
+  text: "Sehr geehrter Herr Valero "
+  kind: text
+  id: "194"
+  paper_id: "51"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_149: 
+  updated_at: 2009-06-06 17:59:12
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "249"
+  paper_id: "69"
+  position: "2"
+  created_at: 2009-06-06 17:59:12
+contents_175: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "287"
+  paper_id: "82"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_283: 
+  updated_at: 2009-06-06 18:35:25
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "484"
+  paper_id: "159"
+  position: "2"
+  created_at: 2009-06-06 18:35:25
+contents_257: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "422"
+  paper_id: "132"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_069: 
+  updated_at: 2009-06-06 17:52:46
+  template_item: "0"
+  text: "Mitr freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "169"
+  paper_id: "38"
+  position: "3"
+  created_at: 2009-06-06 17:52:46
+contents_095: 
+  updated_at: 2009-08-07 17:15:56
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 1,50 \xE2\x82\xAC aus der oben genannten Rechnung offen. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben als gegenstandslos."
+  kind: text
+  id: "195"
+  paper_id: "51"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_176: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "288"
+  paper_id: "82"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_284: 
+  updated_at: 2009-10-17 14:33:27
+  template_item: "0"
+  text: "Is leider n bi\xC3\x9Fchen teurer geworden. Nichts f\xC3\xBCr ungut."
+  kind: text
+  id: "485"
+  paper_id: "71"
+  position: "2"
+  created_at: 2009-10-17 14:33:16
+contents_258: 
+  updated_at: 2009-06-06 17:51:10
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "429"
+  paper_id: "135"
+  position: "1"
+  created_at: 2009-06-06 17:51:10
+contents_096: 
+  updated_at: 2009-08-07 15:58:25
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht automatisch weiter mahnen."
+  kind: text
+  id: "196"
+  paper_id: "51"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_177: 
+  updated_at: 2009-08-10 10:47:17
+  template_item: "0"
+  text: "Sehr geehrte Damen und Herren "
+  kind: text
+  id: "289"
+  paper_id: "83"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_285: 
+  updated_at: 2009-06-06 18:30:13
+  template_item: "0"
+  text: 
+  kind: rblock
+  id: "486"
+  paper_id: "160"
+  position: "1"
+  created_at: 2009-06-06 18:30:13
+contents_259: 
+  updated_at: 2009-06-06 17:54:06
+  template_item: "0"
+  text: "Bitte \xC3\xBCberweisen Sie den genannten Betrag ohne Abz\xC3\xBCge auf unser unten angegebenes Konto."
+  kind: text
+  id: "430"
+  paper_id: "135"
+  position: "2"
+  created_at: 2009-06-06 17:52:16
+contents_097: 
+  updated_at: 2009-08-07 15:59:58
+  template_item: "0"
+  text: "Wir behalten uns vor, f\xC3\xBCr Rechnungen, die \xC3\xBCber mehrere Monate nicht bezahlt werden, r\xC3\xBCckwirkend Zinsen zu dem bank\xC3\xBCblichen Zinssatz zu berechnen."
+  kind: text
+  id: "197"
+  paper_id: "51"
+  position: "4"
+  created_at: 2009-08-07 15:59:58
+contents_178: 
+  updated_at: 2009-08-10 10:47:17
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch  aus der oben genannten Rechnung offen (dies ist bereits die zweite Erinnerung). Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben bitte als gegenstandslos."
+  kind: text
+  id: "290"
+  paper_id: "83"
+  position: "2"
+  created_at: 2009-08-07 15:57:40
+contents_286: 
+  updated_at: 2009-06-06 18:30:47
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "487"
+  paper_id: "160"
+  position: "2"
+  created_at: 2009-06-06 18:30:47
+contents_098: 
+  updated_at: 2009-08-07 16:00:18
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "198"
+  paper_id: "51"
+  position: "5"
+  created_at: 2009-08-07 16:00:18
+contents_179: 
+  updated_at: 2009-08-07 18:10:06
+  template_item: "0"
+  text: "Sollten Sie die Rechnung schon vor l\xC3\xA4ngerer Zeit beglichen haben, entschuldigen wir uns vielmals und bitten Sie, uns gelegentlich das Datum ihrer \xC3\x9Cberweisung wissen zu lassen, damit wir Sie nicht l\xC3\xA4nger automatisch weiter mahnen."
+  kind: text
+  id: "291"
+  paper_id: "83"
+  position: "3"
+  created_at: 2009-08-07 15:58:25
+contents_287: 
+  updated_at: 2009-11-02 10:35:23
+  template_item: "0"
+  text: Sehr geehrter Herr Mir
+  kind: text
+  id: "488"
+  paper_id: "227"
+  position: "1"
+  created_at: 2009-06-06 18:26:03
+contents_099: 
+  updated_at: 2009-08-07 17:53:04
+  template_item: "0"
+  text: "Sehr geehrter Herr Valero "
+  kind: text
+  id: "199"
+  paper_id: "52"
+  position: "1"
+  created_at: 2009-06-06 18:59:36
+contents_288: 
+  updated_at: 2009-11-02 10:35:36
+  template_item: "0"
+  text: Wie geht's?
+  kind: text
+  id: "489"
+  paper_id: "227"
+  position: "2"
+  created_at: 2009-06-06 18:26:12
+contents_289: 
+  updated_at: 2009-06-06 18:26:45
+  template_item: "0"
+  text: "Mit freundlichen Gr\xC3\xBC\xC3\x9Fen"
+  kind: text
+  id: "490"
+  paper_id: "227"
+  position: "3"
+  created_at: 2009-06-06 18:26:45
+contents_100: 
+  updated_at: 2009-08-07 17:53:04
+  template_item: "0"
+  text: "Laut unserer Buchf\xC3\xBChrung sind noch 1,50 \xE2\x82\xAC aus der oben genannten Rechnung offen. Sollten Sie diese Rechnung innerhalb der letzten Tage bezahlt haben, betrachten Sie dieses Schreiben als gegenstandslos."
+  kind: text
+  id: "200"
+  paper_id: "52"
+  position: "2"
+  created_at: 2009-08-07 15:57:40

@@ -1,0 +1,6 @@
+.contactable_content
+  = h contactable.title
+  = h contactable.firstname
+  = h contactable.name
+  = {'phone' => '', 'fax' => 'Fax', 'cell' => 'mobil', nil => 'SCHIET!'}[contactable.kind]
+  = h contactable.number

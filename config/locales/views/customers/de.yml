@@ -1,0 +1,12 @@
+de:
+  customers:
+    index:
+      new: 'Kontakt neu'
+      new_title: 'Einen neuen Kontakt anlegen'
+    show:
+      edit: 'Kontakt bearbeiten'
+      edit_title: 'Kontakt bearbeiten (Anschriften, Telefonnummern etc. hinzufügen, bearbeiten...)'
+      reassign_contactable: 'Andere Adresse zuweisen'
+      reassign_contactable_title: 'Diesem Kunden eine Adresse (Telefonnumer etc...) eines "anderen" Kunden zuordnen.'
+      doc_alias_new: 'Dokumenten-Alias hinzufügen'
+      doc_alias_new_title: 'Alias für ein Dokument eines anderen Kunden hinzufügen'

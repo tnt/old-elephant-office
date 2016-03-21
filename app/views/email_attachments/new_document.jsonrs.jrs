@@ -1,0 +1,19 @@
+html = fields_for("email[attachments_attributes][#{Time.now.to_i}]", @attachment) do |f| 
+    render :partial => "email_attachments/document_form", :locals => {:f => f, :email => @email}
+end 
+
+[
+  {
+    job: 'insert_bottom',
+    elements: '#attachments',
+    content: html
+  }, {
+    job: 'replace_content',
+    elements: '#attachment_adder',
+    content: ''
+  }, {
+    job: 'show_elements',
+    elements: '#add_attachment_link',
+    content: ''
+  }
+] 

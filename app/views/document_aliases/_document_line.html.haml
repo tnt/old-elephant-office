@@ -1,0 +1,3 @@
+= render "#{document.document.main_type.underscore.pluralize}/document_line", |
+  :document => document.document, :doc_alias => document, |
+  :customer => (defined?(customer) ? customer : nil) |

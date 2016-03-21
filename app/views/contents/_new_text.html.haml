@@ -1,0 +1,12 @@
+%tr#content_new.content_new
+  / partial app/views/contents/_edit_text.html.erb
+  %td{:colspan => "2"}
+    = rs_form_tag( { :controller => :contents, :action => :create_ajax_content, |
+      :id => @content, :insert_after => params[:insert_after] },             |
+      'data-loading-element' => 'contents_list')        do |
+      = text_area :content, :text, :rows => 3, :style => 'width:600px', :id => 'content_text_new'
+      = hidden_field :content, :kind
+      = hidden_field :content, :paper_id
+      = image_submit_tag '/images/micons/save.png' #, :class => 'icon_link_16 save_16'
+    = link_to 'Cancel', {}, :onclick => '$("#content_new").remove();return false;',   |
+       :disable_with => 'lade...', :class => 'icon_link_16 cancel_16' |

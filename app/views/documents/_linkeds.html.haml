@@ -1,0 +1,11 @@
+%ul.linked_documents{:id => "linked_documents_of_#{document.id}"}
+  - for doc in document.linkeds_plus
+    %li{:id => "linked_#{doc.id}"}
+      - unless document == doc
+        = link_to "#{doc.doc_name} - #{doc.contactable.cname} #{german_date doc.date}", doc, :class => 'document_link'
+        = rs_link_to 'Löschen',                                      |
+          { :controller => 'documents', :action => 'ajax_destroy_linked', :id => document,                        |
+          :linked_id=> doc.id }, :class => 'delete icon_link', :title => t('views.destroy'),                                              |
+          :confirm => "Verknüpfung zu '#{doc.doc_name}' löschen?\n\nEs wird nur die Verknüpfung gelöscht, nicht das Dokument selbst." |
+      - else
+        = "#{doc.doc_name} - (dieses Dokument)"

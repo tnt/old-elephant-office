@@ -1,0 +1,12 @@
+[
+  {
+    job: 'replace_content', 
+    content: render('customers/customers_list', :customers =>  @customers, :ccustomer => @customer),
+    elements: '#customers_list_container'
+  },
+  {
+    job: 'set_focus', 
+    content: '',
+    elements: '#search_simp'
+  }
+]

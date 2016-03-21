@@ -1,0 +1,7 @@
+- ob = f.object
+%div{:id => "attachment_#{ob.new_record? ? 'NEW_RECORD' : ob.id}"}
+  = link_to( ob.document.doc_name, ob.document.file_url, :target => '_pdf_')
+  = f.hidden_field :document_id #, (ob.new_record? ? {:value => 'DOCUMENT_ID'} : {})
+  = f.hidden_field :kind
+  = f.hidden_field :_destroy, :autocomplete => 'off'
+  = link_to('entfernen', '#', :onclick => "var div = $(this).closest('DIV'); div.hide(); if(hidden_input = div.find('input[id$=_destroy]')) $(hidden_input).val('1'); return false;", :class => "icon_link delete" ) if email.editable?

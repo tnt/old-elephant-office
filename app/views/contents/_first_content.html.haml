@@ -1,0 +1,12 @@
+%tr#content_is_first
+  %td
+  %td
+    = rs_link_to = rs_link_to 'Text einfügen',    |
+      { :controller => 'contents', :action => :new_ajax_content, :insert_after => 'is_first',   |
+      'content[paper_id]' => paper_id, 'content[kind]' => :text},                                |
+      :title => 'Text einfügen',  :class => 'icon_link insert_line'                              |
+    -#
+    = rs_link_to 'RBlock einfügen',    |
+      { :controller => 'contents', :action => :new_ajax_content, :insert_after => 'is_first' , |
+      'content[paper_id]' => paper_id, 'content[kind]' => :rblock},                             |
+      :title => 'Rblock einfügen',  :class => 'icon_link insert_line'                           |

@@ -1,0 +1,8 @@
+.html_part_links
+  - document.attachments.html_parts.each do |part|
+    %a{:href => part.web_path} HTML Part
+= document.message_html
+= '<hr>'.html_safe if document.attachments.count > 0
+- document.attachments.files.each do |att|
+  /= render "email_attachments/#{att.kind}_line", :att => att
+  = render "email_attachments/document_line", :att => att

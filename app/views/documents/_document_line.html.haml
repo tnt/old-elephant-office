@@ -1,0 +1,31 @@
+%li[document]{:data => {},:class => doc_alias && :document_alias, :data => {'contactable-id' =>    |
+    document.address_id, 'shown-by-lightbulbs-count' => 0, :loaded => (document.too_big? || 'true')}}  |
+  .document_line_first{:id => "document_head_#{document.id}"}
+    .document_line_icon{:title => document.class.model_name.human}
+      %div{:class => "type_icon type_#{document.type.underscore}"}= document.type
+      %div{:class => "type_icon type_#{document.is_foreign ? 'in' : 'out'}"}= document.is_foreign ? 'eingehend' : 'ausgehend'
+      /.type_icon.type_none weder noch
+    - if defined?(customer) && customer 
+      .document_line_customer
+        = link_to customer.name, customer
+    .document_line_title
+      = render "#{document.main_type.underscore.pluralize}/document_line_title", :document => document
+    .document_line_date{:title => document.date.strftime('%H:%M')}= document.date.strftime '%d.%m.%y'
+    / <div align="right"><haml:loud> number_to_currency(document.value) </haml:loud></div>
+    .document_line_actions
+      = render "#{document.main_type.underscore.pluralize}/document_line_actions", :document => document
+      = render "document_aliases/actions", :document => document, :doc_alias => doc_alias if doc_alias
+  .document_line_second{:id => "document_body_#{document.id}"}
+    .document_line_body{:style => "display:none;"}
+      - if document.linkeds.count >= 1
+        = render 'documents/linkeds_short', :document => document
+      - if document.aliases.count >= 1
+        = render 'document_aliases/list', :aliases => document.aliases, :doc_alias => doc_alias
+      - unless document.remark.blank?
+        %a.icon_link.info.float_right{"data-toggle-sometimes-hidden" => "paper_remark_#{document.id}", :href => "#"} info ein-/ausblenden
+        %div.remark.hide_sometimes_hidden{:id=>"paper_remark_#{document.id}"}
+          %p.sometimes_hidden
+            = document.remark
+      /= render 'documents/document_line_common', :document => document, :doc_alias => doc_alias
+      .document_preview{:id => "document_message_#{document.id}", :class => "#{document.main_type}_body"}
+        = render "#{document.main_type.underscore.pluralize}/document_line_preview", :document => document

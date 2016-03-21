@@ -1,0 +1,10 @@
+%tr{:id => "content_#{@content.id}"}
+  / partial app/views/contents/_edit_signing.haml
+  %td.edit_form{:colspan => "2"}
+    = rs_form_tag( { :controller => :contents, :action => :update_ajax_content, :id => @content }, |
+        'data-loading-element' => "content_#{@content.id}_text" ) do        |
+      = text_area :content, :text, :rows => 3, :style => 'width:600px', :id => "content_#{@content.id}_text"
+      = hidden_field :content, :kind, :value => 'signing'
+      = image_submit_tag '/images/micons/save.png' #, :class => 'icon_link_16 save_16'
+    = rs_link_to 'Cancel', { :controller => :contents, :action => 'cancel_ajax', :id => @content },   |
+       :disable_with => 'lade...', :class => 'icon_link_16 cancel_16', 'data-loading-element' => "content_#{@content.id}_text"   |

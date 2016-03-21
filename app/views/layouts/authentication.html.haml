@@ -1,0 +1,21 @@
+!!!
+%html
+  %head
+    %link{:href => "/images/elephant.png", :rel => "shortcut icon"}/
+    = "<!-- This is Rails #{Rails.version} on Ruby #{RUBY_VERSION}p#{RUBY_PATCHLEVEL}[#{RUBY_PLATFORM}] -->".html_safe
+    %meta{:charset => "UTF-8"}
+    %title
+      Elephant
+    - {:default => 'Standard', :darker => 'Dunkler, kontrastreicher'}.each do |name, title|
+      = stylesheet_link_tag name, :rel => "#{Elph[:default_stylesheet] == name ? '' : 'alternate '}stylesheet", :title => title
+    = javascript_include_tag("preload_images")
+  %body#login
+    #body
+      .centered
+        %p{:style => "color: green"}= flash[:notice]
+        = yield
+      #document_screen
+        #iframe_wrapper
+          #iframe_header
+            %a.icon_link.close
+          %iframe#document_iframe{:src => '/minimal.pdf'}

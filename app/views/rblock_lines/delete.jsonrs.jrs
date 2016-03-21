@@ -1,0 +1,27 @@
+arr = [
+  {
+    job: 'replace_content',
+    elements: "#rblock_line_#{@rblock_line.id}",
+    content: render('common/deleted', :model => 'rblock_line', :cols => 4)
+  },
+  {
+    job: 'set_attributes',
+    elements: "#rblock_line_#{@rblock_line.id}",
+    content: {'data-cleanup-in' => 2}
+  }
+] 
+%w(sum tax total).each do |key| 
+  arr << {
+    job: 'replace_content',
+    elements: "#rblock_#{@rblock_line.content.id}_#{key}",
+    content: number_to_currency(@rblock_line.content.send(key))
+  }
+end
+
+arr <<  {
+  job: 'effect',
+  elements: "#rblock_line_#{@rblock_line.id}",
+  content: 'Highlight'
+} 
+
+arr 

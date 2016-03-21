@@ -1,0 +1,27 @@
+[
+  {
+    job: 'replace_content',
+    content: render('customers/show', :customer => @customer),
+    elements: "#customers_preview"
+  },
+  {
+    job: 'remove_classname',
+    content: 'selected',
+    elements: ".customers_list .customer_line"
+  },
+  {
+    job: 'replace_content',
+    content: render('customers/last'),
+    elements: "#last_customers"
+  },
+  {
+    job: 'add_classname',
+    content: 'selected',
+    elements: "#customer_#{@customer.id}, #lcustomer_#{@customer.id}, .customer_#{@customer.id}"
+  },
+  {
+    job: 'call',
+    content: 'marked',
+    elements: "#customers_preview .marked"
+  }
+]

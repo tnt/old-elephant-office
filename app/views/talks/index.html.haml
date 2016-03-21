@@ -1,0 +1,18 @@
+%h1 Dokumente
+%table
+  %tr
+    %th Id
+    %th Kind
+    %th Name
+    %th Date
+    %th Value
+  - for document in @documents
+    %tr{:title => h(document.remark)}
+      %td= document.id
+      %td= document.kind.titlecase + ' ' + ( document.invoice_number_formatted || '' )
+      %td= h document.name
+      %td= h document.date
+      %td= h number_to_currency(document.value)
+      %td= link_to 'Show', document
+      %td= link_to 'Edit', edit_document_path(document)
+      %td= link_to 'Destroy', document, :confirm => 'Sicher? Das soll man ja eigentlich nicht, ne?', :method => :delete

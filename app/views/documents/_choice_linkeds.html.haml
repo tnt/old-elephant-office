@@ -1,0 +1,13 @@
+%ul
+  - for doc in choice_linkeds
+    %li
+      = rs_link_to "#{doc.doc_name} - #{doc.contactable.cname}",                               |
+        { :controller => 'documents', :action => 'ajax_create_linked', :id => document_id,     |
+        :linkee_id=> doc.id }, 'data-loading-element' => 'loading_screen'                      |
+%div
+  = rs_form_tag({ :controller => :documents, :action => :ajax_create_linked,                   |
+    :id => document_id }, 'data-loading-element' => 'loading_screen') do
+    %input{:length => "5", :name => "linkee_id", :type => "text"}
+    = submit_tag 'Save'
+  = data_button('Cancel', {'clear-elements' => '#above_safety_screen', "rm-class" => :show_safety, |
+                            "rm-class-on" => '#body'}).html_safe()

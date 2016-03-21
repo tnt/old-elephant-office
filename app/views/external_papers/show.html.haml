@@ -1,0 +1,6 @@
+- %w(path filename identifier cache_dir url _before_callbacks _after_callbacks).each  do |meth|
+  .meth
+    = "#{meth} = #{@document.file.send(meth).to_s}"
+%hr
+.paper
+  = (@document.file.public_methods - Object.public_methods).sort.join('<br>').html_safe

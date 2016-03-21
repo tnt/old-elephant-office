@@ -1,0 +1,18 @@
+# page.remove 'content_is_first' if params[:insert_after] == 'is_first' 
+[
+  {
+    job: 'insert_after',
+    elements: "#content_#{params[:insert_after]}",
+    content: render("contents/new_#{@content.kind}", :content => @content)
+  },
+  {
+    job: 'set_focus',
+    elements: "#content_text_new",
+    content: ''
+  },
+  {
+    job: 'effect',
+    elements: "#content_new",
+    content: 'Highlight'
+  }
+] 

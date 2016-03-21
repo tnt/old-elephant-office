@@ -1,0 +1,54 @@
+%h1= @paper.doc_name
+%p
+  = render :partial => 'addresses/address', :object => @paper.address
+= render 'documents/linkeds', :document => @paper
+#add_linked
+  = rs_link_to 'Verknüpfung hinzufügen',                                                |
+    { :controller => 'documents', :action => 'ajax_choice_linked', :id => @paper },     |
+    :class => 'icon_link_16 add_linked_16', :title => 'Verknüpfung zu anderem Dokument hinzufügen', |
+    'data-loading-element' => 'body'                                                       |
+= render 'document_aliases/list', :aliases => @paper.aliases, :doc_alias => nil, :skip_rs => true
+= form_for(@paper, :html => { :autocomplete => :off}) do |f|
+  %p
+    = f.label :subject, 'Betreff'
+    %br/
+    = f.text_area :subject, :rows => 3
+  %p
+    = f.label :tax_rate, 'Steuersatz'
+    = f.select :tax_rate,  [[0,0.0],[19,19.0]], {}, :autocomplete => "off"
+    \%
+  %p
+    = f.label :date, 'Datum'
+    %br/
+    = Elph[:inv_kinds].include?( @paper.kind ) ? @paper.date.strftime('%d.%m.%Y') : f.text_field(:date, :class => :datetimepicker)
+  - if Elph[:features][:paper][:show_ref_fields]
+    = render 'ref_fields', :f => f
+  #inv_specific{:class => Elph[:inv_kinds].include?( @paper.kind ) ? '' : 'non_inv_kind'}
+    %p
+    %p.realization_date
+      Lieferung/Ausführung
+      = radio_button_tag :lock_realization_dates, 'yes', ! @paper.rft_both?
+      %label{:for => "lock_realization_dates_yes"}&&nbsp;am&nbsp;&nbsp;&nbsp;
+      = radio_button_tag :lock_realization_dates, 'no', @paper.rft_both?
+      %label{:for => "lock_realization_dates_no"}&&nbsp;vom/bis
+      /= fire_log @paper.rft_both?
+      %br/
+      = f.text_field :realization_from, :class => :date_picker
+      = f.text_field :realization_to, :class => :date_picker, :style => ( ! @paper.rft_both? ? 'display:none;' : '')
+  / inv_specific
+  %p
+    = f.label :value, 'Summe'
+    %br/
+    = number_to_currency(@paper.value.to_f)
+  %p
+    = f.label :remark, 'Bemerkung'
+    %br/
+    = f.text_area :remark, :rows => 3
+  - if @paper.persisted?
+    = render 'documents/document_info', :document => @paper
+  %p
+    = f.submit "Speichern"
+  = f.hidden_field :address_id
+= link_to 'Anzeige', @paper
+|
+= link_to 'Kunde', @paper.customer

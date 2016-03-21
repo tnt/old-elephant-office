@@ -1,0 +1,17 @@
+[
+  {
+    job: 'insert_after',
+    elements: "#content_#{params[:insert_after]}",
+    content: render("contents/#{@content.kind}", :content => @content)
+  },
+  {
+    job: 'effect',
+    elements: "#content_#{@content.id}",
+    content: 'Highlight'
+  },
+  { 
+    job: 'call',
+    elements: "#content_#{@content.id}_scale_slider",
+    content:  'init_scale_slider'
+  }
+] 

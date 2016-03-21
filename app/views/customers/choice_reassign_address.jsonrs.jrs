@@ -1,0 +1,31 @@
+message = @message ? [
+  { 
+    job: 'alert', 
+    content: @message, 
+    elements: "body" 
+  }
+] : []
+([
+  {
+    job: 'add_classname',
+    elements: '#body',
+    content: 'show_safety'
+  }, {
+    job: 'replace_content',
+    elements: '#above_safety_screen',
+    content: '<div id="common_selector"><div id="common_selector_inner"></div></div>'
+  }, {
+    job: 'replace_content',
+    elements: '#common_selector_inner',
+    content: render('customers/choice_reassign_address', :customer_id => @customer_id)
+  },
+  { 
+    job: 'effect', 
+    content: 'Highlight', 
+    elements: '#above_safety_screen'
+  },
+  { 
+    job: 'set_focus', 
+    elements: "input[name=address_id]" 
+  }
+] + message ) 

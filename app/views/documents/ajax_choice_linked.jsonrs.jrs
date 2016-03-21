@@ -1,0 +1,25 @@
+[
+  {
+    job: 'add_classname',
+    elements: '#body',
+    content: 'show_safety'
+  }, {
+    job: 'replace_content',
+    elements: '#above_safety_screen',
+    content: '<div id="common_selector"><div id="common_selector_inner"></div></div>'
+  }, {
+    job: 'replace_content',
+    elements: "#common_selector",
+    content: render("documents/choice_linkeds", :choice_linkeds => @documents, :document_id => @document.id)
+  },
+  {
+    job: 'effect',
+    elements: "#add_linked",
+    content: 'Highlight'
+  },
+  { 
+    job: 'set_focus', 
+    elements: "input[name=linkee_id]" 
+  }
+]
+

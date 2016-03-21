@@ -1,0 +1,10 @@
+#customers_assign_existing_contactable_wrapper
+  = link_to 'close', '#', :class => 'icon_link close'
+  #customers_assign_existing_contactable{"data-existing-contactable-id" => @existing_contactable.id}
+    %p
+      = link_to("Neuen Kunden für '#{@existing_contactable.email_address_complete}' anlegen",                         |
+        {:controller => :customers, :action => :assign_existing_contactable_to_new_customer,                          |
+        :existing_contactable_id => @existing_contactable.id }, :title => 'Emailadresse einem neuen Kunden zuweisen') |
+    %p oder existerendem Kunden zuweisen:
+    #customers_list_container
+      = render 'customers_list', :customers =>  @customers, :ccustomer => @customer

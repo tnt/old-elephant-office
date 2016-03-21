@@ -1,0 +1,17 @@
+[
+  {
+    job: 'replace_element',
+    elements: "#content_#{@content.id}",
+    content: render("contents/edit_#{@content.kind}", :content => @content)
+  },
+  {
+    job: 'set_focus',
+    elements: "#content_#{@content.id}_text",
+    content: ''
+  },
+  {
+    job: 'effect',
+    elements: "#content_#{@content.id}",
+    content: 'Highlight'
+  }
+] 

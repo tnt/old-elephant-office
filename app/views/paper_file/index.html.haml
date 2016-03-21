@@ -1,0 +1,4 @@
+%h1=t('views.paper.unfiled_papers').titlecase
+%ul.documents_list{'data-selected-contactables' => '', 'data-lightbulb-filters-count' => 0}
+  - for paper in @papers
+    = render "papers/document_line", :document => paper, :customer => paper.customer, :doc_alias => nil

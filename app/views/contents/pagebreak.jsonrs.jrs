@@ -1,0 +1,12 @@
+[
+  {
+    job: 'insert_after',
+    elements: "#content_#{params[:insert_after]}",
+    content: render("contents/pagebreak", :content => @content)
+  },
+  {
+    job: 'effect',
+    elements: "#content_#{@content.id}",
+    content: 'Highlight'
+  }
+] 

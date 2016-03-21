@@ -1,0 +1,22 @@
+[  
+  {
+    job: 'remove_classname',
+    elements: '#body',
+    content: 'show_safety'
+  }, {
+    job: 'replace_content',
+    elements: '#above_safety_screen',
+    content: ''
+  }, {
+    job: 'replace_element',
+    elements: "#linked_documents_of_#{@document.id}",
+    content: render("documents/linkeds", :document => @document)
+  },
+  {
+    job: 'effect',
+    elements: "#linked_documents_of_#{@document.id}",
+    content: 'Highlight'
+  }
+]
+ 
+

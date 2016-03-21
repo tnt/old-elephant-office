@@ -1,0 +1,61 @@
+
+@mixin link_with_icon {
+    padding-left: 18px;
+    background-position: 0 2px;
+}
+
+ul.linked_documents {
+
+  padding: 4px 0;
+  margin: 0;
+
+  li {
+    font-size: 85%;
+    list-style: none;
+    
+    a.document_link {
+        @include link_with_icon;
+        background: url(/images/famfam_silk/page_white_link.png) no-repeat center left;
+    }
+  }
+}
+
+a.external_paper {
+    @include link_with_icon;
+    background: url(/images/micons/12x12/article_text.png) no-repeat center left;
+}
+
+
+a.paper {
+    @include link_with_icon;
+    background: url(/images/micons/12x12/article_text.png) no-repeat center left;
+}
+
+
+a.email {
+    @include link_with_icon;
+    background: url(/images/micons/12x12/envelope.png) no-repeat center left;
+}
+
+
+a.talk {
+    @include link_with_icon;
+    background: url(/images/micons/12x12/double_comment.png) no-repeat center left;
+}
+
+
+a.visit {
+    @include link_with_icon;
+    background: url(/images/micons/12x12/double_comment.png) no-repeat center left;
+}
+
+a.phone_call {
+    @include link_with_icon;
+    background: url(/images/micons/12x12/double_comment.png) no-repeat center left;
+}
+
+/*********** unbedigt ändern:  **************/
+
+#above_safety_screen li {
+    list-style: none;
+}

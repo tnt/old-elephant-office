@@ -1,0 +1,39 @@
+%p
+  %b 
+    = t('activerecord.attributes.user.username')
+    \:
+  = h @user.username
+%p
+  %b 
+    = t('activerecord.attributes.user.password')
+    \:
+  = h @user.password
+%p
+  %b 
+    = t('activerecord.attributes.user.gname')
+    \:
+  = h @user.gname
+%p
+  %b 
+    = t('activerecord.attributes.user.name')
+    \:
+  = h @user.name
+%p
+  %b 
+    = t('activerecord.attributes.user.our_sign')
+    \:
+  = h @user.our_sign
+%b
+  = t('activerecord.attributes.user.our_contact')
+.box
+  = h @user.our_contact.gsub("\n", '<br>').html_safe
+%b
+  = t('activerecord.attributes.user.signing_line')
+.box
+  = h @user.signing_line.gsub("\n", '<br>').html_safe
+%b
+  = t('activerecord.attributes.user.signature')
+.box
+  = @user.signature.gsub("\n", '<br>').html_safe
+= link_to 'Bearbeiten', edit_user_path(@user)
+= link_to 'Back', users_path if @user.admin

@@ -1,0 +1,13 @@
+%h1= @document.doc_name
+%p
+  = render "#{@document.contactable.type.to_s.underscore.pluralize}/contactable_line", :contactable => @document.contactable
+= render 'documents/linkeds', :document =>  @document
+#add_linked
+  = rs_link_to 'Verknüpfung hinzufügen',                                                            |
+    { :controller => 'documents', :action => 'ajax_choice_linked', :id => @document },              |
+    :class => 'icon_link_16 add_linked_16', :title => 'Verknüpfung zu anderem Dokument hinzufügen', |
+    'data-loading-element' => 'body'                                                       |
+= render 'document_aliases/list', :aliases => @document.aliases, :doc_alias => nil, :skip_rs => true
+= form_for(@document) do |f|
+  = render 'talks/form', :document => @document, :f => f
+= link_to 'Back', @document.customer

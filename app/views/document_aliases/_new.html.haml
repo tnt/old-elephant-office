@@ -1,0 +1,17 @@
+%h4 Dokument wählen:
+%ul
+  - for doc in @documents
+    %li
+      = rs_link_to "#{doc.doc_name} - #{doc.contactable.cname}",            |
+          { :controller => :document_aliases, :action => 'create',          |
+            :address_id => params[:address_id], 'document_id' => doc.id },  |
+            'data-loading-element' => 'body', :method => :post,   |
+            :class => doc.class.name.underscore                             |
+oder Dokumenten Nummer eingeben:
+%div
+  = rs_form_tag( { :controller => :document_aliases, :action => :create,  |
+    :address_id => params[:address_id] },                                     |
+    'data-loading-element' => 'loading_screen' ) do
+    %input{:length => "5", :name => "document_id", :type => "text"}/
+    = submit_tag 'Save'
+  = data_button('Cancel', {'clear-elements' => '#above_safety_screen', "rm-class" => :show_safety, "rm-class-on" => '#body'}).html_safe

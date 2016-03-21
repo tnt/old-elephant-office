@@ -1,0 +1,31 @@
+%li[document]{:class => [document.editable? && 'unsent',document.seen ? '' : 'unseen',doc_alias && :document_alias],  |
+      :data => {:loaded => (document.too_big? || 'true'), 'contactable-id' => document.address_id,                |
+        'shown-by-lightbulbs-count' => 0}}                                                                        |
+  .document_line_first{:id => "document_head_#{document.id}"}
+    .document_line_icon{:title => document.type}
+      %div{:class => "type_icon type_#{document.type.underscore}"}= document.type
+      %div{:class => "type_icon type_#{document.is_foreign ? 'in' : 'out'}"}= document.is_foreign ? 'eingehend' : 'ausgehend'
+    - if defined?(customer) && customer 
+      .document_line_customer
+        = link_to customer.name, customer
+    .document_line_title
+      %span.email_subject
+        = document.subject_abbr 50
+    .document_line_date{:title => l(document.date)}
+      = document.editable? ? 'ungesendet' : document.date.strftime(t('date_time.formats.date'))
+    .document_line_actions
+      = link_to 'Anzeigen', document, :class => 'show icon_link', :title => 'Anzeigen'
+      = link_to 'Bearbeiten', {:controller => 'emails', :action => 'edit', :id => document}, |
+        :class => 'edit icon_link', :title => 'Bearbeiten'                                   |
+      -#
+      = rs_link_to(  'Löschen',                                                             |
+        { :controller => 'documents', :action => 'destroy_ajax_document', :id => document}, |
+        'data-loading-element' => "email_#{document.id}",                                   |
+        :confirm => "Wirklich #{document.kind.titlecase} Nr. #{document.id} löschen?",      |
+        :class => 'delete icon_link', :title => 'Löschen' ) if document.editable?           |
+      = render "document_aliases/actions", :document => document, :doc_alias => doc_alias if doc_alias
+  .document_line_second{:id => "document_body_#{document.id}"}
+    .document_line_body{:style => "display:none;"}
+      = render 'documents/document_line_common', :document => document, :doc_alias => doc_alias
+      .document_preview.email_body{:id => "document_message_#{document.id}"}
+        = render "emails/preview", :document => document unless document.too_big?

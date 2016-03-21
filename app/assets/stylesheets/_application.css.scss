@@ -1,0 +1,399 @@
+$nav-bg-color: #65869e;  //#a7b9c8;  //#ffb638;
+$nav-color: #fefefe;
+$nav-hover-color: #ffb638;
+$nav-shadow: 0 0 6px rgba(0,0,0,0.95);
+
+/*********************************************
+* for login                                 *
+*********************************************/
+
+body#login #body .centered {
+    margin: auto;
+    max-width: 20em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*********************************************
+* for the rest                               *
+*********************************************/
+
+lbody { background-color: #fff; color: #333; }
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size:   85%;
+}
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  /*line-height: 18px; */
+}
+
+pre {
+  background-color: $light_grey;
+  padding: 10px;
+}
+
+a { color: #000; }
+a:visited { color: #000; }
+a:hover { text-decoration: underline; }
+
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid #c00;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 26px;
+  font-size: 12px;
+  margin: -7px;
+  color: #fff;
+  background: url(/images/famfam_silk/error.png) no-repeat scroll 3px 5px #c00;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+#messages {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: 1px solid $darker_grey;
+    border-radius: 4px;
+    padding: 1ex;
+    background-color: white;
+}
+
+img {
+	border: 0px;
+}
+
+a {	text-decoration: none; }
+
+/* div,p {	border-radius: 3px;} */
+/****************************************************************************/
+
+input[type=submit], input[type=button], form {
+  display: inline;
+}
+
+.pagination .current {
+	font-weight: bold;
+}
+
+/****************************************************************************/
+
+div#body {
+  /* padding: 6ex 2ex 0; */
+
+  height: 100%;
+
+  #main {
+      width: 78em;
+      min-height: 100%;
+      height: auto !important;
+      height: 100%;
+      margin: 0 auto -2em;
+      padding: 0 1em;
+      box-shadow: $nav-shadow;
+
+      .scroller {
+          overflow-y: auto;
+          height: 500px;
+          padding: 0 0.2em;
+      }
+  }
+
+  .navi_pusher {
+      height: 3em;
+  }
+
+  .footer_pusher {
+      clear: both;
+      height: 2.5em;
+  }
+
+  #footer {
+      height: 2em;
+      background-color: $nav-bg-color;
+      box-shadow: $nav-shadow;
+      width: 100%;
+      color: $nav-color;
+      margin: 0 auto;
+
+      .footer_cont {
+          width: 78em;
+          margin: auto;
+          padding: 1ex 0 0;
+      }
+
+      a {
+          color: $nav-color;
+          padding: 0 1em;
+      }
+      a:hover{
+          color: $nav-hover-color;
+      }
+  }
+
+  div#safety_screen,
+  div#document_screen,
+  div#loading_screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: none;
+      width: 100%;
+      min-height: 100%;
+      height: auto;
+      border-radius: 0;
+      z-index: 20;
+  }
+  div#dialog_screen,
+  div#above_safety_screen {
+      z-index: 20;
+  }
+  div#safety_screen {
+      background-color: rgba(0,0,0,0.2);
+  }
+  div#document_screen {
+    background-color: rgba(0,0,0,0.5);
+
+    #iframe_wrapper {
+
+      height: auto;
+      margin: 2.5%;
+      min-height: 95%;
+      position: absolute;
+      width: 95%;
+
+      #iframe_header {
+          background-color: rgba(0,0,230,0.4);
+          text-align: right;
+          border-radius: 8px 8px 0 0;
+          padding: 2px 8px;
+          a.refresh_document {
+              margin-right: 47%;
+          }
+      }
+
+      iframe#document_iframe {
+          border: 0 none;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          background-color: white;
+      }
+    }
+  }
+}
+
+
+div#body.show_document div#document_screen,
+div#body.show_safety div#safety_screen,
+div#body.show_dialog div#dialog_screen,
+div#body.show_dialog div#safety_screen,
+div#body.loading div#safety_screen,
+div#body.loading div#loading_screen,
+div#safety_screen.on {
+     display: block;
+}
+
+div#body.loading a.refresh_document {
+    display: none;
+}
+
+
+div#loading_screen {
+  background-image: url(/images/loader/fading-line-128.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div#common_selector {
+
+  border-radius: 5px;
+  box-shadow: 4px 4px 12px #333;
+  background-color: white;
+  border: 1px solid #666;
+  padding: 1em;
+  margin: 2ex auto;
+  overflow: auto;
+  position: absolute;
+  top: 20px;
+  left: 35em;
+  z-index: 20;
+  h4 {
+      margin: 0
+  }
+  ul {
+      padding: 0 1em;
+  }
+}
+
+div#customers_assign_existing_contactable_wrapper {
+  border-radius: 5px;
+  box-shadow: 4px 4px 12px #333;
+  background-color: $medium_dark_grey;
+  border: 1px solid #666;
+  padding: 2px 0 0 0;
+  margin: 2ex auto;
+  overflow: auto;
+  position: relative;
+  text-align: right;
+  width: 40em;
+}
+
+div#customers_assign_existing_contactable {
+  border-radius: 0 0 3px 3px;
+  background-color: $light_grey;
+  padding: 5px;
+  text-align: left;
+}
+
+// #body {
+// }
+
+#nav_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: $nav-shadow;
+}
+
+#navigation {
+    margin: 0;
+    padding: 0.4ex;
+    text-align: center;
+    /* height: 3ex; */
+    background-color: $nav-bg-color;
+    /* border-bottom: 2px solid $medium_dark_grey; */
+}
+
+/* #navigation:after { */
+/*     content:""; */
+/*     display:inline-block; */
+/*     width:100% */
+/* } */
+
+#navigation li {
+    display: inline-block;
+    margin: 0;
+    border-radius: 0px;
+    /*border: 1px solid $medium_grey;*/
+}
+#navigation li.active {
+  font-weight: bold;
+  // padding: 0.4ex 3.5ex;
+}
+
+#navigation a {
+	text-decoration: none;
+	background-color: transparent;
+	display: inline-block;
+	// padding: 0.5ex;
+  padding: 0.4ex 3.5ex;
+  color: $nav-color;
+}
+#navigation a:hover { color: $nav-hover-color; }
+
+/****************************************************************************/
+
+h2.asshole, h4.asshole {
+	/*color: rgb(71,83,47);*/
+	background: url(/images/micons/stripe.png) repeat right;
+}
+
+/****************************************************************************/
+
+
+a { outline-style: none; }
+
+a.current_char { font-weight: bold; font-size: 200%; text-decoration: none; }
+
+/*label.lock_realization_dates {
+	display: inline-block;
+	background: url(/images/micons/16x16/link.png) no-repeat top center;
+}*/
+
+/*************************************************/
+
+/*************************************************/
+.hide_sometimes_hidden .sometimes_hidden {
+  display: none;
+}
+
+.sometimes_unhidden_block, .sometimes_unhidden_inline {
+  display: none;
+}
+
+.hide_sometimes_hidden  .sometimes_unhidden_block {
+  display: block;
+}
+
+.hide_sometimes_hidden  .sometimes_unhidden_inline {
+  display: inline;
+}
+
+.float_right {
+	display: inline-block;
+	float: right;
+}
+
+/* Forms */
+
+/******************************************************************************/
+a.email_attachment {
+	background: url(/images/famfam_silk/attach.png) no-repeat center left;
+	padding-left: 16px;
+	background-position: -2px;
+}
+
+#attachment_adder_container.loading {
+	background: url(/images/loader/ajax-loader-snake.gif) no-repeat center center;
+}
+
+@import 'customer';
+@import 'paper';
+@import 'talk';
+@import 'cash_book';
+@import 'document';
+@import 'document_alias';
+@import 'document_line';
+@import 'icon_links';
+@import 'old_docs';
+
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }

@@ -1,0 +1,43 @@
+%h1 Neues Dokument
+/ views/papers/new.html.erb
+%p
+  = render :partial => 'addresses/address', :object => @document.address
+= form_for( @document, :as => :paper, :url => { :controller => 'papers', :action => "create" }, :html => {:id => 'new_paper_form', :has_already_been_submitted => 'false', :autocomplete => "off"}) do |f|
+  = f.error_messages
+  %p
+    = f.label :date
+    %br
+    /= f.datetime_select :date, {:use_month_names => Elph[:month_names], :discard_year => false, :order => DATE_TIME_ORDER}, :autocomplete => "off"
+    = f.text_field :date, :class => :date_picker
+  - if Elph[:features][:paper][:show_ref_fields]
+    = render 'papers/ref_fields', :f => f
+  #inv_specific{:style => 'display: none;'}
+    %p.realization_date
+      Lieferung/Ausführung
+      = radio_button_tag :lock_realization_dates, 'yes', ! @document.rft_both?
+      %label{:for => "lock_realization_dates_yes"}&&nbsp;am&nbsp;&nbsp;&nbsp;
+      = radio_button_tag :lock_realization_dates, 'no', @document.rft_both?
+      %label{:for => "lock_realization_dates_no"}&&nbsp;vom/bis
+      %br
+      = f.text_field :realization_from, :class => :date_picker
+      = f.text_field :realization_to, :class => :date_picker, :style => ( ! @document.rft_both? ? 'display:none;' : '')
+  / inv_specific
+  %p
+    = f.label :subject
+    %br
+    = f.text_area :subject, :rows => 3
+  %p
+    = f.label :kind
+    = f.select :kind, Elph[:doc_kinds] - %w(mahnung)              |
+    \&nbsp;&nbsp;&nbsp;
+    \#{f.label :tax_rate} #{f.select :tax_rate, 0=>0.0,19 =>19.0} %
+  %p
+    = f.label :remark
+    %br
+    = f.text_area :remark, :rows => 3
+  %p
+    = f.submit "Neues Dokument Anlegen und bearbeiten"
+  = f.hidden_field :user_id
+  = f.hidden_field :last_modified_by
+  = f.hidden_field :address_id
+= link_to 'Kunde', @document.address.customer

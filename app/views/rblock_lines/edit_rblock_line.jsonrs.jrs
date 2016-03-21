@@ -1,0 +1,17 @@
+arr = [
+  {
+    job: 'replace_element',
+    elements: "#rblock_line_#{@rblock_line.id}",
+    content: render("rblock_lines/edit_rblock_line")
+  },
+  {
+    job: 'set_focus',
+    elements: "#rblock_line_#{@rblock_line.id}_text",
+    content: ''
+  },
+  {
+    job: 'effect',
+    elements: "#rblock_line_#{@rblock_line.id}",
+    content: 'Highlight'
+  }
+] 

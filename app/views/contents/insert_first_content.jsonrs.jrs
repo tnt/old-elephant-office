@@ -1,0 +1,12 @@
+[
+  {
+    job: 'replace_element',
+    elements: "#content_#{@content.id}",
+    content: render("contents/first_content", :paper_id => @content.paper.id)
+  },
+  {
+    job: 'effect',
+    elements: "#contents_list",
+    content: 'Highlight'
+  }
+] 

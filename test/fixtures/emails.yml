@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  customer_id: 1
+  date: 2009-08-05 21:27:39
+  message_id: MyString
+  in_reply_to: MyString
+  in_reply_to_id: 1
+  references: MyText
+  content: MyText
+  headers: MyText
+  full_message: MyText
+
+two:
+  customer_id: 1
+  date: 2009-08-05 21:27:39
+  message_id: MyString
+  in_reply_to: MyString
+  in_reply_to_id: 1
+  references: MyText
+  content: MyText
+  headers: MyText
+  full_message: MyText

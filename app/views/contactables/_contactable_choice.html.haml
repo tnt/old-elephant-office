@@ -1,0 +1,10 @@
+#contactable_chooser
+  - for contactable in contactables
+    - class_string = %w(invoice_address delivery_address outdated).map {|str| str if contactable.send(str)}.join(' ') if contactable.type.to_s == 'Address'
+    /%div{:class => "address_choice #{class_string}", :id => "contactable_#{contactable.id}", :onclick => remote_function(:update => 'contactable_container', :with => "'contactable_id=#{contactable.id}'", :loading => "$('contactable_chooser').addClassName('loading');", :url => { :controller => :documents, :action => :select_address, :id => document })}
+    %div{:class => "address_choice #{class_string}", :id => "contactable_#{contactable.id}",                                |
+      'data-room-service-url' => "/documents/select_address/#{document.id}.jsonrs?contactable_id=#{contactable.id}", 'data-loading-element' => 'contactable_chooser' } |
+      .invoice_address_icon Invoice
+      .delivery_address_icon Delivery
+      .outdated_address_icon Outdated
+      = render "#{contactable.type.to_s.underscore.pluralize}/contactable_line", :contactable => contactable, :document => document

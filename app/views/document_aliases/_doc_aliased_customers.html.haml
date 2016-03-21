@@ -1,0 +1,12 @@
+%ul#doc_aliased_customers
+  /- logger.info "  - - - - - - - - - - - - - - - - - @@@@@@@@  #{@d_aliased_customers.size}"
+  - for da in customer.doc_aliased_customers
+    %li
+      = rs_link_to da.name,                                               |
+        { :controller => 'customers', :action => 'show', :id => da.id},    |
+        { :data => {'loading-element' => :customers_preview, 'customer-id' => da.id},       |
+        :title => da.name, :class => 'doc_alias'}                                         |
+      -#
+      %a.lightbulb.icon_link{'data-customer-id'  => da.id, :title => 'zugeordnete Dokumente anzeigen'}
+        Dokumente anzeigen
+

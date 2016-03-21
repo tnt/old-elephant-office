@@ -1,0 +1,6 @@
+%span.label_sticker
+  = f.label :kind, 'Art'
+  = f.select :kind, [%w(Tel. phone),%w(Fax fax),%w(Mobil cell)]
+%span.label_sticker
+  = f.label :number, 'Nummer'
+  = f.text_field :number

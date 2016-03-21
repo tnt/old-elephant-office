@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  amount: MyString
+  purpose: MyString
+  date: 2009-08-27 11:46:04
+  workshop: false
+
+two:
+  amount: MyString
+  purpose: MyString
+  date: 2009-08-27 11:46:04
+  workshop: false

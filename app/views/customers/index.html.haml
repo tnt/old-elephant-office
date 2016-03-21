@@ -1,0 +1,13 @@
+#customers_box
+  #customers_list_container
+    = render 'customers/customers_list', :customers =>  @customers, :ccustomer => @customer
+  / customers_list_container
+/ customers_box
+#customers_preview
+  = render 'customers/show', :customer => @customer if @customer
+  = '&nbsp;<br>&nbsp;'.html_safe unless @customer
+/ customers_preview
+- content_for :footer do
+  .footer_cont
+    = link_to t('.new'), new_customer_path, :title => t('.new_title')
+    = select_tag 'cpp', select_page_options( @customers_per_page ), :data => {:model => :customers}

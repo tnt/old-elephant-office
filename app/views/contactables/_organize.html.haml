@@ -1,0 +1,53 @@
+- contactable_props = organize.type == 'Address' ?  %w(invoice_address delivery_address) : []
+- class_string = (contactable_props + %w(outdated)).map {|str| str if organize.send(str)}.join(' ') +  " sex_#{organize.sex}"
+%div{:class => class_string}
+  .contactable_organize_links
+    - typ =  {'Address' => ['Paper','Dokument'], 'PhoneNumber' => ['PhoneCall','Anruf'],    |
+      'Person' => ['Visit','Besuch'], 'EmailAddress' => ['Email','Email']}[organize.type]   |
+    %span.as_outdated_address_link
+      / disappears when outdated
+      = link_to(typ[1],{:controller => :contactables, :action => 'add_document', :id => organize, :type => typ[0]}, |
+        :class => "icon_link new_#{typ[0].underscore}", :title => "#{typ[1]} neu")                                  |
+      -#
+      = link_to('Besuch',{:controller => :contactables, :action => 'add_document', :id => organize, :type => 'Visit'}, |
+        :class => "icon_link new_visit", :title => "Besuch neu")                                                       |
+        if organize.type == 'Address' && organize.sex != 'neutral'                                                     |
+      -#
+      = link_to('ExternalPaper',{:controller => :contactables, :action => 'add_document', :id => organize, :type => 'ExternalPaper'}, |
+        :class => "icon_link new_paper", :title => "ExternalPaper neu")                                                       |
+        if organize.type == 'Address'                                                     |
+      -#
+      - unless organize.remark.blank?
+        \&nbsp;&nbsp;
+        %a.icon_link.info{"data-toggle-sometimes-hidden" => "contactable_#{organize.id}", :href => "#"} info ein-/ausblenden
+        \&nbsp;&nbsp;
+        \&nbsp;&nbsp;
+      -# \#{link_to 'Korrektur', edit_contactable_path(organize),  :confirm => "Dies ändert die #{Elph[:contactable_names][organize.type]} für alle an diese #{Elph[:contactable_names][organize.type]} gerichteten Dokumente. " +  "Daher sollten " + "auf diesem Wege gemachte Änderungen nur Fehler in der '#{Elph[:contactable_names][organize.type]}' betreffen.", :class => "icon_link contactable_edit", :title => "#{Elph[:contactable_names][organize.type]} korrigieren"}
+      -# \#{link_to 'Änderung', { :controller => :contactables, :action => 'change', :id => organize, :type => organize.type }, :confirm => "Dies legt eine neue #{Elph[:contactable_names][organize.type]} an und kennzeichnet die vorhandene als \"veraltet\". Hiermit sollten " + 'wirkliche Änderungen (z.B. der Anschrift und sei es nur ein "z.Hd. Frau Schulze") vorgenommen werden.'+ "\n\nDiese Aktion kann nicht rückgängig gemacht werden.", :class => "icon_link contactable_change", :title => "Änderung der #{Elph[:contactable_names][organize.type]}"}
+    -# %span.as_outdated_address_link
+      -# = rs_link_to 'veraltet',                                                                                                                   |
+        -# { :controller => :contactables, :action => 'mark_outdated', :id => organize },'data-loading-element'  =>'customers_preview',  |
+        -# :confirm => 'Dies markiert diese Adresse als "veraltet". Diese Adresse steht dann für neue Dokumente usw.' +                  |
+              -# " nicht mehr zur Verfügung.\n\nDiese Aktion kann nicht ohne weiteres rückgängig gemacht werden.",                       |
+        -# :class => "icon_link contactable_as_outdated", :title => "veraltet"                                                           |
+    -# - if organize.type == 'Address'
+      -# \&nbsp;&nbsp;
+      -# = render 'addresses/invoice_delivery_links', :address => organize
+    -# %span{:id => "sex_links_#{organize.id}"}
+      -# | (
+      -# \#{rs_link_to 'w',  { :controller => :contactables, :action => 'update', :id => organize, 'contactable[sex]' => :female },  :remote => true, :method => :put, 'data-loading-element'  =>'customers_preview', :class => 'sex_link_female', :title => 'Geschlecht weiblich'}
+      -# \#{rs_link_to 'm',  { :controller => :contactables, :action => 'update', :id => organize, 'contactable[sex]' => :male },  :remote => true, :method => :put, 'data-loading-element'  =>'customers_preview', :class => 'sex_link_male', :title => 'Geschlecht männlich'}
+      -# \#{rs_link_to 'n',  { :controller => :contactables, :action => 'update', :id => organize, 'contactable[sex]' => :neutral },  :remote => true, :method => :put, 'data-loading-element'  =>'customers_preview', :class => 'sex_link_neutral', :title => 'Geschlecht neutral'} )
+      -# \&nbsp;&nbsp;
+    %a.lightbulb_16.icon_link_16{'data-contactable-id'  => organize.id, :title => 'Dokumente anzeigen'}
+      Dokumente anzeigen
+  / contactable_organize_links
+  .contactable_label_container
+    .outdated_address_icon Veraltet
+    - if organize.type == 'Address'
+      .delivery_address_icon Lieferanschrift
+      .invoice_address_icon Rechnungsanschrift
+  = render "#{organize.type.underscore.pluralize}/contactable_line", :contactable => organize
+  - unless organize.remark.blank?
+    %div.sometimes_hidden.remark
+      = organize.remark

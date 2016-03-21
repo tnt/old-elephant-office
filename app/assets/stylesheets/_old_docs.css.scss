@@ -1,0 +1,21 @@
+// Place all the styles related to the old_docs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$preview_width: 50em;
+$preview_border_width: 9px;
+
+#prev_next_old_doc {
+    width: $preview_width;
+    text-align: center;
+    float: right;
+    clear: right;
+    margin: 0 $preview_border_width;
+}
+
+#old_doc_preview_frame {
+    float: right;
+    width: $preview_width;
+    height: 80%;
+    border: $preview_border_width inset lightgrey;
+}

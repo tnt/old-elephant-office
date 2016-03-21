@@ -1,0 +1,5 @@
+= rs_form_tag( { :controller => :customers, :action => :confirm_reassign_address, :id => customer_id}) do
+  %label{:for => "address_id"} Address ID
+  %input{:length => "5", :name => "address_id", :type => "text", :value => params[:address_id]}
+  = submit_tag 'Diesem Kunden zuweisen'
+%input{'type' => "button", 'value' => "Cancel", 'onclick' => "$('#above_safety_screen').html(''); $('#body').removeClass('show_safety'); return false;"}

@@ -1,0 +1,29 @@
+#prev_next_old_doc
+  = link_to 'vorige', edit_old_doc_path(@old_doc.prev) if @old_doc.prev
+  = link_to 'nächste', edit_old_doc_path(@old_doc.next) if @old_doc.next
+%iframe#old_doc_preview_frame{:src => @old_doc.file_url}
+= form_for @old_doc do |f|
+  - if @old_doc.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@old_doc.errors.count, "error")} prohibited this old_doc from being saved:"
+      %ul
+        - @old_doc.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :customer
+    = f.text_field :customer
+  .field
+    = f.label :date
+    = f.object.date.strftime '%d.%m.%y'
+  .field
+    = f.label :filename
+    = f.object.filename.downcase
+  .field
+    = f.object.author
+  .field
+    = f.label :comment
+    = f.text_area :comment
+  .actions
+    = f.submit 'Save'
+  = link_to 'löschen', @old_doc, :method => :delete, :data => { :confirm => 'Are you sure?' }

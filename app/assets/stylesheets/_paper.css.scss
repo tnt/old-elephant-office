@@ -1,0 +1,203 @@
+/************************************************************************/
+/* papers#show       */
+
+table#paper_contents, table#paper_contents table {
+  border-spacing: 0px;
+}
+
+table#paper_contents table tfoot tr:first-child td {
+  border-top: 1px solid black;
+  padding-top: 3px;
+}
+
+table#paper_contents table tfoot tr:last-child td {
+  padding-bottom: .5em;
+}
+
+table#paper_contents table tbody tr:first-child td {
+  padding-top: .5em;
+}
+
+table#paper_contents table tbody tr:last-child td {
+  padding-bottom: 3px;
+}
+
+table#paper_contents table tbody tr td[id$=_price] {
+  text-align: right;
+  vertical-align: bottom;
+}
+
+table#paper_contents tbody.loading  {
+	background: url(/images/loader/ajax-loader-snake.gif) no-repeat center;
+}
+
+table#paper_contents tr .paper_content_main_column {
+	margin: 0.5ex 0;
+}
+
+table#paper_contents tr.signing .paper_content_main_column  {
+	margin: 2ex 0;
+}
+
+table#paper_contents td.edit_form {
+	white-space: nowrap;
+}
+
+table#paper_contents textarea {
+	width: 40em;
+}
+
+table#paper_contents tr[id^=content_].current {
+  background-color: rgba(251, 248, 9, 0.2) !important;
+  box-shadow: 0 0 10px rgba(255,255,207,0.99);
+}
+
+table#paper_contents tr[id^=rblock_line_].current {
+  background-color: rgba(253,207,222,0.2) !important;
+  /*box-shadow: 0 0 10px rgba(253,207,222,0.2);*/
+}
+
+div.rblock_line_actions_wrapper, div.content_actions_wrapper {
+  position: absolute;
+  z-index: 5;
+  display: none;
+  padding: 1.5em 2em 1.5em 0;
+  vertical-align: center;
+}
+
+div.rblock_line_actions_wrapper {
+  padding-left: 4px;
+}
+
+div.content_actions,  div.rblock_line_actions {
+  padding: 2px;
+  white-space: nowrap; /* special invitation for Opera to display it correctly */
+}
+div.content_actions {
+  background-color: rgba(251, 248, 9, 0.2);
+  box-shadow: 0 0 10px rgba(255,255,207,0.99);
+}
+div.rblock_line_actions {
+  background-color: rgba(249,195,8,0.2);
+  box-shadow: 0 0 10px rgba(249,195,8,0.2);
+}
+
+div.rblock_line_actions {
+  z-index: 10;
+}
+
+table#paper_contents > tbody > tr.current div.content_actions_wrapper,  table#paper_contents table tr.current div.rblock_line_actions_wrapper {
+  display: block;
+}
+
+td.rblock_main_column {
+  width: 36em;
+}
+
+div.cl_handle {
+	width: 40px;
+  z-index: 5;
+	cursor: move;
+	position: absolute;
+}
+div.cl_handle:hover {
+  background-color: rgba(0,255,0,0.08);
+  /*background: url(/images/famfam_silk/arrow_switch.png);*/
+}
+div.paper_content_main_column {
+	width: 38em;
+  min-height: 1em;
+}
+td.action_column {
+	/*width: 0px;*/
+}
+
+div.scale_slider {
+  width:256px;
+  margin: 10px;
+}
+
+.ui-slider-horizontal {
+  height: 0.2em;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+  top: -0.6em;
+}
+
+.scale_slider.loading {
+  background: url(/images/loader/no-trespassing-160.gif) repeat;
+  background-color: transparent;
+}
+
+div#iframe_header div.scale_slider {
+  display: inline-block;
+  margin: 3px 40px;
+}
+
+.loading {
+  background: url(/images/loader/ajax-loader-snake.gif) no-repeat right;
+}
+
+#address .loading, #paper_contents.loading {
+  background: url(/images/loader/ajax-loader-snake.gif) no-repeat center;
+}
+
+div.contactable {
+  border: 1px solid $darker_grey;
+  margin: 0.5ex 0;
+  border-radius: 3px;
+  padding: .7ex;
+  background-color: $light_grey;
+}
+
+
+/*********************************************/
+tr.invoice_state_open {}
+tr.invoice_state_dun1 td[id^="state_label_"] { color: #d60; }
+tr.invoice_state_dun2 td[id^="state_label_"] { color: #f00; }
+tr.invoice_state_dun3 td[id^="state_label_"] { color: #f00; font-weight: bold; }
+tr.invoice_state_paid td[id^="state_label_"] { color: #3b3; }
+
+tr.invoice_state_paid td.change_state_link { display: none; }
+
+/********************************* papers/new/edit *******************/
+
+#ref_fields .inline {
+  display: inline-block;
+}
+
+#ref_fields textarea {
+  height: 5em;
+  width: 40em;
+}
+
+#inv_specific.non_inv_kind .realization_date {
+  display: none;
+}
+
+p.realization_date {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+p.realization_date input[type=text], input[type=text].date_picker {
+  width: 6em;
+  margin-right: 5em;
+}
+
+/*tr.document_line_first td {
+	border-top: 1px solid grey;
+}
+
+tr.document_line_second td {
+	border-bottom: 1px solid grey;
+}
+
+td.document_line_left, tbody[id^=document_line_] {
+	border-left: 1px solid grey;
+}
+tr.document_line_right, tbody[id^=document_line_] {
+	border-right: 1px solid grey;
+}*/
+/*************************************************/

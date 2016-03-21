@@ -1,0 +1,5 @@
+%div{:style => "color:red;"}
+  / partial app/views/documents/_deleted.haml
+  Item deleted
+  =  "<!--#{controller.controller_name}-->".html_safe
+  = javascript_tag "setTimeout(function(){$('#linked_#{params[:linked_id]}').remove()},2000);"

@@ -1,0 +1,27 @@
+#last_customers
+  = render 'customers/last'
+%ul.top
+  %li &nbsp;
+  %li &nbsp;
+#search_box{:class => (params[:search_adv] && "hide_sometimes_hidden")}
+  %a.icon_link.lightbulb.float_right{:class => (params[:search_adv] && "on"), 'data-toggle-sometimes-hidden'=>'search_box'}mehr
+  #simple_search.sometimes_hidden
+    = rs_form_tag('customers', :method => :get, :id => :customers_search, :autocomplete => :off, |
+      'data-loading-element' => 'customers_list_container') do                                   |
+      = text_field_tag :search_simp, params[:search_simp], :autofocus => :autofocus
+      = image_submit_tag '/images/micons/b_search.png'
+      = image_submit_tag '/images/sweetie/12-em-cross.png', :class => :clear_button
+      = check_box_tag :phonetic, nil, params[:phonetic]
+      = label_tag :phonetic, 'phonetisch'
+  #advcanced_search.sometimes_unhidden_block
+    = render 'searches/form'
+%ul.customers_list
+  - for customer in customers
+    - c_id = customer.alias || customer.id
+    %li{:class => ['customer_line', ccustomer && c_id == ccustomer.id && 'selected', customer.alias && 'alias', "customer_#{c_id}"], :id => "customer_#{customer.id}", :title => "Kundenummer #{c_id} - #{customer.name}"}
+      = rs_link_to customer.name, "/customers/#{c_id.to_s}", 'data-customer-id' => c_id, 'data-loading-element' => 'customers_preview'
+/ customers_list
+.pagination
+  = paginate customers, :inner_window => 5, :outer_window => 3, :params => {:action => 'index', :format => :jsonrs, :limit_to_char => nil}, :remote => true, :html => {'data-room-service' => 'true', |
+    'data-loading-element' => 'customers_list_container', :shithole => true}                                                                                                                                           |
+/ pagination

@@ -1,0 +1,282 @@
+/*************************************************/
+
+.type_icon {
+	overflow: hidden;
+	height: 0 !important;
+	padding: 16px 0 0;
+	width: 16px;
+	margin-bottom: -3px;
+}
+
+div.type_pdf {
+	background: url(/images/famfam_silk/page_white_acrobat.png) no-repeat top center;
+}
+
+div.type_image {
+	background: url(/images/famfam_silk/picture.png) no-repeat top center;
+}
+
+div.type_doc {
+	background: url(/images/famfam_silk/page_white_word.png) no-repeat top center;
+}
+
+div.type_paper, div.type_external_paper {
+       background: url(/images/micons/16x16/article_text.png) no-repeat top center;
+}
+
+div.type_phone_call, div.type_visit {
+	background: url(/images/micons/16x16/double_comment.png) no-repeat top center;
+}
+
+div.type_email {
+	background: url(/images/micons/16x16/envelope.png) no-repeat top center;
+}
+
+div.type_in {
+	background: url(/images/famfam_silk/arrow_down.png) no-repeat top center;
+	margin-left: -4px;
+	width: 8px;
+	opacity: 0.6;
+}
+
+div.type_out {
+	background: url(/images/famfam_silk/arrow_up.png) no-repeat top center;
+	margin-left: -4px;
+	width: 8px;
+	opacity: 0.6;
+}
+
+div.type_none {
+	width: 4px;
+}
+
+/***************************************************************************************/
+
+a.icon_link {
+	overflow: hidden;
+	height: 0 !important;
+	padding: 12px 0 0;
+	width: 12px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+a.icon_link_16, input[type=submit].icon_link_16 {
+	overflow: hidden;
+	height: 0 !important;
+	padding: 16px 0 0;
+	width: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+input[type=submit].icon_link_16 {
+	border: 0;
+	display: inline;
+	cursor: pointer;
+}
+
+.address a.icon_link {
+	margin: 0 0 -0.2ex;
+}
+
+a.show {
+  background: url(/images/fugue/eye.png) no-repeat top center;
+}
+
+a.download {
+  background: url(/images/splashy/download.png) no-repeat top center;
+}
+
+a.info {
+	background: url(/images/micons/12x12/info.png) no-repeat top center;
+}
+
+a.edit {
+	background: url(/images/micons/12x12/pencil.png) no-repeat top center;
+}
+
+a.set_paid {
+	background: url(/images/micons/12x12/accept.png) no-repeat top center;
+}
+
+a.make_dun {
+	background: url(/images/micons/12x12/stop.png) no-repeat top center;
+}
+
+a.delete {
+	background: url(/images/micons/12x12/cancel.png) no-repeat top center;
+}
+
+a.close {
+	background: url(/images/micons/12x12/cancel.png) no-repeat top center;
+}
+
+a.pdf {
+	background: url(/images/famfam_silk/12x12/page_white_acrobat.png) no-repeat top center;
+}
+
+a.link {
+	background: url(/images/micons/12x12/link.png) no-repeat top center;
+}
+
+a.add_linked {
+	background: url(/images/famfam_silk/12x12/link_add.png) no-repeat top center;
+}
+
+a.add_linked_16 {
+	background: url(/images/famfam_silk/link_add.png) no-repeat top center;
+}
+
+a.unlink {
+	background: url(/images/famfam_silk/12x12/link_delete.png) no-repeat top center;
+}
+
+a.file {
+	background: url(/images/micons/12x12/lock.png) no-repeat top center;
+}
+
+a.unfile {
+	background: url(/images/micons/12x12/security_red.png) no-repeat top center;
+}
+
+a.abschlag {
+	background: url(/images/micons/cont_down.png) no-repeat top center;
+}
+
+a.insert_line, a.insert_rblock, a.insert_rblock_line {
+	background: url(/images/micons/return.png) no-repeat top center;
+}
+
+a.insert_pagebreak  {
+	background: url(/images/micons/12x12/article.png) no-repeat top center;
+}
+
+a.customer {
+	background: url(/images/famfam_silk/12x12/user_gray.png) no-repeat top center;
+}
+
+a.show_16 {
+	background: url(/images/micons/16x16/burst.png) no-repeat top center;
+}
+
+a.edit_16 {
+	background: url(/images/micons/16x16/pencil.png) no-repeat top center;
+}
+
+a.set_paid_16 {
+	background: url(/images/micons/16x16/accept.png) no-repeat top center;
+}
+
+a.make_dun_16 {
+	background: url(/images/micons/16x16/stop.png) no-repeat top center;
+}
+
+a.delete_16 {
+	background: url(/images/micons/16x16/cancel.png) no-repeat top center;
+}
+
+.save_16 {
+	background: url(/images/micons/save.png) no-repeat top center;
+}
+
+a.cancel_16 {
+	background: url(/images/micons/16x16/cancel_round.png) no-repeat top center;
+}
+
+a.pdf_16 {
+	background: url(/images/micons/16x16/printer.png) no-repeat top center;
+	/*padding: 16px 0 0;
+	width: 16px;*/
+}
+
+a.info_16 {
+	background: url(/images/famfam_silk/information.png) no-repeat top center;
+}
+
+a.lightbulb_16 {
+	background: url(/images/famfam_silk/lightbulb_off.png) no-repeat top center;
+}
+
+a.lightbulb_16.on {
+	background: url(/images/famfam_silk/lightbulb.png) no-repeat top center;
+}
+
+a.lightbulbs_off {
+	background: url(/images/famfam_silk/lightbulb_delete.png) no-repeat top center;
+        display: inline-block;
+        float: right;
+        margin-right: 1.1ex;
+        margin-top: 0.5ex;
+}
+
+a.edit_customer_16 {
+	background: url(/images/famfam_silk/user_edit.png) no-repeat top center;
+}
+
+a.reassign_address_16 {
+	background: url(/images/famfam_silk/wrench.png) no-repeat top center;
+}
+
+a.send {
+	background: url(/images/micons/12x12/envelope.png) no-repeat top center;
+}
+
+a.document_16 {
+	background: url(/images/micons/16x16/article_text.png) no-repeat top center;
+}
+
+a.new_paper {
+	background: url(/images/micons/12x12/article.png) no-repeat top center;
+}
+
+a.new_email {
+	background: url(/images/micons/12x12/envelope.png) no-repeat top center;
+}
+
+a.new_phone_call {
+	background: url(/images/micons/12x12/double_comment.png) no-repeat top center;
+}
+
+a.new_visit {
+	background: url(/images/micons/12x12/double_comment.png) no-repeat top center;
+}
+
+a.contactable_edit {
+	background: url(/images/micons/12x12/pencil.png) no-repeat top center;
+}
+
+a.contactable_change, a.reset_signer, a.refresh_document {
+	background: url(/images/micons/12x12/refresh.png) no-repeat top center;
+}
+
+a.contactable_as_outdated {
+	background: url(/images/micons/12x12/cancel.png) no-repeat top center;
+}
+
+a.contactable_as_invoice_address {
+	background: url(/images/micons/12x12/flag_blue.png) no-repeat top center;
+}
+
+a.contactable_as_delivery_address {
+	background: url(/images/micons/12x12/flag_orange.png) no-repeat top center;
+}
+
+a.blind_down {
+	background: url(/images/micons/12x12/plus.png) no-repeat top center;
+}
+
+a.assign_customer {
+	background: url(/images/sweetie/12-em-plus.png) no-repeat top center;
+	/*
+	background: url(/images/micons/12x12/plus.png) no-repeat top center;
+	*/
+}
+
+a.lightbulb {
+	background: url(/images/famfam_silk/12x12/lightbulb_off.png) no-repeat top center;
+}
+
+a.lightbulb.on {
+	background: url(/images/famfam_silk/12x12/lightbulb.png) no-repeat top center;
+}

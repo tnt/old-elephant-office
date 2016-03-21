@@ -1,0 +1,7 @@
+[
+ {
+   job: 'set_location',
+   elements: 'body',
+   content: '/authentication/login'
+ }
+]

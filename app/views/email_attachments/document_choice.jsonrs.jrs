@@ -1,0 +1,11 @@
+[
+  {
+    job: 'replace_content',
+    elements: '#attachment_adder',
+    content: render('email_attachments/document_choice')
+  }, {
+    job: 'hide_elements',
+    elements: '#add_attachment_link',
+    content: ''
+  }
+] 

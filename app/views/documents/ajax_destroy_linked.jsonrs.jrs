@@ -1,0 +1,7 @@
+[
+  { 
+    job: 'replace_content', 
+    content: render('deleted', :model => 'link'), 
+    elements: "#linked_#{params[:linked_id]}" 
+  }
+] 

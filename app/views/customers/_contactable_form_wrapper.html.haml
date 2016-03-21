@@ -1,0 +1,26 @@
+%div.hide_sometimes_hidden{:class => [( f.object.persisted? and (!f.object.changed? and !f.object.marked_for_destruction?)) && 'not_to_be_saved',
+				f.object.outdated? && 'outdated', 'blacebo', f.object.marked_for_destruction? && 'to_be_deleted'], :id => w_id = "contactable_subform_wrapper_#{f.object_id}"}
+  .actions
+    -# = link_to( 'Dokumente', '#', "data-toggle-element" => "tings", :onclick => "alert('Demnächst in diesem Theater:\\n\\n" + |
+      -# "Beim Klick auf diesen Link werden Links auf sämtliche an diese #{Elph[:contactable_names][f.object.type]}" +          |
+      -# " gerichteten Dokumente angezeigt...');return false;",                                                                 |
+      -# :title => "#{f.object.documents.count} Dokumente", :class => 'document_16 icon_link_16')                               |
+    %a.not_to_be_saved_link.edit_16.icon_link_16{"data-toggle-element" => w_id, :href => "#"} bearbeiten
+  .contactable_subform
+    .form_actions
+      = link_to('info ein-/ausblenden', "#", 'data-toggle-sometimes-hidden' => w_id, 
+        :class => "icon_link_16 info_16", :title => 'info ein-/ausblenden') 
+      - if f.object.persisted?
+        = link_to('löschen', "#", :class => "to_be_deleted_link delete_16 icon_link_16", 
+          'data-mark-delete-nested' => w_id,
+          :title => "#{Elph[:contactable_names][f.object.type]} löschen")
+        = link_to('verwerfen', "#", :class => "not_to_be_saved_link cancel_16 icon_link_16", 'data-toggle-element' => w_id,
+          :title => "Formular ausblenden und Änderungen nicht speichern")
+      - else
+        = link_to('entfernen', "#", :class => "cancel_16 icon_link_16", 'data-remove-element' => w_id,
+          :title => "Neue #{Elph[:contactable_names][f.object.type]} wieder entfernen")
+    %h4
+      = Elph[:contactable_names][f.object.type]
+      = new_or_edit f.object
+    = render("contactables/contactable_form", :f => f)
+  = render("#{f.object.type.underscore.pluralize}/contactable_line", :contactable => f.object)

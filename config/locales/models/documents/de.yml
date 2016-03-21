@@ -1,0 +1,8 @@
+de:
+  activerecord:
+    models:
+      document: Dokument
+    attributes:
+      document:
+        subject: "Betreff"
+

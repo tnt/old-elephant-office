@@ -1,0 +1,30 @@
+= form_for(@customer, :html => { :autocomplete => :off}) do |f|
+  #customer_properties.hide_sometimes_hidden
+    %a.icon_link_16.info_16.float_right{"data-toggle-sometimes-hidden" => "customer_properties", :href => "#"} info ein-/ausblenden
+    = f.label :name
+    = f.text_field :name
+    %span.sometimes_hidden
+      = f.label :asshole, 'Spezial'
+      = f.check_box :asshole
+      \&nbsp;&nbsp;
+      = f.label :url, 'Website'
+      = f.text_field :url
+    .sometimes_hidden
+      = f.text_area :remark
+  #aliases_subforms
+    = f.fields_for :aliases do |alias_form|
+      = render "customers/alias_form", :f => alias_form
+  = rs_link_to 'Alias hinzufügen',  {:action => 'add_alias_form'}, 'data-loading-element' => 'customer_properties'
+  #contactables_subforms
+    - %w(Address EmailAddress PhoneNumber Person).each do |type|
+      = f.fields_for type.pluralize.underscore do |contactable_form|
+        = render "customers/contactable_form_wrapper", :f => contactable_form
+  - if @existing_contactable
+    = h @existing_contactable.email_address_complete
+    wird diesem neuen Kunden zugewiesen.
+    \#{hidden_field_tag :existing_contactable_id, @existing_contactable.id}
+  - %w(Address EmailAddress PhoneNumber Person).each do |type|
+    = rs_link_to "#{Elph[:contactable_names][type]} hinzufügen &nbsp;".html_safe,  {:action => 'add_contactable_form', |
+      :type => type}, 'data-loading-element' => 'customer_properties'                          |
+  %p{:style => 'text-align: right;'}
+    = f.submit "Speichern"

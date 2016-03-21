@@ -1,0 +1,8 @@
+%ul.document_aliases_list
+  - aliases = aliases.reject {|a| a == doc_alias} if doc_alias
+  - for d_alias in aliases
+    - customer = d_alias.docalias_contactable.customer
+    /- unless doc_alias == d_alias
+    %li{'data-customer-id' => customer.id}
+      = rs_link_to customer.name, {:controller => :customers, :action => :show, :id => customer.id}, |
+        :class => :doc_alias, 'data-loading-element' => :customers_preview, :skip_rs => defined?(skip_rs) && skip_rs    |

@@ -1,0 +1,44 @@
+.scroller
+  %h1{:onclick => "$('#cash_books').toggleClass('show');"} Kasse
+  #cash_books
+    %table
+      %col{:align => :left}
+      %col.tax_rate
+      %tbody#cash_books_main
+        = render @cash_books # weird syntax
+      %tbody
+        %tr
+          %td
+            #cb_sale_in{:title => "Einahmen insgesamt"}= number_to_currency(@results[:sale_in])
+            #cb_workshop_in.cb_hidden= number_to_currency(@results[:workshop_in])
+        %tr
+          %td
+            #cb_sale_out.out{:title => "Ausgaben insgesamt"}
+              \-#{h number_to_currency(@results[:sale_out])}
+            #cb_workshop_out.cb_hidden.out
+              \-#{h number_to_currency(@results[:workshop_out])}
+        %tr
+          %td
+            #cb_total_sale{:class => @results[:total_sale] < 0 && 'out'}= number_to_currency(@results[:total_sale])
+            #cb_total_workshop.cb_hidden{:class =>  @results[:total_workshop] < 0 && 'out'}= number_to_currency(@results[:total_workshop])
+      %tbody
+        %tr.cb_hidden
+          %td
+            #cb_total{:class => @results[:total] < 0 && 'out'}= number_to_currency(@results[:total])
+      %thead
+        %tr
+          %th Betrag
+          %th MwSt.
+          %th Datum
+          %th Zweck
+  / cash_books
+  %h4 Neuer Eintrag
+  = render "cash_books/new", :new_cash_book => @new_cash_book
+  Abrechnung bis einschliesslich
+  - for m in 1..4
+    - mx = Time.now.to_a[4]; n = mx - m > 0 ? mx - m : mx - m - 1
+    - month = Elph[:month_names][n]
+    - fire_log "#{Elph[:month_names][n]} n: #{n}"
+    = link_to "#{month}", {:action => :clear, :id => 0, :months_back => m}, :confirm => "Wirklich abrechnen? \n\n" |
+      + "Sämtliche Einträge für den Monat #{month} und alle früheren werden gelöscht"                              |
+      + " und in einem Eintrag für den 1. des Folgemonats zusammen gefaßt."                                         |

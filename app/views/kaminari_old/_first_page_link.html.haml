@@ -1,0 +1,4 @@
+%span.page.first
+  /.bla= url.include?('?') ? url+'&page=1' : url+'?page=1'
+  = link_to page, url.include?('?') ? url+'&page=1' : url+'?page=1', {:remote => remote,  'data-room-service' => 'true', |
+    'data-loading-element' => 'customers_list_container'}                            |

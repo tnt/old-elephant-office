@@ -1,0 +1,6 @@
+[ {
+  job: 'replace_content',
+  elements: "#contactable_container",
+  content: render("contactables/contactable_choice", :contactables => contactables, :document => document)
+} ] 
+

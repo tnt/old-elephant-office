@@ -1,0 +1,18 @@
+%h4 Dokument wählen:
+%ul
+  - for doc in @papers
+    %li
+      = rs_link_to "#{doc.kind.titlecase} #{doc.invoice_number_formatted || doc.id}", |
+          { :controller => :email_attachments, :action => 'new_document',               |
+            :address_id => params[:address_id], 'document_id' => doc.id },            |
+            'data-loading-element' => 'attachment_adder_container'    |
+oder Dokumenten Nummer eingeben:
+%div
+  = rs_form_tag( { :controller => :email_attachments, :action => :new_document,  |
+    :address_id => params[:address_id] },                                     |
+    'data-loading-element' => 'attachment_adder_container' ) do
+    %input{:length => "5", :name => "document_id", :type => "text"}/
+    = submit_tag 'Save'
+  -# = data_button('Cancel', {'clear-elements' => '#attachment_adder', "rm-class" => :show_safety, |
+  -#                           "rm-class-on" => '#body'}).html_safe()
+  = button_to_function 'Cancel',"$('#attachment_adder').html('');$('#add_attachment_link').show();"

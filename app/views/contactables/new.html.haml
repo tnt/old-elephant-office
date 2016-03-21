@@ -1,0 +1,9 @@
+%h1
+  Neue #{Elph[:contactable_names][@contactable.type]} anlegen
+= form_for(@contactable, :as => :contactable, :url => { :action => "create" }) do |f|
+  = render(:partial => "contactables/contactable_form", :locals => {:f => f})
+  %input{:name => "old_address_id", :type => "hidden", :value => @old_address_id}/
+  = f.hidden_field :customer_id
+  = f.hidden_field :type
+  = f.submit "Create"
+= link_to 'Back', @contactable.customer

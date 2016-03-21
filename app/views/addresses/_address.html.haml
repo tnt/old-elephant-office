@@ -1,0 +1,15 @@
+.address_content
+  = cond_line address.title
+  = address.firstname
+  = address.name
+  %br
+  = cond_line address.line2
+  = cond_line address.line3
+  = address.street
+  = cond_line address.number
+  %br
+  = address.zip
+  = cond_line address.city
+  %br
+  = cond_line address.state
+  = cond_line address.country

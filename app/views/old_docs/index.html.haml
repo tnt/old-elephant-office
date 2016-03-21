@@ -1,0 +1,32 @@
+%h1 Listing old_docs
+
+= form_tag('old_docs', :method => :get, :id => :old_docs_search, :autocomplete => :off, |
+  'data-loading-element' => 'customers_list_container') do                         |
+  = text_field_tag :search, params[:search], :autofocus => :autofocus
+  = image_submit_tag '/images/micons/b_search.png'
+  = image_submit_tag '/images/sweetie/12-em-cross.png', :id => :clear_button
+%table
+  %tr
+    %th Name
+    %th Datum
+    %th Dateiname
+    %th 
+    %th
+    %th
+    %th
+
+  - @old_docs.each do |old_doc|
+    %tr
+      %td= old_doc.customer
+      %td{:title => old_doc.date.strftime('%H:%M')}= old_doc.date.strftime '%d.%m.%y'
+      %td= old_doc.filename.downcase
+      %td= link_to 'Pdf', old_doc.file_url,                      |
+         :target => '_pdf_', :title => 'Pdf', :class => 'pdf icon_link' |
+      %td= link_to 'Edit', edit_old_doc_path(old_doc), :class => 'edit icon_link'
+      %td= link_to 'Destroy', old_doc, :method => :delete, :data => { :confirm => 'Are you sure?' }, :class => 'delete icon_link'
+
+%br
+
+.pagination
+  = paginate @old_docs, :inner_window => 5, :outer_window => 3, :params => {:action => 'index'} 
+/ pagination

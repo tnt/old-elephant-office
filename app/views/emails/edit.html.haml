@@ -1,0 +1,17 @@
+- content_for :js_declarations do
+  var kagge = 'dreck!';
+- content_for :js_declarations, "  var schrott = #{%w(bla blubb).to_json};\n".html_safe
+- content_for :js_declarations, "  var ost = 'Komplettschrott!';"
+%h1 #{@document.kind.titlecase} #{@document.id}
+= render 'documents/linkeds', :document =>  @document
+#add_linked
+  = rs_link_to 'Verknüpfung hinzufügen',                                                |
+    { :controller => 'documents', :action => 'ajax_choice_linked', :id => @document },     |
+    :class => 'icon_link_16 add_linked_16', :title => 'Verknüpfung zu anderem Dokument hinzufügen', |
+    'data-loading-element' => 'body'                                                       |
+= render 'document_aliases/list', :aliases => @document.aliases, :doc_alias => nil, :skip_rs => true
+= form_for(@document) do |f|
+  = render 'emails/form', :f => f
+= render 'emails/attachment_adder'
+%br
+= link_to 'Zurück zum Kunden', @document.customer

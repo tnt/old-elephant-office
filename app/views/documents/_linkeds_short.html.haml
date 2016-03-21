@@ -1,0 +1,6 @@
+%ul.linked_documents{:id => "linked_documents_of_#{document.id}"}
+  - for doc in document.linkeds
+    %li{:id => "linked_#{doc.id}"}
+      - url, paper = doc.is_a?(Paper) ? [doc.pdf_url, true] : [doc, false]
+      = link_to "#{doc.doc_name}", url, :title => "#{doc.info} - #{german_date doc.date}", |
+        :class => 'document_link', :target => (paper ? '_pdf_' : '')                        |

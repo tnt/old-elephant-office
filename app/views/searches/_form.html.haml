@@ -1,0 +1,18 @@
+= rs_form_tag('searches', :method => :get, :id => :searches_form, :autocomplete => :off, |
+              'data-loading-element' => 'customers_list_container') do                   |
+  = text_field_tag :search_adv, params[:search_adv], :autofocus => :autofocus
+  = image_submit_tag '/images/micons/b_search.png'
+  = image_submit_tag '/images/sweetie/12-em-cross.png', :id => :clear_button
+  %span.search_pns_full{:style => params[:search_pns] || 'display: none;'}
+    = check_box_tag :search_pns_full, nil, params[:search_pns_full], :class => :search_pns_cb_full
+    = label_tag :search_pns_full, 'ganze Nummer'
+  .search_options
+    %span
+      = check_box_tag :search_customers, nil, params[:search_customers], :class => 'search_model'
+      = label_tag :search_customers, 'Kontakte'
+    %span
+      = check_box_tag :search_documents, nil, params[:search_documents], :class => 'search_model'
+      = label_tag :search_documents, 'Dokumente'
+    %span
+      = check_box_tag :search_pns, nil, params[:search_pns], :class => :search_pns_cb
+      = label_tag :search_pns, 'Telefonnummern'

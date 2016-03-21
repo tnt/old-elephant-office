@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fehlerbericht | {title}</title>
+
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    div.dialog {
+      width: 25em;
+      padding: 0 4em 2em;
+      margin: 4em auto 2em;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+      text-align: left;
+      border-radius: 3px;
+    }
+    #log { text-align: left; font-size: 80%; margin: auto; width: 40em}
+    label {font-size: 80%;}
+    textarea {
+      width: 100%;
+      height: 20em;
+      font-size: 100%;
+    }
+    h1 { font-size: 120%; line-height: 1.5em; }
+    h1.unsent, h1.failure { color: #b00; }
+    h1.success { color: #080; }
+    div.dialog.unsent .failure, div.dialog.unsent .success { display: none; }
+    div.dialog.failure .unsent, div.dialog.failure .success { display: none; }
+    div.dialog.success .unsent, div.dialog.success .failure, div.dialog.success form  { display: none; }
+  </style>
+
+</head>
+<body>
+  <div class="dialog {dialog_class}">
+    <h1 class="failure">Der Bericht konnte nicht gesendet werden. Er wurde jedoch für alle Fälle gespeichert</h1>
+    <p class="failure">Erneut auf 'Senden' klicken, um es noch einmal zu probieren.</p>
+    <h1 class="unsent">{title}</h1>
+    <p class="unsent">Bitte auf "senden" klicken, um einen Fehlerbericht zu senden.</p>
+    <form action="{self}" method="post">
+      <input name="send" type="submit" value="Senden"/><br>
+      <input name="logfile_hash" type="hidden" value="{logfile_hash}"/>
+      <input name="errorcode" type="hidden" value="{errorcode}"/>
+      <label for="message">Eventuelle Anmerkungen zu dem Fehler bitte hier eingeben:</label>
+      <textarea id="message" name="message">{message}</textarea>
+    </form>
+    <h1 class="success">Der Bericht wurde versendet.</h1>
+  </div>
+</body>
+</html>
+
+

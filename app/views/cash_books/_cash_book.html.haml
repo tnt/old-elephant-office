@@ -1,0 +1,17 @@
+%tr{:class => cash_book.workshop && 'cb_hidden', :id => "cash_book_#{cash_book.id}"}
+  %td
+    %div{:class => "#{cash_book.workshop ? 'workshop' : 'sale'}                          |
+                      #{cash_book.direction}                                              |
+                      #{cash_book.balance<0 ? 'err' : ''}",                               |
+                      :title => number_to_currency(cash_book.balance)}   |
+      = cash_book.direction == 'out' ? '-' : ''
+      = number_to_currency(cash_book.amount)
+  %td{:title => number_to_currency(cash_book.tax)}
+    = cash_book.tax_rate
+    \%
+  %td{:title => cash_book.date.strftime('%H:%M')}= german_date cash_book.date
+  %td
+    = cash_book.purpose
+    = link_to("Rechnung #{cash_book.paper.invoice_number_formatted}", cash_book.paper, :title => cash_book.paper.address.name) if cash_book.paper
+  %td= link_to 'Bearbeiten', (cash_book.paper ? edit_paper_path(cash_book.paper) : edit_cash_book_path(cash_book)), :class => 'edit icon_link', :title => 'Bearbeiten'
+  %td= link_to 'Löschen', cash_book, :confirm => 'Sicher?', :method => :delete, :class => 'delete icon_link', :title => 'Löschen' # , :remote => true

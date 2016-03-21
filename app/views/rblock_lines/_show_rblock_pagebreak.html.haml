@@ -1,0 +1,13 @@
+%tr{:id => "rblock_line_#{rblock_line.id}"}
+  / partial app/views/rblock_lines/_show_rblock_pagebreak.haml
+  %td
+    .scale_slider{:id => "rblock_line_#{rblock_line.id}_scale_slider", 'data-value' => rblock_line.text}
+  %td
+  %td.action_column
+    .rblock_line_actions_wrapper
+      .rblock_line_actions
+        = rs_link_to 'Löschen',            |
+          { :controller => 'rblock_lines', :action => 'destroy_ajax_rblock_line', :id => rblock_line }, |
+          'data-loading-element' => "rblock_line_#{rblock_line.id}",   |
+          :confirm => 'Wirklich?', :title => 'Löschen', :class => 'icon_link delete'   |
+        = render :partial => "rblock_lines/insert_links", :locals => { :rblock_line => rblock_line }

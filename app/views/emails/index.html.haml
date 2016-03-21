@@ -1,0 +1,4 @@
+%ul#documents_list
+  - for document in @emails
+    = render "emails/email_line", :document => document
+    /= render "emails/document_line", :document => document, :customer => document.customer, :doc_alias => nil

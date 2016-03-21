@@ -1,0 +1,65 @@
+%li[document]{:class => doc_alias && :document_alias, 'data-contactable-id' => document.address_id, |
+    'data-shown-by-lightbulbs-count' => 0}  |
+  .document_line_first{:id => "document_head_#{document.id}"}
+    .document_line_icon{:title => document.class.model_name.human}
+      %div{:class => "type_icon type_#{document.type.underscore}"}= document.type
+      .type_icon.type_none weder noch
+    - if defined?(customer) && customer
+      .document_line_customer
+        = link_to customer.name, customer
+    .document_line_title
+      %span.paper_title{:title => document.id}
+        = "#{document.kind.titlecase} #{document.invoice_number_formatted || document.id}"
+      %span.paper_subject{:title => document.subject}= document.subject_abbr 30
+    .document_line_date{:title => document.date.strftime('%H:%M')}= document.date.strftime '%d.%m.%y'
+    / <div align="right"><haml:loud> number_to_currency(document.value) </haml:loud></div>
+    .document_line_actions
+      - unless document.filed
+        = link_to 'Bearbeiten', {:controller => 'papers', :action => 'show',   |
+          :id => document}, :class => 'edit icon_link', :title => 'Bearbeiten' |
+        -#
+        = link_to 'Metadaten bearbeiten', {:controller => 'papers', :action => 'edit',   |
+          :id => document}, :class => 'edit icon_link', :title => 'Metadaten bearbeiten' |
+        -#
+        = rs_link_to 'Archivieren',                                         |
+          { :controller => 'papers', :action => 'file', :id => document },  |
+          'data-loading-element' => "paper_#{document.id}",                     |
+          :class => 'file icon_link', :title => 'Archivieren'               |
+        -#
+        = rs_link_to 'Löschen',                                                                                                  |
+          { :controller => 'papers', :action => 'destroy_ajax_document', :id => document },                 |
+          'data-loading-element' => :customers_preview,                         |
+          :confirm => "Wirklich #{document.kind.titlecase} Nr. #{document.invoice_number_formatted || document.id} löschen?", |
+          :class => 'delete icon_link', :title => 'Löschen'                                                                   |
+        -#
+      - unless document.remark.blank?
+        %a.icon_link.info{"data-toggle-sometimes-hidden" => "paper_remark_#{document.id}", :href => "#"} info ein-/ausblenden
+      = link_to_random 'Pdf', document.pdf_url, :target => '_pdf_', :title => 'Pdf', :class => 'pdf icon_link'
+      -#
+      = rs_link_to 'bearbeitbar',                                         |
+        { :controller => 'papers', :action => 'unfile', :id => document },  'data-loading-element' => "paper_#{document.id}",  |
+          :class => 'unfile icon_link', :title => 'wieder bearbeitbar machen',                                            |
+          :confirm => 'Das Dokument wirklich wieder bearbeitbar machen?' if document.filed |
+      -#
+      = link_to_random 'Pdf mit Stempel', {:controller => 'papers', :action => 'show', :id => document, |
+        :format => 'pdf', :chop => 'chop'}, :target => '_pdf_', :title => 'Pdf mit Stempel',            |
+        :class => 'pdf icon_link' unless document.filed                                                 |
+      -#
+      = link_to( '€',                                                                                                                                            |
+        { :controller => 'papers', :action => 'invoice_from_offer', :id => document },                                                                           |
+        :title => "Rechnung auf Basis dieses #{document.kind.titlecase}es erstellen",                                                                            |
+        :confirm => "Wirklich eine Rechnung auf Basis dieses #{document.kind.titlecase}es erstellen?") if ['kostenvoranschlag','angebot'].include? document.kind |
+      -#
+      = link_to( 'Versenden', {:controller => 'papers', :action => 'send_by_email', :id => document,                                             |
+        :type => 'Email'}, {:class => 'send icon_link', :title => 'Per Email versenden'}) if document.customer.current_email_addresses.count > 0 |
+      -#
+      = render "document_aliases/actions", :document => document, :doc_alias => doc_alias if doc_alias
+  - unless document.remark.blank?
+    %div.remark.hide_sometimes_hidden{:id=>"paper_remark_#{document.id}"}
+      %p.sometimes_hidden
+        = document.remark
+  .document_line_second{:id => "document_body_#{document.id}"}
+    .document_line_body{:style => "display:none;"}
+      = render 'documents/document_line_common', :document => document, :doc_alias => doc_alias
+      .document_preview.paper_body{:id => "document_message_#{document.id}"}
+      / gonna be replaced by ajax

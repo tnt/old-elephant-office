@@ -1,0 +1,57 @@
+!!!
+%html
+  %head
+    %link{:href => "/images/elephant.png", :rel => "shortcut icon"}
+    = "<!-- This is Rails #{Rails.version} on Ruby #{RUBY_VERSION}p#{RUBY_PATCHLEVEL}[#{RUBY_PLATFORM}] -->".html_safe
+    %meta{:charset => "UTF-8"}
+    %title
+      Elephant - #{controller.controller_name} #{controller.action_name}
+    = stylesheet_link_tag 'jquery-ui'
+    = stylesheet_link_tag 'crevasse'
+    = stylesheet_link_tag 'solarized-light'
+    - {:default => 'Standard', :darker => 'Dunkler, kontrastreicher'}.each do |name, title|
+      = stylesheet_link_tag name, :rel => "#{Elph[:default_stylesheet] == name ? '' : 'alternate '}stylesheet", :title => title
+    - for f in Elephant::JS_FILES
+      = javascript_include_tag f
+    = javascript_tag "window._token = encodeURIComponent('#{form_authenticity_token}')"
+    = csrf_meta_tag
+    = javascript_tag( yield :js_declarations )
+  %body
+    #body
+      #main
+        .navi_pusher
+        = yield
+        .footer_pusher
+      / main
+      #footer
+        = yield :footer
+      #nav_wrapper
+        %ul#navigation
+          = navi_item 'Kontakte', customers_path
+          = navi_item 'Kasse', cash_books_path
+          = navi_item 'Dokumente', documents_path
+          -# = navi_item 'alte', old_docs_path
+          = render "papers/open_invoices_link"
+          = render "paper_file/unfiled_papers_link"
+          <!-- = render "old_docs/old_docs_link" -->
+          /= render "emails/unseen_emails_link"
+          = navi_item 'Einstellungen', edit_user_path(session[:user])
+          = navi_item 'Logout', :controller => 'authentication', :action => 'logout'
+      - if not flash[:notice].blank?
+        #messages{"data-cleanup-in" => "2"}
+          %div{:style => "color: green"}= flash[:notice]
+          %div{:style => "color: orange"}= flash[:warn]
+          %div{:style => "color: red"}= flash[:error]
+      #safety_screen
+      #dialog_screen
+      #above_safety_screen
+      #document_screen
+        #iframe_wrapper
+          #iframe_header
+            - if @paper
+              .scale_slider{:id => "paper_#{@paper.id}_scale_slider_live", :data  => { :value => @paper.scale, :live => true} }
+            %a.icon_link.refresh_document{:target => '_pdf_', :title => 'refresh', :onclick => 'this.href = this.href.replace(/_rand_=[\d.]+/,"_rand_="+Math.random())'}
+            %a.icon_link.close
+          %iframe#document_iframe
+      #loading_screen
+    / body

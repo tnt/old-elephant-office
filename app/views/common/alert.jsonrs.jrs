@@ -1,0 +1,7 @@
+[
+  {
+    job: 'alert',
+    elements: 'body',
+    content: message
+  }
+] 

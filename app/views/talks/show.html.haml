@@ -1,0 +1,21 @@
+#address_container
+  = render 'contactables/contactable_chooser', :document => @document, :contactable => @document.contactable, |
+    :show_contactable_chooser => @show_contactable_chooser                                                    |
+%p
+  %b Datum/Uhrzeit:
+  = german_date_time @document.date
+%h4
+  = "#{@document.kind.titlecase}"
+  /= link_to_random( image_tag( 'micons/b_pdfdoc.png', :alt => 'Pdf', :title => 'Pdf' ),  |
+  /  {:controller => 'talks', :action => 'show', :format => 'pdf'}, {:target => '_pdf_'}) |
+%p
+  %b Gespräch:
+  = h @document.message
+%p
+  %b Bemerkung:
+  = @document.remark
+= render 'documents/document_info', :document => @document
+= render 'documents/linkeds', :document => @document
+= link_to 'Bearbeiten', edit_talk_path(@document)
+|
+= link_to 'Kunde', @document.customer

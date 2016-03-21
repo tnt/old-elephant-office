@@ -1,0 +1,7 @@
+[ {
+  job: 'replace_content',
+  elements: "#contactable_container",
+  content: render("contactables/contactable_chooser", :document => @document,
+      :contactable => @document.contactable, :show_contactable_chooser => true)
+} ] 
+

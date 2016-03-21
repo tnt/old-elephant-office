@@ -1,0 +1,37 @@
+%tr{:id => "content_#{content.id}"}
+  / partial app/views/contents/_rblock.html.erb
+  %td
+    %div.cl_handle &nbsp;
+  %td
+    .paper_content_main_column
+      %table
+        %tfoot
+          %tr
+            %td Summe
+            %td{:id => "rblock_#{content.id}_sum", :style => "text-align:right;"}
+              = number_to_currency(content.sum)
+          %tr
+            %td
+              = content.paper.tax_rate.to_s
+              \% Mehrwertsteuer
+            %td{:id => "rblock_#{content.id}_tax", :style => "text-align:right;"}
+              = number_to_currency(content.tax)
+          %tr
+            %td Gesamt
+            %td{:id => "rblock_#{content.id}_total", :style => "text-align:right;white-space:nowrap;"}
+              = number_to_currency(content.total)
+        %tbody{:id => "rblock_#{content.id}", 'data-sortable-controller' => 'rblock_lines'}
+          - unless content.rblock_lines.empty?
+            - for rblock_line in content.rblock_lines
+              = render :partial => "rblock_lines/show_rblock_#{rblock_line.kind}", :locals => { :rblock_line => rblock_line }
+          - else
+            = render :partial => "rblock_lines/new_rblock_line", :locals => { :content_id => content.id }
+    / paper_content_main_column
+  %td.action_column
+    .content_actions_wrapper
+      .content_actions
+        = rs_link_to 'Löschen', |
+          { :controller => 'contents', :action => 'destroy_ajax_content', :id => content },  |
+          'data-loading-element' => "content_#{content.id}",  :title => 'Löschen',        |
+          :confirm => 'Wirklich? - Den kompletten RBlock löschen?', :class => 'icon_link delete' |
+        = render :partial => "contents/insert_links", :locals => { :content => content }

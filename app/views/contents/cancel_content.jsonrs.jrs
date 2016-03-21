@@ -1,0 +1,17 @@
+[
+  {
+    job: 'replace_element',
+    elements: "#content_#{@content.id}",
+    content: render("contents/#{@content.kind}", :content => @content)
+  },
+  {
+    job: 'effect',
+    elements: "#content_#{@content.id}",
+    content: 'Highlight'
+  },
+  {
+    job: 'refresh_sortable',
+    elements: "#contents_list",
+    content:  {tag: 'tr', :handle => 'cl_handle', url: "/contents/order_contents"}
+  }
+] 

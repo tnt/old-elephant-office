@@ -1,0 +1,8 @@
+- content_for :js_declarations do
+  var form_templates = {};
+%h1 Neue Email
+= form_for( @document, :as => :email, :url => { :controller => 'emails', :action => "create", :type => params[:type] }) do |f|
+  = render 'emails/form', :f => f
+= render 'emails/attachment_adder'
+%br
+= link_to 'Zurück zum Kunden', @document.customer

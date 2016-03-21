@@ -1,0 +1,29 @@
+%span.label_sticker.sometimes_hidden
+  = f.label :line2, 'Zusatz 1'
+  = f.text_field :line2
+%span.label_sticker.sometimes_hidden
+  = f.label :line3, 'Zusatz 2'
+  = f.text_field :line3
+%br.sometimes_hidden/
+%span.label_sticker
+  = f.label :street, 'Straße'
+  = f.text_field :street
+%span.label_sticker
+  = f.label :number, 'Hausnummer'
+  = f.text_field :number, :size => 3
+%br/
+%span.label_sticker
+  = f.label :zip, 'Postleitzahl'
+  = f.text_field :zip, :size => 5
+%span.label_sticker
+  = f.label :city, 'Stadt'
+  = f.text_field :city
+%br/
+%span.label_sticker.sometimes_hidden
+  = f.label :country, 'Land'
+  = f.text_field :country
+%span.label_sticker.sometimes_hidden
+  = f.label :state, 'Bundesstaat (nur für USA und so)'
+  = f.text_field :state
+= f.hidden_field :invoice_address
+= f.hidden_field :delivery_address

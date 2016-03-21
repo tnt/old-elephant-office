@@ -1,0 +1,17 @@
+[
+  {
+    job: 'insert_after',
+    elements: "#rblock_line_#{params[:insert_after_rbl]}",
+    content: render("rblock_lines/new_rblock_line", :content_id => @rblock_line.content_id)
+  },
+  {
+    job: 'set_focus',
+    elements: "#rblock_line_text",
+    content: ''
+  },
+  {
+    job: 'effect',
+    elements: "#rblock_line_new",
+    content: 'Highlight'
+  }
+] 

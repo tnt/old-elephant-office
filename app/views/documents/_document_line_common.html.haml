@@ -1,0 +1,4 @@
+- if document.linkeds.count >= 1
+  = render 'documents/linkeds_short', :document => document
+- if document.aliases.count >= 1
+  = render 'document_aliases/list', :aliases => document.aliases, :doc_alias => doc_alias

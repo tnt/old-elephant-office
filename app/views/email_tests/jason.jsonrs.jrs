@@ -1,0 +1,18 @@
+[
+      {
+        job: 'replace_content', 
+        content: render('test', :testvar => 'hey hey'), 
+        element: 'messages2'
+      },
+      {
+        job: 'replace_content', 
+        ncontent: '',
+        content: 'Wau, wau wau!', 
+        element: 'messages3'
+      },
+      {
+        job: 'set_attributes', 
+        content: {style: 'font-size:200%;', 'data-cleanup-in'=> 5 }, 
+        element: 'messages3'
+      }
+    ] 

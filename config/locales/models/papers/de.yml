@@ -1,0 +1,17 @@
+de:
+  activerecord:
+    attributes:
+      paper:
+        date: Datum
+        signed_by: Unterschrieben von
+        tax_rate: Steuersatz
+        kind: Art
+        remark: Bemerkung
+        subject: Betreff
+        your_sign: Ihre Zeichen
+        our_sign: Unsere Zeichen
+        your_message: Ihre Nachricht
+        our_contact: Tel.-Durchwahl, Email
+  views:
+    paper:
+      unfiled_papers: unarchivierte Druckdokumente

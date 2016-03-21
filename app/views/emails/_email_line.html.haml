@@ -1,0 +1,26 @@
+%li{:class => "#{document.editable? ? 'unsent' : ''} #{document.seen ? '' : 'unseen'}", "data-loaded" => "#{'true' unless(document.too_big?)}", :id => "document_#{document.id}"}
+  .document_line_first{:id => "document_head_#{document.id}"}
+    .document_line_icon{:title => document.type}
+      %div{:class => "type_icon type_#{document.type.underscore}"}= document.type
+      %div{:class => "type_icon type_#{document.is_foreign ? 'in' : 'out'}"}= document.is_foreign ? 'eingehend' : 'ausgehend'
+    .document_line_address{:title => document.contactable.email}
+      = document.contactable.full_name
+      = rs_link_to('Zuweisen', {:controller => :customers, :action => :select_reassign_existing_contactable, |
+        :existing_contactable_id => document.contactable.id },:class => 'assign_customer icon_link',     |
+        :title => 'Emailadresse einem (neuen) Kunden zuweisen', ) if document.contactable.unassigned_customer         |
+    .document_line_title{:title => document.subject}
+      = document.subject_abbr 50
+    .document_line_date{:title => document.date.strftime('%H:%M')}
+      = document.editable? ? 'ungesendet' : document.date.strftime('%d.%m.%y')
+    .document_line_actions
+      = link_to 'Anzeigen', document, :class => 'show icon_link', :title => 'Anzeigen'
+      = link_to 'Bearbeiten', {:controller => 'emails', :action => 'edit', :id => document}, |
+        :class => 'edit icon_link', :title => 'Bearbeiten'                                   |
+      -#
+      = rs_link_to(  'Löschen',                                                              |
+        { :controller => 'emails', :action => 'destroy_ajax_document', :id => document }, |
+        :confirm => "Wirklich #{document.kind.titlecase} Nr. #{document.id} löschen?",    |
+        :class => 'delete icon_link', :title => 'Löschen' ) if document.editable?         |
+  .document_line_second{:id => "document_body_#{document.id}"}
+    .document_line_body.email_body{:id => "document_message_#{document.id}", :style => "display:none;"}
+      = render "emails/preview", :document => document unless document.too_big?

@@ -1,0 +1,51 @@
+- content_for :js_declarations do
+  = "var rblock_line_form = \"#{escape_javascript(render('rblock_lines/new_rblock_line', :content_id => 'CONTENT_ID'))}\"".html_safe;
+.scroller
+  #contactable_container
+    = render :partial => 'contactables/contactable_chooser', :locals => { :document => @paper,     |
+      :contactable => @paper.contactable, :show_contactable_chooser => @show_contactable_chooser } |
+  %p
+    %b Datum:
+    = german_date @paper.date
+  %p
+    %b Betreff:
+    = @paper.subject
+  %h4
+    = "#{@paper.kind.titlecase} #{@paper.invoice_number_formatted || @paper.id}"
+    = link_to_random( 'Pdf', {:controller => 'papers', :action => 'show', :format => 'pdf'}, |
+         {:target => '_pdf_', :title => 'Pdf', :class => 'icon_link pdf'}) |
+    -#
+    = link_to_random('Pdf', {:controller => 'papers', :action => 'show', :format => 'pdf', :chop => 'chop'}, |
+         {:target => '_pdf_', :title => 'Pdf mit Stempel', :class => 'icon_link pdf'}) |
+    -#
+  -# .scale_slider{:id => "paper_#{@paper.id}_scale_slider", 'data-value' => @paper.scale}
+  %table#paper_contents
+    %tbody#contents_list{'data-sortable-controller' => 'contents', 'data-sortable-handle' => '.cl_handle'}
+      / contents_list verflucht!
+      - unless @paper.contents.empty?
+        - for content in @paper.contents
+          = render "contents/#{content.kind}", :content => content
+      - else
+        = render "contents/first_content", :paper_id => @paper.id
+  /= sortable_element("contents_list", :url => { :controller => 'contents', :action => "order_contents" }, |
+    :tag => 'tr', :handle => 'cl_handle')                                                                 |
+  %hr{:style => "margin-top:40px;"}
+  = render 'documents/linkeds', :document =>  @paper
+  = render 'document_aliases/list', :aliases => @paper.aliases, :doc_alias => nil, :skip_rs => true
+  %p
+    %b Bemerkungen:
+    = h @paper.remark
+  %p.doc_info
+    %b Erzeugt von:
+    = h "#{@paper.user.gname} #{@paper.user.name}"
+    = german_date_time @paper.created_at
+    %b Zuletzt bearbeitet von:
+    = h "#{@paper.modifier.gname} #{@paper.modifier.name}"
+    = german_date_time @paper.updated_at
+- content_for :footer do
+  .footer_cont
+    = link_to 'Bearbeiten', edit_paper_path(@paper)
+    |
+    = link_to 'Kunde', @paper.address.customer
+    - if ['kostenvoranschlag','angebot'].include? @paper.kind
+      | #{link_to 'Rechnung erstellen',  { :controller => 'papers', :action => 'invoice_from_offer', :id => @paper },  :title => "Rechnung auf Basis dieses #{@paper.kind.titlecase}es erstellen"}
